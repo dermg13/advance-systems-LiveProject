@@ -1,4 +1,4 @@
-@smoke
+@homeScenarios
 Feature: Homepage related scenarios
 
   @smoke
@@ -7,7 +7,7 @@ Feature: Homepage related scenarios
     Examples:
     | Get Support |
     | Job Career  |
-    | Feedbacks    |
+    | Feedbacks   |
   @smoke
   Scenario Outline: verify Language selection is displayed
     When Click on Language selection
@@ -15,7 +15,7 @@ Feature: Homepage related scenarios
     Examples:
       | English |
       | Spanish |
-      | Arabic  |
+      | French  |
 
 
 
