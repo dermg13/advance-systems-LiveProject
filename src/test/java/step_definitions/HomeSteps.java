@@ -28,4 +28,19 @@ public class HomeSteps implements CommonPage{
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_LANGUAGE_SELECTION, languageSelection))));
     }
 
+    @Then("Verify {string} button is displayed")
+    public void verify_button_is_displayed(String btn) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format("//*[text()='%s']", btn))));
+    }
+
+    @When("user click on {string} button")
+    public void user_click_on_button(String btn) {
+        WebDriverManager.getDriver().findElement(By.xpath(String.format("//*[text()='%s']", btn))).click();
+    }
+
+    @Then("Verify title of page is {string}")
+    public void verifyTitleOfPageIs(String title) {
+        Assert.assertEquals(title, WebDriverManager.getDriver().getTitle());
+
+    }
 }
