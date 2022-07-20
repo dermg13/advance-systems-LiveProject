@@ -17,5 +17,11 @@ Feature: Homepage related scenarios
       | Spanish |
       | French  |
 
-
+  @ADVSYS-7
+  Scenario: Verify "Join Now" button is displayed
+    Then Verify "Join Now" button is displayed
+  @ADVSYS-7
+  Scenario: Verify title of Join Us Page
+    When user click on "Join Now" button
+    Then Verify title of page is "Advance Systems - Join"
 
