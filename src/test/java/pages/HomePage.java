@@ -7,6 +7,5 @@ public class HomePage {
     public HomePage(){
         PageFactory.initElements(WebDriverManager.getDriver(), this);
     }
-
-
 }
+
