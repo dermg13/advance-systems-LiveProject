@@ -1,25 +1,21 @@
-@homeScenarios
-Feature: Home page related scenarios
-  Background: Sign in
-    Given  User signs in:
-      | Enter Username | test@yahoo.com |
-      | Enter Password | test123        |
-    When User clicks on "Login" button
+@smoke
+Feature: Homepage related scenarios
 
-  Scenario: Verify title of page
-    Then Verify title of page is "Interview App"
-
-  Scenario: Verify "Sign out" button
-    Then Verify "Sign out" button is displayed
-
-  Scenario: Verify "Manage Access" button is not displayed
-    Then Verify "Manage Access" button is not displayed
-
-  @dashboardTest
-  Scenario Outline: Verify all dashboards are displayed
-    Then Verify the following "<dashboards>" are displayed:
+  @smoke
+  Scenario Outline: This navigation bar should have following buttons
+    Then Verify "<Get Support>" buttons is displayed
     Examples:
-      | dashboards  |
-      | All Topics  |
-      | Coding      |
-      | Soft skills |
+    | Get Support |
+    | Job Career  |
+    | Feedbacks    |
+  @smoke
+  Scenario Outline: verify Language selection is displayed
+    When Click on Language selection
+    Then Verify Language "<English>" buttons is displayed
+    Examples:
+      | English |
+      | Spanish |
+      | Arabic  |
+
+
+
