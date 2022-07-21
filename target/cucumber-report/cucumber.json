@@ -3,11 +3,48 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-21T23:26:17.796Z",
         "before": [
           {
             "result": {
               "duration": 2419000000,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-21T21:52:45.315Z",
+=======
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-21T19:49:09.921Z",
+=======
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-21T13:56:21.408Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2834000000,
+=======
+        "start_timestamp": "2022-07-21T14:15:02.635Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+>>>>>>> dd13f61e805063b1be0e62f902a1e8f360984c5d
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
+=======
+        "start_timestamp": "2022-07-21T16:09:13.379Z",
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+>>>>>>> b4e4d906eb93485e811dd563738c88125b0190ff
+        "before": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 1000000,
+=======
+              "duration": 2000000,
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
               "status": "passed"
             },
             "match": {
@@ -15,6 +52,11 @@
             }
           }
         ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
         "line": 9,
         "name": "This navigation bar should have following buttons",
         "description": "",
@@ -22,7 +64,39 @@
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 653000000,
+=======
+<<<<<<< HEAD
+=======
+              "duration": 1000000,
+=======
+<<<<<<< HEAD
+        "line": 4,
+        "name": "Verify Join us page",
+        "description": "",
+        "id": "join-us-page-related-scenarios;verify-join-us-page",
+        "after": [
+          {
+            "result": {
+              "duration": 686000000,
+=======
+        "line": 29,
+        "name": "Verify title of Home Page",
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
+=======
+        "line": 33,
+        "name": "Verify address and phone number are displayed",
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+        "description": "",
+        "id": "homepage-related-scenarios;verify-address-and-phone-number-are-displayed",
+        "after": [
+          {
+            "result": {
+<<<<<<< HEAD
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+>>>>>>> b4e4d906eb93485e811dd563738c88125b0190ff
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
               "status": "passed"
             },
             "match": {
@@ -220,7 +294,18 @@
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 652000000,
+=======
+              "duration": 1000000,
+=======
+<<<<<<< HEAD
+              "duration": 1000000,
+>>>>>>> dd13f61e805063b1be0e62f902a1e8f360984c5d
+=======
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
               "status": "passed"
             },
             "match": {
@@ -229,6 +314,7 @@
           }
         ],
         "type": "scenario",
+<<<<<<< HEAD
         "keyword": "Scenario Outline",
         "steps": [
           {
@@ -369,6 +455,7 @@
             "line": 9,
             "name": "Verify Feedback buttons is displayed",
             "match": {
+<<<<<<< HEAD
               "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
             },
             "keyword": "Then "
@@ -418,13 +505,66 @@
             "name": "Verify Language French buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
+=======
+              "arguments": [
+                {
+                  "val": "\"Facebook\"",
+                  "offset": 49
+                }
+              ],
+              "location": "step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(java.lang.String)"
+=======
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "duration": 910000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on \"Join Us\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Join Us\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_click_on_button(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify title of page is \"Advance Systems - Join\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - Join\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyTitleOfPageIs(java.lang.String)"
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@navigationScenarios"
+=======
+<<<<<<< HEAD
+            "name": "@homeScenarios"
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
           },
           {
             "name": "@smoke"
@@ -585,7 +725,45 @@
         "before": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1886000000,
+=======
+=======
+            "name": "@joinUsScenario"
+          },
+          {
+            "name": "@ADVSYS-7"
+          }
+        ]
+      }
+    ],
+    "name": "Join us page related scenarios",
+    "description": "",
+    "id": "join-us-page-related-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/JoinUs.feature",
+    "tags": [
+      {
+        "name": "@joinUsScenario",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-21T13:56:25.931Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2316000000,
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
               "status": "passed"
             },
             "match": {
@@ -593,14 +771,33 @@
             }
           }
         ],
+<<<<<<< HEAD
         "line": 27,
         "name": "SERVICES should have following buttons",
+=======
+<<<<<<< HEAD
+        "line": 38,
+        "name": "Buttons displayed for social media options",
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
         "description": "",
         "id": "navigation-bar-related-scenarios;services-should-have-following-buttons",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 658000000,
+=======
+=======
+        "line": 21,
+        "name": "Verify \"Join Now\" button is displayed",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-\"join-now\"-button-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 675000000,
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
               "status": "passed"
             },
             "match": {
@@ -609,7 +806,12 @@
           }
         ],
         "type": "scenario",
+<<<<<<< HEAD
         "keyword": "Scenario",
+=======
+<<<<<<< HEAD
+        "keyword": "Scenario Outline",
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
         "steps": [
           {
             "result": {
@@ -679,6 +881,7 @@
             "line": 33,
             "name": "Verify Language English buttons is displayed",
             "match": {
+<<<<<<< HEAD
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
             },
             "keyword": "Then "
@@ -704,6 +907,34 @@
             "name": "Verify Language French buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
+=======
+              "arguments": [
+                {
+                  "val": "\"Instagram\"",
+                  "offset": 49
+                }
+              ],
+              "location": "step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(java.lang.String)"
+=======
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1485000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify \"Join Now\" button is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Join Now\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_button_is_displayed(java.lang.String)"
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
             },
             "keyword": "Then "
           }
@@ -713,6 +944,7 @@
             "name": "@navigationScenarios"
           },
           {
+<<<<<<< HEAD
             "name": "@smoke"
           },
           {
@@ -720,15 +952,41 @@
           },
           {
             "name": "@navigation"
+=======
+<<<<<<< HEAD
+            "name": "@ADVSYS-9"
+          },
+          {
+            "name": "@smoke"
+=======
+            "name": "@ADVSYS-7"
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-21T23:27:17.530Z",
         "before": [
           {
             "result": {
               "duration": 1879000000,
+=======
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-21T21:52:45.585Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+=======
+        "start_timestamp": "2022-07-21T13:56:30.423Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2389000000,
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
               "status": "passed"
             },
             "match": {
@@ -736,14 +994,33 @@
             }
           }
         ],
+<<<<<<< HEAD
         "line": 38,
         "name": "CLIENTS should have following buttons",
+=======
+<<<<<<< HEAD
+        "line": 39,
+        "name": "Buttons displayed for social media options",
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
         "description": "",
         "id": "navigation-bar-related-scenarios;clients-should-have-following-buttons",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 670000000,
+=======
+=======
+        "line": 24,
+        "name": "Verify title of Join Us Page",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-title-of-join-us-page",
+        "after": [
+          {
+            "result": {
+              "duration": 625000000,
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
               "status": "passed"
             },
             "match": {
@@ -768,13 +1045,67 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1551000000,
+=======
+              "duration": 946000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click on \"Join Now\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Join Now\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_click_on_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify title of page is \"Advance Systems - Join\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - Join\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyTitleOfPageIs(java.lang.String)"
+=======
+              "duration": 1000000,
+=======
+              "duration": 2000000,
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
               "status": "passed"
             },
             "line": 40,
             "name": "Verify Get Support buttons is displayed",
             "match": {
+<<<<<<< HEAD
               "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
+=======
+              "arguments": [
+                {
+                  "val": "\"10090 Main Street\"",
+                  "offset": 18
+                }
+              ],
+<<<<<<< HEAD
+              "location": "step_definitions.HomeSteps.verify_title_of_home_page_is(java.lang.String)"
+>>>>>>> dd13f61e805063b1be0e62f902a1e8f360984c5d
+=======
+              "location": "step_definitions.HomeSteps.verifyAddressIs(java.lang.String)"
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
             },
             "keyword": "Then "
           },
@@ -856,6 +1187,7 @@
             "name": "@navigationScenarios"
           },
           {
+<<<<<<< HEAD
             "name": "@smoke"
           },
           {
@@ -1292,6 +1624,24 @@
           },
           {
             "name": "@navigation"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "name": "@ADVSYS-9"
+          },
+          {
+            "name": "@smoke"
+=======
+<<<<<<< HEAD
+            "name": "@ADVSYS-7"
+=======
+            "name": "@ADVSYS-1"
+>>>>>>> dd13f61e805063b1be0e62f902a1e8f360984c5d
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
+=======
+            "name": "@ADVSYS-6"
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+>>>>>>> ef6cb454500b0b2033b808233579bd20df817c98
           }
         ]
       }

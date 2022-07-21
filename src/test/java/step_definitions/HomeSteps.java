@@ -49,7 +49,10 @@ public class HomeSteps implements CommonPage{
     public void verify_title_of_home_page_is(String title) {
         Assert.assertEquals(title, WebDriverManager.getDriver().getTitle());
     }
+    @Then("Verify title of page is \\{string}")
+    public void verifyTitleOfPageIsString() {
 
+    }
     @Then("Verify address is {string}")
     public void verifyAddressIs(String address) {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, address))));
@@ -79,7 +82,6 @@ public class HomeSteps implements CommonPage{
                 .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MADIA_BUTTON
                         , socialMediaBtn)));
     }
-
     @Then("Title for each corresponding page should contain {string}")
     public void titleForEachCorrespondingPageShouldContain(String socialMediaTitle) {
         Assert.assertTrue(WebDriverManager.getDriver()
