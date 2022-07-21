@@ -4,10 +4,14 @@
     "elements": [
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "start_timestamp": "2022-07-21T19:49:09.921Z",
 =======
         "start_timestamp": "2022-07-21T16:09:13.379Z",
 >>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+=======
+        "start_timestamp": "2022-07-21T21:06:35.420Z",
+>>>>>>> pariya
         "before": [
           {
             "result": {
@@ -19,6 +23,7 @@
             }
           }
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
         "line": 9,
         "name": "This navigation bar should have following buttons",
@@ -293,6 +298,8 @@
             }
           }
         ],
+=======
+>>>>>>> pariya
         "line": 36,
         "name": "Buttons displayed for social media options",
         "description": "",
@@ -300,6 +307,7 @@
         "after": [
           {
             "result": {
+              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -312,7 +320,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 31,
@@ -347,6 +355,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 33,
@@ -376,10 +385,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-21T19:49:10.183Z",
+        "start_timestamp": "2022-07-21T21:06:35.563Z",
         "before": [
           {
             "result": {
+              "duration": 3000000,
               "status": "passed"
             },
             "match": {
@@ -406,7 +416,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 31,
@@ -424,6 +434,7 @@
           },
           {
             "result": {
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 32,
@@ -441,6 +452,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 33,
@@ -470,7 +482,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-21T19:49:10.199Z",
+        "start_timestamp": "2022-07-21T21:06:35.598Z",
         "before": [
           {
             "result": {
@@ -488,6 +500,7 @@
         "after": [
           {
             "result": {
+              "duration": 3000000,
               "status": "passed"
             },
             "match": {
@@ -564,11 +577,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-21T19:49:10.217Z",
+        "start_timestamp": "2022-07-21T21:06:35.634Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -595,6 +608,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 31,
