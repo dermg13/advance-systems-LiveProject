@@ -16,18 +16,6 @@ public class HomeSteps implements CommonPage{
         homePage = new HomePage();
     }
 
-    @Then("Verify {string} buttons is displayed")
-    public void verify_buttons_is_displayed(String navigationButton) {
-        Assert.assertTrue((WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_NAVIGATION_BUTTON, navigationButton)))));
-    }
-    @When("Click on Language selection")
-    public void click_on_language_selection() {
-       WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_LANGUAGE_BUTTON)));
-    }
-    @Then("Verify Language {string} buttons is displayed")
-    public void verify_language_buttons_is_displayed(String languageSelection) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_LANGUAGE_SELECTION, languageSelection))));
-    }
 
     @Then("Verify {string} button is displayed")
     public void verify_button_is_displayed(String btn) {
