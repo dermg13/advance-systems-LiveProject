@@ -50,4 +50,8 @@ public class HomeSteps implements CommonPage{
         Assert.assertEquals(title, WebDriverManager.getDriver().getTitle());
     }
 
+    @Then("Verify title of page is \\{string}")
+    public void verifyTitleOfPageIsString() {
+
+    }
 }

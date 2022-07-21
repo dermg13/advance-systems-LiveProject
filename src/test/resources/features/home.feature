@@ -28,3 +28,6 @@ Feature: Homepage related scenarios
   @ADVSYS-1
   Scenario: Verify title of Home Page
     Then Verify title of Home page is "Advance Systems - Home"
+    
+    Scenario: testing
+      Then Verify title of page is {string}
