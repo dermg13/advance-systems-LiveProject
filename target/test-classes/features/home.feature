@@ -25,3 +25,15 @@ Feature: Homepage related scenarios
     When user click on "Join Now" button
     Then Verify title of page is "Advance Systems - Join"
 
+
+  @ADVSYS-9 @smoke
+  Scenario Outline: Buttons displayed for social media options
+    Then User should be able to see "<social media options>"
+    When Click on "<social media buttons>"
+    Then Title for each corresponding page should contain "<page title>"
+    Examples:
+      | social media options | social media buttons | page title |
+      | facebook             | Facebook             | Facebook |
+      | twitter              | Twitter              | Twitter |
+      | instagram            | Instagram            | Instagram |
+      | linkedin             | LinkedIn             | LinkedIn |

@@ -45,5 +45,26 @@ public class HomeSteps implements CommonPage{
     }
 
 
+    @Then("User should be able to see {string}")
+    public void userShouldBeAbleToSee(String socialMediaBtn) {
+        Assert.assertTrue(WebDriverManager
+                .isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MADIA_BUTTON
+                        , socialMediaBtn
+                            ))));
+    }
 
+    @When("Click on {string}")
+    public void clickOn(String socialMediaBtn) {
+        WebDriverManager.getDriver()
+                .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MADIA_BUTTON
+                        , socialMediaBtn)));
+    }
+
+    @Then("Title for each corresponding page should contain {string}")
+    public void titleForEachCorrespondingPageShouldContain(String socialMediaTitle) {
+        Assert.assertTrue(WebDriverManager.getDriver()
+                .getTitle()
+                 .toLowerCase()
+                  .contains(socialMediaTitle));
+    }
 }
