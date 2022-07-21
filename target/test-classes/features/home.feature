@@ -25,6 +25,7 @@ Feature: Homepage related scenarios
     When user click on "Join Now" button
     Then Verify title of page is "Advance Systems - Join"
 
+<<<<<<< HEAD
 
   @ADVSYS-9 @smoke
   Scenario Outline: Buttons displayed for social media options
@@ -37,3 +38,14 @@ Feature: Homepage related scenarios
       | twitter              | Twitter              | Twitter |
       | instagram            | Instagram            | Instagram |
       | linkedin             | LinkedIn             | LinkedIn |
+=======
+  @ADVSYS-4
+  Scenario: Verify title of Home Page
+    Then Verify title of Home page is "Advance Systems - Home"
+
+  @ADVSYS-6
+  Scenario: Verify address and phone number are displayed
+    Then Verify address is "10090 Main Street"
+    And Verify city, state and country is "Fairfax, VA, USA"
+    And Verify phone number is "+1 234 567 1234"
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
