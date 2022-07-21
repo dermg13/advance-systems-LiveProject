@@ -16,6 +16,10 @@ Feature: Homepage related scenarios
       | English |
       | Spanish |
       | French  |
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 
   @ADVSYS-7
   Scenario: Verify "Join Now" button is displayed
