@@ -50,8 +50,27 @@ public class HomeSteps implements CommonPage{
         Assert.assertEquals(title, WebDriverManager.getDriver().getTitle());
     }
 
+<<<<<<< HEAD
     @Then("Verify title of page is \\{string}")
     public void verifyTitleOfPageIsString() {
 
     }
+=======
+    @Then("Verify address is {string}")
+    public void verifyAddressIs(String address) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, address))));
+        
+    }
+    @And("Verify city, state and country is {string}")
+    public void verifyCityStateAndCountryIs(String city) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, city))));
+
+    }
+    @And("Verify phone number is {string}")
+    public void verifyPhoneNumberIs(String number) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, number))));
+    }
+
+
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
 }
