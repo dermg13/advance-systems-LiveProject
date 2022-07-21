@@ -1,4 +1,4 @@
-package runners;
+package runners.parallelRun;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -8,14 +8,14 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {
                 "pretty",
-                "html:target/report.html",
-                "json:target/cucumber-reports/cucumber.json",
+                "html:target/reports/parallel/home.html",
+                "json:target/cucumber-report/cucumber.json",
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
         glue = {"step_definitions"},
         stepNotifications = true,
         dryRun = false,
-        tags = "@US-453"
+        tags = "@navigation"
 )
-public class CukesRunner {
+public class NavigationRunner {
 }
