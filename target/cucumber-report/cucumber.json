@@ -3,11 +3,19 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-21T03:46:33.294Z",
         "before": [
           {
             "result": {
               "duration": 2522000000,
+=======
+        "start_timestamp": "2022-07-21T14:15:02.635Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+>>>>>>> master
               "status": "passed"
             },
             "match": {
@@ -16,6 +24,7 @@
           }
         ],
         "line": 29,
+<<<<<<< HEAD
         "name": "There should be description and Read More button",
         "description": "",
         "id": "homepage-related-scenarios;there-should-be-description-and-read-more-button",
@@ -23,6 +32,15 @@
           {
             "result": {
               "duration": 693000000,
+=======
+        "name": "Verify title of Home Page",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-title-of-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+>>>>>>> master
               "status": "passed"
             },
             "match": {
@@ -35,6 +53,7 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "status": "undefined"
             },
             "line": 30,
@@ -50,6 +69,23 @@
             "name": "Read More button",
             "match": {},
             "keyword": "And "
+=======
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Verify title of Home page is \"Advance Systems - Home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - Home\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_title_of_home_page_is(java.lang.String)"
+            },
+            "keyword": "Then "
+>>>>>>> master
           }
         ],
         "tags": [
@@ -57,10 +93,14 @@
             "name": "@homeScenarios"
           },
           {
+<<<<<<< HEAD
             "name": "@smoke"
           },
           {
             "name": "@ADVSYS-10"
+=======
+            "name": "@ADVSYS-1"
+>>>>>>> master
           }
         ]
       }

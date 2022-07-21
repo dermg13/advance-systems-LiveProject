@@ -25,3 +25,6 @@ Feature: Homepage related scenarios
     When user click on "Join Now" button
     Then Verify title of page is "Advance Systems - Join"
 
+  @ADVSYS-1
+  Scenario: Verify title of Home Page
+    Then Verify title of Home page is "Advance Systems - Home"

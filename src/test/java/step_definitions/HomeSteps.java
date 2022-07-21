@@ -1,5 +1,6 @@
 package step_definitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -44,7 +45,10 @@ public class HomeSteps implements CommonPage{
 
     }
 
-
+    @Then("Verify title of Home page is {string}")
+    public void verify_title_of_home_page_is(String title) {
+        Assert.assertEquals(title, WebDriverManager.getDriver().getTitle());
+    }
 
 
 
