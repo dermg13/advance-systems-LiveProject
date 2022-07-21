@@ -1,0 +1,255 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-21T13:56:21.408Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2834000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify Join us page",
+        "description": "",
+        "id": "join-us-page-related-scenarios;verify-join-us-page",
+        "after": [
+          {
+            "result": {
+              "duration": 686000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 910000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on \"Join Us\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Join Us\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_click_on_button(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify title of page is \"Advance Systems - Join\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - Join\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyTitleOfPageIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@joinUsScenario"
+          },
+          {
+            "name": "@ADVSYS-7"
+          }
+        ]
+      }
+    ],
+    "name": "Join us page related scenarios",
+    "description": "",
+    "id": "join-us-page-related-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/JoinUs.feature",
+    "tags": [
+      {
+        "name": "@joinUsScenario",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-21T13:56:25.931Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2316000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify \"Join Now\" button is displayed",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-\"join-now\"-button-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 675000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1485000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify \"Join Now\" button is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Join Now\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_button_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-7"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-21T13:56:30.423Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2389000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Verify title of Join Us Page",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-title-of-join-us-page",
+        "after": [
+          {
+            "result": {
+              "duration": 625000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 946000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click on \"Join Now\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Join Now\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_click_on_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify title of page is \"Advance Systems - Join\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - Join\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyTitleOfPageIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-7"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage related scenarios",
+    "description": "",
+    "id": "homepage-related-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/home.feature",
+    "tags": [
+      {
+        "name": "@homeScenarios",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
