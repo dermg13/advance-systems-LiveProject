@@ -3,11 +3,275 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-21T21:06:35.420Z",
+        "start_timestamp": "2022-07-21T21:52:45.315Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "This navigation bar should have following buttons",
+        "description": "",
+        "id": "homepage-related-scenarios;this-navigation-bar-should-have-following-buttons;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
               "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify \"Job Career\" buttons is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Job Career\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_buttons_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@ADVSYS-5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-21T21:52:45.433Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "This navigation bar should have following buttons",
+        "description": "",
+        "id": "homepage-related-scenarios;this-navigation-bar-should-have-following-buttons;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify \"Feedbacks\" buttons is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Feedbacks\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_buttons_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@ADVSYS-5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-21T21:52:45.449Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "verify Language selection is displayed",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-language-selection-is-displayed;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Language selection",
+            "match": {
+              "location": "step_definitions.HomeSteps.click_on_language_selection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify Language \"Spanish\" buttons is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Spanish\"",
+                  "offset": 16
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_language_buttons_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@ADVSYS-5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-21T21:52:45.471Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "verify Language selection is displayed",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-language-selection-is-displayed;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Language selection",
+            "match": {
+              "location": "step_definitions.HomeSteps.click_on_language_selection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify Language \"French\" buttons is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"French\"",
+                  "offset": 16
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_language_buttons_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@ADVSYS-5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-21T21:52:45.499Z",
+        "before": [
+          {
+            "result": {
               "status": "passed"
             },
             "match": {
@@ -22,7 +286,6 @@
         "after": [
           {
             "result": {
-              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +298,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 31,
@@ -53,6 +316,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 32,
@@ -70,7 +334,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 33,
@@ -100,11 +363,10 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-21T21:06:35.563Z",
+        "start_timestamp": "2022-07-21T21:52:45.528Z",
         "before": [
           {
             "result": {
-              "duration": 3000000,
               "status": "passed"
             },
             "match": {
@@ -119,6 +381,7 @@
         "after": [
           {
             "result": {
+              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -131,7 +394,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 31,
@@ -149,7 +412,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 32,
@@ -197,7 +460,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-21T21:06:35.598Z",
+        "start_timestamp": "2022-07-21T21:52:45.552Z",
         "before": [
           {
             "result": {
@@ -215,7 +478,6 @@
         "after": [
           {
             "result": {
-              "duration": 3000000,
               "status": "passed"
             },
             "match": {
@@ -292,11 +554,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-21T21:06:35.634Z",
+        "start_timestamp": "2022-07-21T21:52:45.585Z",
         "before": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -341,6 +603,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 32,
@@ -358,6 +621,7 @@
           },
           {
             "result": {
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 33,
