@@ -1,34 +1,110 @@
-@navigation
+@navigationScenarios
 Feature: Navigation Bar related scenarios
 
-  @smoke @ADVSYS-5 @navigationBar
-  Scenario Outline: HOME should have following buttons
-    When click on HOME Button
-    Then Verify "<Get Support>" buttons is displayed in Home page
-    Examples:
-      | Get Support |
-      | Job Career  |
-      | Feedback    |
-  Scenario Outline: Drop down menu for language in Home page
-     When user click on English button for language
-     Then Verify Language English buttons is displayed
-     Then Verify Language Spanish buttons is displayed
-     Then Verify Language French buttons is displayed
-
-  @smoke @ADVSYS-5 @navigationBar
-  Scenario Outline: ABOUT US should have following buttons
-    When Click on ABOUT US button
-    Then Verify "<Get Support>" buttons is displayed in About us page
-    Examples:
-      | Get Support |
-      | Job Career  |
-      | Feedback    |
-  Scenario: Drop down menu for language in About us page
-    When user click on English button for language
+  @smoke @ADVSYS-5 @navigation
+  Scenario: HOME should have following buttons
+    Given click on HOME Button
+    Then Verify Get Support buttons is displayed
+    Then Verify Job Career buttons is displayed
+    Then Verify Feedback buttons is displayed
+    Then Click on English button
     Then Verify Language English buttons is displayed
     Then Verify Language Spanish buttons is displayed
     Then Verify Language French buttons is displayed
 
+  @smoke @ADVSYS-5 @navigation
+  Scenario: ABOUT US should have following buttons
+    When Click on ABOUT US button
+    Then Verify Get Support buttons is displayed
+    Then Verify Job Career buttons is displayed
+    Then Verify Feedback buttons is displayed
+    Then Click on English button
+    Then Verify Language English buttons is displayed
+    Then Verify Language Spanish buttons is displayed
+    Then Verify Language French buttons is displayed
+
+  @smoke @ADVSYS-5 @navigation
+  Scenario: SERVICES should have following buttons
+    When Click on SERVICES button
+    Then Verify Get Support buttons is displayed
+    Then Verify Job Career buttons is displayed
+    Then Verify Feedback buttons is displayed
+    Then Click on English button
+    Then Verify Language English buttons is displayed
+    Then Verify Language Spanish buttons is displayed
+    Then Verify Language French buttons is displayed
+
+  @smoke @ADVSYS-5 @navigation
+  Scenario: CLIENTS should have following buttons
+    When Click on CLIENTS button
+    Then Verify Get Support buttons is displayed
+    Then Verify Job Career buttons is displayed
+    Then Verify Feedback buttons is displayed
+    Then Click on English button
+    Then Verify Language English buttons is displayed
+    Then Verify Language Spanish buttons is displayed
+    Then Verify Language French buttons is displayed
+
+  @smoke @ADVSYS-5 @navigation
+  Scenario: SOLUTIONS should have following buttons
+    When Click on SOLUTIONS button
+    Then Verify Get Support buttons is displayed
+    Then Verify Job Career buttons is displayed
+    Then Verify Feedback buttons is displayed
+    Then Click on English button
+    Then Verify Language English buttons is displayed
+    Then Verify Language Spanish buttons is displayed
+    Then Verify Language French buttons is displayed
+
+  @smoke @ADVSYS-5 @navigation
+  Scenario: JOIN US should have following buttons
+    When Click on JOIN US button
+    Then Verify Get Support buttons is displayed
+    Then Verify Job Career buttons is displayed
+    Then Verify Feedback buttons is displayed
+    Then Click on English button
+    Then Verify Language English buttons is displayed
+    Then Verify Language Spanish buttons is displayed
+    Then Verify Language French buttons is displayed
+
+  @smoke @ADVSYS-5 @navigation
+  Scenario: CONTACT US should have following buttons
+    When Click on CONTACT US button
+    Then Verify Get Support buttons is displayed
+    Then Verify Job Career buttons is displayed
+    Then Verify Feedback buttons is displayed
+    Then Click on English button
+    Then Verify Language English buttons is displayed
+    Then Verify Language Spanish buttons is displayed
+    Then Verify Language French buttons is displayed
+
+#  @smoke @ADVSYS-5 @navigationBar
+#  Scenario Outline: HOME should have following buttons
+#    When click on HOME Button
+#    Then Verify "<Get Support>" buttons is displayed in Home page
+#    Examples:
+#      | Get Support |
+#      | Job Career  |
+#      | Feedback    |
+#
+#  Scenario: language selection
+#    When user click on English button for language
+#    Then Verify Language English buttons is displayed
+#    Then Verify Language Spanish buttons is displayed
+#    Then Verify Language French buttons is displayed
+#  @smoke @ADVSYS-5 @navigationBar
+#  Scenario Outline: ABOUT US should have following buttons
+#    When Click on ABOUT US button
+#    Then Verify "<Get Support>" buttons is displayed in About us page
+#    Examples:
+#      | Get Support |
+#      | Job Career  |
+#      | Feedback    |
+#  Scenario: language selection
+#    When user click on English button for language
+#    Then Verify Language English buttons is displayed
+#    Then Verify Language Spanish buttons is displayed
+#    Then Verify Language French buttons is displayed
 #
 #  @smoke @ADVSYS-5 @navigationBar
 #  Scenario Outline: SERVICES should have following buttons
@@ -38,12 +114,11 @@ Feature: Navigation Bar related scenarios
 #      | Get Support |
 #      | Job Career  |
 #      | Feedback    |
-#  Scenario: Drop down menu for language in Service page
+#  Scenario: language selection
 #    When user click on English button for language
 #    Then Verify Language English buttons is displayed
 #    Then Verify Language Spanish buttons is displayed
 #    Then Verify Language French buttons is displayed
-#
 #
 #  @smoke @ADVSYS-5 @navigationBar
 #  Scenario Outline: CLIENTS should have following buttons
@@ -53,12 +128,11 @@ Feature: Navigation Bar related scenarios
 #      | Get Support |
 #      | Job Career  |
 #      | Feedback    |
-#  Scenario: Drop down menu for language in Clients page
+#  Scenario: language selection
 #    When user click on English button for language
 #    Then Verify Language English buttons is displayed
 #    Then Verify Language Spanish buttons is displayed
 #    Then Verify Language French buttons is displayed
-#
 #
 #  @smoke @ADVSYS-5 @navigationBar
 #  Scenario Outline: SOLUTIONS should have following buttons
@@ -68,7 +142,7 @@ Feature: Navigation Bar related scenarios
 #      | Get Support |
 #      | Job Career  |
 #      | Feedback    |
-#  Scenario: Drop down menu for language in Solutions page
+#  Scenario: language selection
 #    When user click on English button for language
 #    Then Verify Language English buttons is displayed
 #    Then Verify Language Spanish buttons is displayed
@@ -83,7 +157,7 @@ Feature: Navigation Bar related scenarios
 #      | Get Support |
 #      | Job Career  |
 #      | Feedback    |
-#  Scenario: Drop down menu for language in Join us page
+#  Scenario: language selection
 #    When user click on English button for language
 #    Then Verify Language English buttons is displayed
 #    Then Verify Language Spanish buttons is displayed
@@ -98,13 +172,13 @@ Feature: Navigation Bar related scenarios
 #      | Get Support |
 #      | Job Career  |
 #      | Feedback    |
-#  Scenario: Drop down menu for language in Contact us page
+#  Scenario: language selection
 #    When user click on English button for language
 #    Then Verify Language English buttons is displayed
 #    Then Verify Language Spanish buttons is displayed
 #    Then Verify Language French buttons is displayed
-#
-#
+
+
 
 
 

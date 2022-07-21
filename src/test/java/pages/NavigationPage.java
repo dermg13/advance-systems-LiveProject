@@ -31,6 +31,13 @@ public class NavigationPage {
     @FindBy(linkText = "CONTACT US")
     public WebElement contactUs;
 
+    @FindBy(xpath = "//a[contains(text(),'Get Support')]")
+    public WebElement getSupport;
+    @FindBy(xpath = "//a[contains(text(),'Job Career')]")
+    public WebElement jobCareer;
+    @FindBy(xpath = "//a[contains(text(),'Feedbacks')]")
+    public WebElement feedbacks;
+
     @FindBy (xpath = "//*[@class='dropdown-menu style-one']//*[contains(text(),'English')]")
     public WebElement englishLanguage;
     @FindBy (xpath = "//*[@class='dropdown-menu style-one']//*[contains(text(),'Spanish')]")
