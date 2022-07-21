@@ -3,7 +3,15 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-21T21:52:45.315Z",
+=======
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-21T19:49:09.921Z",
+=======
+        "start_timestamp": "2022-07-21T16:09:13.379Z",
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+>>>>>>> b4e4d906eb93485e811dd563738c88125b0190ff
         "before": [
           {
             "result": {
@@ -15,6 +23,7 @@
             }
           }
         ],
+<<<<<<< HEAD
         "line": 9,
         "name": "This navigation bar should have following buttons",
         "description": "",
@@ -22,6 +31,19 @@
         "after": [
           {
             "result": {
+<<<<<<< HEAD
+=======
+              "duration": 1000000,
+=======
+        "line": 33,
+        "name": "Verify address and phone number are displayed",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-address-and-phone-number-are-displayed",
+        "after": [
+          {
+            "result": {
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+>>>>>>> b4e4d906eb93485e811dd563738c88125b0190ff
               "status": "passed"
             },
             "match": {
@@ -30,6 +52,7 @@
           }
         ],
         "type": "scenario",
+<<<<<<< HEAD
         "keyword": "Scenario Outline",
         "steps": [
           {
@@ -598,6 +621,25 @@
                 }
               ],
               "location": "step_definitions.HomeSteps.userShouldBeAbleToSee(java.lang.String)"
+=======
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Verify address is \"10090 Main Street\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10090 Main Street\"",
+                  "offset": 18
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyAddressIs(java.lang.String)"
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
             },
             "keyword": "Then "
           },
@@ -606,6 +648,7 @@
               "duration": 1000000,
               "status": "passed"
             },
+<<<<<<< HEAD
             "line": 32,
             "name": "Click on \"LinkedIn\"",
             "match": {
@@ -618,12 +661,27 @@
               "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
             },
             "keyword": "When "
+=======
+            "line": 35,
+            "name": "Verify city, state and country is \"Fairfax, VA, USA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fairfax, VA, USA\"",
+                  "offset": 34
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyCityStateAndCountryIs(java.lang.String)"
+            },
+            "keyword": "And "
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
           },
           {
             "result": {
               "duration": 4000000,
               "status": "passed"
             },
+<<<<<<< HEAD
             "line": 33,
             "name": "Title for each corresponding page should contain \"LinkedIn\"",
             "match": {
@@ -636,6 +694,20 @@
               "location": "step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(java.lang.String)"
             },
             "keyword": "Then "
+=======
+            "line": 36,
+            "name": "Verify phone number is \"+1 234 567 1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"+1 234 567 1234\"",
+                  "offset": 23
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyPhoneNumberIs(java.lang.String)"
+            },
+            "keyword": "And "
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
           }
         ],
         "tags": [
@@ -643,10 +715,14 @@
             "name": "@homeScenarios"
           },
           {
+<<<<<<< HEAD
             "name": "@ADVSYS-9"
           },
           {
             "name": "@smoke"
+=======
+            "name": "@ADVSYS-6"
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
           }
         ]
       }
