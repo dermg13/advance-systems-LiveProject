@@ -25,3 +25,7 @@ Feature: Homepage related scenarios
     When user click on "Join Now" button
     Then Verify title of page is "Advance Systems - Join"
 
+  @smoke @ADVSYS-10
+  Scenario: There should be description and Read More button
+    Then There should be description
+    And Read More button
