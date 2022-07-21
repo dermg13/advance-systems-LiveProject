@@ -38,6 +38,7 @@ Feature: Homepage related scenarios
       | twitter              | Twitter              | Twitter |
       | instagram            | Instagram            | Instagram |
       | linkedin             | LinkedIn             | LinkedIn |
+<<<<<<< HEAD
 
   @ADVSYS-4
   Scenario: Verify title of Home Page
@@ -49,3 +50,5 @@ Feature: Homepage related scenarios
     And Verify city, state and country is "Fairfax, VA, USA"
     And Verify phone number is "+1 234 567 1234"
 
+=======
+>>>>>>> pariya
