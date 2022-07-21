@@ -8,6 +8,4 @@ import utils.WebDriverManager;
 public class JoinUsPage {
     public JoinUsPage(){PageFactory.initElements(WebDriverManager.getDriver(), this);
     }
-    @FindBy (xpath = "//h1[text()='Join Us']")
-    public WebElement pageHeader;
 }

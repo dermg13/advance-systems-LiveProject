@@ -11,9 +11,4 @@ public class JoinUsSteps implements CommonPage {
     JoinUsPage joinUsPage;
 
     public JoinUsSteps() {joinUsPage = new JoinUsPage();}
-
-    @And("Verify header of page is {string}")
-    public void verifyHeaderOfPageIsString(String pageHeader) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(joinUsPage.pageHeader));
-    }
 }
