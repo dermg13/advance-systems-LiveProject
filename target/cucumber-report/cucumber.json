@@ -4,10 +4,26 @@
     "elements": [
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "start_timestamp": "2022-07-21T21:52:45.315Z",
 =======
 <<<<<<< HEAD
         "start_timestamp": "2022-07-21T19:49:09.921Z",
+=======
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-21T13:56:21.408Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2834000000,
+=======
+        "start_timestamp": "2022-07-21T14:15:02.635Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+>>>>>>> dd13f61e805063b1be0e62f902a1e8f360984c5d
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
 =======
         "start_timestamp": "2022-07-21T16:09:13.379Z",
 >>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
@@ -15,7 +31,12 @@
         "before": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1000000,
+=======
+              "duration": 2000000,
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
               "status": "passed"
             },
             "match": {
@@ -23,6 +44,7 @@
             }
           }
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
         "line": 9,
         "name": "This navigation bar should have following buttons",
@@ -35,13 +57,29 @@
 =======
               "duration": 1000000,
 =======
+<<<<<<< HEAD
+        "line": 4,
+        "name": "Verify Join us page",
+        "description": "",
+        "id": "join-us-page-related-scenarios;verify-join-us-page",
+        "after": [
+          {
+            "result": {
+              "duration": 686000000,
+=======
+        "line": 29,
+        "name": "Verify title of Home Page",
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
+=======
         "line": 33,
         "name": "Verify address and phone number are displayed",
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
         "description": "",
         "id": "homepage-related-scenarios;verify-address-and-phone-number-are-displayed",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
 >>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
 >>>>>>> b4e4d906eb93485e811dd563738c88125b0190ff
               "status": "passed"
@@ -237,6 +275,13 @@
           {
             "result": {
               "duration": 1000000,
+=======
+<<<<<<< HEAD
+              "duration": 1000000,
+>>>>>>> dd13f61e805063b1be0e62f902a1e8f360984c5d
+=======
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
               "status": "passed"
             },
             "match": {
@@ -245,6 +290,7 @@
           }
         ],
         "type": "scenario",
+<<<<<<< HEAD
         "keyword": "Scenario Outline",
         "steps": [
           {
@@ -369,12 +415,52 @@
                 }
               ],
               "location": "step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(java.lang.String)"
+=======
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "duration": 910000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on \"Join Us\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Join Us\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_click_on_button(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify title of page is \"Advance Systems - Join\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - Join\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyTitleOfPageIs(java.lang.String)"
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@homeScenarios"
           },
           {
@@ -487,6 +573,41 @@
         "before": [
           {
             "result": {
+=======
+            "name": "@joinUsScenario"
+          },
+          {
+            "name": "@ADVSYS-7"
+          }
+        ]
+      }
+    ],
+    "name": "Join us page related scenarios",
+    "description": "",
+    "id": "join-us-page-related-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/JoinUs.feature",
+    "tags": [
+      {
+        "name": "@joinUsScenario",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-21T13:56:25.931Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2316000000,
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
               "status": "passed"
             },
             "match": {
@@ -494,6 +615,7 @@
             }
           }
         ],
+<<<<<<< HEAD
         "line": 38,
         "name": "Buttons displayed for social media options",
         "description": "",
@@ -501,6 +623,16 @@
         "after": [
           {
             "result": {
+=======
+        "line": 21,
+        "name": "Verify \"Join Now\" button is displayed",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-\"join-now\"-button-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 675000000,
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
               "status": "passed"
             },
             "match": {
@@ -509,6 +641,7 @@
           }
         ],
         "type": "scenario",
+<<<<<<< HEAD
         "keyword": "Scenario Outline",
         "steps": [
           {
@@ -560,6 +693,25 @@
                 }
               ],
               "location": "step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(java.lang.String)"
+=======
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1485000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify \"Join Now\" button is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Join Now\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_button_is_displayed(java.lang.String)"
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
             },
             "keyword": "Then "
           }
@@ -569,19 +721,31 @@
             "name": "@homeScenarios"
           },
           {
+<<<<<<< HEAD
             "name": "@ADVSYS-9"
           },
           {
             "name": "@smoke"
+=======
+            "name": "@ADVSYS-7"
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-21T21:52:45.585Z",
         "before": [
           {
             "result": {
               "duration": 1000000,
+=======
+        "start_timestamp": "2022-07-21T13:56:30.423Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2389000000,
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
               "status": "passed"
             },
             "match": {
@@ -589,6 +753,7 @@
             }
           }
         ],
+<<<<<<< HEAD
         "line": 39,
         "name": "Buttons displayed for social media options",
         "description": "",
@@ -596,6 +761,16 @@
         "after": [
           {
             "result": {
+=======
+        "line": 24,
+        "name": "Verify title of Join Us Page",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-title-of-join-us-page",
+        "after": [
+          {
+            "result": {
+              "duration": 625000000,
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
               "status": "passed"
             },
             "match": {
@@ -626,7 +801,42 @@
         "steps": [
           {
             "result": {
+              "duration": 946000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click on \"Join Now\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Join Now\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_click_on_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify title of page is \"Advance Systems - Join\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - Join\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyTitleOfPageIs(java.lang.String)"
+=======
+              "duration": 1000000,
+=======
               "duration": 2000000,
+>>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
               "status": "passed"
             },
             "line": 34,
@@ -638,6 +848,10 @@
                   "offset": 18
                 }
               ],
+<<<<<<< HEAD
+              "location": "step_definitions.HomeSteps.verify_title_of_home_page_is(java.lang.String)"
+>>>>>>> dd13f61e805063b1be0e62f902a1e8f360984c5d
+=======
               "location": "step_definitions.HomeSteps.verifyAddressIs(java.lang.String)"
 >>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
             },
@@ -716,10 +930,18 @@
           },
           {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "@ADVSYS-9"
           },
           {
             "name": "@smoke"
+=======
+<<<<<<< HEAD
+            "name": "@ADVSYS-7"
+=======
+            "name": "@ADVSYS-1"
+>>>>>>> dd13f61e805063b1be0e62f902a1e8f360984c5d
+>>>>>>> f90df38afa5a3e566351d95cfa13580190b92656
 =======
             "name": "@ADVSYS-6"
 >>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
