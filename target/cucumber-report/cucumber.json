@@ -3,11 +3,19 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-21T13:56:21.408Z",
         "before": [
           {
             "result": {
               "duration": 2834000000,
+=======
+        "start_timestamp": "2022-07-21T14:15:02.635Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+>>>>>>> dd13f61e805063b1be0e62f902a1e8f360984c5d
               "status": "passed"
             },
             "match": {
@@ -15,6 +23,7 @@
             }
           }
         ],
+<<<<<<< HEAD
         "line": 4,
         "name": "Verify Join us page",
         "description": "",
@@ -23,6 +32,16 @@
           {
             "result": {
               "duration": 686000000,
+=======
+        "line": 29,
+        "name": "Verify title of Home Page",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-title-of-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+>>>>>>> dd13f61e805063b1be0e62f902a1e8f360984c5d
               "status": "passed"
             },
             "match": {
@@ -35,6 +54,7 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 910000000,
               "status": "passed"
             },
@@ -222,6 +242,21 @@
                 }
               ],
               "location": "step_definitions.HomeSteps.verifyTitleOfPageIs(java.lang.String)"
+=======
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Verify title of Home page is \"Advance Systems - Home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - Home\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_title_of_home_page_is(java.lang.String)"
+>>>>>>> dd13f61e805063b1be0e62f902a1e8f360984c5d
             },
             "keyword": "Then "
           }
@@ -231,7 +266,11 @@
             "name": "@homeScenarios"
           },
           {
+<<<<<<< HEAD
             "name": "@ADVSYS-7"
+=======
+            "name": "@ADVSYS-1"
+>>>>>>> dd13f61e805063b1be0e62f902a1e8f360984c5d
           }
         ]
       }
