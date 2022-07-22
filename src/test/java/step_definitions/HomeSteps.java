@@ -1,13 +1,17 @@
 package step_definitions;
 
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import pages.CommonPage;
 import pages.HomePage;
 import utils.WebDriverManager;
+
+import java.util.List;
 
 public class HomeSteps implements CommonPage{
     HomePage homePage;
@@ -16,19 +20,7 @@ public class HomeSteps implements CommonPage{
         homePage = new HomePage();
     }
 
-    @Then("Verify {string} buttons is displayed")
-    public void verify_buttons_is_displayed(String navigationButton) {
-        Assert.assertTrue((WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_NAVIGATION_BUTTON, navigationButton)))));
-    }
-    @When("Click on Language selection")
-    public void click_on_language_selection() {
-       WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_LANGUAGE_BUTTON)));
-    }
-    @Then("Verify Language {string} buttons is displayed")
-    public void verify_language_buttons_is_displayed(String languageSelection) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_LANGUAGE_SELECTION, languageSelection))));
-    }
-
+    String str = "Words from our Clients";
     @Then("Verify {string} button is displayed")
     public void verify_button_is_displayed(String btn) {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format("//*[text()='%s']", btn))));
@@ -86,5 +78,24 @@ public class HomeSteps implements CommonPage{
                 .getTitle()
                  .toLowerCase()
                   .contains(socialMediaTitle));
+    }
+    @Given("Verify the header texts")
+    public void verify_the_header_texts() {
+        WebDriverManager.getText(homePage.clientsHeader).equals(str);
+
+    }
+    @Then("Verify the testimonials")
+    public void verify_the_testimonials() {
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.clientsTestimonial));
+    }
+    @Then("Verify the name of clients")
+    public void verify_the_name_of_testimonials() {
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.clientsName));
+    }
+    @Then("Verify the states")
+    public void verify_the_states() {
+        Assert.assertTrue((WebDriverManager.isDisplayed(homePage.clientsState)));
+
+
     }
 }
