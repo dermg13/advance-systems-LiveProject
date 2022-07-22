@@ -47,5 +47,5 @@ Feature: Homepage related scenarios
   Scenario: Verify address and phone number are displayed
     Then Verify address is "10090 Main Street"
     And Verify city, state and country is "Fairfax, VA, USA"
-    And Verify phone number is "+1 234 567 1234"
+    And Verify phone number is "+1 234 567 1234 "
 
