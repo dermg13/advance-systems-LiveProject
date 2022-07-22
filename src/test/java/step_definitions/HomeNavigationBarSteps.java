@@ -34,7 +34,7 @@ public class HomeNavigationBarSteps implements CommonPage {
 
     @Then("Verify Feedback buttons is displayed")
     public void verify_feedback_buttons_is_displayed() {
-        Assert.assertTrue((WebDriverManager.isDisplayed(homeNavigationBarPage.feedbacks)));
+        Assert.assertTrue((WebDriverManager.isDisplayed(homeNavigationBarPage.feedBacks)));
     }
 
     @Then("Click on English button")
