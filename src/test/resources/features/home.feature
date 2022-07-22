@@ -1,22 +1,6 @@
 @homeScenarios
 Feature: Homepage related scenarios
 
-
-  Scenario Outline: This navigation bar should have following buttons
-    Then Verify "<Get Support>" buttons is displayed
-    Examples:
-    | Get Support |
-    | Job Career  |
-    | Feedbacks   |
-
-  Scenario Outline: verify Language selection is displayed
-    When Click on Language selection
-    Then Verify Language "<English>" buttons is displayed
-    Examples:
-      | English |
-      | Spanish |
-      | French  |
-
   @ADVSYS-7
   Scenario: Verify "Join Now" button is displayed
     Then Verify "Join Now" button is displayed
