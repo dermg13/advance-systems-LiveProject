@@ -3,393 +3,11 @@
     "line": 2,
     "elements": [
       {
-<<<<<<< HEAD
-        "start_timestamp": "2022-07-21T21:52:45.315Z",
-=======
-<<<<<<< HEAD
-        "start_timestamp": "2022-07-21T19:49:09.921Z",
-=======
-        "start_timestamp": "2022-07-21T16:09:13.379Z",
->>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
->>>>>>> b4e4d906eb93485e811dd563738c88125b0190ff
+        "start_timestamp": "2022-07-22T04:41:41.380Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-<<<<<<< HEAD
-        "line": 9,
-        "name": "This navigation bar should have following buttons",
-        "description": "",
-        "id": "homepage-related-scenarios;this-navigation-bar-should-have-following-buttons;;2",
-        "after": [
-          {
-            "result": {
-<<<<<<< HEAD
-=======
-              "duration": 1000000,
-=======
-        "line": 33,
-        "name": "Verify address and phone number are displayed",
-        "description": "",
-        "id": "homepage-related-scenarios;verify-address-and-phone-number-are-displayed",
-        "after": [
-          {
-            "result": {
->>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
->>>>>>> b4e4d906eb93485e811dd563738c88125b0190ff
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-<<<<<<< HEAD
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Verify \"Job Career\" buttons is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Job Career\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verify_buttons_is_displayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@ADVSYS-5"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-21T21:52:45.433Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 10,
-        "name": "This navigation bar should have following buttons",
-        "description": "",
-        "id": "homepage-related-scenarios;this-navigation-bar-should-have-following-buttons;;3",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Verify \"Feedbacks\" buttons is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Feedbacks\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verify_buttons_is_displayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@ADVSYS-5"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-21T21:52:45.449Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 17,
-        "name": "verify Language selection is displayed",
-        "description": "",
-        "id": "homepage-related-scenarios;verify-language-selection-is-displayed;;2",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Click on Language selection",
-            "match": {
-              "location": "step_definitions.HomeSteps.click_on_language_selection()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Verify Language \"Spanish\" buttons is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Spanish\"",
-                  "offset": 16
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verify_language_buttons_is_displayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@ADVSYS-5"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-21T21:52:45.471Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "verify Language selection is displayed",
-        "description": "",
-        "id": "homepage-related-scenarios;verify-language-selection-is-displayed;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 12000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Click on Language selection",
-            "match": {
-              "location": "step_definitions.HomeSteps.click_on_language_selection()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Verify Language \"French\" buttons is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"French\"",
-                  "offset": 16
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verify_language_buttons_is_displayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@ADVSYS-5"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-21T21:52:45.499Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 36,
-        "name": "Buttons displayed for social media options",
-        "description": "",
-        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;2",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "User should be able to see \"facebook\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"facebook\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userShouldBeAbleToSee(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "Click on \"Facebook\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Facebook\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "Title for each corresponding page should contain \"Facebook\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Facebook\"",
-                  "offset": 49
-                }
-              ],
-              "location": "step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-9"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-21T21:52:45.528Z",
-        "before": [
-          {
-            "result": {
+              "duration": 3012000000,
               "status": "passed"
             },
             "match": {
@@ -398,13 +16,13 @@
           }
         ],
         "line": 37,
-        "name": "Buttons displayed for social media options",
+        "name": "Verify header and testimonials by peoples",
         "description": "",
-        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;3",
+        "id": "homepage-related-scenarios;verify-header-and-testimonials-by-peoples",
         "after": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 734000000,
               "status": "passed"
             },
             "match": {
@@ -413,301 +31,55 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3000000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "User should be able to see \"twitter\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"twitter\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userShouldBeAbleToSee(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "Click on \"Twitter\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Twitter\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "Title for each corresponding page should contain \"Twitter\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Twitter\"",
-                  "offset": 49
-                }
-              ],
-              "location": "step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-9"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-21T21:52:45.552Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 38,
-        "name": "Buttons displayed for social media options",
-        "description": "",
-        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;4",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "User should be able to see \"instagram\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"instagram\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userShouldBeAbleToSee(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "Click on \"Instagram\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Instagram\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "Title for each corresponding page should contain \"Instagram\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Instagram\"",
-                  "offset": 49
-                }
-              ],
-              "location": "step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-9"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-21T21:52:45.585Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 39,
-        "name": "Buttons displayed for social media options",
-        "description": "",
-        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;5",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "User should be able to see \"linkedin\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"linkedin\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userShouldBeAbleToSee(java.lang.String)"
-=======
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1698000000,
               "status": "passed"
             },
-            "line": 34,
-            "name": "Verify address is \"10090 Main Street\"",
+            "line": 38,
+            "name": "Verify the header texts",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"10090 Main Street\"",
-                  "offset": 18
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyAddressIs(java.lang.String)"
->>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+              "location": "step_definitions.HomeSteps.verify_the_header_texts()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1564000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify the testimonials",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_the_testimonials()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 1253000000,
               "status": "passed"
             },
-<<<<<<< HEAD
-            "line": 32,
-            "name": "Click on \"LinkedIn\"",
+            "line": 40,
+            "name": "Verify the name of clients",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"LinkedIn\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_the_name_of_testimonials()"
             },
-            "keyword": "When "
-=======
-            "line": 35,
-            "name": "Verify city, state and country is \"Fairfax, VA, USA\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Fairfax, VA, USA\"",
-                  "offset": 34
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyCityStateAndCountryIs(java.lang.String)"
-            },
-            "keyword": "And "
->>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 5965000000,
               "status": "passed"
             },
-<<<<<<< HEAD
-            "line": 33,
-            "name": "Title for each corresponding page should contain \"LinkedIn\"",
+            "line": 41,
+            "name": "Verify the states",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"LinkedIn\"",
-                  "offset": 49
-                }
-              ],
-              "location": "step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(java.lang.String)"
-            },
-            "keyword": "Then "
-=======
-            "line": 36,
-            "name": "Verify phone number is \"+1 234 567 1234\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"+1 234 567 1234\"",
-                  "offset": 23
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyPhoneNumberIs(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_the_states()"
             },
             "keyword": "And "
->>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
           }
         ],
         "tags": [
@@ -715,14 +87,7 @@
             "name": "@homeScenarios"
           },
           {
-<<<<<<< HEAD
-            "name": "@ADVSYS-9"
-          },
-          {
-            "name": "@smoke"
-=======
-            "name": "@ADVSYS-6"
->>>>>>> 2b3f83eec8c067065d15c2b1d513eacdf0d592df
+            "name": "@ADVSYS-13"
           }
         ]
       }
