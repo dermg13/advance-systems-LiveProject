@@ -35,8 +35,8 @@ Feature: Homepage related scenarios
 
   @ADVSYS-13
   Scenario: Verify header and testimonials by peoples
-    Given Verify the header text
+    Given Verify the header texts
     Then Verify the testimonials
-    Then Verify the name of testimonials
-    And Verify the state
+    Then Verify the name of clients
+    And Verify the states
     #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.

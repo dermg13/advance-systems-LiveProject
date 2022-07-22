@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.WebDriverManager;
 
+import java.util.List;
+
 public class HomePage {
     public HomePage(){
         PageFactory.initElements(WebDriverManager.getDriver(), this);
@@ -13,13 +15,13 @@ public class HomePage {
     @FindBy( xpath = "//div/h2[contains(text(),'Words from our Clients')]")
     public WebElement clientsHeader;
 
-    @FindBy(xpath = "//div[@class='testimonial-block-one']/div[@class='inner-box']/div[@class='text']")
-    public WebElement clientsWordsText;
+    @FindBy(xpath = "//div[@class='owl-item active']/div/div/div[@class='text']")
+    public WebElement clientsTestimonial;
 
-    @FindBy(xpath = "//div[@class='thumb-content']/h3")
+    @FindBy(xpath = "//div[@class='owl-item active']/div[@class='thumb-item']/div/h3")
     public WebElement clientsName;
 
-    @FindBy(xpath = "//div[@class='thumb-content']/div")
+    @FindBy(xpath = "//div[@class='owl-item active']/div[@class='thumb-item']/div/div")
     public WebElement clientsState;
 
 
