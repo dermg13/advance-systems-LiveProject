@@ -1,7 +1,9 @@
 pages/CommonPage.class
 runners/CukesRunner.class
+pages/HomeNavigationBarPage.class
 runners/parallelRun/PopUpRunner.class
 pages/HomePage.class
+runners/parallelRun/HomeNavigationBarRunner.class
 utils/SeleniumUtils.class
 utils/CucumberLogUtils.class
 step_definitions/HomeSteps.class
@@ -13,4 +15,5 @@ utils/ExcelUtils.class
 step_definitions/JoinUsSteps.class
 runners/parallelRun/LoginRunner.class
 runners/ReRunFailed.class
+step_definitions/HomeNavigationBarSteps.class
 utils/WebDriverManager.class

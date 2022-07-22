@@ -1,4 +1,68 @@
 -------------------------------------------------------------------------------
 Test set: runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.863 sec - in runners.CukesRunner
+Tests run: 16, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 45.752 sec <<< FAILURE! - in runners.CukesRunner
+Title for each corresponding page should contain "Facebook"(Buttons displayed for social media options #1)  Time elapsed: 0.198 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(HomeSteps.java:77)
+	at ✽.Title for each corresponding page should contain "Facebook"(file:///Users/pariya/Desktop/advance-systems-LiveProject/src/test/resources/features/home.feature:18)
+
+Buttons displayed for social media options #1  Time elapsed: 0.749 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(HomeSteps.java:77)
+	at ✽.Title for each corresponding page should contain "Facebook"(file:///Users/pariya/Desktop/advance-systems-LiveProject/src/test/resources/features/home.feature:18)
+
+Title for each corresponding page should contain "Twitter"(Buttons displayed for social media options #2)  Time elapsed: 0.17 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(HomeSteps.java:77)
+	at ✽.Title for each corresponding page should contain "Twitter"(file:///Users/pariya/Desktop/advance-systems-LiveProject/src/test/resources/features/home.feature:18)
+
+Buttons displayed for social media options #2  Time elapsed: 0.58 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(HomeSteps.java:77)
+	at ✽.Title for each corresponding page should contain "Twitter"(file:///Users/pariya/Desktop/advance-systems-LiveProject/src/test/resources/features/home.feature:18)
+
+Title for each corresponding page should contain "Instagram"(Buttons displayed for social media options #3)  Time elapsed: 0.174 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(HomeSteps.java:77)
+	at ✽.Title for each corresponding page should contain "Instagram"(file:///Users/pariya/Desktop/advance-systems-LiveProject/src/test/resources/features/home.feature:18)
+
+Buttons displayed for social media options #3  Time elapsed: 0.603 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(HomeSteps.java:77)
+	at ✽.Title for each corresponding page should contain "Instagram"(file:///Users/pariya/Desktop/advance-systems-LiveProject/src/test/resources/features/home.feature:18)
+
+Title for each corresponding page should contain "LinkedIn"(Buttons displayed for social media options #4)  Time elapsed: 0.148 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(HomeSteps.java:77)
+	at ✽.Title for each corresponding page should contain "LinkedIn"(file:///Users/pariya/Desktop/advance-systems-LiveProject/src/test/resources/features/home.feature:18)
+
+Buttons displayed for social media options #4  Time elapsed: 0.657 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(HomeSteps.java:77)
+	at ✽.Title for each corresponding page should contain "LinkedIn"(file:///Users/pariya/Desktop/advance-systems-LiveProject/src/test/resources/features/home.feature:18)
+
