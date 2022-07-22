@@ -1,22 +1,6 @@
 @homeScenarios
 Feature: Homepage related scenarios
 
-   @smoke @ADVSYS-5
-  Scenario Outline: This navigation bar should have following buttons
-    Then Verify "<Get Support>" buttons is displayed
-    Examples:
-    | Get Support |
-    | Job Career  |
-    | Feedbacks   |
-   @smoke @ADVSYS-5
-  Scenario Outline: verify Language selection is displayed
-    When Click on Language selection
-    Then Verify Language "<English>" buttons is displayed
-    Examples:
-      | English |
-      | Spanish |
-      | French  |
-
   @ADVSYS-7
   Scenario: Verify "Join Now" button is displayed
     Then Verify "Join Now" button is displayed
@@ -47,5 +31,5 @@ Feature: Homepage related scenarios
   Scenario: Verify address and phone number are displayed
     Then Verify address is "10090 Main Street"
     And Verify city, state and country is "Fairfax, VA, USA"
-    And Verify phone number is "+1 234 567 1234"
+    And Verify phone number is "+1 234 567 1234 "
 
