@@ -69,7 +69,7 @@ public class HomeSteps implements CommonPage{
     public void clickOn(String socialMediaBtn) {
         WebDriverManager.getDriver()
                 .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MADIA_BUTTON
-                        , socialMediaBtn)));
+                        , socialMediaBtn))).click();
     }
 
     @Then("Title for each corresponding page should contain {string}")
