@@ -10,6 +10,7 @@ Feature: Homepage related scenarios
     Then Verify title of page is "Advance Systems - Join"
 
 
+
   @ADVSYS-9 @smoke
   Scenario Outline: Buttons displayed for social media options
     Then User should be able to see "<social media options>"
@@ -30,5 +31,12 @@ Feature: Homepage related scenarios
   Scenario: Verify address and phone number are displayed
     Then Verify address is "10090 Main Street"
     And Verify city, state and country is "Fairfax, VA, USA"
-    And Verify phone number is "+1 234 567 1234"
+    And Verify phone number is "+1 234 567 1234 "
 
+  @ADVSYS-13
+  Scenario: Verify header and testimonials by peoples
+    Given Verify the header texts
+    Then Verify the testimonials
+    Then Verify the name of clients
+    And Verify the states
+    #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.
