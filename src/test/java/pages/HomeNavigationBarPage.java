@@ -36,7 +36,7 @@ public class HomeNavigationBarPage {
     @FindBy(xpath = "//a[contains(text(),'Job Career')]")
     public WebElement jobCareer;
     @FindBy(xpath = "//a[contains(text(),'Feedbacks')]")
-    public WebElement feedbacks;
+    public WebElement feedBacks;
 
     @FindBy (xpath = "//*[@class='dropdown-menu style-one']//*[contains(text(),'English')]")
     public WebElement englishLanguage;
