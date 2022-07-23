@@ -66,10 +66,10 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, number))));
     }
 
-    @Then("User should be able to see {string}")
-    public void userShouldBeAbleToSee(String socialMediaBtn) {
+    @Then("User is able to see {string} icon")
+    public void userIsAbleToSeeIcon(String socialMediaBtn) {
         Assert.assertTrue(WebDriverManager
-                .isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MADIA_BUTTON
+                .isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_BUTTON
                         , socialMediaBtn
                 ))));
     }
@@ -77,16 +77,22 @@ public class HomeSteps implements CommonPage {
     @When("Click on {string}")
     public void clickOn(String socialMediaBtn) {
         WebDriverManager.getDriver()
-                .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MADIA_BUTTON
+                .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_BUTTON
                         , socialMediaBtn))).click();
     }
 
+<<<<<<< HEAD
+    @Then("URL is {string}")
+    public void urlIs(String socialMediaUrl) {
+        Assert.assertEquals(socialMediaUrl, WebDriverManager.getDriver().getCurrentUrl());
+=======
     @Then("Title for each corresponding page should contain {string}")
     public void titleForEachCorrespondingPageShouldContain(String socialMediaTitle) {
         Assert.assertTrue(WebDriverManager.getDriver()
                 .getTitle()
                 .toLowerCase()
                 .contains(socialMediaTitle));
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
     }
 
     @Given("Verify the header texts")
@@ -111,6 +117,11 @@ public class HomeSteps implements CommonPage {
 
 
     }
+<<<<<<< HEAD
+
+
+
+=======
     @Then("Verify user sees company image")
     public void verifyUserSeesCompanyImage() {
         WebElement imageFile = WebDriverManager.getDriver().findElement(By.xpath("//div[contains(@class,'active')]//*[contains(@alt,'company-image-1')]"));
@@ -124,4 +135,5 @@ public class HomeSteps implements CommonPage {
             System.out.println("Image displayed.");
         }
     }
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
 }

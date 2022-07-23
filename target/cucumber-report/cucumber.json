@@ -3,11 +3,19 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-22T23:37:22.020Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10061000000,
+=======
         "start_timestamp": "2022-07-22T23:59:08.929Z",
         "before": [
           {
             "result": {
               "duration": 5329000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "match": {
@@ -21,6 +29,10 @@
         "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;2",
         "after": [
           {
+<<<<<<< HEAD
+            "result": {
+              "duration": 167000000,
+=======
             "output": [
               "2022-07-22 19:59:17  FAIL: Buttons displayed for social media options"
             ],
@@ -33,6 +45,7 @@
             ],
             "result": {
               "duration": 1339000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "match": {
@@ -45,33 +58,41 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 2055000000,
+=======
               "duration": 1620000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "line": 16,
-            "name": "User should be able to see \"facebook\"",
+            "name": "User is able to see \"facebook\" icon",
             "match": {
               "arguments": [
                 {
                   "val": "\"facebook\"",
-                  "offset": 27
+                  "offset": 20
                 }
               ],
-              "location": "step_definitions.HomeSteps.userShouldBeAbleToSee(java.lang.String)"
+              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 3528000000,
+=======
               "duration": 1557000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "line": 17,
-            "name": "Click on \"Facebook\"",
+            "name": "Click on \"facebook\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Facebook\"",
+                  "val": "\"facebook\"",
                   "offset": 9
                 }
               ],
@@ -81,20 +102,25 @@
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 187000000,
+              "status": "passed"
+=======
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(HomeSteps.java:79)\r\n\tat ✽.Title for each corresponding page should contain \"Facebook\"(file:///C:/Users/mder/OneDrive/Documents/Selenium/Projects/advance-systems-LiveProject/src/test/resources/features/home.feature:18)\r\n",
               "duration": 14000000,
               "status": "failed"
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
             },
             "line": 18,
-            "name": "Title for each corresponding page should contain \"Facebook\"",
+            "name": "URL is \"https://www.facebook.com/\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Facebook\"",
-                  "offset": 49
+                  "val": "\"https://www.facebook.com/\"",
+                  "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(java.lang.String)"
+              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -112,11 +138,19 @@
         ]
       },
       {
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-22T23:37:38.190Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3537000000,
+=======
         "start_timestamp": "2022-07-22T23:59:18.908Z",
         "before": [
           {
             "result": {
               "duration": 2614000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "match": {
@@ -130,6 +164,10 @@
         "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;3",
         "after": [
           {
+<<<<<<< HEAD
+            "result": {
+              "duration": 140000000,
+=======
             "output": [
               "2022-07-22 19:59:24  FAIL: Buttons displayed for social media options"
             ],
@@ -142,6 +180,7 @@
             ],
             "result": {
               "duration": 1246000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "match": {
@@ -154,33 +193,41 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 1479000000,
+=======
               "duration": 1631000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "line": 16,
-            "name": "User should be able to see \"twitter\"",
+            "name": "User is able to see \"twitter\" icon",
             "match": {
               "arguments": [
                 {
                   "val": "\"twitter\"",
-                  "offset": 27
+                  "offset": 20
                 }
               ],
-              "location": "step_definitions.HomeSteps.userShouldBeAbleToSee(java.lang.String)"
+              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 1884000000,
+=======
               "duration": 1402000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "line": 17,
-            "name": "Click on \"Twitter\"",
+            "name": "Click on \"twitter\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Twitter\"",
+                  "val": "\"twitter\"",
                   "offset": 9
                 }
               ],
@@ -190,20 +237,25 @@
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 12000000,
+              "status": "passed"
+=======
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(HomeSteps.java:79)\r\n\tat ✽.Title for each corresponding page should contain \"Twitter\"(file:///C:/Users/mder/OneDrive/Documents/Selenium/Projects/advance-systems-LiveProject/src/test/resources/features/home.feature:18)\r\n",
               "duration": 11000000,
               "status": "failed"
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
             },
             "line": 18,
-            "name": "Title for each corresponding page should contain \"Twitter\"",
+            "name": "URL is \"https://twitter.com/\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Twitter\"",
-                  "offset": 49
+                  "val": "\"https://twitter.com/\"",
+                  "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(java.lang.String)"
+              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -221,11 +273,19 @@
         ]
       },
       {
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-22T23:37:45.270Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3490000000,
+=======
         "start_timestamp": "2022-07-22T23:59:25.824Z",
         "before": [
           {
             "result": {
               "duration": 2791000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "match": {
@@ -239,6 +299,10 @@
         "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;4",
         "after": [
           {
+<<<<<<< HEAD
+            "result": {
+              "duration": 104000000,
+=======
             "output": [
               "2022-07-22 19:59:31  FAIL: Buttons displayed for social media options"
             ],
@@ -251,6 +315,7 @@
             ],
             "result": {
               "duration": 1296000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "match": {
@@ -263,33 +328,41 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 1434000000,
+=======
               "duration": 1238000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "line": 16,
-            "name": "User should be able to see \"instagram\"",
+            "name": "User is able to see \"google-plus\" icon",
             "match": {
               "arguments": [
                 {
-                  "val": "\"instagram\"",
-                  "offset": 27
+                  "val": "\"google-plus\"",
+                  "offset": 20
                 }
               ],
-              "location": "step_definitions.HomeSteps.userShouldBeAbleToSee(java.lang.String)"
+              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 3935000000,
+=======
               "duration": 1337000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "line": 17,
-            "name": "Click on \"Instagram\"",
+            "name": "Click on \"google-plus\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Instagram\"",
+                  "val": "\"google-plus\"",
                   "offset": 9
                 }
               ],
@@ -299,20 +372,25 @@
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 31000000,
+              "status": "passed"
+=======
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(HomeSteps.java:79)\r\n\tat ✽.Title for each corresponding page should contain \"Instagram\"(file:///C:/Users/mder/OneDrive/Documents/Selenium/Projects/advance-systems-LiveProject/src/test/resources/features/home.feature:18)\r\n",
               "duration": 6000000,
               "status": "failed"
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
             },
             "line": 18,
-            "name": "Title for each corresponding page should contain \"Instagram\"",
+            "name": "URL is \"https://www.google.com/\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Instagram\"",
-                  "offset": 49
+                  "val": "\"https://www.google.com/\"",
+                  "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(java.lang.String)"
+              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -330,11 +408,19 @@
         ]
       },
       {
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-22T23:37:54.281Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3778000000,
+=======
         "start_timestamp": "2022-07-22T23:59:32.503Z",
         "before": [
           {
             "result": {
               "duration": 2675000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "match": {
@@ -348,6 +434,10 @@
         "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;5",
         "after": [
           {
+<<<<<<< HEAD
+            "result": {
+              "duration": 198000000,
+=======
             "output": [
               "2022-07-22 19:59:38  FAIL: Buttons displayed for social media options"
             ],
@@ -360,6 +450,7 @@
             ],
             "result": {
               "duration": 1166000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "match": {
@@ -372,33 +463,41 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 1525000000,
+=======
               "duration": 1568000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "line": 16,
-            "name": "User should be able to see \"linkedin\"",
+            "name": "User is able to see \"linkedin\" icon",
             "match": {
               "arguments": [
                 {
                   "val": "\"linkedin\"",
-                  "offset": 27
+                  "offset": 20
                 }
               ],
-              "location": "step_definitions.HomeSteps.userShouldBeAbleToSee(java.lang.String)"
+              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 3016000000,
+=======
               "duration": 1460000000,
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
               "status": "passed"
             },
             "line": 17,
-            "name": "Click on \"LinkedIn\"",
+            "name": "Click on \"linkedin\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"LinkedIn\"",
+                  "val": "\"linkedin\"",
                   "offset": 9
                 }
               ],
@@ -408,20 +507,25 @@
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 139000000,
+              "status": "passed"
+=======
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(HomeSteps.java:79)\r\n\tat ✽.Title for each corresponding page should contain \"LinkedIn\"(file:///C:/Users/mder/OneDrive/Documents/Selenium/Projects/advance-systems-LiveProject/src/test/resources/features/home.feature:18)\r\n",
               "duration": 6000000,
               "status": "failed"
+>>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
             },
             "line": 18,
-            "name": "Title for each corresponding page should contain \"LinkedIn\"",
+            "name": "URL is \"https://www.linkedin.com/\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"LinkedIn\"",
-                  "offset": 49
+                  "val": "\"https://www.linkedin.com/\"",
+                  "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.titleForEachCorrespondingPageShouldContain(java.lang.String)"
+              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
             },
             "keyword": "Then "
           }

@@ -6,8 +6,7 @@ public interface CommonPage {
     String XPATH_TEMPLATE_LANGUAGE_BUTTON = "//li/a[@class='btn btn-default dropdown-toggle']";
     String XPATH_TEMPLATE_LANGUAGE_SELECTION = "//li/a[text()='%s']";
 
-    String XPATH_TEMPLATE_SOCIAL_MADIA_BUTTON = "(//div[@class='socail-icon-area']//a)['%s']";
-
+    String XPATH_TEMPLATE_SOCIAL_MEDIA_BUTTON = "//i[@class='fa fa-%s-square']";
 
 
 

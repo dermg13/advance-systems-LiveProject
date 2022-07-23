@@ -13,15 +13,15 @@ Feature: Homepage related scenarios
 
   @ADVSYS-9 @smoke
   Scenario Outline: Buttons displayed for social media options
-    Then User should be able to see "<social media options>"
+    Then User is able to see "<social media options>" icon
     When Click on "<social media buttons>"
-    Then Title for each corresponding page should contain "<page title>"
+    Then URL is "<url>"
     Examples:
-      | social media options | social media buttons | page title |
-      | facebook             | Facebook             | Facebook |
-      | twitter              | Twitter              | Twitter |
-      | instagram            | Instagram            | Instagram |
-      | linkedin             | LinkedIn             | LinkedIn |
+      | social media options | social media buttons | url |
+      | facebook             | facebook             | https://www.facebook.com/ |
+      | twitter              | twitter              | https://twitter.com/ |
+      | google-plus          | google-plus          | https://www.google.com/ |
+      | linkedin             | linkedin             | https://www.linkedin.com/ |
 
   @ADVSYS-4
   Scenario: Verify title of Home Page
