@@ -50,3 +50,8 @@ Feature: Homepage related scenarios
   Scenario: Parallax section button
     When User clicks on "Read More" button in parallax section
     Then User should see the "Services" page displayed
+
+  @ADVSYS-14
+  Scenario: Verify user can see company names above footer
+    Then Verify user sees company image
+
