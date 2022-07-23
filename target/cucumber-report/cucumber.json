@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-23T02:55:36.701Z",
+        "start_timestamp": "2022-07-23T03:43:55.905Z",
         "before": [
           {
             "result": {
-              "duration": 8869000000,
+              "duration": 5972000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 89000000,
+              "duration": 84000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1789000000,
+              "duration": 1712000000,
               "status": "passed"
             },
             "line": 46,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 10314000000,
+              "duration": 10189000000,
               "status": "passed"
             },
             "line": 47,
@@ -63,7 +63,84 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-10-a"
+            "name": "@ADVSYS-10"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-23T03:44:14.023Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3485000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Parallax section button",
+        "description": "",
+        "id": "homepage-related-scenarios;parallax-section-button",
+        "after": [
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5730000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User clicks on \"Read More\" button in parallax section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Read More\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_clicks_on_button_in_parallax_section(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1066000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should see the \"Services\" page displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_should_see_the_page_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-10"
           }
         ]
       }

@@ -41,12 +41,12 @@ Feature: Homepage related scenarios
     And Verify the states
     #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.
 
-  @ADVSYS-10-a
+  @ADVSYS-10
   Scenario: Parallax section content information and update
     When Information is displayed in the parallax section
     Then Header and description update automatically
 
-  @ADVSYS-10-b
+  @ADVSYS-10
   Scenario: Parallax section button
     When User clicks on "Read More" button in parallax section
     Then User should see the "Services" page displayed
