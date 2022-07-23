@@ -24,6 +24,8 @@ public class HomePage {
     @FindBy(xpath = "//div[@class='owl-item active']/div[@class='thumb-item']/div/div")
     public WebElement clientsState;
 
+    @FindBy(xpath = "//div[contains(@class,'active')]//*[contains(@alt,'company-image-')]")
+    public WebElement footerCompany;
 
 }
 
