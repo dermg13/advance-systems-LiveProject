@@ -142,9 +142,6 @@ public class HomeSteps implements CommonPage {
         public void user_should_see_the_page_displayed(String page) {
             Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(page));
         }
-    }
-<<<<<<< HEAD
-=======
     @Then("Verify user sees company image")
     public void verifyUserSeesCompanyImage() {
         WebElement imageFile = WebDriverManager.getDriver().findElement(By.xpath("//div[contains(@class,'active')]//*[contains(@alt,'company-image-1')]"));
@@ -159,4 +156,4 @@ public class HomeSteps implements CommonPage {
         }
     }
 }
->>>>>>> master
+
