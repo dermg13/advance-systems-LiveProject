@@ -80,8 +80,11 @@ public class HomeSteps implements CommonPage {
                 .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_BUTTON
                         , socialMediaBtn))).click();
     }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 35714e1095f54784bae786bc4b161a429fa8ac40
     @Then("URL is {string}")
     public void urlIs(String socialMediaUrl) {
         Assert.assertEquals(socialMediaUrl, WebDriverManager.getDriver().getCurrentUrl());
@@ -92,7 +95,10 @@ public class HomeSteps implements CommonPage {
                 .getTitle()
                 .toLowerCase()
                 .contains(socialMediaTitle));
+<<<<<<< HEAD
 
+=======
+>>>>>>> 35714e1095f54784bae786bc4b161a429fa8ac40
     }
 
     @Given("Verify the header texts")
