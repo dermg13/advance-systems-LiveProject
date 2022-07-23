@@ -33,3 +33,14 @@ Feature: Homepage related scenarios
     And Verify city, state and country is "Fairfax, VA, USA"
     And Verify phone number is "+1 234 567 1234 "
 
+  @ADVSYS-13
+  Scenario: Verify header and testimonials by peoples
+    Given Verify the header texts
+    Then Verify the testimonials
+    Then Verify the name of clients
+    And Verify the states
+    #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.
+
+  @ADVSYS-14
+  Scenario: Verify user can see company names above footer
+    Then Verify user sees company image
