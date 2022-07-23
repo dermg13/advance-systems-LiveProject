@@ -1,4 +1,0 @@
-<<<<<<< HEAD
-=======
-file:src/test/resources/features/homeNavigationBar.feature:49
->>>>>>> 17bb22d86f85d2b9928a6e4c90c890c8d7e24212

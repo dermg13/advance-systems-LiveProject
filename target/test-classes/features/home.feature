@@ -32,8 +32,6 @@ Feature: Homepage related scenarios
     Then Verify address is "10090 Main Street"
     And Verify city, state and country is "Fairfax, VA, USA"
     And Verify phone number is "+1 234 567 1234 "
-<<<<<<< HEAD
-=======
 
   @ADVSYS-13
   Scenario: Verify header and testimonials by peoples
@@ -43,19 +41,23 @@ Feature: Homepage related scenarios
     And Verify the states
     #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.
 
-<<<<<<< HEAD
-  @ADVSYS-14
-  Scenario: Verify user can see company names above footer
-    Then Verify user sees company image
-=======
   @ADVSYS-10-a
   Scenario: Parallax section content information and update
     When Information is displayed in the parallax section
     Then Header and description update automatically
->>>>>>> 17bb22d86f85d2b9928a6e4c90c890c8d7e24212
 
   @ADVSYS-10-b
   Scenario: Parallax section button
     When User clicks on "Read More" button in parallax section
     Then User should see the "Services" page displayed
->>>>>>> master
+
+  @ADVSYS-14
+  Scenario: Verify user can see company names above footer
+    Then Verify user sees company image
+
+  @ADVSYS-11
+  Scenario: Verify home page has a header,secondary header, and description text
+    Then Verify header is "Welcome to Advance Systems LLC."
+    And Verify secondary header is "Our Mission is simple, deliver very honest recruitment services to every customer."
+    And Verify description text is "Day in and day out for the last years we’ve been more than just a staffing company. Throughout this time we’ve built relationships, we’ve grown together internally and externally, and have created a system that allows us to personally cater to the needs of our clients and candidates. We’ve been a mentor for some, a team builder for others, but most importantly we’ve been there. We know there is no substitute for experience, so let us help you navigate through the ever changing web of talent. "
+
