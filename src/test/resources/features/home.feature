@@ -13,15 +13,15 @@ Feature: Homepage related scenarios
 
   @ADVSYS-9 @smoke
   Scenario Outline: Buttons displayed for social media options
-    Then User should be able to see "<social media options>"
+    Then User is able to see "<social media options>" icon
     When Click on "<social media buttons>"
-    Then Title for each corresponding page should contain "<page title>"
+    Then URL is "<url>"
     Examples:
-      | social media options | social media buttons | page title |
-      | facebook             | Facebook             | Facebook |
-      | twitter              | Twitter              | Twitter |
-      | instagram            | Instagram            | Instagram |
-      | linkedin             | LinkedIn             | LinkedIn |
+      | social media options | social media buttons | url |
+      | facebook             | facebook             | https://www.facebook.com/ |
+      | twitter              | twitter              | https://twitter.com/ |
+      | google-plus          | google-plus          | https://www.google.com/ |
+      | linkedin             | linkedin             | https://www.linkedin.com/ |
 
   @ADVSYS-4
   Scenario: Verify title of Home Page
@@ -41,6 +41,7 @@ Feature: Homepage related scenarios
     And Verify the states
     #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.
 
+<<<<<<< HEAD
   @ADVSYS-10-a
   Scenario: Parallax section content information and update
     When Information is displayed in the parallax section
@@ -50,3 +51,8 @@ Feature: Homepage related scenarios
   Scenario: Parallax section button
     When User clicks on "Read More" button in parallax section
     Then User should see the "Services" page displayed
+=======
+  @ADVSYS-14
+  Scenario: Verify user can see company names above footer
+    Then Verify user sees company image
+>>>>>>> master

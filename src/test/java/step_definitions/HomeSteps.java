@@ -6,6 +6,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import pages.CommonPage;
 import pages.HomePage;
@@ -44,6 +45,11 @@ public class HomeSteps implements CommonPage {
         Assert.assertEquals(title, WebDriverManager.getDriver().getTitle());
     }
 
+    @Then("Verify title of page is \\{string}")
+    public void verifyTitleOfPageIsString() {
+
+    }
+
     @Then("Verify address is {string}")
     public void verifyAddressIs(String address) {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, address))));
@@ -61,10 +67,10 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, number))));
     }
 
-    @Then("User should be able to see {string}")
-    public void userShouldBeAbleToSee(String socialMediaBtn) {
+    @Then("User is able to see {string} icon")
+    public void userIsAbleToSeeIcon(String socialMediaBtn) {
         Assert.assertTrue(WebDriverManager
-                .isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MADIA_BUTTON
+                .isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_BUTTON
                         , socialMediaBtn
                 ))));
     }
@@ -72,10 +78,13 @@ public class HomeSteps implements CommonPage {
     @When("Click on {string}")
     public void clickOn(String socialMediaBtn) {
         WebDriverManager.getDriver()
-                .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MADIA_BUTTON
-                        , socialMediaBtn)));
+                .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_BUTTON
+                        , socialMediaBtn))).click();
     }
-
+    @Then("URL is {string}")
+    public void urlIs(String socialMediaUrl) {
+        Assert.assertEquals(socialMediaUrl, WebDriverManager.getDriver().getCurrentUrl());
+    }
     @Then("Title for each corresponding page should contain {string}")
     public void titleForEachCorrespondingPageShouldContain(String socialMediaTitle) {
         Assert.assertTrue(WebDriverManager.getDriver()
@@ -134,3 +143,20 @@ public class HomeSteps implements CommonPage {
             Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(page));
         }
     }
+<<<<<<< HEAD
+=======
+    @Then("Verify user sees company image")
+    public void verifyUserSeesCompanyImage() {
+        WebElement imageFile = WebDriverManager.getDriver().findElement(By.xpath("//div[contains(@class,'active')]//*[contains(@alt,'company-image-1')]"));
+        Boolean ImagePresent = (Boolean) ((JavascriptExecutor)WebDriverManager.getDriver()).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", imageFile);
+        if (!ImagePresent)
+        {
+            System.out.println("Image not displayed.");
+        }
+        else
+        {
+            System.out.println("Image displayed.");
+        }
+    }
+}
+>>>>>>> master
