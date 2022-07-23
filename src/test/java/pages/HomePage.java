@@ -24,6 +24,12 @@ public class HomePage {
     @FindBy(xpath = "//div[@class='owl-item active']/div[@class='thumb-item']/div/div")
     public WebElement clientsState;
 
+    @FindBy(xpath = "(//h2[@class='white-heading'])[1]")
+    public WebElement ParallaxSectionHeaderOne;
+
+    @FindBy(xpath = "(//div[@class='tp-mask-wrap']//div[@class='text'])[1]")
+    public WebElement ParallaxSectionDescriptionOneTxt;
+
 
 }
 

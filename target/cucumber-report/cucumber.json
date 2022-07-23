@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-22T04:41:41.380Z",
+        "start_timestamp": "2022-07-23T01:49:48.955Z",
         "before": [
           {
             "result": {
-              "duration": 3012000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,13 @@
             }
           }
         ],
-        "line": 37,
-        "name": "Verify header and testimonials by peoples",
+        "line": 45,
+        "name": "Parallax section content information and update",
         "description": "",
-        "id": "homepage-related-scenarios;verify-header-and-testimonials-by-peoples",
+        "id": "homepage-related-scenarios;parallax-section-content-information-and-update",
         "after": [
           {
             "result": {
-              "duration": 734000000,
               "status": "passed"
             },
             "match": {
@@ -35,51 +34,27 @@
         "steps": [
           {
             "result": {
-              "duration": 1698000000,
+              "duration": 2000000,
               "status": "passed"
             },
-            "line": 38,
-            "name": "Verify the header texts",
+            "line": 46,
+            "name": "Information is displayed in the parallax section",
             "match": {
-              "location": "step_definitions.HomeSteps.verify_the_header_texts()"
+              "location": "step_definitions.HomeSteps.information_is_displayed_in_the_parallax_section()"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 1564000000,
+              "duration": 1000000,
               "status": "passed"
             },
-            "line": 39,
-            "name": "Verify the testimonials",
+            "line": 47,
+            "name": "Header and description update automatically",
             "match": {
-              "location": "step_definitions.HomeSteps.verify_the_testimonials()"
+              "location": "step_definitions.HomeSteps.header_and_description_update_automatically()"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1253000000,
-              "status": "passed"
-            },
-            "line": 40,
-            "name": "Verify the name of clients",
-            "match": {
-              "location": "step_definitions.HomeSteps.verify_the_name_of_testimonials()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5965000000,
-              "status": "passed"
-            },
-            "line": 41,
-            "name": "Verify the states",
-            "match": {
-              "location": "step_definitions.HomeSteps.verify_the_states()"
-            },
-            "keyword": "And "
           }
         ],
         "tags": [
@@ -87,7 +62,7 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-13"
+            "name": "@ADVSYS-10-a"
           }
         ]
       }
