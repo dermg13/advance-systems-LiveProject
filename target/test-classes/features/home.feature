@@ -40,3 +40,7 @@ Feature: Homepage related scenarios
     Then Verify the name of clients
     And Verify the states
     #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.
+
+  @ADVSYS-14
+  Scenario: Verify user can see company names above footer
+    Then Verify user sees company image
