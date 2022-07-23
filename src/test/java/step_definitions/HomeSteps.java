@@ -57,28 +57,26 @@ public class HomeSteps implements CommonPage{
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, number))));
     }
 
-    @Then("User should be able to see {string}")
-    public void userShouldBeAbleToSee(String socialMediaBtn) {
+    @Then("User is able to see {string} icon")
+    public void userIsAbleToSeeIcon(String socialMediaBtn) {
         Assert.assertTrue(WebDriverManager
-                .isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MADIA_BUTTON
+                .isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_BUTTON
                         , socialMediaBtn
-                            ))));
+                ))));
     }
 
     @When("Click on {string}")
     public void clickOn(String socialMediaBtn) {
         WebDriverManager.getDriver()
-                .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MADIA_BUTTON
+                .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_BUTTON
                         , socialMediaBtn))).click();
     }
 
-    @Then("Title for each corresponding page should contain {string}")
-    public void titleForEachCorrespondingPageShouldContain(String socialMediaTitle) {
-        Assert.assertTrue(WebDriverManager.getDriver()
-                .getTitle()
-                 .toLowerCase()
-                  .contains(socialMediaTitle));
+    @Then("URL is {string}")
+    public void urlIs(String socialMediaUrl) {
+        Assert.assertEquals(socialMediaUrl, WebDriverManager.getDriver().getCurrentUrl());
     }
+
     @Given("Verify the header texts")
     public void verify_the_header_texts() {
         WebDriverManager.getText(homePage.clientsHeader).equals(str);
@@ -98,4 +96,7 @@ public class HomeSteps implements CommonPage{
 
 
     }
+
+
+
 }
