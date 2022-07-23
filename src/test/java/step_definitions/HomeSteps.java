@@ -80,11 +80,24 @@ public class HomeSteps implements CommonPage {
                 .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_BUTTON
                         , socialMediaBtn))).click();
     }
+<<<<<<< HEAD
 
 
     @Then("URL is {string}")
     public void urlIs(String socialMediaUrl) {
         Assert.assertEquals(socialMediaUrl, WebDriverManager.getDriver().getCurrentUrl());
+=======
+    @Then("URL is {string}")
+    public void urlIs(String socialMediaUrl) {
+        Assert.assertEquals(socialMediaUrl, WebDriverManager.getDriver().getCurrentUrl());
+    }
+    @Then("Title for each corresponding page should contain {string}")
+    public void titleForEachCorrespondingPageShouldContain(String socialMediaTitle) {
+        Assert.assertTrue(WebDriverManager.getDriver()
+                .getTitle()
+                .toLowerCase()
+                .contains(socialMediaTitle));
+>>>>>>> 35714e1095f54784bae786bc4b161a429fa8ac40
     }
 
     @Given("Verify the header texts")
@@ -109,10 +122,13 @@ public class HomeSteps implements CommonPage {
 
 
     }
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 35714e1095f54784bae786bc4b161a429fa8ac40
     @Then("Verify user sees company image")
     public void verifyUserSeesCompanyImage() {
         WebElement imageFile = WebDriverManager.getDriver().findElement(By.xpath("//div[contains(@class,'active')]//*[contains(@alt,'company-image-1')]"));
@@ -126,5 +142,8 @@ public class HomeSteps implements CommonPage {
             System.out.println("Image displayed.");
         }
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 35714e1095f54784bae786bc4b161a429fa8ac40
 }
