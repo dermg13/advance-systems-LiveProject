@@ -116,7 +116,6 @@ public class HomeSteps implements CommonPage {
 
     }
 
-
     @When("Information is displayed in the parallax section")
     public void information_is_displayed_in_the_parallax_section() {
         Assert.assertTrue(WebDriverManager.isDisplayed(homePage.ParallaxSectionHeaderOne));
@@ -126,17 +125,13 @@ public class HomeSteps implements CommonPage {
     public void header_and_description_update_automatically() {
         SeleniumUtils.waitForElementVisibility(homePage.ParallaxSectionHeaderOne);
         String descriptionTxtOne = homePage.ParallaxSectionDescriptionOneTxt.getText();
- //       for (int i = 0; i < 16000; i++) {
-            if (descriptionTxtOne.equals(homePage.ParallaxSectionDescriptionOneTxt.getText()) && homePage.ParallaxSectionHeaderOne.isDisplayed()) {
-                SeleniumUtils.sleep(10000L);
-                Assert.assertTrue(homePage.ParallaxSectionHeaderOne.isDisplayed());
-            } else {
-                Assert.fail("Parallax two is displayed");
-            }
- //           i += 1000;
+        if (descriptionTxtOne.equals(homePage.ParallaxSectionDescriptionOneTxt.getText()) && homePage.ParallaxSectionHeaderOne.isDisplayed()) {
+            SeleniumUtils.sleep(10000L);
+            Assert.assertTrue(homePage.ParallaxSectionHeaderOne.isDisplayed());
+        } else {
+            Assert.fail("Parallax two is displayed");
         }
-<<<<<<< HEAD
-  //  }
+    }
         @When("User clicks on {string} button in parallax section")
         public void user_clicks_on_button_in_parallax_section(String ReadMorebtn) {
             WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_LINKTEXT, ReadMorebtn)));
@@ -145,20 +140,6 @@ public class HomeSteps implements CommonPage {
         public void user_should_see_the_page_displayed(String page) {
             Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(page));
         }
-
-=======
-    }
-
-    @When("User clicks on {string} button in parallax section")
-    public void user_clicks_on_button_in_parallax_section(String ReadMorebtn) {
-        WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_LINKTEXT, ReadMorebtn)));
-    }
-
-    @Then("User should see the {string} page displayed")
-    public void user_should_see_the_page_displayed(String page) {
-        Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(page));
-    }
->>>>>>> master
 
     @Then("Verify user sees company image")
     public void verifyUserSeesCompanyImage() {
@@ -171,4 +152,3 @@ public class HomeSteps implements CommonPage {
         }
     }
 }
-
