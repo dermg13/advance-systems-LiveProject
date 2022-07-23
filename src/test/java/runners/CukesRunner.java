@@ -9,14 +9,18 @@ import org.junit.runner.RunWith;
         plugin = {"pretty",
                 "html:target/report.html",
                 "json:target/cucumber-report/cucumber.json",
-        "rerun:target/rerun.txt"},
+                "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
         glue = {"step_definitions"},
         stepNotifications = true,
         dryRun = false,
+<<<<<<< HEAD
         tags = "@ADVSYS-10"
 
 
+=======
+        tags = "@homeScenarios"
+>>>>>>> master
 )
 public class CukesRunner {
 
