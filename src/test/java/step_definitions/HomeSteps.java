@@ -80,31 +80,23 @@ public class HomeSteps implements CommonPage {
                 .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_BUTTON
                         , socialMediaBtn))).click();
     }
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 35714e1095f54784bae786bc4b161a429fa8ac40
     @Then("URL is {string}")
     public void urlIs(String socialMediaUrl) {
         Assert.assertEquals(socialMediaUrl, WebDriverManager.getDriver().getCurrentUrl());
     }
+
     @Then("Title for each corresponding page should contain {string}")
     public void titleForEachCorrespondingPageShouldContain(String socialMediaTitle) {
         Assert.assertTrue(WebDriverManager.getDriver()
                 .getTitle()
                 .toLowerCase()
                 .contains(socialMediaTitle));
-<<<<<<< HEAD
-
-=======
->>>>>>> 35714e1095f54784bae786bc4b161a429fa8ac40
     }
 
     @Given("Verify the header texts")
     public void verify_the_header_texts() {
         WebDriverManager.getText(homePage.clientsHeader).equals(str);
-
     }
 
     @Then("Verify the testimonials")
@@ -122,16 +114,14 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue((WebDriverManager.isDisplayed(homePage.clientsState)));
 
     }
+
     @Then("Verify user sees company image")
     public void verifyUserSeesCompanyImage() {
         WebElement imageFile = WebDriverManager.getDriver().findElement(By.xpath("//div[contains(@class,'active')]//*[contains(@alt,'company-image-1')]"));
-        Boolean ImagePresent = (Boolean) ((JavascriptExecutor)WebDriverManager.getDriver()).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", imageFile);
-        if (!ImagePresent)
-        {
+        Boolean ImagePresent = (Boolean) ((JavascriptExecutor) WebDriverManager.getDriver()).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", imageFile);
+        if (!ImagePresent) {
             System.out.println("Image not displayed.");
-        }
-        else
-        {
+        } else {
             System.out.println("Image displayed.");
         }
     }
