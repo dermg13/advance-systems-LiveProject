@@ -81,10 +81,12 @@ public class HomeSteps implements CommonPage {
                 .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_BUTTON
                         , socialMediaBtn))).click();
     }
+
     @Then("URL is {string}")
     public void urlIs(String socialMediaUrl) {
         Assert.assertEquals(socialMediaUrl, WebDriverManager.getDriver().getCurrentUrl());
     }
+
     @Then("Title for each corresponding page should contain {string}")
     public void titleForEachCorrespondingPageShouldContain(String socialMediaTitle) {
         Assert.assertTrue(WebDriverManager.getDriver()
@@ -96,7 +98,6 @@ public class HomeSteps implements CommonPage {
     @Given("Verify the header texts")
     public void verify_the_header_texts() {
         WebDriverManager.getText(homePage.clientsHeader).equals(str);
-
     }
 
     @Then("Verify the testimonials")
@@ -114,6 +115,7 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue((WebDriverManager.isDisplayed(homePage.clientsState)));
 
     }
+
 
     @When("Information is displayed in the parallax section")
     public void information_is_displayed_in_the_parallax_section() {
@@ -134,29 +136,26 @@ public class HomeSteps implements CommonPage {
             i += 1000;
         }
     }
-        @When("User clicks on {string} button in parallax section")
-        public void user_clicks_on_button_in_parallax_section(String ReadMorebtn) {
-            WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_LINKTEXT, ReadMorebtn)));
-        }
-        @Then("User should see the {string} page displayed")
-        public void user_should_see_the_page_displayed(String page) {
-            Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(page));
-        }
+
+    @When("User clicks on {string} button in parallax section")
+    public void user_clicks_on_button_in_parallax_section(String ReadMorebtn) {
+        WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_LINKTEXT, ReadMorebtn)));
     }
-<<<<<<< HEAD
-=======
+
+    @Then("User should see the {string} page displayed")
+    public void user_should_see_the_page_displayed(String page) {
+        Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(page));
+    }
+
     @Then("Verify user sees company image")
     public void verifyUserSeesCompanyImage() {
         WebElement imageFile = WebDriverManager.getDriver().findElement(By.xpath("//div[contains(@class,'active')]//*[contains(@alt,'company-image-1')]"));
-        Boolean ImagePresent = (Boolean) ((JavascriptExecutor)WebDriverManager.getDriver()).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", imageFile);
-        if (!ImagePresent)
-        {
+        Boolean ImagePresent = (Boolean) ((JavascriptExecutor) WebDriverManager.getDriver()).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", imageFile);
+        if (!ImagePresent) {
             System.out.println("Image not displayed.");
-        }
-        else
-        {
+        } else {
             System.out.println("Image displayed.");
         }
     }
 }
->>>>>>> master
+

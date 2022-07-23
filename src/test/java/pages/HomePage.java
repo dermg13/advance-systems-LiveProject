@@ -24,17 +24,14 @@ public class HomePage {
     @FindBy(xpath = "//div[@class='owl-item active']/div[@class='thumb-item']/div/div")
     public WebElement clientsState;
 
-<<<<<<< HEAD
     @FindBy(xpath = "(//h2[@class='white-heading'])[1]")
     public WebElement ParallaxSectionHeaderOne;
 
     @FindBy(xpath = "(//div[@class='tp-mask-wrap']//div[@class='text'])[1]")
     public WebElement ParallaxSectionDescriptionOneTxt;
 
-=======
     @FindBy(xpath = "//div[contains(@class,'active')]//*[contains(@alt,'company-image-')]")
     public WebElement footerCompanies;
->>>>>>> master
 
 }
 
