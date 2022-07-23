@@ -4,6 +4,13 @@
     "elements": [
       {
 <<<<<<< HEAD
+        "start_timestamp": "2022-07-23T01:49:48.955Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+=======
+<<<<<<< HEAD
         "start_timestamp": "2022-07-22T23:37:22.020Z",
         "before": [
           {
@@ -286,6 +293,7 @@
             "result": {
               "duration": 2791000000,
 >>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
+>>>>>>> master
               "status": "passed"
             },
             "match": {
@@ -293,10 +301,17 @@
             }
           }
         ],
+<<<<<<< HEAD
+        "line": 45,
+        "name": "Parallax section content information and update",
+        "description": "",
+        "id": "homepage-related-scenarios;parallax-section-content-information-and-update",
+=======
         "line": 23,
         "name": "Buttons displayed for social media options",
         "description": "",
         "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;4",
+>>>>>>> master
         "after": [
           {
 <<<<<<< HEAD
@@ -314,8 +329,11 @@
               }
             ],
             "result": {
+<<<<<<< HEAD
+=======
               "duration": 1296000000,
 >>>>>>> 7a697b88664817ac900415b6da3311f441ec440a
+>>>>>>> master
               "status": "passed"
             },
             "match": {
@@ -328,6 +346,29 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Information is displayed in the parallax section",
+            "match": {
+              "location": "step_definitions.HomeSteps.information_is_displayed_in_the_parallax_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Header and description update automatically",
+            "match": {
+              "location": "step_definitions.HomeSteps.header_and_description_update_automatically()"
+            },
+            "keyword": "Then "
+=======
 <<<<<<< HEAD
               "duration": 1434000000,
 =======
@@ -528,6 +569,7 @@
               "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
             },
             "keyword": "Then "
+>>>>>>> master
           }
         ],
         "tags": [
@@ -535,10 +577,14 @@
             "name": "@homeScenarios"
           },
           {
+<<<<<<< HEAD
+            "name": "@ADVSYS-10-a"
+=======
             "name": "@ADVSYS-9"
           },
           {
             "name": "@smoke"
+>>>>>>> master
           }
         ]
       }

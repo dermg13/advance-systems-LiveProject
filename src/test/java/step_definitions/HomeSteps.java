@@ -10,6 +10,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import pages.CommonPage;
 import pages.HomePage;
+import utils.SeleniumUtils;
 import utils.WebDriverManager;
 
 import java.util.List;
@@ -112,8 +113,38 @@ public class HomeSteps implements CommonPage {
     public void verify_the_states() {
         Assert.assertTrue((WebDriverManager.isDisplayed(homePage.clientsState)));
 
-
     }
+
+    @When("Information is displayed in the parallax section")
+    public void information_is_displayed_in_the_parallax_section() {
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.ParallaxSectionHeaderOne));
+    }
+
+    @Then("Header and description update automatically")
+    public void header_and_description_update_automatically() {
+        SeleniumUtils.waitForElementVisibility(homePage.ParallaxSectionHeaderOne);
+        String descriptionTxtOne = homePage.ParallaxSectionDescriptionOneTxt.getText();
+        for (int i = 0; i < 16000; i++) {
+            if (descriptionTxtOne.equals(homePage.ParallaxSectionDescriptionOneTxt.getText()) && homePage.ParallaxSectionHeaderOne.isDisplayed()) {
+                SeleniumUtils.sleep(1000L);
+                Assert.assertTrue(homePage.ParallaxSectionHeaderOne.isDisplayed());
+            } else {
+                Assert.fail("Parallax two is displayed");
+            }
+            i += 1000;
+        }
+    }
+        @When("User clicks on {string} button in parallax section")
+        public void user_clicks_on_button_in_parallax_section(String ReadMorebtn) {
+            WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_LINKTEXT, ReadMorebtn)));
+        }
+        @Then("User should see the {string} page displayed")
+        public void user_should_see_the_page_displayed(String page) {
+            Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(page));
+        }
+    }
+<<<<<<< HEAD
+=======
     @Then("Verify user sees company image")
     public void verifyUserSeesCompanyImage() {
         WebElement imageFile = WebDriverManager.getDriver().findElement(By.xpath("//div[contains(@class,'active')]//*[contains(@alt,'company-image-1')]"));
@@ -128,3 +159,4 @@ public class HomeSteps implements CommonPage {
         }
     }
 }
+>>>>>>> master
