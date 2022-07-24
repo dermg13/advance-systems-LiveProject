@@ -10,6 +10,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import pages.CommonPage;
 import pages.HomePage;
+import utils.SeleniumUtils;
 import utils.WebDriverManager;
 
 import java.util.List;
@@ -44,7 +45,7 @@ public class HomeSteps implements CommonPage {
         Assert.assertEquals(title, WebDriverManager.getDriver().getTitle());
     }
 
-    @Then("Verify title of page is {string}")
+    @Then("Verify title of page is \\{string}")
     public void verifyTitleOfPageIsString() {
 
     }
@@ -81,17 +82,22 @@ public class HomeSteps implements CommonPage {
                         , socialMediaBtn))).click();
     }
 
-
-
     @Then("URL is {string}")
     public void urlIs(String socialMediaUrl) {
         Assert.assertEquals(socialMediaUrl, WebDriverManager.getDriver().getCurrentUrl());
     }
 
+    @Then("Title for each corresponding page should contain {string}")
+    public void titleForEachCorrespondingPageShouldContain(String socialMediaTitle) {
+        Assert.assertTrue(WebDriverManager.getDriver()
+                .getTitle()
+                .toLowerCase()
+                .contains(socialMediaTitle));
+    }
+
     @Given("Verify the header texts")
     public void verify_the_header_texts() {
         WebDriverManager.getText(homePage.clientsHeader).equals(str);
-
     }
 
     @Then("Verify the testimonials")
@@ -108,19 +114,40 @@ public class HomeSteps implements CommonPage {
     public void verify_the_states() {
         Assert.assertTrue((WebDriverManager.isDisplayed(homePage.clientsState)));
 
-
     }
+
+    @When("Information is displayed in the parallax section")
+    public void information_is_displayed_in_the_parallax_section() {
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.ParallaxSectionHeaderOne));
+    }
+
+    @Then("Header and description update automatically")
+    public void header_and_description_update_automatically() {
+        SeleniumUtils.waitForElementVisibility(homePage.ParallaxSectionHeaderOne);
+        String descriptionTxtOne = homePage.ParallaxSectionDescriptionOneTxt.getText();
+        if (descriptionTxtOne.equals(homePage.ParallaxSectionDescriptionOneTxt.getText()) && homePage.ParallaxSectionHeaderOne.isDisplayed()) {
+            SeleniumUtils.sleep(10000L);
+            Assert.assertTrue(homePage.ParallaxSectionHeaderOne.isDisplayed());
+        } else {
+            Assert.fail("Parallax two is displayed");
+        }
+    }
+        @When("User clicks on {string} button in parallax section")
+        public void user_clicks_on_button_in_parallax_section(String ReadMorebtn) {
+            WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_LINKTEXT, ReadMorebtn)));
+        }
+        @Then("User should see the {string} page displayed")
+        public void user_should_see_the_page_displayed(String page) {
+            Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(page));
+        }
 
     @Then("Verify user sees company image")
     public void verifyUserSeesCompanyImage() {
         WebElement imageFile = WebDriverManager.getDriver().findElement(By.xpath("//div[contains(@class,'active')]//*[contains(@alt,'company-image-1')]"));
-        Boolean ImagePresent = (Boolean) ((JavascriptExecutor)WebDriverManager.getDriver()).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", imageFile);
-        if (!ImagePresent)
-        {
+        Boolean ImagePresent = (Boolean) ((JavascriptExecutor) WebDriverManager.getDriver()).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", imageFile);
+        if (!ImagePresent) {
             System.out.println("Image not displayed.");
-        }
-        else
-        {
+        } else {
             System.out.println("Image displayed.");
         }
     }
