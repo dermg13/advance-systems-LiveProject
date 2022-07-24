@@ -42,6 +42,8 @@ Feature: Homepage related scenarios
     #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.
 
 
+
+
   @ADVSYS-10-a
 
   @ADVSYS-10
@@ -60,10 +62,12 @@ Feature: Homepage related scenarios
     Then Verify user sees company image
 
 
+
   @ADVSYS-11
   Scenario: Verify home page has a header,secondary header, and description text
     Then Verify header is "Welcome to Advance Systems LLC."
     And Verify secondary header is "Our Mission is simple, deliver very honest recruitment services to every customer."
     And Verify description text is "Day in and day out for the last years we’ve been more than just a staffing company. Throughout this time we’ve built relationships, we’ve grown together internally and externally, and have created a system that allows us to personally cater to the needs of our clients and candidates. We’ve been a mentor for some, a team builder for others, but most importantly we’ve been there. We know there is no substitute for experience, so let us help you navigate through the ever changing web of talent. "
+
 
 
