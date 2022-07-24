@@ -1,0 +1,4 @@
+<<<<<<< HEAD
+=======
+file:src/test/resources/features/home.feature:50
+>>>>>>> d0d1aa9e3a9ab87bc925b64865dd286abf97dcbe
