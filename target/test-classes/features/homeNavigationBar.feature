@@ -77,3 +77,25 @@ Feature: Navigation Bar related scenarios
     Then Verify Language English buttons is displayed
     Then Verify Language Spanish buttons is displayed
     Then Verify Language French buttons is displayed
+
+  @ADVSYS-5test
+  Scenario Outline: Navigation Bar
+    When User is click 0n "<Home>" navigation bar
+    Then Verify "<Get Support>" is displayed
+    When Click on English button for language Selection
+    Then Verify "<English>" Selection is displayed
+    Examples:
+     | Home    | Get Support |  English  |
+     | About Us| Job Career  |  Spanish  |
+     | Services | Feedback    |  French   |
+   @ADVSYS-5test
+  Scenario Outline: Navigation Bar
+    When User is click 0n "<Clients>" navigation bar
+    Then Verify "<Get Support>" is displayed
+    When Click on English button for language Selection
+    Then Verify "<English>" Selection is displayed
+    Examples:
+      | Clients    | Get Support |  English  |
+      | Solutions  | Job Career  |  Spanish  |
+      | Join Us    | Feedback    |  French   |
+      | Contact Us | Feedback    |  French   |

@@ -41,11 +41,6 @@ Feature: Homepage related scenarios
     And Verify the states
     #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.
 
-<<<<<<< HEAD
-  @ADVSYS-14
-  Scenario: Verify user can see company names above footer
-    Then Verify user sees company image
-=======
   @ADVSYS-10-a
   Scenario: Parallax section content information and update
     When Information is displayed in the parallax section
@@ -55,4 +50,6 @@ Feature: Homepage related scenarios
   Scenario: Parallax section button
     When User clicks on "Read More" button in parallax section
     Then User should see the "Services" page displayed
->>>>>>> master
+  @ADVSYS-14
+  Scenario: Verify user can see company names above footer
+    Then Verify user sees company image
