@@ -143,13 +143,9 @@ public class HomeSteps implements CommonPage {
 
 
     @Then("Verify user sees company image")
-    public void verifyUserSeesCompanyImage() {
-        WebElement imageFile = WebDriverManager.getDriver().findElement(By.xpath("//div[contains(@class,'active')]//*[contains(@alt,'company-image-1')]"));
-        Boolean ImagePresent = (Boolean) ((JavascriptExecutor) WebDriverManager.getDriver()).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", imageFile);
-        if (!ImagePresent) {
-            System.out.println("Image not displayed.");
-        } else {
-            System.out.println("Image displayed.");
+    public void verifyUserSeesCompanyImage(List<WebElement> data) {
+        for (WebElement each: data) {
+            Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(String.valueOf(homePage.footerCompanies),each))));
         }
     }
 
