@@ -151,7 +151,7 @@ public class HomeSteps implements CommonPage {
             System.out.println("Image displayed.");
         }
     }
-<<<<<<< HEAD
+
 
     @Then("Verify header is {string}")
     public void verifyHeaderIs(String header) {
@@ -169,6 +169,5 @@ public class HomeSteps implements CommonPage {
     }
 }
 
-=======
-}
->>>>>>> d0d1aa9e3a9ab87bc925b64865dd286abf97dcbe
+
+
