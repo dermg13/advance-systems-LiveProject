@@ -10,11 +10,6 @@ public interface CommonPage {
     String XPATH_TEMPLATE_SOCIAL_MEDIA_BUTTON = "//i[@class='fa fa-%s-square']";
 
 
-
-
-
-
-
     String XPATH_TEMPLATE_BUTTON = "//button[text()='%s']";
     String XPATH_TEMPLATE_LINKTEXT = "//a[text()='%s']";
     String XPATH_TEMPLATE_TEXT = "//*[text()='%s']";
