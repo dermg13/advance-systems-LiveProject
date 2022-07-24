@@ -141,6 +141,7 @@ public class HomeSteps implements CommonPage {
             Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(page));
         }
 
+
     @Then("Verify user sees company image")
     public void verifyUserSeesCompanyImage() {
         WebElement imageFile = WebDriverManager.getDriver().findElement(By.xpath("//div[contains(@class,'active')]//*[contains(@alt,'company-image-1')]"));
@@ -168,6 +169,7 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, descriptionText))));
     }
 }
+
 
 
 

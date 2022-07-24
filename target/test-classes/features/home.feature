@@ -42,7 +42,16 @@ Feature: Homepage related scenarios
     #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.
 
 
+<<<<<<< HEAD
   @ADVSYS-10
+=======
+
+
+  @ADVSYS-10-a
+
+  @ADVSYS-10
+
+>>>>>>> a0186be7f7a8eebabf2c8a676d1606296c5ff4a8
   Scenario: Parallax section content information and update
     When Information is displayed in the parallax section
     Then Header and description update automatically
@@ -58,6 +67,10 @@ Feature: Homepage related scenarios
     Then Verify user sees company image
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a0186be7f7a8eebabf2c8a676d1606296c5ff4a8
   @ADVSYS-11
   Scenario: Verify home page has a header,secondary header, and description text
     Then Verify header is "Welcome to Advance Systems LLC."
