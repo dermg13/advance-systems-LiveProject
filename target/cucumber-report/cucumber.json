@@ -3,11 +3,19 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-23T19:10:12.791Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10719000000,
+=======
         "start_timestamp": "2022-07-23T04:34:23.087Z",
         "before": [
           {
             "result": {
               "duration": 7837000000,
+>>>>>>> d0d1aa9e3a9ab87bc925b64865dd286abf97dcbe
               "status": "passed"
             },
             "match": {
@@ -15,6 +23,16 @@
             }
           }
         ],
+<<<<<<< HEAD
+        "line": 59,
+        "name": "Verify home page has a header,secondary header, and description text",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-home-page-has-a-header-secondary-header--and-description-text",
+        "after": [
+          {
+            "result": {
+              "duration": 194000000,
+=======
         "line": 45,
         "name": "Parallax section content information and update",
         "description": "",
@@ -23,6 +41,7 @@
           {
             "result": {
               "duration": 84000000,
+>>>>>>> d0d1aa9e3a9ab87bc925b64865dd286abf97dcbe
               "status": "passed"
             },
             "match": {
@@ -35,6 +54,59 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 1461000000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Verify header is \"Welcome to Advance Systems LLC.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome to Advance Systems LLC.\"",
+                  "offset": 17
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyHeaderIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1246000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Verify secondary header is \"Our Mission is simple, deliver very honest recruitment services to every customer.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Our Mission is simple, deliver very honest recruitment services to every customer.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifySecondaryHeaderIs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1839000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Verify description text is \"Day in and day out for the last years we’ve been more than just a staffing company. Throughout this time we’ve built relationships, we’ve grown together internally and externally, and have created a system that allows us to personally cater to the needs of our clients and candidates. We’ve been a mentor for some, a team builder for others, but most importantly we’ve been there. We know there is no substitute for experience, so let us help you navigate through the ever changing web of talent. \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Day in and day out for the last years we’ve been more than just a staffing company. Throughout this time we’ve built relationships, we’ve grown together internally and externally, and have created a system that allows us to personally cater to the needs of our clients and candidates. We’ve been a mentor for some, a team builder for others, but most importantly we’ve been there. We know there is no substitute for experience, so let us help you navigate through the ever changing web of talent. \"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyDescriptionTextIs(java.lang.String)"
+            },
+            "keyword": "And "
+=======
               "duration": 1591000000,
               "status": "passed"
             },
@@ -144,6 +216,7 @@
               "location": "step_definitions.HomeSteps.user_should_see_the_page_displayed(java.lang.String)"
             },
             "keyword": "Then "
+>>>>>>> d0d1aa9e3a9ab87bc925b64865dd286abf97dcbe
           }
         ],
         "tags": [
@@ -151,7 +224,11 @@
             "name": "@homeScenarios"
           },
           {
+<<<<<<< HEAD
+            "name": "@ADVSYS-11"
+=======
             "name": "@ADVSYS-10"
+>>>>>>> d0d1aa9e3a9ab87bc925b64865dd286abf97dcbe
           }
         ]
       }

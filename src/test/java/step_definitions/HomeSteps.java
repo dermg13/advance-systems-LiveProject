@@ -151,4 +151,23 @@ public class HomeSteps implements CommonPage {
             System.out.println("Image displayed.");
         }
     }
+
+
+    @Then("Verify header is {string}")
+    public void verifyHeaderIs(String header) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, header))));
+    }
+
+    @And("Verify secondary header is {string}")
+    public void verifySecondaryHeaderIs(String secondaryHeader) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, secondaryHeader))));
+    }
+
+    @And("Verify description text is {string}")
+    public void verifyDescriptionTextIs(String descriptionText) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, descriptionText))));
+    }
 }
+
+
+
