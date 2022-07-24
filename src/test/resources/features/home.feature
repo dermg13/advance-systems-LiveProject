@@ -41,14 +41,8 @@ Feature: Homepage related scenarios
     And Verify the states
     #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 37d33ce7d9b062f4369a716f315366c9154ce41e
-  @ADVSYS-10-a
 
   @ADVSYS-10
-
   Scenario: Parallax section content information and update
     When Information is displayed in the parallax section
     Then Header and description update automatically
@@ -57,11 +51,7 @@ Feature: Homepage related scenarios
   Scenario: Parallax section button
     When User clicks on "Read More" button in parallax section
     Then User should see the "Services" page displayed
-<<<<<<< HEAD
-  @ADVSYS-14
-  Scenario: Verify user can see company names above footer
-    Then Verify user sees company image
-=======
+
 
   @ADVSYS-14
   Scenario: Verify user can see company names above footer
@@ -75,4 +65,4 @@ Feature: Homepage related scenarios
     And Verify description text is "Day in and day out for the last years we’ve been more than just a staffing company. Throughout this time we’ve built relationships, we’ve grown together internally and externally, and have created a system that allows us to personally cater to the needs of our clients and candidates. We’ve been a mentor for some, a team builder for others, but most importantly we’ve been there. We know there is no substitute for experience, so let us help you navigate through the ever changing web of talent. "
 
 
->>>>>>> 37d33ce7d9b062f4369a716f315366c9154ce41e
+

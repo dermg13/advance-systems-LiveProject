@@ -1,8 +1,1 @@
-<<<<<<< HEAD
-file:src/test/resources/features/homeNavigationBar.feature:89:90:99:100:101
-=======
-<<<<<<< HEAD
-=======
-file:src/test/resources/features/home.feature:50
->>>>>>> d0d1aa9e3a9ab87bc925b64865dd286abf97dcbe
->>>>>>> 37d33ce7d9b062f4369a716f315366c9154ce41e
+file:src/test/resources/features/homeNavigationBar.feature:16:38:49:71
