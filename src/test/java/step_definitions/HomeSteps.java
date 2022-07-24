@@ -81,10 +81,12 @@ public class HomeSteps implements CommonPage {
                 .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_BUTTON
                         , socialMediaBtn))).click();
     }
+
     @Then("URL is {string}")
     public void urlIs(String socialMediaUrl) {
         Assert.assertEquals(socialMediaUrl, WebDriverManager.getDriver().getCurrentUrl());
     }
+
     @Then("Title for each corresponding page should contain {string}")
     public void titleForEachCorrespondingPageShouldContain(String socialMediaTitle) {
         Assert.assertTrue(WebDriverManager.getDriver()
@@ -96,7 +98,6 @@ public class HomeSteps implements CommonPage {
     @Given("Verify the header texts")
     public void verify_the_header_texts() {
         WebDriverManager.getText(homePage.clientsHeader).equals(str);
-
     }
 
     @Then("Verify the testimonials")
@@ -124,14 +125,11 @@ public class HomeSteps implements CommonPage {
     public void header_and_description_update_automatically() {
         SeleniumUtils.waitForElementVisibility(homePage.ParallaxSectionHeaderOne);
         String descriptionTxtOne = homePage.ParallaxSectionDescriptionOneTxt.getText();
-        for (int i = 0; i < 16000; i++) {
-            if (descriptionTxtOne.equals(homePage.ParallaxSectionDescriptionOneTxt.getText()) && homePage.ParallaxSectionHeaderOne.isDisplayed()) {
-                SeleniumUtils.sleep(1000L);
-                Assert.assertTrue(homePage.ParallaxSectionHeaderOne.isDisplayed());
-            } else {
-                Assert.fail("Parallax two is displayed");
-            }
-            i += 1000;
+        if (descriptionTxtOne.equals(homePage.ParallaxSectionDescriptionOneTxt.getText()) && homePage.ParallaxSectionHeaderOne.isDisplayed()) {
+            SeleniumUtils.sleep(10000L);
+            Assert.assertTrue(homePage.ParallaxSectionHeaderOne.isDisplayed());
+        } else {
+            Assert.fail("Parallax two is displayed");
         }
     }
         @When("User clicks on {string} button in parallax section")
@@ -142,18 +140,36 @@ public class HomeSteps implements CommonPage {
         public void user_should_see_the_page_displayed(String page) {
             Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(page));
         }
+
+
     @Then("Verify user sees company image")
     public void verifyUserSeesCompanyImage() {
         WebElement imageFile = WebDriverManager.getDriver().findElement(By.xpath("//div[contains(@class,'active')]//*[contains(@alt,'company-image-1')]"));
-        Boolean ImagePresent = (Boolean) ((JavascriptExecutor)WebDriverManager.getDriver()).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", imageFile);
-        if (!ImagePresent)
-        {
+        Boolean ImagePresent = (Boolean) ((JavascriptExecutor) WebDriverManager.getDriver()).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", imageFile);
+        if (!ImagePresent) {
             System.out.println("Image not displayed.");
-        }
-        else
-        {
+        } else {
             System.out.println("Image displayed.");
         }
     }
+
+
+    @Then("Verify header is {string}")
+    public void verifyHeaderIs(String header) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, header))));
+    }
+
+    @And("Verify secondary header is {string}")
+    public void verifySecondaryHeaderIs(String secondaryHeader) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, secondaryHeader))));
+    }
+
+    @And("Verify description text is {string}")
+    public void verifyDescriptionTextIs(String descriptionText) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, descriptionText))));
+    }
 }
+
+
+
 

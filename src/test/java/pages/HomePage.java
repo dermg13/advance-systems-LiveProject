@@ -31,7 +31,9 @@ public class HomePage {
     public WebElement ParallaxSectionDescriptionOneTxt;
 
 
+
     @FindBy(xpath = "//div[contains(@class,'active')]//*[contains(@alt,'company-image-')]")
     public WebElement footerCompanies;
+
 }
 
