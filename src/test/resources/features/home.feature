@@ -87,4 +87,3 @@ Feature: Homepage related scenarios
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
 
 ################################################################################
-
