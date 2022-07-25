@@ -30,8 +30,16 @@ public class HomePage {
     @FindBy(xpath = "(//div[@class='tp-mask-wrap']//div[@class='text'])[1]")
     public WebElement ParallaxSectionDescriptionOneTxt;
 
+
+
     @FindBy(xpath = "//div[contains(@class,'active')]//*[contains(@alt,'company-image-')]")
     public WebElement footerCompanies;
+
+    @FindBy(xpath = "//div[@class='flex-box']//h3")
+    public WebElement expectSection;
+
+    @FindBy(xpath = "//div[@class='flex-box']/div/div/div[contains(@class, 'text')]")
+    public List<WebElement> description;
 
 }
 
