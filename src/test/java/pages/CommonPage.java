@@ -15,5 +15,4 @@ public interface CommonPage {
     String XPATH_TEMPLATE_INPUT_FIELD = "//input[@placeholder='%s']";
 
 
-
 }
