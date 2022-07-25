@@ -174,9 +174,10 @@ public class HomeSteps implements CommonPage {
     }
 
     @Then("Verify descriptions under expect sections is displayed")
-    public void verify_descriptions_under_expect_sections_are_displayed() {
+    public void verify_descriptions_under_expect_sections_is_displayed() {
         for (WebElement desc : homePage.description) {
             Assert.assertTrue(WebDriverManager.isDisplayed(desc));
+                //System.out.println(WebDriverManager.getText(desc));
         }
     }
 
