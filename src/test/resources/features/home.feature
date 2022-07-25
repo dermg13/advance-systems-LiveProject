@@ -77,3 +77,8 @@ Feature: Homepage related scenarios
       | Employee & Employer Relations |
       | Excellent Customer Service    |
 
+    ################################################################################
+    @ADVSYS-20
+    Scenario: Verify Copyright text is updated
+      Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
+      ##########################################################################################
