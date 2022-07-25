@@ -169,10 +169,12 @@ public class HomeSteps implements CommonPage {
     public void verity_are_displayed_as_a_header(String section) {
         Assert.assertTrue(WebDriverManager.isDisplayed(homePage.expectSection));
     }
-    @Then("Verify descriptions under expect sections is displayed")
-    public void verify_descriptions_under_expect_sections_are_displayed() {
-        for (WebElement desc : homePage.description) {
-            Assert.assertTrue(WebDriverManager.isDisplayed(desc));
+
+    @Then("And Verify descriptions under expect sections is displayed")
+    public void and_verify_descriptions_under_expect_sections_is_displayed() {
+            for (WebElement desc : homePage.description) {
+                Assert.assertTrue(WebDriverManager.isDisplayed(desc));
+                //System.out.println(WebDriverManager.getText(desc));
         }
     }
 }

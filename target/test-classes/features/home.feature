@@ -66,9 +66,8 @@ Feature: Homepage related scenarios
 
 #############################################################################
   @ADVSYS-12
-  Scenario Outline: Verify expect sections are displayed as a header and descriptions under it
+  Scenario Outline: Verify expect sections are displayed as a header
     Then Verity "<expect sections>" is displayed as a header
-    And Verify descriptions under expect sections is displayed
     Examples:
       | expect sections               |
       | Leadership Development        |
@@ -77,3 +76,6 @@ Feature: Homepage related scenarios
       | Employee & Employer Relations |
       | Excellent Customer Service    |
 
+  @ADVSYS-12
+  Scenario: Verify descriptions under expect sections is displayed
+    Then And Verify descriptions under expect sections is displayed
