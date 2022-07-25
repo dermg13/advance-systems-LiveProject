@@ -132,20 +132,23 @@ public class HomeSteps implements CommonPage {
             Assert.fail("Parallax two is displayed");
         }
     }
-        @When("User clicks on {string} button in parallax section")
-        public void user_clicks_on_button_in_parallax_section(String ReadMorebtn) {
-            WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_LINKTEXT, ReadMorebtn)));
-        }
-        @Then("User should see the {string} page displayed")
-        public void user_should_see_the_page_displayed(String page) {
-            Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(page));
-        }
+
+    @When("User clicks on {string} button in parallax section")
+    public void user_clicks_on_button_in_parallax_section(String ReadMorebtn) {
+        WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_LINKTEXT, ReadMorebtn)));
+    }
+
+    @Then("User should see the {string} page displayed")
+    public void user_should_see_the_page_displayed(String page) {
+        Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(page));
+    }
 
 
     @Then("Verify user sees company image")
-    public void verifyUserSeesCompanyImage(List<WebElement> data) {
-        for (WebElement each: data) {
-            Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(String.valueOf(homePage.footerCompanies),each))));
+    public void verifyUserSeesCompanyImage() throws InterruptedException {
+        List<WebElement> footerCompany = WebDriverManager.getDriver().findElements(By.xpath("//div[contains(@class,'active')]//*[contains(@alt,'company-image-')]"));
+        for (WebElement each : footerCompany) {
+            Assert.assertTrue(WebDriverManager.isDisplayed(each));
         }
     }
 
@@ -169,42 +172,20 @@ public class HomeSteps implements CommonPage {
     public void verity_are_displayed_as_a_header(String section) {
         Assert.assertTrue(WebDriverManager.isDisplayed(homePage.expectSection));
     }
+
     @Then("Verify descriptions under expect sections is displayed")
-    public void verify_descriptions_under_expect_sections_are_displayed() {
+    public void verify_descriptions_under_expect_sections_is_displayed() {
         for (WebElement desc : homePage.description) {
             Assert.assertTrue(WebDriverManager.isDisplayed(desc));
+                //System.out.println(WebDriverManager.getText(desc));
         }
     }
 
-
-    @Then("Verify header is {string}")
-    public void verifyHeaderIs(String header) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, header))));
-    }
-
-    @And("Verify secondary header is {string}")
-    public void verifySecondaryHeaderIs(String secondaryHeader) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, secondaryHeader))));
-    }
-
-    @And("Verify description text is {string}")
-    public void verifyDescriptionTextIs(String descriptionText) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, descriptionText))));
-    }
-
-    @Then("Verity {string} is displayed as a header")
-    public void verity_are_displayed_as_a_header(String section) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.expectSection));
-    }
-    @Then("Verify descriptions under expect sections is displayed")
-    public void verify_descriptions_under_expect_sections_are_displayed() {
-        for (WebElement desc : homePage.description) {
-            Assert.assertTrue(WebDriverManager.isDisplayed(desc));
-        }
+    @Then("Verify copyright text is {string}")
+    public void verifyCopyrightTextIsString(String copyRight) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
     }
 }
-
-
 
 
 
