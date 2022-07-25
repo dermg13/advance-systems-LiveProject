@@ -175,7 +175,39 @@ public class HomeSteps implements CommonPage {
             Assert.assertTrue(WebDriverManager.isDisplayed(desc));
         }
     }
+
+
+    @Then("Verify header is {string}")
+    public void verifyHeaderIs(String header) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, header))));
+    }
+
+    @And("Verify secondary header is {string}")
+    public void verifySecondaryHeaderIs(String secondaryHeader) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, secondaryHeader))));
+    }
+
+    @And("Verify description text is {string}")
+    public void verifyDescriptionTextIs(String descriptionText) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, descriptionText))));
+    }
+
+    @Then("Verity {string} is displayed as a header")
+    public void verity_are_displayed_as_a_header(String section) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.expectSection));
+    }
+    @Then("Verify descriptions under expect sections is displayed")
+    public void verify_descriptions_under_expect_sections_are_displayed() {
+        for (WebElement desc : homePage.description) {
+            Assert.assertTrue(WebDriverManager.isDisplayed(desc));
+        }
+    }
 }
+
+
+
+
+
 
 
 

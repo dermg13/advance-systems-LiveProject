@@ -194,6 +194,14 @@
             "keyword": "Then "
           },
           {
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-25T01:28:18.677Z",
+        "before": [
+          {
             "result": {
               "duration": 5651000000,
               "status": "passed"
