@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.WebDriverManager;
@@ -32,7 +33,7 @@ public class HomePage {
 
 
 
-    @FindBy(xpath = "//div[contains(@class,'active')]//*[contains(@alt,'company-image-')]")
+    @FindAll(@FindBy(xpath = "//div[contains(@class,'active')]//*[contains(@alt,'company-image-')]"))
     public WebElement footerCompanies;
 
 }
