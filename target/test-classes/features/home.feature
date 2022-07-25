@@ -64,20 +64,22 @@ Feature: Homepage related scenarios
     And Verify description text is "Day in and day out for the last years we’ve been more than just a staffing company. Throughout this time we’ve built relationships, we’ve grown together internally and externally, and have created a system that allows us to personally cater to the needs of our clients and candidates. We’ve been a mentor for some, a team builder for others, but most importantly we’ve been there. We know there is no substitute for experience, so let us help you navigate through the ever changing web of talent. "
 
 
+#############################################################################
+  @ADVSYS-12
+  Scenario Outline: Verify expect sections are displayed as a header and descriptions under it
+    Then Verity "<expect sections>" is displayed as a header
+    And Verify descriptions under expect sections is displayed
+    Examples:
+      | expect sections               |
+      | Leadership Development        |
+      | Capability Building           |
+      | Rewards & Benefits            |
+      | Employee & Employer Relations |
+      | Excellent Customer Service    |
 
-
-
-
-
-
-
-
-
-
-
-
-
+    ################################################################################
     @ADVSYS-20
     Scenario: Verify Copyright text is updated
       Then Verify description text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
 
+      ##########################################################################################
