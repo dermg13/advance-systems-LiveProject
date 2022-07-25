@@ -80,6 +80,5 @@ Feature: Homepage related scenarios
     ################################################################################
     @ADVSYS-20
     Scenario: Verify Copyright text is updated
-      Then Verify description text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
-
+      Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
       ##########################################################################################

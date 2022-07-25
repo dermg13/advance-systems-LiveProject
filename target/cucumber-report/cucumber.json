@@ -1,1 +1,81 @@
-[]
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-25T14:23:45.963Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3266000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 82,
+        "name": "Verify Copyright text is updated",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-copyright-text-is-updated",
+        "after": [
+          {
+            "result": {
+              "duration": 668000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1618000000,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Verify copyright text is \"Copyright © 2022 Advance Systems LLC. All Rights Reserved.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Copyright © 2022 Advance Systems LLC. All Rights Reserved.\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyCopyrightTextIsString(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-20"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage related scenarios",
+    "description": "",
+    "id": "homepage-related-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/home.feature",
+    "tags": [
+      {
+        "name": "@homeScenarios",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
