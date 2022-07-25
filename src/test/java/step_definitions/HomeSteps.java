@@ -184,6 +184,7 @@ public class HomeSteps implements CommonPage {
     public void verifyCopyrightTextIsString(String copyRight) {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
     }
+
 }
 
 
