@@ -7,7 +7,9 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
 import pages.CommonPage;
 import pages.HomePage;
 import utils.SeleniumUtils;
@@ -188,6 +190,9 @@ public class HomeSteps implements CommonPage {
 
     @Given("at bottom of the page")
     public void at_bottom_of_the_page() {
+        WebDriver driver = new EdgeDriver();
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
         WebDriverManager.click(homePage.BottomOfThePage);//scroll down to bottom
     }
     @Then("Click on button go back button when scroll down to bottom of the page")
