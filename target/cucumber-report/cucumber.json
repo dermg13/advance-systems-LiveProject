@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-26T02:52:45.984Z",
+        "start_timestamp": "2022-07-26T02:59:11.026Z",
         "before": [
           {
             "result": {
-              "duration": 2900000000,
+              "duration": 2540000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 86,
+        "line": 82,
         "name": "There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.",
         "description": "",
         "id": "homepage-related-scenarios;there-should-be-a-button-in-the-bottom-right-corner-of-the-page-that-would-scroll-the-window-to-top-content-once-clicked.",
         "after": [
           {
             "result": {
-              "duration": 629000000,
+              "duration": 641000000,
               "status": "passed"
             },
             "match": {
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2003000000,
+              "duration": 1972000000,
               "status": "passed"
             },
-            "line": 87,
+            "line": 83,
             "name": "scroll down to bottom of the page",
             "match": {
               "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
@@ -47,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 1490000000,
+              "duration": 1545000000,
               "status": "passed"
             },
-            "line": 88,
+            "line": 84,
             "name": "click on button go back button when scroll down to bottom of the page",
             "match": {
               "location": "step_definitions.HomeSteps.click_on_button_go_back_button_when_scroll_down_to_bottom_of_the_page()"
@@ -62,7 +62,7 @@
               "duration": 1272000000,
               "status": "passed"
             },
-            "line": 89,
+            "line": 85,
             "name": "check if it back to top content",
             "match": {
               "location": "step_definitions.HomeSteps.check_if_it_back_to_top_content()"
