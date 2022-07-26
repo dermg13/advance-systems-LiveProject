@@ -188,8 +188,7 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
     }
 
-<<<<<<< HEAD
-=======
+
     @Given("at bottom of the page")
     public void at_bottom_of_the_page() {
         WebDriver driver = new EdgeDriver();
@@ -203,12 +202,12 @@ public class HomeSteps implements CommonPage {
 
     }
 
->>>>>>> 1794ed56a5e9e85c270b371b8b8863ad386034a4
     @Given("scroll down to bottom of the page")
     public void scroll_down_to_bottom_of_the_page() {
 
         WebDriverManager.click(homePage.BottomOfThePage);//scroll down to bottom
     }
+
     @Then("Click on button go back button when scroll down to bottom of the page")
     public void click_on_button_go_back_button_when_scroll_down_to_bottom_of_the_page() {
 
@@ -249,6 +248,7 @@ public class HomeSteps implements CommonPage {
                 .findElement(By.xpath(String.format
                         ("//div[@class='col-md-6 col-sm-12']" + XPATH_TEMPLATE_LINKTEXT, str))).click();
     }
+
     @Then("Verify page title contains {string}")
     public void verifyPageTitleContains(String str) {
         Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(str));
