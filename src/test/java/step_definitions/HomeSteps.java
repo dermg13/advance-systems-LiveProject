@@ -192,13 +192,13 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
     }
 
-<<<<<<< HEAD
     @Given("at bottom of the page")
     public void at_bottom_of_the_page() {
         WebDriver driver = new EdgeDriver();
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-=======
+    }
+
     @Then("Verify {string} information is displayed")
     public void verify_information_is_displayed(String contact) {
         Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contact));
@@ -207,7 +207,7 @@ public class HomeSteps implements CommonPage {
 
     @Given("scroll down to bottom of the page")
     public void scroll_down_to_bottom_of_the_page() {
->>>>>>> ea484b809e8f465d19e9377d9b2fdbdd53d1efc4
+
         WebDriverManager.click(homePage.BottomOfThePage);//scroll down to bottom
     }
     @Then("Click on button go back button when scroll down to bottom of the page")
