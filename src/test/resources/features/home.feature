@@ -94,7 +94,7 @@ Feature: Homepage related scenarios
     Given scroll down to bottom of the page
     Then click on button go back button when scroll down to bottom of the page
     And check if it back to top content
-    ############################################################################
+############################################################################
 
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
