@@ -76,7 +76,7 @@ Feature: Homepage related scenarios
       | Rewards & Benefits            |
       | Employee & Employer Relations |
       | Excellent Customer Service    |
-<<<<<<< HEAD
+
       ################################################################################
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
@@ -88,18 +88,48 @@ Feature: Homepage related scenarios
     Then click on button go back button when scroll down to bottom of the page
     And check if it back to top content
     ############################################################################
-=======
-
 
   @ADVSYS-12
   Scenario: Verify descriptions under expect sections is displayed
     Then Verify descriptions under expect sections is displayed
 
-    ################################################################################
+################################################################################
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
 
-    ##########################################################################################
+################################################################################
 
->>>>>>> 226486901bc77b3eaf7d367cc076fc742f455016
+  @ADVSYS-17 @smoke
+  Scenario Outline: Footer social media buttons displayed
+    Then Verify "<footer sm options>" icon is displayed
+    When User click on "<footer sm buttons>"
+    Then User is navigated to new tab
+    Then Verify URL contains "<footer sm url>"
+    Examples:
+      | footer sm options | footer sm buttons | footer sm url |
+      | facebook          | facebook          | facebook |
+      | twitter           | twitter           | twitter  |
+      | skype             | skype             | skype    |
+      | linkedin          | linkedin          | linkedin |
+
+################################################################################
+
+  @ADVSYS-16 @smoke
+  Scenario Outline: Footer essential quick links displayed and working as expected
+    Given scroll down to bottom of the page
+    When User click on "<quick link>" link
+    Then Verify page title contains "<title>"
+    Then Verify URL contains "<url>"
+    Examples:
+      | quick link |  title     |   url   |
+      | Home       | Home       | index   |
+      | About Us   | About Us   | about   |
+      | Services   | Services   | services|
+      | Clients    | Clients    | clients |
+      | Solutions  | Solutions  | solutions|
+      | Contact Us | Contact Us | contact  |
+      | Join Us    | Join       | joinUs   |
+
+
+
