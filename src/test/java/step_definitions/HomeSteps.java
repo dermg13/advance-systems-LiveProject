@@ -198,7 +198,7 @@ public class HomeSteps implements CommonPage {
     }
     @Then("check if it back to top content")
     public void check_if_it_back_to_top_content() {
-        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.TopPage));//Highlight a top element
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.home));//Highlight a top element
     }
 }
 
