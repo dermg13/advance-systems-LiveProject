@@ -3,11 +3,19 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-26T00:59:21.268Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2280000000,
+=======
         "start_timestamp": "2022-07-25T15:09:26.068Z",
         "before": [
           {
             "result": {
               "duration": 9092000000,
+>>>>>>> 226486901bc77b3eaf7d367cc076fc742f455016
               "status": "passed"
             },
             "match": {
@@ -15,6 +23,16 @@
             }
           }
         ],
+<<<<<<< HEAD
+        "line": 86,
+        "name": "There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.",
+        "description": "",
+        "id": "homepage-related-scenarios;there-should-be-a-button-in-the-bottom-right-corner-of-the-page-that-would-scroll-the-window-to-top-content-once-clicked.",
+        "after": [
+          {
+            "result": {
+              "duration": 646000000,
+=======
         "line": 73,
         "name": "Verify expect sections are displayed as a header",
         "description": "",
@@ -318,6 +336,7 @@
           {
             "result": {
               "duration": 189000000,
+>>>>>>> 226486901bc77b3eaf7d367cc076fc742f455016
               "status": "passed"
             },
             "match": {
@@ -330,6 +349,41 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 1994000000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2793000000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "click on button go back button when scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.click_on_button_go_back_button_when_scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1253000000,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "check if it back to top content",
+            "match": {
+              "location": "step_definitions.HomeSteps.check_if_it_back_to_top_content()"
+            },
+            "keyword": "And "
+=======
               "duration": 6325000000,
               "status": "passed"
             },
@@ -339,6 +393,7 @@
               "location": "step_definitions.HomeSteps.verify_descriptions_under_expect_sections_is_displayed()"
             },
             "keyword": "Then "
+>>>>>>> 226486901bc77b3eaf7d367cc076fc742f455016
           }
         ],
         "tags": [
@@ -346,7 +401,11 @@
             "name": "@homeScenarios"
           },
           {
+<<<<<<< HEAD
+            "name": "@ADVSYS-19"
+=======
             "name": "@ADVSYS-12"
+>>>>>>> 226486901bc77b3eaf7d367cc076fc742f455016
           }
         ]
       }

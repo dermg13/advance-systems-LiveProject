@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         glue = {"step_definitions"},
         stepNotifications = true,
         dryRun = false,
-        tags = "@homeScenarios"
+        tags = "@ADVSYS-19"
 )
 public class HomeRunner {
 }
