@@ -202,6 +202,39 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(homePage.TopPage));//Highlight a top element
     }
 
+    @Then("Verify {string} icon is displayed")
+    public void verifyIconIsDisplayed(String str) {
+        Assert.assertTrue(WebDriverManager
+                .isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_FT, str))));
+    }
+
+    @When("User click on {string}")
+    public void userClickOn(String btn) {
+        WebDriverManager.getDriver()
+                .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_FT, btn)))
+                .click();
+    }
+
+    @Then("User is navigated to new tab")
+    public void userIsNavigatedToNewTab() {
+        SeleniumUtils.switchToNextWindow();
+    }
+
+    @Then("Verify URL contains {string}")
+    public void verifyURLContains(String str) {
+        Assert.assertTrue(WebDriverManager.getDriver().getCurrentUrl().contains(str));
+    }
+
+    @When("User click on {string} link")
+    public void userClickOnLink(String str) {
+        WebDriverManager.getDriver()
+                .findElement(By.xpath(String.format
+                        ("//div[@class='col-md-6 col-sm-12']" + XPATH_TEMPLATE_LINKTEXT, str))).click();
+    }
+    @Then("Verify page title contains {string}")
+    public void verifyPageTitleContains(String str) {
+        Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(str));
+    }
 
 }
 
