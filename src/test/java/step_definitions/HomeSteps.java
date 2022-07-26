@@ -168,9 +168,13 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, descriptionText))));
     }
 
-    @Then("Verity {string} is displayed as a header")
-    public void verity_are_displayed_as_a_header(String section) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.expectSection));
+    @Then("Verify {string} sections is displayed as a header")
+    public void verify_sections_is_displayed_as_a_header(String section) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TAMPLATE_SECTION, section))));
+    }
+    @Then("Verify {string} is displayed")
+    public void verifyIsDisplayed(String employee) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.employeeRelations));
     }
 
     @Then("Verify descriptions under expect sections is displayed")
@@ -184,6 +188,12 @@ public class HomeSteps implements CommonPage {
     @Then("Verify copyright text is {string}")
     public void verifyCopyrightTextIsString(String copyRight) {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
+    }
+
+    @Then("Verify {string} information is displayed")
+    public void verify_information_is_displayed(String contact) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contact));
+
     }
 
     @Given("scroll down to bottom of the page")
@@ -202,6 +212,8 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(homePage.TopPage));//Highlight a top element
     }
 }
+
+
 
 
 

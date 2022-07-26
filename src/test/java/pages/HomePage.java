@@ -37,11 +37,16 @@ public class HomePage {
     @FindAll(@FindBy(xpath = "//div[contains(@class,'active')]//*[contains(@alt,'company-image-')]"))
     public WebElement footerCompanies;
 
-    @FindBy(xpath = "//div[@class='flex-box']//h3")
-    public WebElement expectSection;
+
+    @FindBy(xpath = "//div[@class='inner-box']//br/parent::h3")
+    public WebElement employeeRelations;
 
     @FindBy(xpath = "//div[@class='flex-box']/div/div/div[contains(@class, 'text')]")
     public List<WebElement> description;
+
+
+    @FindBy(xpath = "//ul[@class='list-info']//li")
+    public WebElement contact;
 
     @FindBy(xpath = "//div[text()='Copyright © 2022 Advance Systems LLC. All Rights Reserved.']")
     public WebElement  BottomOfThePage;
@@ -51,6 +56,7 @@ public class HomePage {
 
     @FindBy(xpath = "//div/ul/li[text()='Stay Connected:']")
     public WebElement TopPage;
+
 
 }
 
