@@ -52,5 +52,15 @@ public class HomePage {
     @FindBy(xpath = "//div/ul/li[text()='Stay Connected:']")
     public WebElement TopPage;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    @FindBy( linkText = "HOME")
+    public WebElement home;
+
+=======
+>>>>>>> ea484b809e8f465d19e9377d9b2fdbdd53d1efc4
+
+>>>>>>> 1794ed56a5e9e85c270b371b8b8863ad386034a4
 }
 

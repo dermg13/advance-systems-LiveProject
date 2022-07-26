@@ -7,7 +7,9 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
 import pages.CommonPage;
 import pages.HomePage;
 import utils.SeleniumUtils;
@@ -186,20 +188,36 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
     }
 
+<<<<<<< HEAD
+=======
+    @Given("at bottom of the page")
+    public void at_bottom_of_the_page() {
+        WebDriver driver = new EdgeDriver();
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+    }
+
+    @Then("Verify {string} information is displayed")
+    public void verify_information_is_displayed(String contact) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contact));
+
+    }
+
+>>>>>>> 1794ed56a5e9e85c270b371b8b8863ad386034a4
     @Given("scroll down to bottom of the page")
     public void scroll_down_to_bottom_of_the_page() {
+
         WebDriverManager.click(homePage.BottomOfThePage);//scroll down to bottom
     }
-    @Then("click on button go back button when scroll down to bottom of the page")
+    @Then("Click on button go back button when scroll down to bottom of the page")
     public void click_on_button_go_back_button_when_scroll_down_to_bottom_of_the_page() {
 
-        Assert.assertTrue(WebDriverManager.isEnabled(homePage.GoToTopButton));//Highlight bottom element
         WebDriverManager.click(homePage.GoToTopButton);//click on go back button
 
     }
-    @Then("check if it back to top content")
+    @Then("Check if it back to top content")
     public void check_if_it_back_to_top_content() {
-        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.TopPage));//Highlight a top element
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.home));//Highlight a top element
     }
 
     @Then("Verify {string} icon is displayed")

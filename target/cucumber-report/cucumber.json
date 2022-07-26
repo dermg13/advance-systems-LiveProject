@@ -3,11 +3,27 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-26T14:45:12.116Z",
         "before": [
           {
             "result": {
               "duration": 8320000000,
+=======
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-26T03:24:32.893Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3676000000,
+=======
+        "start_timestamp": "2022-07-26T02:30:20.344Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10105000000,
+>>>>>>> ea484b809e8f465d19e9377d9b2fdbdd53d1efc4
+>>>>>>> 1794ed56a5e9e85c270b371b8b8863ad386034a4
               "status": "passed"
             },
             "match": {
@@ -15,14 +31,32 @@
             }
           }
         ],
+<<<<<<< HEAD
         "line": 125,
         "name": "Footer social media buttons displayed",
+=======
+<<<<<<< HEAD
+        "line": 90,
+        "name": "There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.",
+=======
+        "line": 110,
+        "name": "information should be displayed in footer section",
+>>>>>>> ea484b809e8f465d19e9377d9b2fdbdd53d1efc4
+>>>>>>> 1794ed56a5e9e85c270b371b8b8863ad386034a4
         "description": "",
         "id": "homepage-related-scenarios;footer-social-media-buttons-displayed;;2",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 85000000,
+=======
+<<<<<<< HEAD
+              "duration": 653000000,
+=======
+              "duration": 695000000,
+>>>>>>> ea484b809e8f465d19e9377d9b2fdbdd53d1efc4
+>>>>>>> 1794ed56a5e9e85c270b371b8b8863ad386034a4
               "status": "passed"
             },
             "match": {
@@ -31,6 +65,45 @@
           }
         ],
         "type": "scenario",
+<<<<<<< HEAD
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2021000000,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "at bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.at_bottom_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1491000000,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "Click on button go back button when scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.click_on_button_go_back_button_when_scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1255000000,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "Check if it back to top content",
+            "match": {
+              "location": "step_definitions.HomeSteps.check_if_it_back_to_top_content()"
+            },
+            "keyword": "And "
+=======
         "keyword": "Scenario Outline",
         "steps": [
           {
@@ -98,6 +171,7 @@
               "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
             },
             "keyword": "Then "
+>>>>>>> ea484b809e8f465d19e9377d9b2fdbdd53d1efc4
           }
         ],
         "tags": [
@@ -105,10 +179,17 @@
             "name": "@homeScenarios"
           },
           {
+<<<<<<< HEAD
             "name": "@ADVSYS-17"
           },
           {
             "name": "@smoke"
+=======
+<<<<<<< HEAD
+            "name": "@SmokeForTicketNineteen"
+=======
+            "name": "@ADVSYS-15"
+>>>>>>> 1794ed56a5e9e85c270b371b8b8863ad386034a4
           }
         ]
       },
@@ -435,10 +516,15 @@
             "name": "@homeScenarios"
           },
           {
+<<<<<<< HEAD
             "name": "@ADVSYS-17"
           },
           {
             "name": "@smoke"
+=======
+            "name": "@ADVSYS-15"
+>>>>>>> ea484b809e8f465d19e9377d9b2fdbdd53d1efc4
+>>>>>>> 1794ed56a5e9e85c270b371b8b8863ad386034a4
           }
         ]
       }
