@@ -68,26 +68,17 @@ Feature: Homepage related scenarios
 #############################################################################
   @ADVSYS-12
   Scenario Outline: Verify expect sections are displayed as a header
-    Then Verity "<expect sections>" is displayed as a header
+    Then Verify "<expect>" sections is displayed as a header
     Examples:
-      | expect sections               |
+      | expect |
       | Leadership Development        |
       | Capability Building           |
       | Rewards & Benefits            |
-      | Employee & Employer Relations |
       | Excellent Customer Service    |
 
-      ################################################################################
-  @ADVSYS-20
-  Scenario: Verify Copyright text is updated
-    Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
-      ##########################################################################################
-  @ADVSYS-19
-  Scenario: There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.
-    Given scroll down to bottom of the page
-    Then click on button go back button when scroll down to bottom of the page
-    And check if it back to top content
-    ############################################################################
+  @ADVSYS-12
+  Scenario: Verify Employee & Employer Relations is displayed as a header
+    Then Verify "Employee & Employer Relations" is displayed
 
   @ADVSYS-12
   Scenario: Verify descriptions under expect sections is displayed
@@ -97,39 +88,26 @@ Feature: Homepage related scenarios
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
-
-################################################################################
-
-  @ADVSYS-17 @smoke
-  Scenario Outline: Footer social media buttons displayed
-    Then Verify "<footer sm options>" icon is displayed
-    When User click on "<footer sm buttons>"
-    Then User is navigated to new tab
-    Then Verify URL contains "<footer sm url>"
-    Examples:
-      | footer sm options | footer sm buttons | footer sm url |
-      | facebook          | facebook          | facebook |
-      | twitter           | twitter           | twitter  |
-      | skype             | skype             | skype    |
-      | linkedin          | linkedin          | linkedin |
-
-################################################################################
-
-  @ADVSYS-16 @smoke
-  Scenario Outline: Footer essential quick links displayed and working as expected
+##########################################################################################
+  @ADVSYS-19
+  Scenario: There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.
     Given scroll down to bottom of the page
-    When User click on "<quick link>" link
-    Then Verify page title contains "<title>"
-    Then Verify URL contains "<url>"
+    Then click on button go back button when scroll down to bottom of the page
+    And check if it back to top content
+    ############################################################################
+
+  @ADVSYS-20
+  Scenario: Verify Copyright text is updated
+    Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
+
+################################################################################
+
+  @ADVSYS-15
+  Scenario Outline: information should be displayed in footer section
+    Then Verify "<contact>" information is displayed
     Examples:
-      | quick link |  title     |   url   |
-      | Home       | Home       | index   |
-      | About Us   | About Us   | about   |
-      | Services   | Services   | services|
-      | Clients    | Clients    | clients |
-      | Solutions  | Solutions  | solutions|
-      | Contact Us | Contact Us | contact  |
-      | Join Us    | Join       | joinUs   |
-
-
-
+      | contact |
+      | Address: 10090 Main St, Fairfax, VA |
+      | Phone: +1 703-831-321 |
+      | Email: info@advancesystems.us |
+      | Mon to Sat: 9.00 am to 5:00 pm |
