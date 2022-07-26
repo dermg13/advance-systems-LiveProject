@@ -10,7 +10,6 @@ Feature: Homepage related scenarios
     When user click on "Join Now" button
     Then Verify title of page is "Advance Systems - Join"
 
-
   @ADVSYS-9 @smoke
   Scenario Outline: Buttons displayed for social media options
     Then User is able to see "<social media options>" icon
@@ -81,14 +80,14 @@ Feature: Homepage related scenarios
   Scenario: Verify descriptions under expect sections is displayed
     Then Verify descriptions under expect sections is displayed
 
-
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
 
   @SmokeForTicketNineteen
   Scenario: There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.
-    Given scroll down to bottom of the page
-    Then click on button go back button when scroll down to bottom of the page
-    And check if it back to top content
+    Given at bottom of the page
+    Then Click on button go back button when scroll down to bottom of the page
+    And Check if it back to top content
+
 
