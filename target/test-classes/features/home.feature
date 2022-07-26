@@ -76,30 +76,27 @@ Feature: Homepage related scenarios
       | Rewards & Benefits            |
       | Employee & Employer Relations |
       | Excellent Customer Service    |
-<<<<<<< HEAD
+
       ################################################################################
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
       ##########################################################################################
-  @ADVSYS-19
+  @smokeTicket19
   Scenario: There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.
     Given scroll down to bottom of the page
     Then click on button go back button when scroll down to bottom of the page
     And check if it back to top content
     ############################################################################
-=======
-
 
   @ADVSYS-12
   Scenario: Verify descriptions under expect sections is displayed
     Then Verify descriptions under expect sections is displayed
 
-    ################################################################################
+################################################################################
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
 
-    ##########################################################################################
+################################################################################
 
->>>>>>> 226486901bc77b3eaf7d367cc076fc742f455016
