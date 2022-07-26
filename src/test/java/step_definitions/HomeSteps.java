@@ -172,10 +172,9 @@ public class HomeSteps implements CommonPage {
     public void verify_sections_is_displayed_as_a_header(String section) {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TAMPLATE_SECTION, section))));
     }
-    @Then("Verify Employee & Employer Relations is displayed")
-    public void verify_employee_employer_relations_is_displayed() {
+    @Then("Verify {string} is displayed")
+    public void verifyIsDisplayed(String employee) {
         Assert.assertTrue(WebDriverManager.isDisplayed(homePage.employeeRelations));
-
     }
 
     @Then("Verify descriptions under expect sections is displayed")
@@ -191,13 +190,11 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
     }
 
-
-
     @Then("Verify {string} information is displayed")
     public void verify_information_is_displayed(String contact) {
-            Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contact));
-        }
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contact));
 
+    }
 
     @Given("scroll down to bottom of the page")
     public void scroll_down_to_bottom_of_the_page() {
