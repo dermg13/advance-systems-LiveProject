@@ -83,5 +83,5 @@ Feature: Homepage related scenarios
       ##########################################################################################
   @ADVSYS-19
   Scenario: There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.
-    Then click on button goa bck button when scroll down to bottom of the page
+    Then click on button go back button when scroll down to bottom of the page
     ############################################################################
