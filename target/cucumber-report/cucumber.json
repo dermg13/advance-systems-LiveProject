@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-26T02:30:20.344Z",
+        "start_timestamp": "2022-07-26T23:45:15.548Z",
         "before": [
           {
             "result": {
-              "duration": 10105000000,
+              "duration": 12842000000,
               "status": "passed"
             },
             "match": {
@@ -15,24 +15,14 @@
             }
           }
         ],
-        "line": 110,
-        "name": "information should be displayed in footer section",
+        "line": 74,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;information-should-be-displayed-in-footer-section;;2",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;2",
         "after": [
           {
-            "output": [
-              "2022-07-25 22:30:30  FAIL: information should be displayed in footer section"
-            ],
-            "embeddings": [
-              {
-                "data": "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AAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAAAEgI0AAAAAAAJARoAAAAAAASAjQAAAAAAAkBGgAAAACAhAANAAAAAEBCgAYAAAAAICFAAwAAAACQEKABAAAA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AJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQEKABgAAAAAgIUADAAAAAJAQoAEAAAAASAjQAAAAAAAkBGgAAAAAABICNAAAAAAACQEaAAAAAICEAA0AAAAAQOIvuvb4GhH+r6kAAAAASUVORK5CYII\u003d",
-                "mime_type": "image/png",
-                "name": "screenshot"
-              }
-            ],
             "result": {
-              "duration": 695000000,
+              "duration": 336000000,
               "status": "passed"
             },
             "match": {
@@ -45,20 +35,19 @@
         "steps": [
           {
             "result": {
-              "error_message": "io.cucumber.core.exception.CucumberException: Could not invoke step [Verify {string} information is displayed] defined at \u0027step_definitions.HomeSteps.verify_information_is_displayed(java.util.List\u003cjava.lang.String\u003e)\u0027.\nIt appears there was a problem with the step definition.\nThe converted arguments types were (java.lang.String)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.couldNotInvokeStep(PickleStepDefinitionMatch.java:130)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:65)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\n\tat io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:110)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\nCaused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void step_definitions.HomeSteps.verify_information_is_displayed(java.util.List)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:68)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\t... 33 more\nCaused by: java.lang.IllegalArgumentException: argument type mismatch\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\t... 38 more\n",
-              "duration": 59000000,
-              "status": "failed"
+              "duration": 2477000000,
+              "status": "passed"
             },
-            "line": 107,
-            "name": "Verify \"Address: 10090 Main St, Fairfax, VA\" information is displayed",
+            "line": 71,
+            "name": "Verify \"Leadership Development\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Address: 10090 Main St, Fairfax, VA\"",
+                  "val": "\"Leadership Development\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -68,16 +57,16 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-15"
+            "name": "@ADVSYS-12"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-26T02:30:31.452Z",
+        "start_timestamp": "2022-07-26T23:45:31.548Z",
         "before": [
           {
             "result": {
-              "duration": 4807000000,
+              "duration": 6900000000,
               "status": "passed"
             },
             "match": {
@@ -85,19 +74,15 @@
             }
           }
         ],
-        "line": 111,
-        "name": "information should be displayed in footer section",
+        "line": 75,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;information-should-be-displayed-in-footer-section;;3",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;3",
         "after": [
           {
-            "output": [
-              "2022-07-25 22:30:36  FAIL: information should be displayed in footer section"
-            ],
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d103.0.5060.134)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Panithans-Air.verizon.net\u0027, ip: \u00272600:4040:49ba:9100:45dc:94c0:f9a5:8bbc%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /var/folders/x2/7293bpld5ws...}, goog:chromeOptions: {debuggerAddress: localhost:51104}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fc4c5950c512c5cb93f06b3a8db5296a\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\n\tat utils.CucumberLogUtils.logFail(CucumberLogUtils.java:40)\n\tat step_definitions.Hooks.tearDown(Hooks.java:21)\n",
-              "duration": 72000000,
-              "status": "failed"
+              "duration": 262000000,
+              "status": "passed"
             },
             "match": {
               "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -109,20 +94,19 @@
         "steps": [
           {
             "result": {
-              "error_message": "io.cucumber.core.exception.CucumberException: Could not invoke step [Verify {string} information is displayed] defined at \u0027step_definitions.HomeSteps.verify_information_is_displayed(java.util.List\u003cjava.lang.String\u003e)\u0027.\nIt appears there was a problem with the step definition.\nThe converted arguments types were (java.lang.String)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.couldNotInvokeStep(PickleStepDefinitionMatch.java:130)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:65)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\n\tat io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:110)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)\n\tat com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\nCaused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void step_definitions.HomeSteps.verify_information_is_displayed(java.util.List)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:68)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\t... 33 more\nCaused by: java.lang.IllegalArgumentException: argument type mismatch\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\t... 38 more\n",
-              "duration": 8000000,
-              "status": "failed"
+              "duration": 1655000000,
+              "status": "passed"
             },
-            "line": 107,
-            "name": "Verify \"Phone: +1 703-831-321\" information is displayed",
+            "line": 71,
+            "name": "Verify \"Capability Building\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Phone: +1 703-831-321\"",
+                  "val": "\"Capability Building\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -132,34 +116,32 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-15"
+            "name": "@ADVSYS-12"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-26T02:30:36.469Z",
+        "start_timestamp": "2022-07-26T23:45:40.399Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d103.0.5060.134)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Panithans-Air.verizon.net\u0027, ip: \u00272600:4040:49ba:9100:45dc:94c0:f9a5:8bbc%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /var/folders/x2/7293bpld5ws...}, goog:chromeOptions: {debuggerAddress: localhost:51104}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fc4c5950c512c5cb93f06b3a8db5296a\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat step_definitions.Hooks.setUp(Hooks.java:14)\n",
-              "duration": 12000000,
-              "status": "failed"
+              "duration": 6383000000,
+              "status": "passed"
             },
             "match": {
               "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
             }
           }
         ],
-        "line": 112,
-        "name": "information should be displayed in footer section",
+        "line": 76,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;information-should-be-displayed-in-footer-section;;4",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;4",
         "after": [
           {
             "result": {
-              "error_message": "java.lang.IllegalStateException: You can not use Scenario.log or Scenario.attach when a step is not being executed\n\tat io.cucumber.core.runner.TestCaseState.requireActiveTestStep(TestCaseState.java:163)\n\tat io.cucumber.core.runner.TestCaseState.log(TestCaseState.java:108)\n\tat io.cucumber.java.Scenario.log(Scenario.java:100)\n\tat utils.CucumberLogUtils.logFail(CucumberLogUtils.java:37)\n\tat step_definitions.Hooks.tearDown(Hooks.java:21)\n",
-              "duration": 1000000,
-              "status": "failed"
+              "duration": 192000000,
+              "status": "passed"
             },
             "match": {
               "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -171,19 +153,19 @@
         "steps": [
           {
             "result": {
-              "duration": 6000000,
-              "status": "skipped"
+              "duration": 1536000000,
+              "status": "passed"
             },
-            "line": 107,
-            "name": "Verify \"Email: info@advancesystems.us\" information is displayed",
+            "line": 71,
+            "name": "Verify \"Rewards \u0026 Benefits\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Email: info@advancesystems.us\"",
+                  "val": "\"Rewards \u0026 Benefits\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -193,34 +175,32 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-15"
+            "name": "@ADVSYS-12"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-26T02:30:36.536Z",
+        "start_timestamp": "2022-07-26T23:45:48.538Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d103.0.5060.134)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Panithans-Air.verizon.net\u0027, ip: \u00272600:4040:49ba:9100:45dc:94c0:f9a5:8bbc%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /var/folders/x2/7293bpld5ws...}, goog:chromeOptions: {debuggerAddress: localhost:51104}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fc4c5950c512c5cb93f06b3a8db5296a\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat step_definitions.Hooks.setUp(Hooks.java:14)\n",
-              "duration": 11000000,
-              "status": "failed"
+              "duration": 8011000000,
+              "status": "passed"
             },
             "match": {
               "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
             }
           }
         ],
-        "line": 113,
-        "name": "information should be displayed in footer section",
+        "line": 77,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;information-should-be-displayed-in-footer-section;;5",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;5",
         "after": [
           {
             "result": {
-              "error_message": "java.lang.IllegalStateException: You can not use Scenario.log or Scenario.attach when a step is not being executed\n\tat io.cucumber.core.runner.TestCaseState.requireActiveTestStep(TestCaseState.java:163)\n\tat io.cucumber.core.runner.TestCaseState.log(TestCaseState.java:108)\n\tat io.cucumber.java.Scenario.log(Scenario.java:100)\n\tat utils.CucumberLogUtils.logFail(CucumberLogUtils.java:37)\n\tat step_definitions.Hooks.tearDown(Hooks.java:21)\n",
-              "duration": 1000000,
-              "status": "failed"
+              "duration": 184000000,
+              "status": "passed"
             },
             "match": {
               "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -232,19 +212,19 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
-              "status": "skipped"
+              "duration": 1421000000,
+              "status": "passed"
             },
-            "line": 107,
-            "name": "Verify \"Mon to Sat: 9.00 am to 5:00 pm\" information is displayed",
+            "line": 71,
+            "name": "Verify \"Excellent Customer Service\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Mon to Sat: 9.00 am to 5:00 pm\"",
+                  "val": "\"Excellent Customer Service\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -254,7 +234,119 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-15"
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T23:45:58.171Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10822000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 80,
+        "name": "Verify Employee \u0026 Employer Relations is displayed as a header",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-employee-\u0026-employer-relations-is-displayed-as-a-header",
+        "after": [
+          {
+            "result": {
+              "duration": 166000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1443000000,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Verify \"Employee \u0026 Employer Relations\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employee \u0026 Employer Relations\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T23:46:10.623Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7217000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 84,
+        "name": "Verify descriptions under expect sections is displayed",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-descriptions-under-expect-sections-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 309000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6083000000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Verify descriptions under expect sections is displayed",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_descriptions_under_expect_sections_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
           }
         ]
       }

@@ -78,7 +78,7 @@ Feature: Homepage related scenarios
 
   @ADVSYS-12
   Scenario: Verify Employee & Employer Relations is displayed as a header
-    Then Verify "Employee & Employer Relations" is displayed
+    Then Verify Employee & Employer Relations is displayed
 
   @ADVSYS-12
   Scenario: Verify descriptions under expect sections is displayed
@@ -111,3 +111,36 @@ Feature: Homepage related scenarios
       | Phone: +1 703-831-321 |
       | Email: info@advancesystems.us |
       | Mon to Sat: 9.00 am to 5:00 pm |
+
+################################################################################
+
+  @ADVSYS-17 @smoke
+  Scenario Outline: Footer social media buttons displayed
+    Then Verify "<footer sm options>" icon is displayed
+    When User click on "<footer sm buttons>"
+    Then User is navigated to new tab
+    Then Verify URL contains "<footer sm url>"
+    Examples:
+      | footer sm options | footer sm buttons | footer sm url |
+      | facebook          | facebook          | facebook |
+      | twitter           | twitter           | twitter  |
+      | skype             | skype             | skype    |
+      | linkedin          | linkedin          | linkedin |
+
+################################################################################
+
+  @ADVSYS-16 @smoke
+  Scenario Outline: Footer essential quick links displayed and working as expected
+    Given scroll down to bottom of the page
+    When User click on "<quick link>" link
+    Then Verify page title contains "<title>"
+    Then Verify URL contains "<url>"
+    Examples:
+      | quick link |  title     |   url   |
+      | Home       | Home       | index   |
+      | About Us   | About Us   | about   |
+      | Services   | Services   | services|
+      | Clients    | Clients    | clients |
+      | Solutions  | Solutions  | solutions|
+      | Contact Us | Contact Us | contact  |
+      | Join Us    | Join       | joinUs   |

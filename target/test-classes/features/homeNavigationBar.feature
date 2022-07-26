@@ -78,3 +78,4 @@ Feature: Navigation Bar related scenarios
     Then Verify Language Spanish buttons is displayed
     Then Verify Language French buttons is displayed
 
+

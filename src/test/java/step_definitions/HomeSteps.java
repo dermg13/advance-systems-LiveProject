@@ -170,11 +170,12 @@ public class HomeSteps implements CommonPage {
 
     @Then("Verify {string} sections is displayed as a header")
     public void verify_sections_is_displayed_as_a_header(String section) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TAMPLATE_SECTION, section))));
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT_SECTION, section))));
     }
-    @Then("Verify {string} is displayed")
-    public void verifyIsDisplayed(String employee) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.employeeRelations));
+
+    @Then("Verify Employee & Employer Relations is displayed")
+    public void verify_employee_employer_relations_is_displayed() {
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.employeeRelation));
     }
 
     @Then("Verify descriptions under expect sections is displayed")
@@ -188,12 +189,6 @@ public class HomeSteps implements CommonPage {
     @Then("Verify copyright text is {string}")
     public void verifyCopyrightTextIsString(String copyRight) {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
-    }
-
-    @Then("Verify {string} information is displayed")
-    public void verify_information_is_displayed(String contact) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contact));
-
     }
 
     @Given("scroll down to bottom of the page")
@@ -211,9 +206,41 @@ public class HomeSteps implements CommonPage {
     public void check_if_it_back_to_top_content() {
         Assert.assertTrue(WebDriverManager.isDisplayed(homePage.TopPage));//Highlight a top element
     }
+
+    @Then("Verify {string} icon is displayed")
+    public void verifyIconIsDisplayed(String str) {
+        Assert.assertTrue(WebDriverManager
+                .isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_FT, str))));
+    }
+
+    @When("User click on {string}")
+    public void userClickOn(String btn) {
+        WebDriverManager.getDriver()
+                .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_FT, btn)))
+                .click();
+    }
+
+    @Then("User is navigated to new tab")
+    public void userIsNavigatedToNewTab() {
+        SeleniumUtils.switchToNextWindow();
+    }
+
+    @Then("Verify URL contains {string}")
+    public void verifyURLContains(String str) {
+        Assert.assertTrue(WebDriverManager.getDriver().getCurrentUrl().contains(str));
+    }
+
+    @When("User click on {string} link")
+    public void userClickOnLink(String str) {
+        WebDriverManager.getDriver()
+                .findElement(By.xpath(String.format
+                        ("//div[@class='col-md-6 col-sm-12']" + XPATH_TEMPLATE_LINKTEXT, str))).click();
+    }
+    @Then("Verify page title contains {string}")
+    public void verifyPageTitleContains(String str) {
+        Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(str));
+    }
 }
-
-
 
 
 
