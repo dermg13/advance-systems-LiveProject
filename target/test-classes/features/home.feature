@@ -67,13 +67,14 @@ Feature: Homepage related scenarios
 #############################################################################
   @ADVSYS-12
   Scenario Outline: Verify expect sections are displayed as a header
-    Then Verity "<expect sections>" is displayed as a header
+    Then Verify "<expect>" sections is displayed as a header
+
     Examples:
-      | expect sections               |
+      | expect |
       | Leadership Development        |
       | Capability Building           |
       | Rewards & Benefits            |
-      | Employee & Employer Relations |
+    And Verify Employee & Employer Relations is displayed
       | Excellent Customer Service    |
 
 
@@ -81,10 +82,19 @@ Feature: Homepage related scenarios
   Scenario: Verify descriptions under expect sections is displayed
     Then Verify descriptions under expect sections is displayed
 
-    ################################################################################
+################################################################################
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
 
-    ##########################################################################################
+################################################################################
 
+  @ADVSYS-15
+  Scenario Outline: information should be displayed in footer section
+    Then Verify "<contact>" information is displayed
+    Examples:
+      | contact |
+      | Address: 10090 Main St, Fairfax, VA |
+      | Phone: +1 703-831-321 |
+      | Email: info@advancesystems.us |
+      | Mon to Sat: 9.00 am to 5:00 pm |

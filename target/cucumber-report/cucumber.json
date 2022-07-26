@@ -3,70 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-25T15:09:26.068Z",
+        "start_timestamp": "2022-07-26T00:58:27.584Z",
         "before": [
           {
             "result": {
-              "duration": 9092000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 73,
-        "name": "Verify expect sections are displayed as a header",
-        "description": "",
-        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 214000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1980000000,
-              "status": "passed"
-            },
-            "line": 70,
-            "name": "Verity \"Leadership Development\" is displayed as a header",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Leadership Development\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-12"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-25T15:09:37.603Z",
-        "before": [
-          {
-            "result": {
-              "duration": 6630000000,
+              "duration": 9478000000,
               "status": "passed"
             },
             "match": {
@@ -77,11 +18,11 @@
         "line": 74,
         "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;3",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;2",
         "after": [
           {
             "result": {
-              "duration": 190000000,
+              "duration": 249000000,
               "status": "passed"
             },
             "match": {
@@ -98,17 +39,29 @@
               "status": "passed"
             },
             "line": 70,
-            "name": "Verity \"Capability Building\" is displayed as a header",
+            "name": "Verify \"Leadership Development\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Capability Building\"",
+                  "val": "\"Leadership Development\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1369000000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Verify Employee \u0026 Employer Relations is displayed",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_employee_employer_relations_is_displayed()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -121,11 +74,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-25T15:09:46.364Z",
+        "start_timestamp": "2022-07-26T00:58:40.744Z",
         "before": [
           {
             "result": {
-              "duration": 6727000000,
+              "duration": 5131000000,
               "status": "passed"
             },
             "match": {
@@ -136,11 +89,11 @@
         "line": 75,
         "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;4",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;3",
         "after": [
           {
             "result": {
-              "duration": 200000000,
+              "duration": 214000000,
               "status": "passed"
             },
             "match": {
@@ -153,21 +106,33 @@
         "steps": [
           {
             "result": {
-              "duration": 1701000000,
+              "duration": 1736000000,
               "status": "passed"
             },
             "line": 70,
-            "name": "Verity \"Rewards \u0026 Benefits\" is displayed as a header",
+            "name": "Verify \"Capability Building\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Rewards \u0026 Benefits\"",
+                  "val": "\"Capability Building\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1252000000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Verify Employee \u0026 Employer Relations is displayed",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_employee_employer_relations_is_displayed()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -180,11 +145,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-25T15:09:55.025Z",
+        "start_timestamp": "2022-07-26T00:58:49.094Z",
         "before": [
           {
             "result": {
-              "duration": 5269000000,
+              "duration": 5133000000,
               "status": "passed"
             },
             "match": {
@@ -195,11 +160,11 @@
         "line": 76,
         "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;5",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;4",
         "after": [
           {
             "result": {
-              "duration": 218000000,
+              "duration": 194000000,
               "status": "passed"
             },
             "match": {
@@ -212,21 +177,33 @@
         "steps": [
           {
             "result": {
-              "duration": 1911000000,
+              "duration": 1469000000,
               "status": "passed"
             },
             "line": 70,
-            "name": "Verity \"Employee \u0026 Employer Relations\" is displayed as a header",
+            "name": "Verify \"Rewards \u0026 Benefits\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Employee \u0026 Employer Relations\"",
+                  "val": "\"Rewards \u0026 Benefits\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1262000000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Verify Employee \u0026 Employer Relations is displayed",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_employee_employer_relations_is_displayed()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -239,11 +216,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-25T15:10:02.451Z",
+        "start_timestamp": "2022-07-26T00:58:57.170Z",
         "before": [
           {
             "result": {
-              "duration": 7240000000,
+              "duration": 4829000000,
               "status": "passed"
             },
             "match": {
@@ -254,11 +231,11 @@
         "line": 77,
         "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;6",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;5",
         "after": [
           {
             "result": {
-              "duration": 209000000,
+              "duration": 179000000,
               "status": "passed"
             },
             "match": {
@@ -271,11 +248,11 @@
         "steps": [
           {
             "result": {
-              "duration": 1688000000,
+              "duration": 1498000000,
               "status": "passed"
             },
             "line": 70,
-            "name": "Verity \"Excellent Customer Service\" is displayed as a header",
+            "name": "Verify \"Excellent Customer Service\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
@@ -283,9 +260,21 @@
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1508000000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Verify Employee \u0026 Employer Relations is displayed",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_employee_employer_relations_is_displayed()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -298,11 +287,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-25T15:10:11.612Z",
+        "start_timestamp": "2022-07-26T00:59:05.231Z",
         "before": [
           {
             "result": {
-              "duration": 5049000000,
+              "duration": 6699000000,
               "status": "passed"
             },
             "match": {
@@ -317,7 +306,7 @@
         "after": [
           {
             "result": {
-              "duration": 189000000,
+              "duration": 208000000,
               "status": "passed"
             },
             "match": {
@@ -330,7 +319,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6325000000,
+              "duration": 6112000000,
               "status": "passed"
             },
             "line": 82,
