@@ -76,7 +76,7 @@ Feature: Homepage related scenarios
       | Rewards & Benefits            |
       | Employee & Employer Relations |
       | Excellent Customer Service    |
-<<<<<<< HEAD
+
       ################################################################################
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
@@ -88,8 +88,6 @@ Feature: Homepage related scenarios
     Then click on button go back button when scroll down to bottom of the page
     And check if it back to top content
     ############################################################################
-=======
-
 
   @ADVSYS-12
   Scenario: Verify descriptions under expect sections is displayed
@@ -102,4 +100,3 @@ Feature: Homepage related scenarios
 
 ################################################################################
 
->>>>>>> 226486901bc77b3eaf7d367cc076fc742f455016
