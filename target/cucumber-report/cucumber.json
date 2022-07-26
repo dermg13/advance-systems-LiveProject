@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-25T14:23:45.963Z",
+        "start_timestamp": "2022-07-25T17:00:40.846Z",
         "before": [
           {
             "result": {
-              "duration": 3266000000,
+              "duration": 2565000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,309 @@
             }
           }
         ],
-        "line": 82,
-        "name": "Verify Copyright text is updated",
+        "line": 73,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;verify-copyright-text-is-updated",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;2",
         "after": [
           {
             "result": {
-              "duration": 668000000,
+              "duration": 612000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1729000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Verity \"Leadership Development\" is displayed as a header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Leadership Development\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-25T17:00:45.811Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1849000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 74,
+        "name": "Verify expect sections are displayed as a header",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 616000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1694000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Verity \"Capability Building\" is displayed as a header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Capability Building\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-25T17:00:49.982Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1936000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "Verify expect sections are displayed as a header",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 633000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1670000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Verity \"Rewards \u0026 Benefits\" is displayed as a header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rewards \u0026 Benefits\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-25T17:00:54.228Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1954000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 76,
+        "name": "Verify expect sections are displayed as a header",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 610000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1417000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Verity \"Employee \u0026 Employer Relations\" is displayed as a header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employee \u0026 Employer Relations\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-25T17:00:58.218Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1908000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 77,
+        "name": "Verify expect sections are displayed as a header",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 619000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1662000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Verity \"Excellent Customer Service\" is displayed as a header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Excellent Customer Service\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-25T17:01:02.411Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1957000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 81,
+        "name": "Verify descriptions under expect sections is displayed",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-descriptions-under-expect-sections-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 606000000,
               "status": "passed"
             },
             "match": {
@@ -35,19 +330,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1618000000,
+              "duration": 6319000000,
               "status": "passed"
             },
-            "line": 83,
-            "name": "Verify copyright text is \"Copyright © 2022 Advance Systems LLC. All Rights Reserved.\"",
+            "line": 82,
+            "name": "Verify descriptions under expect sections is displayed",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Copyright © 2022 Advance Systems LLC. All Rights Reserved.\"",
-                  "offset": 25
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyCopyrightTextIsString(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_descriptions_under_expect_sections_is_displayed()"
             },
             "keyword": "Then "
           }
@@ -57,7 +346,7 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-20"
+            "name": "@ADVSYS-12"
           }
         ]
       }

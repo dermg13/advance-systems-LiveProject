@@ -66,9 +66,8 @@ Feature: Homepage related scenarios
 
 #############################################################################
   @ADVSYS-12
-  Scenario Outline: Verify expect sections are displayed as a header and descriptions under it
+  Scenario Outline: Verify expect sections are displayed as a header
     Then Verity "<expect sections>" is displayed as a header
-    And Verify descriptions under expect sections is displayed
     Examples:
       | expect sections               |
       | Leadership Development        |
@@ -77,8 +76,15 @@ Feature: Homepage related scenarios
       | Employee & Employer Relations |
       | Excellent Customer Service    |
 
-    ################################################################################
-    @ADVSYS-20
-    Scenario: Verify Copyright text is updated
-      Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
-      ##########################################################################################
+
+  @ADVSYS-12
+  Scenario: Verify descriptions under expect sections is displayed
+    Then Verify descriptions under expect sections is displayed
+
+################################################################################
+  @ADVSYS-20
+  Scenario: Verify Copyright text is updated
+    Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
+
+################################################################################
+
