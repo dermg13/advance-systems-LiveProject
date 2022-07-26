@@ -73,17 +73,9 @@ Feature: Homepage related scenarios
       | Employee & Employer Relations |
       | Excellent Customer Service    |
 
-
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
-
-  @SmokeForTicketNineteen
-  Scenario: There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.
-    Given scroll down to bottom of the page
-    Then click on button go back button when scroll down to bottom of the page
-    And check if it back to top content
-
 
   @ADVSYS-12
   Scenario: Verify descriptions under expect sections is displayed
@@ -94,5 +86,9 @@ Feature: Homepage related scenarios
   Scenario: Verify Copyright text is updated
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
 
-
+  @SmokeForTicketNineteen
+  Scenario: There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.
+    Given scroll down to bottom of the page
+    Then click on button go back button when scroll down to bottom of the page
+    And check if it back to top content
 

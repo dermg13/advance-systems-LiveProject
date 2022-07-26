@@ -14,8 +14,9 @@ import org.junit.runner.RunWith;
         glue = {"step_definitions"},
         stepNotifications = true,
         dryRun = false,
-        tags = "@smokeTicket19"
+        tags = "@SmokeForTicketNineteen"
 )
 public class CukesRunner {
 
 }
+

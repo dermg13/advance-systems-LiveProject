@@ -3,11 +3,1426 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-26T02:59:11.026Z",
+        "start_timestamp": "2022-07-26T03:10:36.216Z",
         "before": [
           {
             "result": {
-              "duration": 2540000000,
+              "duration": 2351000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify \"Join Now\" button is displayed",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-\"join-now\"-button-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 629000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1531000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify \"Join Now\" button is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Join Now\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_button_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-7"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:10:40.768Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1806000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify title of Join Us Page",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-title-of-join-us-page",
+        "after": [
+          {
+            "result": {
+              "duration": 650000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 853000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on \"Join Now\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Join Now\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_click_on_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify title of page is \"Advance Systems - Join\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - Join\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyTitleOfPageIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-7"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:10:44.087Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1771000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Buttons displayed for social media options",
+        "description": "",
+        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 622000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1495000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is able to see \"facebook\" icon",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"facebook\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1003000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on \"facebook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"facebook\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "URL is \"https://www.facebook.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com/\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-9"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:10:48.984Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1795000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Buttons displayed for social media options",
+        "description": "",
+        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 639000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1292000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is able to see \"twitter\" icon",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"twitter\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 639000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on \"twitter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"twitter\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "URL is \"https://twitter.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://twitter.com/\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-9"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:10:53.407Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1806000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Buttons displayed for social media options",
+        "description": "",
+        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 628000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1248000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is able to see \"google-plus\" icon",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"google-plus\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 989000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on \"google-plus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"google-plus\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "URL is \"https://www.google.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com/\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-9"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:10:58.084Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1779000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Buttons displayed for social media options",
+        "description": "",
+        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 640000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1242000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is able to see \"linkedin\" icon",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"linkedin\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 934000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on \"linkedin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"linkedin\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "URL is \"https://www.linkedin.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.linkedin.com/\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-9"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:11:02.685Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1833000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify title of Home Page",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-title-of-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 606000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Verify title of Home page is \"Advance Systems - Home\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - Home\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_title_of_home_page_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:11:05.132Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1803000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Verify address and phone number are displayed",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-address-and-phone-number-are-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 639000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1540000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Verify address is \"10090 Main Street\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10090 Main Street\"",
+                  "offset": 18
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyAddressIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1415000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Verify city, state and country is \"Fairfax, VA, USA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fairfax, VA, USA\"",
+                  "offset": 34
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyCityStateAndCountryIs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1214000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Verify phone number is \"+1 234 567 1234 \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"+1 234 567 1234 \"",
+                  "offset": 23
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyPhoneNumberIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-6"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:11:11.749Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1749000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Verify header and testimonials by peoples",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-header-and-testimonials-by-peoples",
+        "after": [
+          {
+            "result": {
+              "duration": 647000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1754000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify the header texts",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_the_header_texts()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1578000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify the testimonials",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_the_testimonials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1274000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Verify the name of clients",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_the_name_of_testimonials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5892000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Verify the states",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_the_states()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-13"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:11:24.648Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1810000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Parallax section content information and update",
+        "description": "",
+        "id": "homepage-related-scenarios;parallax-section-content-information-and-update",
+        "after": [
+          {
+            "result": {
+              "duration": 635000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1857000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Information is displayed in the parallax section",
+            "match": {
+              "location": "step_definitions.HomeSteps.information_is_displayed_in_the_parallax_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10163000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Header and description update automatically",
+            "match": {
+              "location": "step_definitions.HomeSteps.header_and_description_update_automatically()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-10"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:11:39.115Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1947000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Parallax section button",
+        "description": "",
+        "id": "homepage-related-scenarios;parallax-section-button",
+        "after": [
+          {
+            "result": {
+              "duration": 606000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2494000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User clicks on \"Read More\" button in parallax section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Read More\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_clicks_on_button_in_parallax_section(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should see the \"Services\" page displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.user_should_see_the_page_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-10"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:11:44.170Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1788000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Verify user can see company names above footer",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-user-can-see-company-names-above-footer",
+        "after": [
+          {
+            "result": {
+              "duration": 656000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7363000000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Verify user sees company image",
+            "match": {
+              "location": "step_definitions.HomeSteps.verifyUserSeesCompanyImage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-14"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:11:53.977Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1758000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Verify home page has a header,secondary header, and description text",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-home-page-has-a-header-secondary-header--and-description-text",
+        "after": [
+          {
+            "result": {
+              "duration": 633000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1261000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Verify header is \"Welcome to Advance Systems LLC.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome to Advance Systems LLC.\"",
+                  "offset": 17
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyHeaderIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1200000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Verify secondary header is \"Our Mission is simple, deliver very honest recruitment services to every customer.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Our Mission is simple, deliver very honest recruitment services to every customer.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifySecondaryHeaderIs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1195000000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Verify description text is \"Day in and day out for the last years we’ve been more than just a staffing company. Throughout this time we’ve built relationships, we’ve grown together internally and externally, and have created a system that allows us to personally cater to the needs of our clients and candidates. We’ve been a mentor for some, a team builder for others, but most importantly we’ve been there. We know there is no substitute for experience, so let us help you navigate through the ever changing web of talent. \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Day in and day out for the last years we’ve been more than just a staffing company. Throughout this time we’ve built relationships, we’ve grown together internally and externally, and have created a system that allows us to personally cater to the needs of our clients and candidates. We’ve been a mentor for some, a team builder for others, but most importantly we’ve been there. We know there is no substitute for experience, so let us help you navigate through the ever changing web of talent. \"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyDescriptionTextIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-11"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:12:00.027Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1795000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "Verify expect sections are displayed as a header",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 642000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1700000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Verity \"Leadership Development\" is displayed as a header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Leadership Development\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:12:04.165Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1797000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 71,
+        "name": "Verify expect sections are displayed as a header",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 615000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1729000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Verity \"Capability Building\" is displayed as a header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Capability Building\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:12:08.306Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1792000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 72,
+        "name": "Verify expect sections are displayed as a header",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 644000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1706000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Verity \"Rewards \u0026 Benefits\" is displayed as a header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rewards \u0026 Benefits\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:12:12.457Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1785000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "Verify expect sections are displayed as a header",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 628000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1300000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Verity \"Employee \u0026 Employer Relations\" is displayed as a header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employee \u0026 Employer Relations\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:12:16.173Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1832000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 74,
+        "name": "Verify expect sections are displayed as a header",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 625000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1707000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Verity \"Excellent Customer Service\" is displayed as a header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Excellent Customer Service\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verity_are_displayed_as_a_header(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:12:20.337Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1850000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 78,
+        "name": "Verify Copyright text is updated",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-copyright-text-is-updated",
+        "after": [
+          {
+            "result": {
+              "duration": 643000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1493000000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Verify copyright text is \"Copyright © 2022 Advance Systems LLC. All Rights Reserved.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Copyright © 2022 Advance Systems LLC. All Rights Reserved.\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyCopyrightTextIsString(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-20"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:12:24.326Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1789000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +1437,7 @@
         "after": [
           {
             "result": {
-              "duration": 641000000,
+              "duration": 612000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +1450,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1972000000,
+              "duration": 1931000000,
               "status": "passed"
             },
             "line": 83,
@@ -47,7 +1462,7 @@
           },
           {
             "result": {
-              "duration": 1545000000,
+              "duration": 1555000000,
               "status": "passed"
             },
             "line": 84,
@@ -59,7 +1474,7 @@
           },
           {
             "result": {
-              "duration": 1272000000,
+              "duration": 1277000000,
               "status": "passed"
             },
             "line": 85,
@@ -75,7 +1490,119 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@smokeTicket19"
+            "name": "@SmokeForTicketNineteen"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:12:31.490Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1795000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 89,
+        "name": "Verify descriptions under expect sections is displayed",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-descriptions-under-expect-sections-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 618000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6128000000,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Verify descriptions under expect sections is displayed",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_descriptions_under_expect_sections_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-26T03:12:40.031Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1838000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 94,
+        "name": "Verify Copyright text is updated",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-copyright-text-is-updated",
+        "after": [
+          {
+            "result": {
+              "duration": 626000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1513000000,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "Verify copyright text is \"Copyright © 2022 Advance Systems LLC. All Rights Reserved.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Copyright © 2022 Advance Systems LLC. All Rights Reserved.\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyCopyrightTextIsString(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-20"
           }
         ]
       }
