@@ -4,6 +4,7 @@ Feature: Homepage related scenarios
   @ADVSYS-7
   Scenario: Verify "Join Now" button is displayed
     Then Verify "Join Now" button is displayed
+
   @ADVSYS-7
   Scenario: Verify title of Join Us Page
     When user click on "Join Now" button
@@ -16,10 +17,10 @@ Feature: Homepage related scenarios
     When Click on "<social media buttons>"
     Then URL is "<url>"
     Examples:
-      | social media options | social media buttons | url |
+      | social media options | social media buttons | url                       |
       | facebook             | facebook             | https://www.facebook.com/ |
-      | twitter              | twitter              | https://twitter.com/ |
-      | google-plus          | google-plus          | https://www.google.com/ |
+      | twitter              | twitter              | https://twitter.com/      |
+      | google-plus          | google-plus          | https://www.google.com/   |
       | linkedin             | linkedin             | https://www.linkedin.com/ |
 ##########################################################################
   @ADVSYS-4
@@ -68,21 +69,30 @@ Feature: Homepage related scenarios
   @ADVSYS-12
   Scenario Outline: Verify expect sections are displayed as a header
     Then Verify "<expect>" sections is displayed as a header
-
     Examples:
       | expect |
       | Leadership Development        |
       | Capability Building           |
       | Rewards & Benefits            |
-    And Verify Employee & Employer Relations is displayed
       | Excellent Customer Service    |
-
+    And Verify Employee & Employer Relations is displayed
 
   @ADVSYS-12
   Scenario: Verify descriptions under expect sections is displayed
     Then Verify descriptions under expect sections is displayed
 
-################################################################################
+      ################################################################################
+  @ADVSYS-20
+  Scenario: Verify Copyright text is updated
+    Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
+      ##########################################################################################
+  @ADVSYS-19
+  Scenario: There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.
+    Given scroll down to bottom of the page
+    Then click on button go back button when scroll down to bottom of the page
+    And check if it back to top content
+    ############################################################################
+
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."

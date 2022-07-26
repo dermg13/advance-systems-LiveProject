@@ -1,5 +1,6 @@
 package pages;
 
+import org.apache.xmlbeans.impl.xb.xsdschema.FieldDocument;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
@@ -43,8 +44,19 @@ public class HomePage {
     @FindBy(xpath = "//div[@class='flex-box']/div/div/div[contains(@class, 'text')]")
     public List<WebElement> description;
 
+
     @FindBy(xpath = "//ul[@class='list-info']//li")
     public WebElement contact;
+
+    @FindBy(xpath = "//div[text()='Copyright © 2022 Advance Systems LLC. All Rights Reserved.']")
+    public WebElement  BottomOfThePage;
+
+    @FindBy(xpath = "//div//span[@class='icon fa fa-arrow-up']")
+    public WebElement GoToTopButton;
+
+    @FindBy(xpath = "//div/ul/li[text()='Stay Connected:']")
+    public WebElement TopPage;
+
 
 }
 

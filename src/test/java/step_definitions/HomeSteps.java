@@ -192,11 +192,28 @@ public class HomeSteps implements CommonPage {
     }
 
 
+
     @Then("Verify {string} information is displayed")
     public void verify_information_is_displayed(String contact) {
             Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contact));
         }
 
+
+    @Given("scroll down to bottom of the page")
+    public void scroll_down_to_bottom_of_the_page() {
+        WebDriverManager.click(homePage.BottomOfThePage);//scroll down to bottom
+    }
+    @Then("click on button go back button when scroll down to bottom of the page")
+    public void click_on_button_go_back_button_when_scroll_down_to_bottom_of_the_page() {
+
+        Assert.assertTrue(WebDriverManager.isEnabled(homePage.GoToTopButton));//Highlight bottom element
+        WebDriverManager.click(homePage.GoToTopButton);//click on go back button
+
+    }
+    @Then("check if it back to top content")
+    public void check_if_it_back_to_top_content() {
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.TopPage));//Highlight a top element
+    }
 }
 
 
