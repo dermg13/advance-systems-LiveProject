@@ -81,10 +81,10 @@ Feature: Homepage related scenarios
   Scenario: Verify descriptions under expect sections is displayed
     Then Verify descriptions under expect sections is displayed
 
-    ################################################################################
+################################################################################
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
 
-    ##########################################################################################
+################################################################################
 
