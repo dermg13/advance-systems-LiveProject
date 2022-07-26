@@ -185,6 +185,26 @@ public class HomeSteps implements CommonPage {
     public void verifyCopyrightTextIsString(String copyRight) {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
     }
+
+    @Then("Verify {string} icon is displayed")
+    public void verifyIconIsDisplayed(String str) {
+        Assert.assertTrue(WebDriverManager
+                .isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_FT, str))));
+    }
+
+    @When("User click on {string}")
+    public void userClickOn(String btn) {
+        WebDriverManager.getDriver()
+                .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_FT, btn)))
+                    .click();
+    }
+
+    @Then("Verify URL is {string}")
+    public void verifyURLIs(String str) {
+        SeleniumUtils.switchToNextWindow();
+        Assert.assertEquals(str, WebDriverManager.getDriver().getCurrentUrl());
+
+    }
 }
 
 

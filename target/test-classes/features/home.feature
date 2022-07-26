@@ -81,10 +81,22 @@ Feature: Homepage related scenarios
   Scenario: Verify descriptions under expect sections is displayed
     Then Verify descriptions under expect sections is displayed
 
-    ################################################################################
+################################################################################
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
 
-    ##########################################################################################
+################################################################################
 
+  @ADVSYS-17 @smoke
+  Scenario Outline: Footer social media buttons displayed
+    Then Verify "<footer sm options>" icon is displayed
+    When User click on "<footer sm buttons>"
+    Then Verify URL is "<footer sm url>"
+    Examples:
+      | footer sm options | footer sm buttons | footer sm url |
+      | facebook          | facebook          | https://www.facebook.com/ |
+      | twitter           | twitter           | https://twitter.com/  |
+      | skype             | skype             | https://www.skype.com/en/ |
+      | linkedin          | linkedin          | https://www.linkedin.com/ |
+ ################################################################################
