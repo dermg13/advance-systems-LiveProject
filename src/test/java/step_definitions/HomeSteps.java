@@ -192,17 +192,16 @@ public class HomeSteps implements CommonPage {
     public void verifyCopyrightTextIsString(String copyRight) {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
     }
+    @Then("Verify {string} information is displayed")
+    public void verify_information_is_displayed(String contact) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contactFT));
+    }
 
     @Given("at bottom of the page")
     public void at_bottom_of_the_page() {
         WebDriver driver = new EdgeDriver();
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-    }
-
-    @Then("Verify {string} information is displayed")
-    public void verify_information_is_displayed(String contact) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contactFT));
     }
 
     @Given("scroll down to bottom of the page")
