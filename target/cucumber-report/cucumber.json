@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-27T00:14:42.939Z",
+        "start_timestamp": "2022-07-27T00:36:56.997Z",
         "before": [
           {
             "result": {
-              "duration": 6038000000,
+              "duration": 2736000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 140,
-        "name": "Footer essential quick links displayed and working as expected",
+        "line": 76,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;2",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;2",
         "after": [
           {
             "result": {
-              "duration": 85000000,
+              "duration": 669000000,
               "status": "passed"
             },
             "match": {
@@ -35,67 +35,19 @@
         "steps": [
           {
             "result": {
-              "duration": 2047000000,
+              "duration": 1548000000,
               "status": "passed"
             },
-            "line": 134,
-            "name": "scroll down to bottom of the page",
-            "match": {
-              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3313000000,
-              "status": "passed"
-            },
-            "line": 135,
-            "name": "User click on \"Home\" link",
+            "line": 73,
+            "name": "Verify \"Leadership Development\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Home\"",
-                  "offset": 14
+                  "val": "\"Leadership Development\"",
+                  "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1342000000,
-              "status": "passed"
-            },
-            "line": 136,
-            "name": "Verify page title contains \"Home\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Home\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 22000000,
-              "status": "passed"
-            },
-            "line": 137,
-            "name": "Verify URL contains \"index\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"index\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -105,19 +57,16 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-16"
-          },
-          {
-            "name": "@smoke"
+            "name": "@ADVSYS-12"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-27T00:14:55.966Z",
+        "start_timestamp": "2022-07-27T00:37:02.030Z",
         "before": [
           {
             "result": {
-              "duration": 4421000000,
+              "duration": 2034000000,
               "status": "passed"
             },
             "match": {
@@ -125,14 +74,14 @@
             }
           }
         ],
-        "line": 141,
-        "name": "Footer essential quick links displayed and working as expected",
+        "line": 77,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;3",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;3",
         "after": [
           {
             "result": {
-              "duration": 137000000,
+              "duration": 645000000,
               "status": "passed"
             },
             "match": {
@@ -145,67 +94,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1936000000,
+              "duration": 1550000000,
               "status": "passed"
             },
-            "line": 134,
-            "name": "scroll down to bottom of the page",
-            "match": {
-              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1639000000,
-              "status": "passed"
-            },
-            "line": 135,
-            "name": "User click on \"About Us\" link",
+            "line": 73,
+            "name": "Verify \"Capability Building\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"About Us\"",
-                  "offset": 14
+                  "val": "\"Capability Building\"",
+                  "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 736000000,
-              "status": "passed"
-            },
-            "line": 136,
-            "name": "Verify page title contains \"About Us\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"About Us\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 555000000,
-              "status": "passed"
-            },
-            "line": 137,
-            "name": "Verify URL contains \"about\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"about\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -215,19 +116,16 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-16"
-          },
-          {
-            "name": "@smoke"
+            "name": "@ADVSYS-12"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-27T00:15:05.428Z",
+        "start_timestamp": "2022-07-27T00:37:06.266Z",
         "before": [
           {
             "result": {
-              "duration": 3644000000,
+              "duration": 2020000000,
               "status": "passed"
             },
             "match": {
@@ -235,14 +133,14 @@
             }
           }
         ],
-        "line": 142,
-        "name": "Footer essential quick links displayed and working as expected",
+        "line": 78,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;4",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;4",
         "after": [
           {
             "result": {
-              "duration": 136000000,
+              "duration": 668000000,
               "status": "passed"
             },
             "match": {
@@ -255,67 +153,19 @@
         "steps": [
           {
             "result": {
-              "duration": 2045000000,
+              "duration": 1508000000,
               "status": "passed"
             },
-            "line": 134,
-            "name": "scroll down to bottom of the page",
-            "match": {
-              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3042000000,
-              "status": "passed"
-            },
-            "line": 135,
-            "name": "User click on \"Services\" link",
+            "line": 73,
+            "name": "Verify \"Rewards \u0026 Benefits\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Services\"",
-                  "offset": 14
+                  "val": "\"Rewards \u0026 Benefits\"",
+                  "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 619000000,
-              "status": "passed"
-            },
-            "line": 136,
-            "name": "Verify page title contains \"Services\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Services\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 928000000,
-              "status": "passed"
-            },
-            "line": 137,
-            "name": "Verify URL contains \"services\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"services\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -325,19 +175,16 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-16"
-          },
-          {
-            "name": "@smoke"
+            "name": "@ADVSYS-12"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-27T00:15:15.872Z",
+        "start_timestamp": "2022-07-27T00:37:10.466Z",
         "before": [
           {
             "result": {
-              "duration": 3438000000,
+              "duration": 1990000000,
               "status": "passed"
             },
             "match": {
@@ -345,14 +192,14 @@
             }
           }
         ],
-        "line": 143,
-        "name": "Footer essential quick links displayed and working as expected",
+        "line": 79,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;5",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;5",
         "after": [
           {
             "result": {
-              "duration": 82000000,
+              "duration": 669000000,
               "status": "passed"
             },
             "match": {
@@ -365,67 +212,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1904000000,
+              "duration": 1518000000,
               "status": "passed"
             },
-            "line": 134,
-            "name": "scroll down to bottom of the page",
-            "match": {
-              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2637000000,
-              "status": "passed"
-            },
-            "line": 135,
-            "name": "User click on \"Clients\" link",
+            "line": 73,
+            "name": "Verify \"Excellent Customer Service\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Clients\"",
-                  "offset": 14
+                  "val": "\"Excellent Customer Service\"",
+                  "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 755000000,
-              "status": "passed"
-            },
-            "line": 136,
-            "name": "Verify page title contains \"Clients\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Clients\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 28000000,
-              "status": "passed"
-            },
-            "line": 137,
-            "name": "Verify URL contains \"clients\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"clients\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -435,19 +234,16 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-16"
-          },
-          {
-            "name": "@smoke"
+            "name": "@ADVSYS-12"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-27T00:15:24.740Z",
+        "start_timestamp": "2022-07-27T00:37:14.646Z",
         "before": [
           {
             "result": {
-              "duration": 3432000000,
+              "duration": 1953000000,
               "status": "passed"
             },
             "match": {
@@ -455,14 +251,14 @@
             }
           }
         ],
-        "line": 144,
-        "name": "Footer essential quick links displayed and working as expected",
+        "line": 82,
+        "name": "Verify Employee \u0026 Employer Relations is displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;6",
+        "id": "homepage-related-scenarios;verify-employee-\u0026-employer-relations-is-displayed-as-a-header",
         "after": [
           {
             "result": {
-              "duration": 83000000,
+              "duration": 659000000,
               "status": "passed"
             },
             "match": {
@@ -471,71 +267,17 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2114000000,
+              "duration": 1654000000,
               "status": "passed"
             },
-            "line": 134,
-            "name": "scroll down to bottom of the page",
+            "line": 83,
+            "name": "Verify Employee \u0026 Employer Relations is displayed",
             "match": {
-              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2868000000,
-              "status": "passed"
-            },
-            "line": 135,
-            "name": "User click on \"Solutions\" link",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Solutions\"",
-                  "offset": 14
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 623000000,
-              "status": "passed"
-            },
-            "line": 136,
-            "name": "Verify page title contains \"Solutions\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Solutions\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 52000000,
-              "status": "passed"
-            },
-            "line": 137,
-            "name": "Verify URL contains \"solutions\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"solutions\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_employee_employer_relations_is_displayed()"
             },
             "keyword": "Then "
           }
@@ -545,19 +287,16 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-16"
-          },
-          {
-            "name": "@smoke"
+            "name": "@ADVSYS-12"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-27T00:15:33.940Z",
+        "start_timestamp": "2022-07-27T00:37:18.916Z",
         "before": [
           {
             "result": {
-              "duration": 3384000000,
+              "duration": 1999000000,
               "status": "passed"
             },
             "match": {
@@ -565,14 +304,14 @@
             }
           }
         ],
-        "line": 145,
-        "name": "Footer essential quick links displayed and working as expected",
+        "line": 86,
+        "name": "Verify descriptions under expect sections is displayed",
         "description": "",
-        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;7",
+        "id": "homepage-related-scenarios;verify-descriptions-under-expect-sections-is-displayed",
         "after": [
           {
             "result": {
-              "duration": 97000000,
+              "duration": 687000000,
               "status": "passed"
             },
             "match": {
@@ -581,71 +320,17 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1788000000,
+              "duration": 6216000000,
               "status": "passed"
             },
-            "line": 134,
-            "name": "scroll down to bottom of the page",
+            "line": 87,
+            "name": "Verify descriptions under expect sections is displayed",
             "match": {
-              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1340000000,
-              "status": "passed"
-            },
-            "line": 135,
-            "name": "User click on \"Contact Us\" link",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Contact Us\"",
-                  "offset": 14
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 23000000,
-              "status": "passed"
-            },
-            "line": 136,
-            "name": "Verify page title contains \"Contact Us\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Contact Us\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4000000,
-              "status": "passed"
-            },
-            "line": 137,
-            "name": "Verify URL contains \"contact\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"contact\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_descriptions_under_expect_sections_is_displayed()"
             },
             "keyword": "Then "
           }
@@ -655,10 +340,7 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-16"
-          },
-          {
-            "name": "@smoke"
+            "name": "@ADVSYS-12"
           }
         ]
       }
