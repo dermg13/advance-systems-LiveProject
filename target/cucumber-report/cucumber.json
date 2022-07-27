@@ -3,27 +3,11 @@
     "line": 2,
     "elements": [
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "start_timestamp": "2022-07-27T14:47:07.535Z",
+        "start_timestamp": "2022-07-27T21:54:28.913Z",
         "before": [
           {
             "result": {
-              "duration": 2851000000,
-=======
-        "start_timestamp": "2022-07-27T18:58:13.659Z",
-        "before": [
-          {
-            "result": {
-              "duration": 8703000000,
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
-        "start_timestamp": "2022-07-25T17:00:40.846Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2565000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
+              "duration": 2892000000,
               "status": "passed"
             },
             "match": {
@@ -31,22 +15,14 @@
             }
           }
         ],
-        "line": 76,
-        "name": "Verify expect sections are displayed as a header",
+        "line": 112,
+        "name": "following information should be displayed in footer section",
         "description": "",
-        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;2",
+        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;2",
         "after": [
           {
             "result": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "duration": 693000000,
-=======
-              "duration": 209000000,
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
-              "duration": 612000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
+              "duration": 696000000,
               "status": "passed"
             },
             "match": {
@@ -59,27 +35,19 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "duration": 1689000000,
-=======
-              "duration": 1607000000,
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
-              "duration": 1729000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
+              "duration": 1598000000,
               "status": "passed"
             },
-            "line": 73,
-            "name": "Verify \"Leadership Development\" sections is displayed as a header",
+            "line": 109,
+            "name": "Verify \"Address: 10090 Main St, Fairfax, VA\" information is displayed",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Leadership Development\"",
+                  "val": "\"Address: 10090 Main St, Fairfax, VA\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -89,32 +57,16 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-12"
+            "name": "@ADVSYS-15"
           }
         ]
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "start_timestamp": "2022-07-27T14:47:12.861Z",
+        "start_timestamp": "2022-07-27T21:54:34.199Z",
         "before": [
           {
             "result": {
-              "duration": 2246000000,
-=======
-        "start_timestamp": "2022-07-27T18:58:24.398Z",
-        "before": [
-          {
-            "result": {
-              "duration": 5755000000,
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
-        "start_timestamp": "2022-07-25T17:00:45.811Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1849000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
+              "duration": 2167000000,
               "status": "passed"
             },
             "match": {
@@ -122,22 +74,14 @@
             }
           }
         ],
-        "line": 77,
-        "name": "Verify expect sections are displayed as a header",
+        "line": 113,
+        "name": "following information should be displayed in footer section",
         "description": "",
-        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;3",
+        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;3",
         "after": [
           {
             "result": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "duration": 658000000,
-=======
-              "duration": 258000000,
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
-              "duration": 616000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
+              "duration": 669000000,
               "status": "passed"
             },
             "match": {
@@ -150,27 +94,19 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "duration": 1566000000,
-=======
-              "duration": 1526000000,
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
-              "duration": 1694000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
+              "duration": 1520000000,
               "status": "passed"
             },
-            "line": 73,
-            "name": "Verify \"Capability Building\" sections is displayed as a header",
+            "line": 109,
+            "name": "Verify \"Phone: +1 703-831-321\" information is displayed",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Capability Building\"",
+                  "val": "\"Phone: +1 703-831-321\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -180,32 +116,16 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-12"
+            "name": "@ADVSYS-15"
           }
         ]
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "start_timestamp": "2022-07-27T14:47:17.343Z",
+        "start_timestamp": "2022-07-27T21:54:38.569Z",
         "before": [
           {
             "result": {
-              "duration": 2068000000,
-=======
-        "start_timestamp": "2022-07-27T18:58:31.974Z",
-        "before": [
-          {
-            "result": {
-              "duration": 6830000000,
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
-        "start_timestamp": "2022-07-25T17:00:49.982Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1936000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
+              "duration": 2259000000,
               "status": "passed"
             },
             "match": {
@@ -213,22 +133,14 @@
             }
           }
         ],
-        "line": 78,
-        "name": "Verify expect sections are displayed as a header",
+        "line": 114,
+        "name": "following information should be displayed in footer section",
         "description": "",
-        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;4",
+        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;4",
         "after": [
           {
             "result": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "duration": 689000000,
-=======
-              "duration": 240000000,
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
-              "duration": 633000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
+              "duration": 683000000,
               "status": "passed"
             },
             "match": {
@@ -241,27 +153,19 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "duration": 1485000000,
-=======
-              "duration": 1790000000,
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
-              "duration": 1670000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
+              "duration": 1611000000,
               "status": "passed"
             },
-            "line": 73,
-            "name": "Verify \"Rewards \u0026 Benefits\" sections is displayed as a header",
+            "line": 109,
+            "name": "Verify \"Email: info@advancesystems.us\" information is displayed",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Rewards \u0026 Benefits\"",
+                  "val": "\"Email: info@advancesystems.us\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -271,32 +175,16 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-12"
+            "name": "@ADVSYS-15"
           }
         ]
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "start_timestamp": "2022-07-27T14:47:21.597Z",
+        "start_timestamp": "2022-07-27T21:54:43.134Z",
         "before": [
           {
             "result": {
-              "duration": 2134000000,
-=======
-        "start_timestamp": "2022-07-27T18:58:40.892Z",
-        "before": [
-          {
-            "result": {
-              "duration": 9416000000,
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
-        "start_timestamp": "2022-07-25T17:00:54.228Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1954000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
+              "duration": 2069000000,
               "status": "passed"
             },
             "match": {
@@ -304,22 +192,14 @@
             }
           }
         ],
-        "line": 79,
-        "name": "Verify expect sections are displayed as a header",
+        "line": 115,
+        "name": "following information should be displayed in footer section",
         "description": "",
-        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;5",
+        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;5",
         "after": [
           {
             "result": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "duration": 685000000,
-=======
-              "duration": 144000000,
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
-              "duration": 610000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
+              "duration": 708000000,
               "status": "passed"
             },
             "match": {
@@ -332,27 +212,19 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "duration": 1304000000,
-=======
-              "duration": 1647000000,
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
-              "duration": 1417000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
+              "duration": 1569000000,
               "status": "passed"
             },
-            "line": 73,
-            "name": "Verify \"Excellent Customer Service\" sections is displayed as a header",
+            "line": 109,
+            "name": "Verify \"Mon to Sat: 9.00 am to 5:00 pm\" information is displayed",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Excellent Customer Service\"",
+                  "val": "\"Mon to Sat: 9.00 am to 5:00 pm\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -362,145 +234,7 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-12"
-          }
-        ]
-      },
-      {
-<<<<<<< HEAD
-        "start_timestamp": "2022-07-27T14:47:25.729Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2051000000,
-=======
-        "start_timestamp": "2022-07-25T17:00:58.218Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1908000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 82,
-        "name": "Verify Employee \u0026 Employer Relations is displayed as a header",
-        "description": "",
-        "id": "homepage-related-scenarios;verify-employee-\u0026-employer-relations-is-displayed-as-a-header",
-        "after": [
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 644000000,
-=======
-              "duration": 619000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 1461000000,
-=======
-              "duration": 1662000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
-              "status": "passed"
-            },
-            "line": 83,
-            "name": "Verify Employee \u0026 Employer Relations is displayed",
-            "match": {
-              "location": "step_definitions.HomeSteps.verify_employee_employer_relations_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-12"
-          }
-        ]
-      },
-      {
-<<<<<<< HEAD
-        "start_timestamp": "2022-07-27T14:47:29.896Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2113000000,
-=======
-        "start_timestamp": "2022-07-25T17:01:02.411Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1957000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 86,
-        "name": "Verify descriptions under expect sections is displayed",
-        "description": "",
-        "id": "homepage-related-scenarios;verify-descriptions-under-expect-sections-is-displayed",
-        "after": [
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 726000000,
-=======
-              "duration": 606000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 5948000000,
-=======
-              "duration": 6319000000,
->>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
-              "status": "passed"
-            },
-            "line": 87,
-            "name": "Verify descriptions under expect sections is displayed",
-            "match": {
-              "location": "step_definitions.HomeSteps.verify_descriptions_under_expect_sections_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-12"
+            "name": "@ADVSYS-15"
           }
         ]
       }
