@@ -95,18 +95,17 @@ Feature: Homepage related scenarios
   @ADVSYS-19
   Scenario: There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.
     Given scroll down to bottom of the page
-    Then Click on button go back button when scroll down to bottom of the page
-    And Check if it back to top content
-#--------------------------------------------------------------------------------
+    Then click on button go back button when scroll down to bottom of the page
+    And check if it back to top content
+#---------------------------------------------------------------------------------
 
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
-
-#-------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------
 
   @ADVSYS-15
-  Scenario Outline: information should be displayed in footer section
+  Scenario Outline: following information should be displayed in footer section
     Then Verify "<contact>" information is displayed
     Examples:
       | contact                             |
@@ -114,8 +113,7 @@ Feature: Homepage related scenarios
       | Phone: +1 703-831-321               |
       | Email: info@advancesystems.us       |
       | Mon to Sat: 9.00 am to 5:00 pm      |
-
-#--------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------
 
   @ADVSYS-17 @smoke
   Scenario Outline: Footer social media buttons displayed
@@ -130,8 +128,7 @@ Feature: Homepage related scenarios
       | skype             | skype             | skype         |
       | linkedin          | linkedin          | linkedin      |
 
-#----------------------------------------------------------------------------------------
-
+#---------------------------------------------------------------------------------
   @ADVSYS-16 @smoke
   Scenario Outline: Footer essential quick links displayed and working as expected
     Given scroll down to bottom of the page

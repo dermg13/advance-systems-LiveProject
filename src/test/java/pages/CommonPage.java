@@ -16,4 +16,7 @@ public interface CommonPage {
 
 
     String XPATH_TEMPLATE_TEXT_SECTION = "//h3[normalize-space()='%s']";
+
+
+
 }
