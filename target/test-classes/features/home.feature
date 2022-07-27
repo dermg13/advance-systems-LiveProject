@@ -76,15 +76,16 @@ Feature: Homepage related scenarios
       | Leadership Development     |
       | Capability Building        |
       | Rewards & Benefits         |
+      | Employee & Employer Relations |
       | Excellent Customer Service |
 
-  @ADVSYS-12
-  Scenario: Verify Employee & Employer Relations is displayed as a header
-    Then Verify Employee & Employer Relations is displayed
+#  @ADVSYS-12
+#  Scenario: Verify Employee & Employer Relations is displayed as a header
+#    Then Verify Employee & Employer Relations is displayed
 
-  @ADVSYS-12
-  Scenario: Verify descriptions under expect sections is displayed
-    Then Verify descriptions under expect sections is displayed
+#  @ADVSYS-12
+#  Scenario: Verify descriptions under expect sections is displayed
+#    Then Verify descriptions under expect sections is displayed
 #---------------------------------------------------------------------------------
 
   @ADVSYS-20

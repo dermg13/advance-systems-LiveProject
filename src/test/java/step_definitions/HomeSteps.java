@@ -188,7 +188,6 @@ public class HomeSteps implements CommonPage {
         }
     }
 
-
     @Then("Verify copyright text is {string}")
     public void verifyCopyrightTextIsString(String copyRight) {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
@@ -203,7 +202,7 @@ public class HomeSteps implements CommonPage {
 
     @Then("Verify {string} information is displayed")
     public void verify_information_is_displayed(String contact) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contact));
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contactFT));
 
     }
 
