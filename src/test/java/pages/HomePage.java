@@ -32,8 +32,6 @@ public class HomePage {
     @FindBy(xpath = "(//div[@class='tp-mask-wrap']//div[@class='text'])[1]")
     public WebElement ParallaxSectionDescriptionOneTxt;
 
-
-
     @FindAll(@FindBy(xpath = "//div[contains(@class,'active')]//*[contains(@alt,'company-image-')]"))
     public WebElement footerCompanies;
 
@@ -55,5 +53,10 @@ public class HomePage {
     @FindBy( linkText = "HOME")
     public WebElement home;
 
+    @FindBy(xpath = "//div[@class='inner-box']//br/parent::h3")
+    public WebElement employeeRelation;
+
+    @FindBy(xpath = "")
+    public WebElement contact;
 }
 
