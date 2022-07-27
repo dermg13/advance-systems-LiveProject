@@ -200,10 +200,9 @@ public class HomeSteps implements CommonPage {
         js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
     }
 
-    @Then("Verify {string} following information is displayed")
+    @Then("Verify {string} information is displayed")
     public void verify_information_is_displayed(String contact) {
         Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contactFT));
-
     }
 
     @Given("scroll down to bottom of the page")
