@@ -194,7 +194,7 @@ public class HomeSteps implements CommonPage {
     }
     @Then("Verify {string} information is displayed")
     public void verify_information_is_displayed(String contact) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contactFT));
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT_CONTAINS, contact))));
     }
 
     @Given("at bottom of the page")
