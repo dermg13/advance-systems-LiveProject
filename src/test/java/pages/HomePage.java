@@ -10,11 +10,11 @@ import utils.WebDriverManager;
 import java.util.List;
 
 public class HomePage {
-    public HomePage(){
+    public HomePage() {
         PageFactory.initElements(WebDriverManager.getDriver(), this);
     }
 
-    @FindBy( xpath = "//div/h2[contains(text(),'Words from our Clients')]")
+    @FindBy(xpath = "//div/h2[contains(text(),'Words from our Clients')]")
     public WebElement clientsHeader;
 
     @FindBy(xpath = "//div[@class='owl-item active']/div/div/div[@class='text']")
@@ -42,7 +42,7 @@ public class HomePage {
     public List<WebElement> description;
 
     @FindBy(xpath = "//div[text()='Copyright © 2022 Advance Systems LLC. All Rights Reserved.']")
-    public WebElement  BottomOfThePage;
+    public WebElement BottomOfThePage;
 
     @FindBy(xpath = "//div//span[@class='icon fa fa-arrow-up']")
     public WebElement GoToTopButton;
@@ -50,7 +50,7 @@ public class HomePage {
     @FindBy(xpath = "//div/ul/li[text()='Stay Connected:']")
     public WebElement TopPage;
 
-    @FindBy( linkText = "HOME")
+    @FindBy(linkText = "HOME")
     public WebElement home;
 
     @FindBy(xpath = "//div[@class='inner-box']//br/parent::h3")

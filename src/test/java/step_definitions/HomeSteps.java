@@ -204,7 +204,8 @@ public class HomeSteps implements CommonPage {
             //System.out.println(WebDriverManager.getText(desc));
         }
     }
-//---------------------------------------------------------
+
+    //---------------------------------------------------------
     @Then("Verify {string} information is displayed")
     public void verify_information_is_displayed(String contact) {
         Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contact));
@@ -223,6 +224,7 @@ public class HomeSteps implements CommonPage {
         WebDriverManager.click(homePage.GoToTopButton);//click on go back button
 
     }
+
     @Then("Check if it back to top content")
     public void check_if_it_back_to_top_content() {
         Assert.assertTrue(WebDriverManager.isDisplayed(homePage.home));//Highlight a top element
