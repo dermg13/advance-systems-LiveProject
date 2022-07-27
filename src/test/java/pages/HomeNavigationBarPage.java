@@ -31,18 +31,18 @@ public class HomeNavigationBarPage {
     @FindBy(linkText = "CONTACT US")
     public WebElement contactUs;
 
-    @FindBy(xpath = "//a[contains(text(),'Get Support')]")
+    @FindBy(xpath = "//a[text()='Get Support']")
     public WebElement getSupport;
-    @FindBy(xpath = "//a[contains(text(),'Job Career')]")
+    @FindBy(xpath = "//a[text()='Job Career']")
     public WebElement jobCareer;
-    @FindBy(xpath = "//a[contains(text(),'Feedback')]")
+    @FindBy(xpath = "//a[text()='Feedback']")
     public WebElement feedBacks;
 
-    @FindBy (xpath = "//*[@class='dropdown-menu style-one']//*[contains(text(),'English')]")
+    @FindBy (xpath = "//*[@class='dropdown-menu style-one']//*[text()='English']")
     public WebElement englishLanguage;
-    @FindBy (xpath = "//*[@class='dropdown-menu style-one']//*[contains(text(),'Spanish')]")
+    @FindBy (xpath = "//*[@class='dropdown-menu style-one']//*[text()='Spanish']")
     public WebElement spanishLanguage;
-    @FindBy (xpath = "//*[@class='dropdown-menu style-one']//*[contains(text(),'French')]")
+    @FindBy (xpath = "//*[@class='dropdown-menu style-one']//*[text()='French']")
     public WebElement frenchLanguage;
 
 

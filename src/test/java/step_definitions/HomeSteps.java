@@ -7,7 +7,9 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
 import pages.CommonPage;
 import pages.HomePage;
 import utils.SeleniumUtils;
@@ -132,23 +134,134 @@ public class HomeSteps implements CommonPage {
             Assert.fail("Parallax two is displayed");
         }
     }
-        @When("User clicks on {string} button in parallax section")
-        public void user_clicks_on_button_in_parallax_section(String ReadMorebtn) {
-            WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_LINKTEXT, ReadMorebtn)));
-        }
-        @Then("User should see the {string} page displayed")
-        public void user_should_see_the_page_displayed(String page) {
-            Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(page));
-        }
+
+    @When("User clicks on {string} button in parallax section")
+    public void user_clicks_on_button_in_parallax_section(String ReadMorebtn) {
+        WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_LINKTEXT, ReadMorebtn)));
+    }
+
+    @Then("User should see the {string} page displayed")
+    public void user_should_see_the_page_displayed(String page) {
+        Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(page));
+    }
+
 
     @Then("Verify user sees company image")
-    public void verifyUserSeesCompanyImage() {
-        WebElement imageFile = WebDriverManager.getDriver().findElement(By.xpath("//div[contains(@class,'active')]//*[contains(@alt,'company-image-1')]"));
-        Boolean ImagePresent = (Boolean) ((JavascriptExecutor) WebDriverManager.getDriver()).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", imageFile);
-        if (!ImagePresent) {
-            System.out.println("Image not displayed.");
-        } else {
-            System.out.println("Image displayed.");
+    public void verifyUserSeesCompanyImage() throws InterruptedException {
+        List<WebElement> footerCompany = WebDriverManager.getDriver().findElements(By.xpath("//div[contains(@class,'active')]//*[contains(@alt,'company-image-')]"));
+        for (WebElement each : footerCompany) {
+            Assert.assertTrue(WebDriverManager.isDisplayed(each));
         }
     }
+
+
+    @Then("Verify header is {string}")
+    public void verifyHeaderIs(String header) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, header))));
+    }
+
+    @And("Verify secondary header is {string}")
+    public void verifySecondaryHeaderIs(String secondaryHeader) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, secondaryHeader))));
+    }
+
+    @And("Verify description text is {string}")
+    public void verifyDescriptionTextIs(String descriptionText) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, descriptionText))));
+    }
+
+    @Then("Verify {string} sections is displayed as a header")
+    public void verify_sections_is_displayed_as_a_header(String section) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT_SECTION, section))));
+    }
+
+    @Then("Verify Employee & Employer Relations is displayed")
+    public void verify_employee_employer_relations_is_displayed() {
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.employeeRelation));
+    }
+
+    @Then("Verify descriptions under expect sections is displayed")
+    public void verify_descriptions_under_expect_sections_is_displayed() {
+        for (WebElement desc : homePage.description) {
+            Assert.assertTrue(WebDriverManager.isDisplayed(desc));
+            //System.out.println(WebDriverManager.getText(desc));
+        }
+    }
+
+    @Then("Verify copyright text is {string}")
+    public void verifyCopyrightTextIsString(String copyRight) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
+    }
+    @Then("Verify {string} information is displayed")
+    public void verify_information_is_displayed(String contact) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT_CONTAINS, contact))));
+    }
+
+    @Given("at bottom of the page")
+    public void at_bottom_of_the_page() {
+        WebDriver driver = new EdgeDriver();
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+    }
+
+    @Given("scroll down to bottom of the page")
+    public void scroll_down_to_bottom_of_the_page() {
+
+        WebDriverManager.click(homePage.BottomOfThePage);//scroll down to bottom
+    }
+
+    @Then("Click on button go back button when scroll down to bottom of the page")
+    public void click_on_button_go_back_button_when_scroll_down_to_bottom_of_the_page() {
+
+        WebDriverManager.click(homePage.GoToTopButton);//click on go back button
+
+    }
+
+    @Then("Check if it back to top content")
+    public void check_if_it_back_to_top_content() {
+        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.home));//Highlight a top element
+    }
+
+    @Then("Verify {string} icon is displayed")
+    public void verifyIconIsDisplayed(String str) {
+        Assert.assertTrue(WebDriverManager
+                .isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_FT, str))));
+    }
+
+    @When("User click on {string}")
+    public void userClickOn(String btn) {
+        WebDriverManager.getDriver()
+                .findElement(By.xpath(String.format(XPATH_TEMPLATE_SOCIAL_MEDIA_FT, btn)))
+                .click();
+    }
+
+    @Then("User is navigated to new tab")
+    public void userIsNavigatedToNewTab() {
+        SeleniumUtils.switchToNextWindow();
+    }
+
+    @Then("Verify URL contains {string}")
+    public void verifyURLContains(String str) {
+        Assert.assertTrue(WebDriverManager.getDriver().getCurrentUrl().contains(str));
+    }
+
+    @When("User click on {string} link")
+    public void userClickOnLink(String str) {
+        WebDriverManager.getDriver()
+                .findElement(By.xpath(String.format
+                        ("//div[@class='col-md-6 col-sm-12']" + XPATH_TEMPLATE_LINKTEXT, str))).click();
+    }
+
+    @Then("Verify page title contains {string}")
+    public void verifyPageTitleContains(String str) {
+        Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(str));
+    }
 }
+
+
+
+
+
+
+
+
