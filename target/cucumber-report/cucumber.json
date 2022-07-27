@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-26T23:45:15.548Z",
+        "start_timestamp": "2022-07-27T01:03:40.394Z",
         "before": [
           {
             "result": {
-              "duration": 12842000000,
+              "duration": 8938000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 74,
+        "line": 76,
         "name": "Verify expect sections are displayed as a header",
         "description": "",
         "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;2",
         "after": [
           {
             "result": {
-              "duration": 336000000,
+              "duration": 249000000,
               "status": "passed"
             },
             "match": {
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2477000000,
+              "duration": 1862000000,
               "status": "passed"
             },
-            "line": 71,
+            "line": 73,
             "name": "Verify \"Leadership Development\" sections is displayed as a header",
             "match": {
               "arguments": [
@@ -62,11 +62,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-26T23:45:31.548Z",
+        "start_timestamp": "2022-07-27T01:03:51.823Z",
         "before": [
           {
             "result": {
-              "duration": 6900000000,
+              "duration": 6018000000,
               "status": "passed"
             },
             "match": {
@@ -74,14 +74,14 @@
             }
           }
         ],
-        "line": 75,
+        "line": 77,
         "name": "Verify expect sections are displayed as a header",
         "description": "",
         "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;3",
         "after": [
           {
             "result": {
-              "duration": 262000000,
+              "duration": 221000000,
               "status": "passed"
             },
             "match": {
@@ -94,10 +94,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1655000000,
+              "duration": 1460000000,
               "status": "passed"
             },
-            "line": 71,
+            "line": 73,
             "name": "Verify \"Capability Building\" sections is displayed as a header",
             "match": {
               "arguments": [
@@ -121,11 +121,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-26T23:45:40.399Z",
+        "start_timestamp": "2022-07-27T01:03:59.566Z",
         "before": [
           {
             "result": {
-              "duration": 6383000000,
+              "duration": 5667000000,
               "status": "passed"
             },
             "match": {
@@ -133,14 +133,14 @@
             }
           }
         ],
-        "line": 76,
+        "line": 78,
         "name": "Verify expect sections are displayed as a header",
         "description": "",
         "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;4",
         "after": [
           {
             "result": {
-              "duration": 192000000,
+              "duration": 151000000,
               "status": "passed"
             },
             "match": {
@@ -153,10 +153,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1536000000,
+              "duration": 1624000000,
               "status": "passed"
             },
-            "line": 71,
+            "line": 73,
             "name": "Verify \"Rewards \u0026 Benefits\" sections is displayed as a header",
             "match": {
               "arguments": [
@@ -180,11 +180,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-26T23:45:48.538Z",
+        "start_timestamp": "2022-07-27T01:04:07.038Z",
         "before": [
           {
             "result": {
-              "duration": 8011000000,
+              "duration": 6018000000,
               "status": "passed"
             },
             "match": {
@@ -192,14 +192,14 @@
             }
           }
         ],
-        "line": 77,
+        "line": 79,
         "name": "Verify expect sections are displayed as a header",
         "description": "",
         "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;5",
         "after": [
           {
             "result": {
-              "duration": 184000000,
+              "duration": 169000000,
               "status": "passed"
             },
             "match": {
@@ -212,10 +212,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1421000000,
+              "duration": 1470000000,
               "status": "passed"
             },
-            "line": 71,
+            "line": 73,
             "name": "Verify \"Excellent Customer Service\" sections is displayed as a header",
             "match": {
               "arguments": [
@@ -239,11 +239,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-26T23:45:58.171Z",
+        "start_timestamp": "2022-07-27T01:04:14.716Z",
         "before": [
           {
             "result": {
-              "duration": 10822000000,
+              "duration": 6100000000,
               "status": "passed"
             },
             "match": {
@@ -251,14 +251,14 @@
             }
           }
         ],
-        "line": 80,
+        "line": 82,
         "name": "Verify Employee \u0026 Employer Relations is displayed as a header",
         "description": "",
         "id": "homepage-related-scenarios;verify-employee-\u0026-employer-relations-is-displayed-as-a-header",
         "after": [
           {
             "result": {
-              "duration": 166000000,
+              "duration": 181000000,
               "status": "passed"
             },
             "match": {
@@ -271,19 +271,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1443000000,
+              "duration": 1750000000,
               "status": "passed"
             },
-            "line": 81,
-            "name": "Verify \"Employee \u0026 Employer Relations\" is displayed",
+            "line": 83,
+            "name": "Verify Employee \u0026 Employer Relations is displayed",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Employee \u0026 Employer Relations\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verify_is_displayed(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_employee_employer_relations_is_displayed()"
             },
             "keyword": "Then "
           }
@@ -298,11 +292,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-26T23:46:10.623Z",
+        "start_timestamp": "2022-07-27T01:04:22.778Z",
         "before": [
           {
             "result": {
-              "duration": 7217000000,
+              "duration": 6269000000,
               "status": "passed"
             },
             "match": {
@@ -310,14 +304,14 @@
             }
           }
         ],
-        "line": 84,
+        "line": 86,
         "name": "Verify descriptions under expect sections is displayed",
         "description": "",
         "id": "homepage-related-scenarios;verify-descriptions-under-expect-sections-is-displayed",
         "after": [
           {
             "result": {
-              "duration": 309000000,
+              "duration": 217000000,
               "status": "passed"
             },
             "match": {
@@ -330,10 +324,10 @@
         "steps": [
           {
             "result": {
-              "duration": 6083000000,
+              "duration": 6129000000,
               "status": "passed"
             },
-            "line": 85,
+            "line": 87,
             "name": "Verify descriptions under expect sections is displayed",
             "match": {
               "location": "step_definitions.HomeSteps.verify_descriptions_under_expect_sections_is_displayed()"
