@@ -180,13 +180,6 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
     }
 
-    @Given("at bottom of the page")
-    public void at_bottom_of_the_page() {
-        WebDriver driver = new EdgeDriver();
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-    }
-
     @Then("Verify {string} sections is displayed as a header")
     public void verify_sections_is_displayed_as_a_header(String section) {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT_SECTION, section))));
