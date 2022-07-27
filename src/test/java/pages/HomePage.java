@@ -53,7 +53,5 @@ public class HomePage {
     @FindBy(linkText = "HOME")
     public WebElement home;
 
-    @FindBy(xpath = "//ul[@class='list-info']")
-    public WebElement contactFT;
 }
 
