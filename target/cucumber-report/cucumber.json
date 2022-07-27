@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-26T14:45:12.116Z",
+        "start_timestamp": "2022-07-27T00:36:56.997Z",
         "before": [
           {
             "result": {
-              "duration": 8320000000,
+              "duration": 2736000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 125,
-        "name": "Footer social media buttons displayed",
+        "line": 76,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;footer-social-media-buttons-displayed;;2",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;2",
         "after": [
           {
             "result": {
-              "duration": 85000000,
+              "duration": 669000000,
               "status": "passed"
             },
             "match": {
@@ -35,67 +35,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1811000000,
+              "duration": 1548000000,
               "status": "passed"
             },
-            "line": 119,
-            "name": "Verify \"facebook\" icon is displayed",
+            "line": 73,
+            "name": "Verify \"Leadership Development\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"facebook\"",
+                  "val": "\"Leadership Development\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verifyIconIsDisplayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 213000000,
-              "status": "passed"
-            },
-            "line": 120,
-            "name": "User click on \"facebook\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"facebook\"",
-                  "offset": 14
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userClickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 38000000,
-              "status": "passed"
-            },
-            "line": 121,
-            "name": "User is navigated to new tab",
-            "match": {
-              "location": "step_definitions.HomeSteps.userIsNavigatedToNewTab()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4519000000,
-              "status": "passed"
-            },
-            "line": 122,
-            "name": "Verify URL contains \"facebook\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"facebook\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -105,19 +57,16 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-17"
-          },
-          {
-            "name": "@smoke"
+            "name": "@ADVSYS-12"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-26T14:45:27.268Z",
+        "start_timestamp": "2022-07-27T00:37:02.030Z",
         "before": [
           {
             "result": {
-              "duration": 3553000000,
+              "duration": 2034000000,
               "status": "passed"
             },
             "match": {
@@ -125,14 +74,14 @@
             }
           }
         ],
-        "line": 126,
-        "name": "Footer social media buttons displayed",
+        "line": 77,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;footer-social-media-buttons-displayed;;3",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;3",
         "after": [
           {
             "result": {
-              "duration": 87000000,
+              "duration": 645000000,
               "status": "passed"
             },
             "match": {
@@ -145,67 +94,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1745000000,
+              "duration": 1550000000,
               "status": "passed"
             },
-            "line": 119,
-            "name": "Verify \"twitter\" icon is displayed",
+            "line": 73,
+            "name": "Verify \"Capability Building\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"twitter\"",
+                  "val": "\"Capability Building\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verifyIconIsDisplayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 218000000,
-              "status": "passed"
-            },
-            "line": 120,
-            "name": "User click on \"twitter\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"twitter\"",
-                  "offset": 14
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userClickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 23000000,
-              "status": "passed"
-            },
-            "line": 121,
-            "name": "User is navigated to new tab",
-            "match": {
-              "location": "step_definitions.HomeSteps.userIsNavigatedToNewTab()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1733000000,
-              "status": "passed"
-            },
-            "line": 122,
-            "name": "Verify URL contains \"twitter\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"twitter\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -215,19 +116,16 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-17"
-          },
-          {
-            "name": "@smoke"
+            "name": "@ADVSYS-12"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-26T14:45:34.661Z",
+        "start_timestamp": "2022-07-27T00:37:06.266Z",
         "before": [
           {
             "result": {
-              "duration": 3397000000,
+              "duration": 2020000000,
               "status": "passed"
             },
             "match": {
@@ -235,14 +133,14 @@
             }
           }
         ],
-        "line": 127,
-        "name": "Footer social media buttons displayed",
+        "line": 78,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;footer-social-media-buttons-displayed;;4",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;4",
         "after": [
           {
             "result": {
-              "duration": 90000000,
+              "duration": 668000000,
               "status": "passed"
             },
             "match": {
@@ -255,67 +153,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1524000000,
+              "duration": 1508000000,
               "status": "passed"
             },
-            "line": 119,
-            "name": "Verify \"skype\" icon is displayed",
+            "line": 73,
+            "name": "Verify \"Rewards \u0026 Benefits\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"skype\"",
+                  "val": "\"Rewards \u0026 Benefits\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verifyIconIsDisplayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 202000000,
-              "status": "passed"
-            },
-            "line": 120,
-            "name": "User click on \"skype\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"skype\"",
-                  "offset": 14
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userClickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 43000000,
-              "status": "passed"
-            },
-            "line": 121,
-            "name": "User is navigated to new tab",
-            "match": {
-              "location": "step_definitions.HomeSteps.userIsNavigatedToNewTab()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2819000000,
-              "status": "passed"
-            },
-            "line": 122,
-            "name": "Verify URL contains \"skype\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"skype\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -325,19 +175,16 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-17"
-          },
-          {
-            "name": "@smoke"
+            "name": "@ADVSYS-12"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-26T14:45:42.787Z",
+        "start_timestamp": "2022-07-27T00:37:10.466Z",
         "before": [
           {
             "result": {
-              "duration": 3462000000,
+              "duration": 1990000000,
               "status": "passed"
             },
             "match": {
@@ -345,14 +192,14 @@
             }
           }
         ],
-        "line": 128,
-        "name": "Footer social media buttons displayed",
+        "line": 79,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;footer-social-media-buttons-displayed;;5",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;5",
         "after": [
           {
             "result": {
-              "duration": 84000000,
+              "duration": 669000000,
               "status": "passed"
             },
             "match": {
@@ -365,67 +212,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1499000000,
+              "duration": 1518000000,
               "status": "passed"
             },
-            "line": 119,
-            "name": "Verify \"linkedin\" icon is displayed",
+            "line": 73,
+            "name": "Verify \"Excellent Customer Service\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"linkedin\"",
+                  "val": "\"Excellent Customer Service\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verifyIconIsDisplayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 219000000,
-              "status": "passed"
-            },
-            "line": 120,
-            "name": "User click on \"linkedin\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"linkedin\"",
-                  "offset": 14
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userClickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 21000000,
-              "status": "passed"
-            },
-            "line": 121,
-            "name": "User is navigated to new tab",
-            "match": {
-              "location": "step_definitions.HomeSteps.userIsNavigatedToNewTab()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2443000000,
-              "status": "passed"
-            },
-            "line": 122,
-            "name": "Verify URL contains \"linkedin\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"linkedin\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -435,10 +234,113 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-17"
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-27T00:37:14.646Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1953000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 82,
+        "name": "Verify Employee \u0026 Employer Relations is displayed as a header",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-employee-\u0026-employer-relations-is-displayed-as-a-header",
+        "after": [
+          {
+            "result": {
+              "duration": 659000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1654000000,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Verify Employee \u0026 Employer Relations is displayed",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_employee_employer_relations_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
           },
           {
-            "name": "@smoke"
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-27T00:37:18.916Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1999000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 86,
+        "name": "Verify descriptions under expect sections is displayed",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-descriptions-under-expect-sections-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 687000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6216000000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Verify descriptions under expect sections is displayed",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_descriptions_under_expect_sections_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
           }
         ]
       }
