@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-27T03:26:26.869Z",
+        "start_timestamp": "2022-07-27T14:47:07.535Z",
         "before": [
           {
             "result": {
-              "duration": 10302000000,
+              "duration": 2851000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 112,
-        "name": "following information should be displayed in footer section",
+        "line": 76,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;2",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;2",
         "after": [
           {
             "result": {
-              "duration": 198000000,
+              "duration": 693000000,
               "status": "passed"
             },
             "match": {
@@ -35,19 +35,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1834000000,
+              "duration": 1689000000,
               "status": "passed"
             },
-            "line": 109,
-            "name": "Verify \"Address: 10090 Main St, Fairfax, VA\" information is displayed",
+            "line": 73,
+            "name": "Verify \"Leadership Development\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Address: 10090 Main St, Fairfax, VA\"",
+                  "val": "\"Leadership Development\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -57,34 +57,32 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-15"
+            "name": "@ADVSYS-12"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-27T03:26:39.535Z",
+        "start_timestamp": "2022-07-27T14:47:12.861Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d103.0.5060.134)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Panithans-Air.verizon.net\u0027, ip: \u00272600:4040:49ba:9100:44e0:6a73:66f0:15df%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /var/folders/x2/7293bpld5ws...}, goog:chromeOptions: {debuggerAddress: localhost:64234}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 96001867bfa6467f098a32e678b06953\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat step_definitions.Hooks.setUp(Hooks.java:14)\n",
-              "duration": 5417000000,
-              "status": "failed"
+              "duration": 2246000000,
+              "status": "passed"
             },
             "match": {
               "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
             }
           }
         ],
-        "line": 113,
-        "name": "following information should be displayed in footer section",
+        "line": 77,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;3",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;3",
         "after": [
           {
             "result": {
-              "error_message": "java.lang.IllegalStateException: You can not use Scenario.log or Scenario.attach when a step is not being executed\n\tat io.cucumber.core.runner.TestCaseState.requireActiveTestStep(TestCaseState.java:163)\n\tat io.cucumber.core.runner.TestCaseState.log(TestCaseState.java:108)\n\tat io.cucumber.java.Scenario.log(Scenario.java:100)\n\tat utils.CucumberLogUtils.logFail(CucumberLogUtils.java:37)\n\tat step_definitions.Hooks.tearDown(Hooks.java:21)\n",
-              "duration": 4000000,
-              "status": "failed"
+              "duration": 658000000,
+              "status": "passed"
             },
             "match": {
               "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -96,19 +94,19 @@
         "steps": [
           {
             "result": {
-              "duration": 22000000,
-              "status": "skipped"
+              "duration": 1566000000,
+              "status": "passed"
             },
-            "line": 109,
-            "name": "Verify \"Phone: +1 703-831-321\" information is displayed",
+            "line": 73,
+            "name": "Verify \"Capability Building\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Phone: +1 703-831-321\"",
+                  "val": "\"Capability Building\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -118,34 +116,32 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-15"
+            "name": "@ADVSYS-12"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-27T03:26:45.154Z",
+        "start_timestamp": "2022-07-27T14:47:17.343Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: window was already closed\n  (Session info: chrome\u003d103.0.5060.134)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Panithans-Air.verizon.net\u0027, ip: \u00272600:4040:49ba:9100:44e0:6a73:66f0:15df%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /var/folders/x2/7293bpld5ws...}, goog:chromeOptions: {debuggerAddress: localhost:64234}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 96001867bfa6467f098a32e678b06953\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat step_definitions.Hooks.setUp(Hooks.java:14)\n",
-              "duration": 13000000,
-              "status": "failed"
+              "duration": 2068000000,
+              "status": "passed"
             },
             "match": {
               "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
             }
           }
         ],
-        "line": 114,
-        "name": "following information should be displayed in footer section",
+        "line": 78,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;4",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;4",
         "after": [
           {
             "result": {
-              "error_message": "java.lang.IllegalStateException: You can not use Scenario.log or Scenario.attach when a step is not being executed\n\tat io.cucumber.core.runner.TestCaseState.requireActiveTestStep(TestCaseState.java:163)\n\tat io.cucumber.core.runner.TestCaseState.log(TestCaseState.java:108)\n\tat io.cucumber.java.Scenario.log(Scenario.java:100)\n\tat utils.CucumberLogUtils.logFail(CucumberLogUtils.java:37)\n\tat step_definitions.Hooks.tearDown(Hooks.java:21)\n",
-              "duration": 1000000,
-              "status": "failed"
+              "duration": 689000000,
+              "status": "passed"
             },
             "match": {
               "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -157,19 +153,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 1485000000,
+              "status": "passed"
             },
-            "line": 109,
-            "name": "Verify \"Email: info@advancesystems.us\" information is displayed",
+            "line": 73,
+            "name": "Verify \"Rewards \u0026 Benefits\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Email: info@advancesystems.us\"",
+                  "val": "\"Rewards \u0026 Benefits\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -179,34 +175,32 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-15"
+            "name": "@ADVSYS-12"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-27T03:26:45.249Z",
+        "start_timestamp": "2022-07-27T14:47:21.597Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: window was already closed\n  (Session info: chrome\u003d103.0.5060.134)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Panithans-Air.verizon.net\u0027, ip: \u00272600:4040:49ba:9100:44e0:6a73:66f0:15df%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /var/folders/x2/7293bpld5ws...}, goog:chromeOptions: {debuggerAddress: localhost:64234}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 96001867bfa6467f098a32e678b06953\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat step_definitions.Hooks.setUp(Hooks.java:14)\n",
-              "duration": 22000000,
-              "status": "failed"
+              "duration": 2134000000,
+              "status": "passed"
             },
             "match": {
               "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
             }
           }
         ],
-        "line": 115,
-        "name": "following information should be displayed in footer section",
+        "line": 79,
+        "name": "Verify expect sections are displayed as a header",
         "description": "",
-        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;5",
+        "id": "homepage-related-scenarios;verify-expect-sections-are-displayed-as-a-header;;5",
         "after": [
           {
             "result": {
-              "error_message": "java.lang.IllegalStateException: You can not use Scenario.log or Scenario.attach when a step is not being executed\n\tat io.cucumber.core.runner.TestCaseState.requireActiveTestStep(TestCaseState.java:163)\n\tat io.cucumber.core.runner.TestCaseState.log(TestCaseState.java:108)\n\tat io.cucumber.java.Scenario.log(Scenario.java:100)\n\tat utils.CucumberLogUtils.logFail(CucumberLogUtils.java:37)\n\tat step_definitions.Hooks.tearDown(Hooks.java:21)\n",
-              "duration": 1000000,
-              "status": "failed"
+              "duration": 685000000,
+              "status": "passed"
             },
             "match": {
               "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -218,19 +212,19 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
-              "status": "skipped"
+              "duration": 1304000000,
+              "status": "passed"
             },
-            "line": 109,
-            "name": "Verify \"Mon to Sat: 9.00 am to 5:00 pm\" information is displayed",
+            "line": 73,
+            "name": "Verify \"Excellent Customer Service\" sections is displayed as a header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Mon to Sat: 9.00 am to 5:00 pm\"",
+                  "val": "\"Excellent Customer Service\"",
                   "offset": 7
                 }
               ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verify_sections_is_displayed_as_a_header(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -240,7 +234,113 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-15"
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-27T14:47:25.729Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2051000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 82,
+        "name": "Verify Employee \u0026 Employer Relations is displayed as a header",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-employee-\u0026-employer-relations-is-displayed-as-a-header",
+        "after": [
+          {
+            "result": {
+              "duration": 644000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1461000000,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Verify Employee \u0026 Employer Relations is displayed",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_employee_employer_relations_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-27T14:47:29.896Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2113000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 86,
+        "name": "Verify descriptions under expect sections is displayed",
+        "description": "",
+        "id": "homepage-related-scenarios;verify-descriptions-under-expect-sections-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 726000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5948000000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Verify descriptions under expect sections is displayed",
+            "match": {
+              "location": "step_definitions.HomeSteps.verify_descriptions_under_expect_sections_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-12"
           }
         ]
       }
