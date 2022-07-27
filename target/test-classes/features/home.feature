@@ -72,11 +72,11 @@ Feature: Homepage related scenarios
   Scenario Outline: Verify expect sections are displayed as a header
     Then Verify "<expect>" sections is displayed as a header
     Examples:
-      | expect |
-      | Leadership Development        |
-      | Capability Building           |
-      | Rewards & Benefits            |
-      | Excellent Customer Service    |
+      | expect                     |
+      | Leadership Development     |
+      | Capability Building        |
+      | Rewards & Benefits         |
+      | Excellent Customer Service |
 
   @ADVSYS-12
   Scenario: Verify Employee & Employer Relations is displayed as a header
@@ -109,11 +109,11 @@ Feature: Homepage related scenarios
   Scenario Outline: information should be displayed in footer section
     Then Verify "<contact>" information is displayed
     Examples:
-      | contact |
+      | contact                             |
       | Address: 10090 Main St, Fairfax, VA |
-      | Phone: +1 703-831-321 |
-      | Email: info@advancesystems.us |
-      | Mon to Sat: 9.00 am to 5:00 pm |
+      | Phone: +1 703-831-321               |
+      | Email: info@advancesystems.us       |
+      | Mon to Sat: 9.00 am to 5:00 pm      |
 
 #--------------------------------------------------------------------------------------
 
@@ -125,10 +125,10 @@ Feature: Homepage related scenarios
     Then Verify URL contains "<footer sm url>"
     Examples:
       | footer sm options | footer sm buttons | footer sm url |
-      | facebook          | facebook          | facebook |
-      | twitter           | twitter           | twitter  |
-      | skype             | skype             | skype    |
-      | linkedin          | linkedin          | linkedin |
+      | facebook          | facebook          | facebook      |
+      | twitter           | twitter           | twitter       |
+      | skype             | skype             | skype         |
+      | linkedin          | linkedin          | linkedin      |
 
 #----------------------------------------------------------------------------------------
 
@@ -139,10 +139,11 @@ Feature: Homepage related scenarios
     Then Verify page title contains "<title>"
     Then Verify URL contains "<url>"
     Examples:
-      | quick link |  title     |   url   |
-      | Home       | Home       | index   |
-      | About Us   | About Us   | about   |
-      | Services   | Services   | services|
-      | Clients    | Clients    | clients |
-      | Solutions  | Solutions  | solutions|
-      | Contact Us | Contact Us | contact  |
+      | quick link | title      | url       |
+      | Home       | Home       | index     |
+      | About Us   | About Us   | about     |
+      | Services   | Services   | services  |
+      | Clients    | Clients    | clients   |
+      | Solutions  | Solutions  | solutions |
+      | Contact Us | Contact Us | contact   |
+
