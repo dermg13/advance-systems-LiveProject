@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-23T05:02:18.651Z",
+        "start_timestamp": "2022-07-27T18:25:04.239Z",
         "before": [
           {
             "result": {
-              "duration": 8935000000,
+              "duration": 5187000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 50,
-        "name": "Parallax section button",
+        "line": 45,
+        "name": "Parallax section content information and update",
         "description": "",
-        "id": "homepage-related-scenarios;parallax-section-button",
+        "id": "homepage-related-scenarios;parallax-section-content-information-and-update",
         "after": [
           {
             "result": {
-              "duration": 85000000,
+              "duration": 95000000,
               "status": "passed"
             },
             "match": {
@@ -35,37 +35,25 @@
         "steps": [
           {
             "result": {
-              "duration": 5468000000,
+              "duration": 1577000000,
               "status": "passed"
             },
-            "line": 51,
-            "name": "User clicks on \"Read More\" button in parallax section",
+            "line": 46,
+            "name": "Information is displayed in the parallax section",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Read More\"",
-                  "offset": 15
-                }
-              ],
-              "location": "step_definitions.HomeSteps.user_clicks_on_button_in_parallax_section(java.lang.String)"
+              "location": "step_definitions.HomeSteps.information_is_displayed_in_the_parallax_section()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 563000000,
+              "duration": 10171000000,
               "status": "passed"
             },
-            "line": 52,
-            "name": "User should see the \"Services\" page displayed",
+            "line": 47,
+            "name": "Header and description update automatically",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Services\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.user_should_see_the_page_displayed(java.lang.String)"
+              "location": "step_definitions.HomeSteps.header_and_description_update_automatically()"
             },
             "keyword": "Then "
           }
@@ -75,7 +63,7 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-10b"
+            "name": "@ADVSYS-10a"
           }
         ]
       }
