@@ -143,4 +143,3 @@ Feature: Homepage related scenarios
       | Clients    | Clients    | clients |
       | Solutions  | Solutions  | solutions|
       | Contact Us | Contact Us | contact  |
-      | Join Us    | Join       | joinUs   |
