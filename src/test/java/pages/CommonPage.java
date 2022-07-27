@@ -3,7 +3,9 @@ package pages;
 public interface CommonPage {
     // Home Navigation Bar
     String XPATH_TEMPLATE_LANGUAGE_BUTTON = "//li/a[@class='btn btn-default dropdown-toggle']";
-
+    String XPATH_TEMPLATE_NAVIGATION_BAR = "%s";
+    String XPATH_TEMPLATE_TOP_BAR_MENU = "//div//a[text()='%s']";
+    String XPATH_TEMPLATE_LANGUAGE_SELECTION = "//ul[@class='dropdown-menu style-one']/li/a[text()='%s']";
 
     String XPATH_TEMPLATE_SOCIAL_MEDIA_BUTTON = "//i[@class='fa fa-%s-square']";
     String XPATH_TEMPLATE_SOCIAL_MEDIA_FT = "//ul[@class='social-icon-six']//a[@href='https://%s.com']";
@@ -16,4 +18,6 @@ public interface CommonPage {
 
 
     String XPATH_TEMPLATE_TEXT_SECTION = "//h3[normalize-space()='%s']";
+
+
 }

@@ -77,5 +77,40 @@ Feature: Navigation Bar related scenarios
     Then Verify Language English buttons is displayed
     Then Verify Language Spanish buttons is displayed
     Then Verify Language French buttons is displayed
+#-------still trying to improve my code -----------------------------------------------
+  @smoke @ADVSYS-55 @navigation
+  Scenario Outline: should have following buttons
+    Given Click on "<NAVIGATION BAR>" Button
+    Examples: Navigation Bar
+   | NAVIGATION BAR|
+   |  HOME         |
+   |  ABOUT US     |
+   |  SERVICES     |
+   |  CLIENTS      |
+   |  SOLUTIONS    |
+   |  JOIN US      |
+   |  CONTACT US   |
+  @smoke @ADVSYS-55 @navigation
+    Scenario Outline:
+      Given Click on "<NAVIGATION BAR>" Button
+  Then Verify Get "<TOP BAR MENU>" buttons is displayed
+    Examples: Top bar menu
+    | TOP BAR MENU |
+    |  Get Support |
+    |  Job Career  |
+    |  Feedback    |
+  @smoke @ADVSYS-55 @navigation
+      Scenario Outline:
+      Given Click on "<NAVIGATION BAR>" Button
+      Then Verify Get "<TOP BAR MENU>" buttons is displayed
+    Then Verify Language selection is "<ENGLISH>"
+   Examples: Language selection
+    |  ENGLISH    |
+    |  English    |
+    |  Spanish    |
+    |  French     |
+
+
+
 
 
