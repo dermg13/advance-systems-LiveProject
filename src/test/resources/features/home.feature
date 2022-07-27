@@ -105,7 +105,7 @@ Feature: Homepage related scenarios
 #---------------------------------------------------------------------------------
 
   @ADVSYS-15
-  Scenario Outline: information should be displayed in footer section
+  Scenario Outline: following information should be displayed in footer section
     Then Verify "<contact>" information is displayed
     Examples:
       | contact                             |
