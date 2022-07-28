@@ -3,460 +3,11 @@
     "line": 2,
     "elements": [
       {
-<<<<<<< HEAD
-        "start_timestamp": "2022-07-28T15:41:29.641Z",
+        "start_timestamp": "2022-07-28T16:01:36.946Z",
         "before": [
           {
             "result": {
-              "duration": 2862000000,
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "start_timestamp": "2022-07-27T23:58:07.456Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3127000000,
-=======
-        "start_timestamp": "2022-07-27T18:25:04.239Z",
-        "before": [
-          {
-            "result": {
-              "duration": 5187000000,
->>>>>>> 23d9e97ed7cd69833255ff18f3d8fd52ee9447ad
-=======
-        "start_timestamp": "2022-07-27T18:58:13.659Z",
-        "before": [
-          {
-            "result": {
-              "duration": 8703000000,
-<<<<<<< HEAD
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
->>>>>>> master
->>>>>>> 23d9e97ed7cd69833255ff18f3d8fd52ee9447ad
-=======
-        "start_timestamp": "2022-07-28T15:25:24.635Z",
-        "before": [
-          {
-            "result": {
-              "duration": 8521000000,
->>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
->>>>>>> b323c2b9dd73ad8385a730c434fc351635f2e186
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-<<<<<<< HEAD
-        "line": 21,
-        "name": "Buttons displayed for social media options",
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "line": 96,
-        "name": "There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.",
-        "description": "",
-        "id": "homepage-related-scenarios;there-should-be-a-button-in-the-bottom-right-corner-of-the-page-that-would-scroll-the-window-to-top-content-once-clicked.",
-        "after": [
-          {
-            "result": {
-              "duration": 637000000,
-=======
-        "line": 112,
-        "name": "following information should be displayed in footer section",
-=======
-        "line": 148,
-        "name": "Verify section should have email input field",
->>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
->>>>>>> b323c2b9dd73ad8385a730c434fc351635f2e186
-        "description": "",
-        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;2",
-        "after": [
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 698000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1586000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User is able to see \"facebook\" icon",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"facebook\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 745000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Click on \"facebook\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"facebook\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 14000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "URL is \"https://www.facebook.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.facebook.com/\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-9"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-28T15:41:35.663Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2112000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 22,
-        "name": "Buttons displayed for social media options",
-        "description": "",
-        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 777000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1495000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User is able to see \"twitter\" icon",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"twitter\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 814000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Click on \"twitter\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"twitter\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 109000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "URL is \"https://twitter.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://twitter.com/\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-9"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-28T15:41:40.985Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2017000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 23,
-        "name": "Buttons displayed for social media options",
-        "description": "",
-        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 677000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1477000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User is able to see \"google-plus\" icon",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"google-plus\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1099000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Click on \"google-plus\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"google-plus\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "URL is \"https://www.google.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.google.com/\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-9"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-28T15:41:46.269Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2043000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 24,
-        "name": "Buttons displayed for social media options",
-        "description": "",
-        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 735000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1467000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User is able to see \"linkedin\" icon",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"linkedin\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 850000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Click on \"linkedin\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"linkedin\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "URL is \"https://www.linkedin.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.linkedin.com/\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-9"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-28T15:41:51.380Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2031000000,
+              "duration": 3474000000,
               "status": "passed"
             },
             "match": {
@@ -471,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 694000000,
+              "duration": 696000000,
               "status": "passed"
             },
             "match": {
@@ -484,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1477000000,
+              "duration": 1628000000,
               "status": "passed"
             },
             "line": 120,
@@ -502,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 251000000,
+              "duration": 147000000,
               "status": "passed"
             },
             "line": 121,
@@ -520,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 25000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 122,
@@ -532,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 570000000,
+              "duration": 602000000,
               "status": "passed"
             },
             "line": 123,
@@ -562,11 +113,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:41:56.436Z",
+        "start_timestamp": "2022-07-28T16:01:43.630Z",
         "before": [
           {
             "result": {
-              "duration": 2062000000,
+              "duration": 2990000000,
               "status": "passed"
             },
             "match": {
@@ -581,7 +132,7 @@
         "after": [
           {
             "result": {
-              "duration": 763000000,
+              "duration": 650000000,
               "status": "passed"
             },
             "match": {
@@ -594,7 +145,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1561000000,
+              "duration": 1818000000,
               "status": "passed"
             },
             "line": 120,
@@ -612,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 284000000,
+              "duration": 192000000,
               "status": "passed"
             },
             "line": 121,
@@ -630,7 +181,7 @@
           },
           {
             "result": {
-              "duration": 28000000,
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 122,
@@ -642,7 +193,7 @@
           },
           {
             "result": {
-              "duration": 689000000,
+              "duration": 1399000000,
               "status": "passed"
             },
             "line": 123,
@@ -672,11 +223,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:42:01.831Z",
+        "start_timestamp": "2022-07-28T16:01:50.717Z",
         "before": [
           {
             "result": {
-              "duration": 2175000000,
+              "duration": 2161000000,
               "status": "passed"
             },
             "match": {
@@ -691,7 +242,7 @@
         "after": [
           {
             "result": {
-              "duration": 696000000,
+              "duration": 694000000,
               "status": "passed"
             },
             "match": {
@@ -704,7 +255,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1463000000,
+              "duration": 1350000000,
               "status": "passed"
             },
             "line": 120,
@@ -722,7 +273,7 @@
           },
           {
             "result": {
-              "duration": 137000000,
+              "duration": 285000000,
               "status": "passed"
             },
             "line": 121,
@@ -740,7 +291,7 @@
           },
           {
             "result": {
-              "duration": 27000000,
+              "duration": 65000000,
               "status": "passed"
             },
             "line": 122,
@@ -752,7 +303,7 @@
           },
           {
             "result": {
-              "duration": 880000000,
+              "duration": 1623000000,
               "status": "passed"
             },
             "line": 123,
@@ -782,11 +333,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:42:07.216Z",
+        "start_timestamp": "2022-07-28T16:01:56.907Z",
         "before": [
           {
             "result": {
-              "duration": 2060000000,
+              "duration": 2177000000,
               "status": "passed"
             },
             "match": {
@@ -801,7 +352,7 @@
         "after": [
           {
             "result": {
-              "duration": 670000000,
+              "duration": 707000000,
               "status": "passed"
             },
             "match": {
@@ -814,7 +365,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1576000000,
+              "duration": 1440000000,
               "status": "passed"
             },
             "line": 120,
@@ -832,7 +383,7 @@
           },
           {
             "result": {
-              "duration": 143000000,
+              "duration": 248000000,
               "status": "passed"
             },
             "line": 121,
@@ -850,7 +401,7 @@
           },
           {
             "result": {
-              "duration": 21000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 122,
@@ -862,7 +413,7 @@
           },
           {
             "result": {
-              "duration": 571000000,
+              "duration": 546000000,
               "status": "passed"
             },
             "line": 123,
@@ -892,11 +443,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:42:12.266Z",
+        "start_timestamp": "2022-07-28T16:02:02.052Z",
         "before": [
           {
             "result": {
-              "duration": 1975000000,
+              "duration": 2133000000,
               "status": "passed"
             },
             "match": {
@@ -911,7 +462,7 @@
         "after": [
           {
             "result": {
-              "duration": 707000000,
+              "duration": 648000000,
               "status": "passed"
             },
             "match": {
@@ -924,7 +475,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1917000000,
+              "duration": 1878000000,
               "status": "passed"
             },
             "line": 134,
@@ -936,7 +487,7 @@
           },
           {
             "result": {
-              "duration": 529000000,
+              "duration": 617000000,
               "status": "passed"
             },
             "line": 135,
@@ -954,7 +505,7 @@
           },
           {
             "result": {
-              "duration": 6000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 136,
@@ -972,7 +523,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 137,
@@ -1002,11 +553,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:42:17.416Z",
+        "start_timestamp": "2022-07-28T16:02:07.357Z",
         "before": [
           {
             "result": {
-              "duration": 2208000000,
+              "duration": 2122000000,
               "status": "passed"
             },
             "match": {
@@ -1021,7 +572,7 @@
         "after": [
           {
             "result": {
-              "duration": 691000000,
+              "duration": 680000000,
               "status": "passed"
             },
             "match": {
@@ -1034,7 +585,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1851000000,
+              "duration": 1959000000,
               "status": "passed"
             },
             "line": 134,
@@ -1046,7 +597,7 @@
           },
           {
             "result": {
-              "duration": 426000000,
+              "duration": 559000000,
               "status": "passed"
             },
             "line": 135,
@@ -1064,7 +615,7 @@
           },
           {
             "result": {
-              "duration": 27000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "line": 136,
@@ -1082,7 +633,7 @@
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 10000000,
               "status": "passed"
             },
             "line": 137,
@@ -1112,11 +663,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:42:22.631Z",
+        "start_timestamp": "2022-07-28T16:02:12.714Z",
         "before": [
           {
             "result": {
-              "duration": 1972000000,
+              "duration": 2118000000,
               "status": "passed"
             },
             "match": {
@@ -1131,7 +682,7 @@
         "after": [
           {
             "result": {
-              "duration": 644000000,
+              "duration": 702000000,
               "status": "passed"
             },
             "match": {
@@ -1144,7 +695,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1955000000,
+              "duration": 1567000000,
               "status": "passed"
             },
             "line": 134,
@@ -1156,7 +707,7 @@
           },
           {
             "result": {
-              "duration": 442000000,
+              "duration": 335000000,
               "status": "passed"
             },
             "line": 135,
@@ -1192,7 +743,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 137,
@@ -1222,11 +773,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:42:27.688Z",
+        "start_timestamp": "2022-07-28T16:02:17.489Z",
         "before": [
           {
             "result": {
-              "duration": 2109000000,
+              "duration": 2219000000,
               "status": "passed"
             },
             "match": {
@@ -1241,7 +792,7 @@
         "after": [
           {
             "result": {
-              "duration": 667000000,
+              "duration": 679000000,
               "status": "passed"
             },
             "match": {
@@ -1254,7 +805,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1758000000,
+              "duration": 1895000000,
               "status": "passed"
             },
             "line": 134,
@@ -1266,7 +817,7 @@
           },
           {
             "result": {
-              "duration": 523000000,
+              "duration": 515000000,
               "status": "passed"
             },
             "line": 135,
@@ -1284,7 +835,7 @@
           },
           {
             "result": {
-              "duration": 22000000,
+              "duration": 21000000,
               "status": "passed"
             },
             "line": 136,
@@ -1302,7 +853,7 @@
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 137,
@@ -1332,11 +883,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:42:32.779Z",
+        "start_timestamp": "2022-07-28T16:02:22.835Z",
         "before": [
           {
             "result": {
-              "duration": 2059000000,
+              "duration": 2028000000,
               "status": "passed"
             },
             "match": {
@@ -1351,7 +902,7 @@
         "after": [
           {
             "result": {
-              "duration": 698000000,
+              "duration": 669000000,
               "status": "passed"
             },
             "match": {
@@ -1364,7 +915,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1904000000,
+              "duration": 1890000000,
               "status": "passed"
             },
             "line": 134,
@@ -1376,7 +927,7 @@
           },
           {
             "result": {
-              "duration": 468000000,
+              "duration": 444000000,
               "status": "passed"
             },
             "line": 135,
@@ -1394,7 +945,7 @@
           },
           {
             "result": {
-              "duration": 30000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 136,
@@ -1442,11 +993,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:42:37.951Z",
+        "start_timestamp": "2022-07-28T16:02:27.902Z",
         "before": [
           {
             "result": {
-              "duration": 2116000000,
+              "duration": 2245000000,
               "status": "passed"
             },
             "match": {
@@ -1461,7 +1012,7 @@
         "after": [
           {
             "result": {
-              "duration": 674000000,
+              "duration": 710000000,
               "status": "passed"
             },
             "match": {
@@ -1474,7 +1025,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1941000000,
+              "duration": 2024000000,
               "status": "passed"
             },
             "line": 134,
@@ -1486,7 +1037,7 @@
           },
           {
             "result": {
-              "duration": 426000000,
+              "duration": 419000000,
               "status": "passed"
             },
             "line": 135,
@@ -1504,7 +1055,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 10000000,
               "status": "passed"
             },
             "line": 136,
@@ -1522,7 +1073,7 @@
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 137,
@@ -1572,11 +1123,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-28T15:42:43.132Z",
+        "start_timestamp": "2022-07-28T16:02:33.325Z",
         "before": [
           {
             "result": {
-              "duration": 1999000000,
+              "duration": 2063000000,
               "status": "passed"
             },
             "match": {
@@ -1591,7 +1142,7 @@
         "after": [
           {
             "result": {
-              "duration": 718000000,
+              "duration": 649000000,
               "status": "passed"
             },
             "match": {
@@ -1604,7 +1155,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2279000000,
+              "duration": 2081000000,
               "status": "passed"
             },
             "line": 6,
@@ -1616,7 +1167,7 @@
           },
           {
             "result": {
-              "duration": 1336000000,
+              "duration": 1399000000,
               "status": "passed"
             },
             "line": 7,
@@ -1628,7 +1179,7 @@
           },
           {
             "result": {
-              "duration": 1307000000,
+              "duration": 1371000000,
               "status": "passed"
             },
             "line": 8,
@@ -1640,7 +1191,7 @@
           },
           {
             "result": {
-              "duration": 1268000000,
+              "duration": 1284000000,
               "status": "passed"
             },
             "line": 9,
@@ -1652,7 +1203,7 @@
           },
           {
             "result": {
-              "duration": 1251000000,
+              "duration": 1285000000,
               "status": "passed"
             },
             "line": 10,
@@ -1664,7 +1215,7 @@
           },
           {
             "result": {
-              "duration": 1255000000,
+              "duration": 1233000000,
               "status": "passed"
             },
             "line": 11,
@@ -1676,7 +1227,7 @@
           },
           {
             "result": {
-              "duration": 1285000000,
+              "duration": 1248000000,
               "status": "passed"
             },
             "line": 12,
@@ -1688,7 +1239,7 @@
           },
           {
             "result": {
-              "duration": 1308000000,
+              "duration": 1322000000,
               "status": "passed"
             },
             "line": 13,
@@ -1718,11 +1269,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:42:57.148Z",
+        "start_timestamp": "2022-07-28T16:02:47.278Z",
         "before": [
           {
             "result": {
-              "duration": 1958000000,
+              "duration": 2251000000,
               "status": "passed"
             },
             "match": {
@@ -1737,7 +1288,7 @@
         "after": [
           {
             "result": {
-              "duration": 709000000,
+              "duration": 691000000,
               "status": "passed"
             },
             "match": {
@@ -1750,7 +1301,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2120000000,
+              "duration": 1767000000,
               "status": "passed"
             },
             "line": 17,
@@ -1762,7 +1313,7 @@
           },
           {
             "result": {
-              "duration": 1335000000,
+              "duration": 1329000000,
               "status": "passed"
             },
             "line": 18,
@@ -1774,7 +1325,7 @@
           },
           {
             "result": {
-              "duration": 1293000000,
+              "duration": 1282000000,
               "status": "passed"
             },
             "line": 19,
@@ -1786,7 +1337,7 @@
           },
           {
             "result": {
-              "duration": 1287000000,
+              "duration": 1293000000,
               "status": "passed"
             },
             "line": 20,
@@ -1798,7 +1349,7 @@
           },
           {
             "result": {
-              "duration": 1298000000,
+              "duration": 1330000000,
               "status": "passed"
             },
             "line": 21,
@@ -1810,7 +1361,7 @@
           },
           {
             "result": {
-              "duration": 1333000000,
+              "duration": 1282000000,
               "status": "passed"
             },
             "line": 22,
@@ -1822,7 +1373,7 @@
           },
           {
             "result": {
-              "duration": 1359000000,
+              "duration": 1351000000,
               "status": "passed"
             },
             "line": 23,
@@ -1834,7 +1385,7 @@
           },
           {
             "result": {
-              "duration": 1296000000,
+              "duration": 1382000000,
               "status": "passed"
             },
             "line": 24,
@@ -1864,11 +1415,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:43:11.144Z",
+        "start_timestamp": "2022-07-28T16:03:01.245Z",
         "before": [
           {
             "result": {
-              "duration": 2027000000,
+              "duration": 2071000000,
               "status": "passed"
             },
             "match": {
@@ -1883,7 +1434,7 @@
         "after": [
           {
             "result": {
-              "duration": 676000000,
+              "duration": 725000000,
               "status": "passed"
             },
             "match": {
@@ -1896,7 +1447,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1795000000,
+              "duration": 1797000000,
               "status": "passed"
             },
             "line": 28,
@@ -1908,7 +1459,7 @@
           },
           {
             "result": {
-              "duration": 1297000000,
+              "duration": 1354000000,
               "status": "passed"
             },
             "line": 29,
@@ -1920,7 +1471,7 @@
           },
           {
             "result": {
-              "duration": 1244000000,
+              "duration": 1314000000,
               "status": "passed"
             },
             "line": 30,
@@ -1932,7 +1483,7 @@
           },
           {
             "result": {
-              "duration": 1284000000,
+              "duration": 1257000000,
               "status": "passed"
             },
             "line": 31,
@@ -1944,7 +1495,7 @@
           },
           {
             "result": {
-              "duration": 1293000000,
+              "duration": 1271000000,
               "status": "passed"
             },
             "line": 32,
@@ -1956,7 +1507,7 @@
           },
           {
             "result": {
-              "duration": 1363000000,
+              "duration": 1278000000,
               "status": "passed"
             },
             "line": 33,
@@ -1968,7 +1519,7 @@
           },
           {
             "result": {
-              "duration": 1355000000,
+              "duration": 1331000000,
               "status": "passed"
             },
             "line": 34,
@@ -1980,7 +1531,7 @@
           },
           {
             "result": {
-              "duration": 1397000000,
+              "duration": 1340000000,
               "status": "passed"
             },
             "line": 35,
@@ -2010,11 +1561,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:43:24.880Z",
+        "start_timestamp": "2022-07-28T16:03:14.999Z",
         "before": [
           {
             "result": {
-              "duration": 1984000000,
+              "duration": 2077000000,
               "status": "passed"
             },
             "match": {
@@ -2042,7 +1593,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1959000000,
+              "duration": 1974000000,
               "status": "passed"
             },
             "line": 39,
@@ -2054,7 +1605,7 @@
           },
           {
             "result": {
-              "duration": 1351000000,
+              "duration": 1352000000,
               "status": "passed"
             },
             "line": 40,
@@ -2066,7 +1617,7 @@
           },
           {
             "result": {
-              "duration": 1306000000,
+              "duration": 1368000000,
               "status": "passed"
             },
             "line": 41,
@@ -2078,7 +1629,7 @@
           },
           {
             "result": {
-              "duration": 1286000000,
+              "duration": 1307000000,
               "status": "passed"
             },
             "line": 42,
@@ -2090,7 +1641,7 @@
           },
           {
             "result": {
-              "duration": 1231000000,
+              "duration": 1240000000,
               "status": "passed"
             },
             "line": 43,
@@ -2102,7 +1653,7 @@
           },
           {
             "result": {
-              "duration": 1273000000,
+              "duration": 1279000000,
               "status": "passed"
             },
             "line": 44,
@@ -2114,7 +1665,7 @@
           },
           {
             "result": {
-              "duration": 1310000000,
+              "duration": 1294000000,
               "status": "passed"
             },
             "line": 45,
@@ -2126,7 +1677,7 @@
           },
           {
             "result": {
-              "duration": 1325000000,
+              "duration": 1351000000,
               "status": "passed"
             },
             "line": 46,
@@ -2156,11 +1707,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:43:38.621Z",
+        "start_timestamp": "2022-07-28T16:03:28.948Z",
         "before": [
           {
             "result": {
-              "duration": 2056000000,
+              "duration": 2019000000,
               "status": "passed"
             },
             "match": {
@@ -2175,7 +1726,7 @@
         "after": [
           {
             "result": {
-              "duration": 703000000,
+              "duration": 709000000,
               "status": "passed"
             },
             "match": {
@@ -2188,7 +1739,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2149000000,
+              "duration": 2022000000,
               "status": "passed"
             },
             "line": 50,
@@ -2200,7 +1751,7 @@
           },
           {
             "result": {
-              "duration": 1392000000,
+              "duration": 1328000000,
               "status": "passed"
             },
             "line": 51,
@@ -2212,7 +1763,7 @@
           },
           {
             "result": {
-              "duration": 1337000000,
+              "duration": 1276000000,
               "status": "passed"
             },
             "line": 52,
@@ -2224,7 +1775,7 @@
           },
           {
             "result": {
-              "duration": 1294000000,
+              "duration": 1204000000,
               "status": "passed"
             },
             "line": 53,
@@ -2236,7 +1787,7 @@
           },
           {
             "result": {
-              "duration": 1226000000,
+              "duration": 1306000000,
               "status": "passed"
             },
             "line": 54,
@@ -2248,7 +1799,7 @@
           },
           {
             "result": {
-              "duration": 1253000000,
+              "duration": 1269000000,
               "status": "passed"
             },
             "line": 55,
@@ -2260,7 +1811,7 @@
           },
           {
             "result": {
-              "duration": 1298000000,
+              "duration": 1308000000,
               "status": "passed"
             },
             "line": 56,
@@ -2272,7 +1823,7 @@
           },
           {
             "result": {
-              "duration": 1307000000,
+              "duration": 1348000000,
               "status": "passed"
             },
             "line": 57,
@@ -2302,11 +1853,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:43:52.646Z",
+        "start_timestamp": "2022-07-28T16:03:42.748Z",
         "before": [
           {
             "result": {
-              "duration": 2053000000,
+              "duration": 2070000000,
               "status": "passed"
             },
             "match": {
@@ -2321,22 +1872,7 @@
         "after": [
           {
             "result": {
-              "duration": 697000000,
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "duration": 95000000,
-=======
-              "duration": 209000000,
-<<<<<<< HEAD
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
->>>>>>> master
->>>>>>> 23d9e97ed7cd69833255ff18f3d8fd52ee9447ad
-=======
-              "duration": 253000000,
->>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
->>>>>>> b323c2b9dd73ad8385a730c434fc351635f2e186
+              "duration": 695000000,
               "status": "passed"
             },
             "match": {
@@ -2345,54 +1881,11 @@
           }
         ],
         "type": "scenario",
-<<<<<<< HEAD
-<<<<<<< HEAD
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1938000000,
-              "status": "passed"
-            },
-            "line": 97,
-            "name": "scroll down to bottom of the page",
-            "match": {
-              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1486000000,
-              "status": "passed"
-            },
-            "line": 98,
-            "name": "Click on button go back button when scroll down to bottom of the page",
-            "match": {
-              "location": "step_definitions.HomeSteps.click_on_button_go_back_button_when_scroll_down_to_bottom_of_the_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1241000000,
-              "status": "passed"
-            },
-            "line": 99,
-            "name": "Check if it back to top content",
-            "match": {
-              "location": "step_definitions.HomeSteps.check_if_it_back_to_top_content()"
-            },
-            "keyword": "And "
-=======
-        "keyword": "Scenario Outline",
-=======
-        "keyword": "Scenario",
->>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
-        "steps": [
-          {
-            "result": {
-              "duration": 2145000000,
+              "duration": 1841000000,
               "status": "passed"
             },
             "line": 61,
@@ -2404,7 +1897,7 @@
           },
           {
             "result": {
-              "duration": 1306000000,
+              "duration": 1357000000,
               "status": "passed"
             },
             "line": 62,
@@ -2416,7 +1909,7 @@
           },
           {
             "result": {
-              "duration": 1329000000,
+              "duration": 1304000000,
               "status": "passed"
             },
             "line": 63,
@@ -2428,7 +1921,7 @@
           },
           {
             "result": {
-              "duration": 1279000000,
+              "duration": 1246000000,
               "status": "passed"
             },
             "line": 64,
@@ -2440,7 +1933,7 @@
           },
           {
             "result": {
-              "duration": 1227000000,
+              "duration": 1299000000,
               "status": "passed"
             },
             "line": 65,
@@ -2452,7 +1945,7 @@
           },
           {
             "result": {
-              "duration": 1316000000,
+              "duration": 1311000000,
               "status": "passed"
             },
             "line": 66,
@@ -2464,7 +1957,7 @@
           },
           {
             "result": {
-              "duration": 1334000000,
+              "duration": 1411000000,
               "status": "passed"
             },
             "line": 67,
@@ -2476,202 +1969,13 @@
           },
           {
             "result": {
-              "duration": 1319000000,
+              "duration": 1350000000,
               "status": "passed"
             },
             "line": 68,
             "name": "Verify Language French buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
-            },
-            "keyword": "Then "
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "name": "@ADVSYS-19"
-=======
-            "name": "@ADVSYS-15"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-27T18:58:24.398Z",
-        "before": [
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 10171000000,
-=======
-              "duration": 5755000000,
->>>>>>> master
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 113,
-        "name": "following information should be displayed in footer section",
-        "description": "",
-        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 258000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1526000000,
-              "status": "passed"
-            },
-            "line": 109,
-            "name": "Verify \"Phone: +1 703-831-321\" information is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Phone: +1 703-831-321\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-<<<<<<< HEAD
-            "name": "@ADVSYS-10a"
-=======
-            "name": "@ADVSYS-15"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-27T18:58:31.974Z",
-        "before": [
-          {
-            "result": {
-              "duration": 6830000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 114,
-        "name": "following information should be displayed in footer section",
-        "description": "",
-        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 240000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1790000000,
-              "status": "passed"
-            },
-            "line": 109,
-            "name": "Verify \"Email: info@advancesystems.us\" information is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Email: info@advancesystems.us\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-15"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-27T18:58:40.892Z",
-        "before": [
-          {
-            "result": {
-              "duration": 9416000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 115,
-        "name": "following information should be displayed in footer section",
-        "description": "",
-        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 144000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1647000000,
-              "status": "passed"
-            },
-            "line": 109,
-            "name": "Verify \"Mon to Sat: 9.00 am to 5:00 pm\" information is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Mon to Sat: 9.00 am to 5:00 pm\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -2695,11 +1999,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:44:06.659Z",
+        "start_timestamp": "2022-07-28T16:03:56.645Z",
         "before": [
           {
             "result": {
-              "duration": 2122000000,
+              "duration": 2014000000,
               "status": "passed"
             },
             "match": {
@@ -2714,7 +2018,7 @@
         "after": [
           {
             "result": {
-              "duration": 699000000,
+              "duration": 721000000,
               "status": "passed"
             },
             "match": {
@@ -2727,7 +2031,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1804000000,
+              "duration": 2170000000,
               "status": "passed"
             },
             "line": 72,
@@ -2739,7 +2043,7 @@
           },
           {
             "result": {
-              "duration": 1326000000,
+              "duration": 1302000000,
               "status": "passed"
             },
             "line": 73,
@@ -2751,7 +2055,7 @@
           },
           {
             "result": {
-              "duration": 1248000000,
+              "duration": 1303000000,
               "status": "passed"
             },
             "line": 74,
@@ -2763,7 +2067,7 @@
           },
           {
             "result": {
-              "duration": 1250000000,
+              "duration": 1272000000,
               "status": "passed"
             },
             "line": 75,
@@ -2775,7 +2079,7 @@
           },
           {
             "result": {
-              "duration": 1346000000,
+              "duration": 1216000000,
               "status": "passed"
             },
             "line": 76,
@@ -2787,7 +2091,7 @@
           },
           {
             "result": {
-              "duration": 1372000000,
+              "duration": 1282000000,
               "status": "passed"
             },
             "line": 77,
@@ -2799,7 +2103,7 @@
           },
           {
             "result": {
-              "duration": 1352000000,
+              "duration": 1362000000,
               "status": "passed"
             },
             "line": 78,
@@ -2811,7 +2115,7 @@
           },
           {
             "result": {
-              "duration": 1359000000,
+              "duration": 1331000000,
               "status": "passed"
             },
             "line": 79,
@@ -2836,19 +2140,7 @@
             "name": "@ADVSYS-5"
           },
           {
-<<<<<<< HEAD
             "name": "@navigation"
-=======
-            "name": "@ADVSYS-15"
-<<<<<<< HEAD
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
->>>>>>> master
->>>>>>> 23d9e97ed7cd69833255ff18f3d8fd52ee9447ad
-=======
-            "name": "@ADVSYS-18"
->>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
->>>>>>> b323c2b9dd73ad8385a730c434fc351635f2e186
           }
         ]
       }
