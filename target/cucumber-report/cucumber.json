@@ -3,11 +3,19 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-27T18:25:04.239Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5187000000,
+=======
         "start_timestamp": "2022-07-27T18:58:13.659Z",
         "before": [
           {
             "result": {
               "duration": 8703000000,
+>>>>>>> master
               "status": "passed"
             },
             "match": {
@@ -22,7 +30,11 @@
         "after": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 95000000,
+=======
               "duration": 209000000,
+>>>>>>> master
               "status": "passed"
             },
             "match": {
@@ -35,7 +47,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 1577000000,
+=======
               "duration": 1607000000,
+>>>>>>> master
               "status": "passed"
             },
             "line": 109,
@@ -66,7 +82,11 @@
         "before": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 10171000000,
+=======
               "duration": 5755000000,
+>>>>>>> master
               "status": "passed"
             },
             "match": {
@@ -116,6 +136,9 @@
             "name": "@homeScenarios"
           },
           {
+<<<<<<< HEAD
+            "name": "@ADVSYS-10a"
+=======
             "name": "@ADVSYS-15"
           }
         ]
@@ -235,6 +258,7 @@
           },
           {
             "name": "@ADVSYS-15"
+>>>>>>> master
           }
         ]
       }
