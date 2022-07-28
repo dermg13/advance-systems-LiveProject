@@ -3,19 +3,11 @@
     "line": 2,
     "elements": [
       {
-<<<<<<< HEAD
-        "start_timestamp": "2022-07-27T18:25:04.239Z",
+        "start_timestamp": "2022-07-28T15:25:24.635Z",
         "before": [
           {
             "result": {
-              "duration": 5187000000,
-=======
-        "start_timestamp": "2022-07-27T18:58:13.659Z",
-        "before": [
-          {
-            "result": {
-              "duration": 8703000000,
->>>>>>> master
+              "duration": 8521000000,
               "status": "passed"
             },
             "match": {
@@ -23,18 +15,14 @@
             }
           }
         ],
-        "line": 112,
-        "name": "following information should be displayed in footer section",
+        "line": 148,
+        "name": "Verify section should have email input field",
         "description": "",
-        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;2",
+        "id": "homepage-related-scenarios;verify-section-should-have-email-input-field",
         "after": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 95000000,
-=======
-              "duration": 209000000,
->>>>>>> master
+              "duration": 253000000,
               "status": "passed"
             },
             "match": {
@@ -43,27 +31,23 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 1577000000,
-=======
-              "duration": 1607000000,
->>>>>>> master
+              "duration": 3218000000,
               "status": "passed"
             },
-            "line": 109,
-            "name": "Verify \"Address: 10090 Main St, Fairfax, VA\" information is displayed",
+            "line": 149,
+            "name": "Verify email input field has placeholder \"Email Address...\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Address: 10090 Main St, Fairfax, VA\"",
-                  "offset": 7
+                  "val": "\"Email Address...\"",
+                  "offset": 41
                 }
               ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verifyEmailInputFieldHasPlaceholder(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -73,192 +57,7 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-15"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-27T18:58:24.398Z",
-        "before": [
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 10171000000,
-=======
-              "duration": 5755000000,
->>>>>>> master
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 113,
-        "name": "following information should be displayed in footer section",
-        "description": "",
-        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 258000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1526000000,
-              "status": "passed"
-            },
-            "line": 109,
-            "name": "Verify \"Phone: +1 703-831-321\" information is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Phone: +1 703-831-321\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-<<<<<<< HEAD
-            "name": "@ADVSYS-10a"
-=======
-            "name": "@ADVSYS-15"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-27T18:58:31.974Z",
-        "before": [
-          {
-            "result": {
-              "duration": 6830000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 114,
-        "name": "following information should be displayed in footer section",
-        "description": "",
-        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 240000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1790000000,
-              "status": "passed"
-            },
-            "line": 109,
-            "name": "Verify \"Email: info@advancesystems.us\" information is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Email: info@advancesystems.us\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-15"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-27T18:58:40.892Z",
-        "before": [
-          {
-            "result": {
-              "duration": 9416000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 115,
-        "name": "following information should be displayed in footer section",
-        "description": "",
-        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 144000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1647000000,
-              "status": "passed"
-            },
-            "line": 109,
-            "name": "Verify \"Mon to Sat: 9.00 am to 5:00 pm\" information is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Mon to Sat: 9.00 am to 5:00 pm\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-15"
->>>>>>> master
+            "name": "@ADVSYS-18"
           }
         ]
       }
