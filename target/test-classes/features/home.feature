@@ -45,12 +45,12 @@ Feature: Homepage related scenarios
     #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.
 #------------------------------------------------------------------------------
 
-  @ADVSYS-10
+  @ADVSYS-10a
   Scenario: Parallax section content information and update
     When Information is displayed in the parallax section
     Then Header and description update automatically
 
-  @ADVSYS-10
+  @ADVSYS-10b
   Scenario: Parallax section button
     When User clicks on "Read More" button in parallax section
     Then User should see the "Services" page displayed
@@ -152,3 +152,6 @@ Feature: Homepage related scenarios
 ################################################################################
 >>>>>>> 99ca0e637922adc0ba58d56209695173ebc91ec3
 
+  @ADVSYS-18
+  Scenario: Verify section should have email input field
+    Then Verify email input field has placeholder "Email Address..."
