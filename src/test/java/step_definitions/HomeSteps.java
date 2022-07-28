@@ -260,6 +260,7 @@ public class HomeSteps implements CommonPage {
     @Then("Verify email input field has placeholder {string}")
     public void verifyEmailInputFieldHasPlaceholder(String email) {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_INPUT_FIELD, email))));
+        Assert.assertTrue(WebDriverManager.isEnabled(By.xpath(String.format(XPATH_TEMPLATE_INPUT_FIELD, email))));
     }
 }
 
