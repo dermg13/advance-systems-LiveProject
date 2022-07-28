@@ -11,7 +11,7 @@ Feature: Homepage related scenarios
     Then Verify title of page is "Advance Systems - Join"
 #--------------------------------------------------------------------
 
-  @ADVSYS-9 @smoke
+  @ADVSYS-9
   Scenario Outline: Buttons displayed for social media options
     Then User is able to see "<social media options>" icon
     When Click on "<social media buttons>"
@@ -115,7 +115,7 @@ Feature: Homepage related scenarios
       | Mon to Sat: 9.00 am to 5:00 pm      |
 #---------------------------------------------------------------------------------
 
-  @ADVSYS-17 @smoke
+  @ADVSYS-17
   Scenario Outline: Footer social media buttons displayed
     Then Verify "<footer sm options>" icon is displayed
     When User click on "<footer sm buttons>"
