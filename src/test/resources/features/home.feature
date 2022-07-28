@@ -11,7 +11,7 @@ Feature: Homepage related scenarios
     Then Verify title of page is "Advance Systems - Join"
 #--------------------------------------------------------------------
 
-  @ADVSYS-9 @smoke
+  @ADVSYS-9
   Scenario Outline: Buttons displayed for social media options
     Then User is able to see "<social media options>" icon
     When Click on "<social media buttons>"
@@ -95,8 +95,8 @@ Feature: Homepage related scenarios
   @ADVSYS-19
   Scenario: There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.
     Given scroll down to bottom of the page
-    Then click on button go back button when scroll down to bottom of the page
-    And check if it back to top content
+    Then Click on button go back button when scroll down to bottom of the page
+    And Check if it back to top content
 #---------------------------------------------------------------------------------
 
   @ADVSYS-20
