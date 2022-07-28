@@ -15,6 +15,12 @@ import org.junit.runner.RunWith;
         stepNotifications = true,
         dryRun = false,
         tags = "@smoke"
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> b323c2b9dd73ad8385a730c434fc351635f2e186
 )
 public class CukesRunner {
 
