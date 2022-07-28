@@ -11,7 +11,7 @@ Feature: Homepage related scenarios
     Then Verify title of page is "Advance Systems - Join"
 #--------------------------------------------------------------------
 
-  @ADVSYS-9 @smoke
+  @ADVSYS-9
   Scenario Outline: Buttons displayed for social media options
     Then User is able to see "<social media options>" icon
     When Click on "<social media buttons>"
@@ -45,12 +45,12 @@ Feature: Homepage related scenarios
     #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.
 #------------------------------------------------------------------------------
 
-  @ADVSYS-10
+  @ADVSYS-10a
   Scenario: Parallax section content information and update
     When Information is displayed in the parallax section
     Then Header and description update automatically
 
-  @ADVSYS-10
+  @ADVSYS-10b
   Scenario: Parallax section button
     When User clicks on "Read More" button in parallax section
     Then User should see the "Services" page displayed
@@ -95,8 +95,8 @@ Feature: Homepage related scenarios
   @ADVSYS-19
   Scenario: There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.
     Given scroll down to bottom of the page
-    Then click on button go back button when scroll down to bottom of the page
-    And check if it back to top content
+    Then Click on button go back button when scroll down to bottom of the page
+    And Check if it back to top content
 #---------------------------------------------------------------------------------
 
   @ADVSYS-20
@@ -144,3 +144,6 @@ Feature: Homepage related scenarios
       | Solutions  | Solutions  | solutions |
       | Contact Us | Contact Us | contact   |
 
+  @ADVSYS-18
+  Scenario: Verify section should have email input field
+    Then Verify email input field has placeholder "Email Address..."

@@ -86,4 +86,5 @@ public class HomeNavigationBarSteps implements CommonPage {
     public void click_on_contact_us_button() {
         WebDriverManager.click(homeNavigationBarPage.contactUs);
     }
+
 }

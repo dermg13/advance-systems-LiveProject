@@ -197,13 +197,6 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT_CONTAINS, contact))));
     }
 
-    @Given("at bottom of the page")
-    public void at_bottom_of_the_page() {
-        WebDriver driver = new EdgeDriver();
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-    }
-
     @Given("scroll down to bottom of the page")
     public void scroll_down_to_bottom_of_the_page() {
 
@@ -255,6 +248,14 @@ public class HomeSteps implements CommonPage {
     @Then("Verify page title contains {string}")
     public void verifyPageTitleContains(String str) {
         Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(str));
+    }
+
+    @Then("Verify email input field has placeholder {string}")
+    public void verifyEmailInputFieldHasPlaceholder(String email) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_INPUT_FIELD, email))));
+        Assert.assertTrue(WebDriverManager.isEnabled(
+                WebDriverManager.getDriver().findElement(By.xpath(String.format(XPATH_TEMPLATE_INPUT_FIELD, email)))
+        ));
     }
 }
 

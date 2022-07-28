@@ -1,4 +1,4 @@
-@navigationScenarios
+@smoke @navigationScenarios
 Feature: Navigation Bar related scenarios
 
   @smoke @ADVSYS-5 @navigation
@@ -77,5 +77,8 @@ Feature: Navigation Bar related scenarios
     Then Verify Language English buttons is displayed
     Then Verify Language Spanish buttons is displayed
     Then Verify Language French buttons is displayed
+
+
+
 
 

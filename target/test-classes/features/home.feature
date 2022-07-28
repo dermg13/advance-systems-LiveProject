@@ -45,12 +45,12 @@ Feature: Homepage related scenarios
     #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.
 #------------------------------------------------------------------------------
 
-  @ADVSYS-10
+  @ADVSYS-10a
   Scenario: Parallax section content information and update
     When Information is displayed in the parallax section
     Then Header and description update automatically
 
-  @ADVSYS-10
+  @ADVSYS-10b
   Scenario: Parallax section button
     When User clicks on "Read More" button in parallax section
     Then User should see the "Services" page displayed
@@ -113,7 +113,12 @@ Feature: Homepage related scenarios
       | Phone: +1 703-831-321               |
       | Email: info@advancesystems.us       |
       | Mon to Sat: 9.00 am to 5:00 pm      |
+<<<<<<< HEAD
+
+#--------------------------------------------------------------------------------------
+=======
 #---------------------------------------------------------------------------------
+>>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
 
   @ADVSYS-17 @smoke
   Scenario Outline: Footer social media buttons displayed
@@ -127,6 +132,11 @@ Feature: Homepage related scenarios
       | twitter           | twitter           | twitter       |
       | skype             | skype             | skype         |
       | linkedin          | linkedin          | linkedin      |
+<<<<<<< HEAD
+
+#----------------------------------------------------------------------------------------
+=======
+>>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
 
 #---------------------------------------------------------------------------------
   @ADVSYS-16 @smoke
@@ -144,3 +154,6 @@ Feature: Homepage related scenarios
       | Solutions  | Solutions  | solutions |
       | Contact Us | Contact Us | contact   |
 
+  @ADVSYS-18
+  Scenario: Verify section should have email input field
+    Then Verify email input field has placeholder "Email Address..."
