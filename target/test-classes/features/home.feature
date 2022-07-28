@@ -99,16 +99,11 @@ Feature: Homepage related scenarios
     And check if it back to top content
 #---------------------------------------------------------------------------------
 
-<<<<<<< HEAD
-=======
-################################################################################
->>>>>>> c0ec43cccd808962143a4832fa68e1e703d24907
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
 #---------------------------------------------------------------------------------
 
-<<<<<<< HEAD
   @ADVSYS-15
   Scenario Outline: following information should be displayed in footer section
     Then Verify "<contact>" information is displayed
@@ -148,9 +143,6 @@ Feature: Homepage related scenarios
       | Clients    | Clients    | clients   |
       | Solutions  | Solutions  | solutions |
       | Contact Us | Contact Us | contact   |
-=======
-################################################################################
->>>>>>> c0ec43cccd808962143a4832fa68e1e703d24907
 
   @ADVSYS-18
   Scenario: Verify section should have email input field

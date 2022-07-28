@@ -1,4 +1,4 @@
-@navigationScenarios
+@smoke @navigationScenarios
 Feature: Navigation Bar related scenarios
 
   @smoke @ADVSYS-5 @navigation
