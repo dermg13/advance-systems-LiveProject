@@ -5,6 +5,7 @@
       {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "start_timestamp": "2022-07-27T23:58:07.456Z",
         "before": [
           {
@@ -28,6 +29,13 @@
 =======
 >>>>>>> master
 >>>>>>> 23d9e97ed7cd69833255ff18f3d8fd52ee9447ad
+=======
+        "start_timestamp": "2022-07-28T15:25:24.635Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8521000000,
+>>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
               "status": "passed"
             },
             "match": {
@@ -35,6 +43,7 @@
             }
           }
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
         "line": 96,
         "name": "There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.",
@@ -47,11 +56,16 @@
 =======
         "line": 112,
         "name": "following information should be displayed in footer section",
+=======
+        "line": 148,
+        "name": "Verify section should have email input field",
+>>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
         "description": "",
-        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;2",
+        "id": "homepage-related-scenarios;verify-section-should-have-email-input-field",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
 <<<<<<< HEAD
               "duration": 95000000,
 =======
@@ -61,6 +75,9 @@
 =======
 >>>>>>> master
 >>>>>>> 23d9e97ed7cd69833255ff18f3d8fd52ee9447ad
+=======
+              "duration": 253000000,
+>>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
               "status": "passed"
             },
             "match": {
@@ -69,6 +86,7 @@
           }
         ],
         "type": "scenario",
+<<<<<<< HEAD
 <<<<<<< HEAD
         "keyword": "Scenario",
         "steps": [
@@ -109,26 +127,25 @@
             "keyword": "And "
 =======
         "keyword": "Scenario Outline",
+=======
+        "keyword": "Scenario",
+>>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 1577000000,
-=======
-              "duration": 1607000000,
->>>>>>> master
+              "duration": 3218000000,
               "status": "passed"
             },
-            "line": 109,
-            "name": "Verify \"Address: 10090 Main St, Fairfax, VA\" information is displayed",
+            "line": 149,
+            "name": "Verify email input field has placeholder \"Email Address...\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Address: 10090 Main St, Fairfax, VA\"",
-                  "offset": 7
+                  "val": "\"Email Address...\"",
+                  "offset": 41
                 }
               ],
-              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
+              "location": "step_definitions.HomeSteps.verifyEmailInputFieldHasPlaceholder(java.lang.String)"
             },
             "keyword": "Then "
 >>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
@@ -139,6 +156,7 @@
             "name": "@homeScenarios"
           },
           {
+<<<<<<< HEAD
 <<<<<<< HEAD
             "name": "@ADVSYS-19"
 =======
@@ -332,6 +350,9 @@
 =======
 >>>>>>> master
 >>>>>>> 23d9e97ed7cd69833255ff18f3d8fd52ee9447ad
+=======
+            "name": "@ADVSYS-18"
+>>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
           }
         ]
       }

@@ -154,3 +154,6 @@ Feature: Homepage related scenarios
       | Solutions  | Solutions  | solutions |
       | Contact Us | Contact Us | contact   |
 
+  @ADVSYS-18
+  Scenario: Verify section should have email input field
+    Then Verify email input field has placeholder "Email Address..."
