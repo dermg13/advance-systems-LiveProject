@@ -3,11 +3,39 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        "start_timestamp": "2022-07-27T23:58:07.456Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3127000000,
+=======
+        "start_timestamp": "2022-07-27T18:25:04.239Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5187000000,
+>>>>>>> 23d9e97ed7cd69833255ff18f3d8fd52ee9447ad
+=======
+        "start_timestamp": "2022-07-27T18:58:13.659Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8703000000,
+<<<<<<< HEAD
+>>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
+=======
+>>>>>>> master
+>>>>>>> 23d9e97ed7cd69833255ff18f3d8fd52ee9447ad
+=======
         "start_timestamp": "2022-07-28T15:25:24.635Z",
         "before": [
           {
             "result": {
               "duration": 8521000000,
+>>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
               "status": "passed"
             },
             "match": {
@@ -15,14 +43,41 @@
             }
           }
         ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+        "line": 96,
+        "name": "There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.",
+        "description": "",
+        "id": "homepage-related-scenarios;there-should-be-a-button-in-the-bottom-right-corner-of-the-page-that-would-scroll-the-window-to-top-content-once-clicked.",
+        "after": [
+          {
+            "result": {
+              "duration": 637000000,
+=======
+        "line": 112,
+        "name": "following information should be displayed in footer section",
+=======
         "line": 148,
         "name": "Verify section should have email input field",
+>>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
         "description": "",
         "id": "homepage-related-scenarios;verify-section-should-have-email-input-field",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "duration": 95000000,
+=======
+              "duration": 209000000,
+<<<<<<< HEAD
+>>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
+=======
+>>>>>>> master
+>>>>>>> 23d9e97ed7cd69833255ff18f3d8fd52ee9447ad
+=======
               "duration": 253000000,
+>>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
               "status": "passed"
             },
             "match": {
@@ -31,7 +86,50 @@
           }
         ],
         "type": "scenario",
+<<<<<<< HEAD
+<<<<<<< HEAD
         "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1938000000,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1486000000,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "Click on button go back button when scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.click_on_button_go_back_button_when_scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1241000000,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "Check if it back to top content",
+            "match": {
+              "location": "step_definitions.HomeSteps.check_if_it_back_to_top_content()"
+            },
+            "keyword": "And "
+=======
+        "keyword": "Scenario Outline",
+=======
+        "keyword": "Scenario",
+>>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
         "steps": [
           {
             "result": {
@@ -50,6 +148,7 @@
               "location": "step_definitions.HomeSteps.verifyEmailInputFieldHasPlaceholder(java.lang.String)"
             },
             "keyword": "Then "
+>>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
           }
         ],
         "tags": [
@@ -57,7 +156,203 @@
             "name": "@homeScenarios"
           },
           {
+<<<<<<< HEAD
+<<<<<<< HEAD
+            "name": "@ADVSYS-19"
+=======
+            "name": "@ADVSYS-15"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-27T18:58:24.398Z",
+        "before": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 10171000000,
+=======
+              "duration": 5755000000,
+>>>>>>> master
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 113,
+        "name": "following information should be displayed in footer section",
+        "description": "",
+        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 258000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1526000000,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "Verify \"Phone: +1 703-831-321\" information is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Phone: +1 703-831-321\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+<<<<<<< HEAD
+            "name": "@ADVSYS-10a"
+=======
+            "name": "@ADVSYS-15"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-27T18:58:31.974Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6830000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 114,
+        "name": "following information should be displayed in footer section",
+        "description": "",
+        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 240000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1790000000,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "Verify \"Email: info@advancesystems.us\" information is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Email: info@advancesystems.us\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-15"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-27T18:58:40.892Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9416000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 115,
+        "name": "following information should be displayed in footer section",
+        "description": "",
+        "id": "homepage-related-scenarios;following-information-should-be-displayed-in-footer-section;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 144000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1647000000,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "Verify \"Mon to Sat: 9.00 am to 5:00 pm\" information is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mon to Sat: 9.00 am to 5:00 pm\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verify_information_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-15"
+<<<<<<< HEAD
+>>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
+=======
+>>>>>>> master
+>>>>>>> 23d9e97ed7cd69833255ff18f3d8fd52ee9447ad
+=======
             "name": "@ADVSYS-18"
+>>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
           }
         ]
       }

@@ -113,7 +113,12 @@ Feature: Homepage related scenarios
       | Phone: +1 703-831-321               |
       | Email: info@advancesystems.us       |
       | Mon to Sat: 9.00 am to 5:00 pm      |
+<<<<<<< HEAD
+
+#--------------------------------------------------------------------------------------
+=======
 #---------------------------------------------------------------------------------
+>>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
 
   @ADVSYS-17 @smoke
   Scenario Outline: Footer social media buttons displayed
@@ -127,6 +132,11 @@ Feature: Homepage related scenarios
       | twitter           | twitter           | twitter       |
       | skype             | skype             | skype         |
       | linkedin          | linkedin          | linkedin      |
+<<<<<<< HEAD
+
+#----------------------------------------------------------------------------------------
+=======
+>>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
 
 #---------------------------------------------------------------------------------
   @ADVSYS-16 @smoke
