@@ -5,13 +5,17 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import pages.CommonPage;
 import pages.HomeNavigationBarPage;
+import pages.HomePage;
 import utils.WebDriverManager;
 
 
 public class HomeNavigationBarSteps implements CommonPage {
     HomeNavigationBarPage homeNavigationBarPage;
+
+
 
     public HomeNavigationBarSteps() {
         homeNavigationBarPage = new HomeNavigationBarPage();
@@ -86,5 +90,6 @@ public class HomeNavigationBarSteps implements CommonPage {
     public void click_on_contact_us_button() {
         WebDriverManager.click(homeNavigationBarPage.contactUs);
     }
+
 
 }

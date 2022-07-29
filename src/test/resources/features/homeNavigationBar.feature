@@ -79,6 +79,3 @@ Feature: Navigation Bar related scenarios
     Then Verify Language French buttons is displayed
 
 
-
-
-

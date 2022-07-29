@@ -81,4 +81,78 @@ Feature: Navigation Bar related scenarios
 
 
 
+  @NotForTesting
+  Scenario Outline: HOME should have following buttons
+    Given Click on HOME button
+    Then Verify "<Top Bar>" buttons is displayed
+    Then Verify "<Language>" buttons is displayed
+    Examples:
+      | Top Bar     | Language |
+      | Get Support | English |
+      | Job Career  | Spanish |
+      | Feedback    | French  |
 
+  @NotForTesting
+  Scenario Outline: ABOUT US should have following buttons
+    Given Click on ABOUT US button
+    Then Verify "<Top Bar>" buttons is displayed
+    Then Verify "<Language>" buttons is displayed
+    Examples:
+      | Top Bar     | Language |
+      | Get Support | English |
+      | Job Career  | Spanish |
+      | Feedback    | French  |
+
+  @NotForTesting
+  Scenario Outline: SERVICES should have following buttons
+    Given Click on SERVICES button
+    Then Verify "<Top Bar>" buttons is displayed
+    Then Verify "<Language>" buttons is displayed
+    Examples:
+      | Top Bar     | Language |
+      | Get Support | English |
+      | Job Career  | Spanish |
+      | Feedback    | French  |
+
+  @NotForTesting
+  Scenario Outline: CLIENTS should have following buttons
+    Given Click on CLIENTS button
+    Then Verify "<Top Bar>" buttons is displayed
+    Then Verify "<Language>" buttons is displayed
+    Examples:
+      | Top Bar     | Language |
+      | Get Support | English |
+      | Job Career  | Spanish |
+      | Feedback    | French  |
+
+  @NotForTesting
+  Scenario Outline: SOLUTIONS should have following buttons
+    Given Click on SOLUTIONS button
+    Then Verify "<Top Bar>" buttons is displayed
+    Then Verify "<Language>" buttons is displayed
+    Examples:
+      | Top Bar     | Language |
+      | Get Support | English |
+      | Job Career  | Spanish |
+      | Feedback    | French  |
+
+  @NotForTesting
+  Scenario Outline: JOIN US should have following buttons
+    Given Click on JOIN US button
+    Then Verify "<Top Bar>" buttons is displayed
+    Then Verify "<Language>" buttons is displayed
+    Examples:
+      | Top Bar     | Language |
+      | Get Support | English |
+      | Job Career  | Spanish |
+      | Feedback    | French  |
+  @NotForTesting
+  Scenario Outline: CONTACT US should have following buttons
+    Given Click on CONTACT US button
+    Then Verify "<Top Bar>" buttons is displayed
+    Then Verify "<Language>" buttons is displayed
+    Examples:
+      | Top Bar     | Language |
+      | Get Support | English |
+      | Job Career  | Spanish |
+      | Feedback    | French  |
