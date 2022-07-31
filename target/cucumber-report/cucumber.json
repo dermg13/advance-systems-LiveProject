@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-29T20:23:25.427Z",
+        "start_timestamp": "2022-07-31T11:00:00.155Z",
         "before": [
           {
             "result": {
-              "duration": 2999000000,
+              "duration": 2362000000,
               "status": "passed"
             },
             "match": {
@@ -16,964 +16,9 @@
           }
         ],
         "line": 91,
-        "name": "HOME should have following buttons",
+        "name": "All of Navigation bar Link should have following buttons When click",
         "description": "",
-        "id": "navigation-bar-related-scenarios;home-should-have-following-buttons;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 644000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 86,
-            "name": "Click on HOME button",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "skipped"
-            },
-            "line": 87,
-            "name": "Verify \"Get Support\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 88,
-            "name": "Verify \"English\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@NotForTesting"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-29T20:23:29.167Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1816000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 92,
-        "name": "HOME should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;home-should-have-following-buttons;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 672000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 86,
-            "name": "Click on HOME button",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 87,
-            "name": "Verify \"Job Career\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 88,
-            "name": "Verify \"Spanish\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@NotForTesting"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-29T20:23:31.658Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1761000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 93,
-        "name": "HOME should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;home-should-have-following-buttons;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 629000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 86,
-            "name": "Click on HOME button",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 87,
-            "name": "Verify \"Feedback\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 88,
-            "name": "Verify \"French\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@NotForTesting"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-29T20:23:34.055Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1684000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 102,
-        "name": "ABOUT US should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;about-us-should-have-following-buttons;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 633000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2068000000,
-              "status": "passed"
-            },
-            "line": 97,
-            "name": "Click on ABOUT US button",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_about_us_button()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 98,
-            "name": "Verify \"Get Support\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 99,
-            "name": "Verify \"English\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@NotForTesting"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-29T20:23:38.446Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1814000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 103,
-        "name": "ABOUT US should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;about-us-should-have-following-buttons;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 615000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2070000000,
-              "status": "passed"
-            },
-            "line": 97,
-            "name": "Click on ABOUT US button",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_about_us_button()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 98,
-            "name": "Verify \"Job Career\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 99,
-            "name": "Verify \"Spanish\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@NotForTesting"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-29T20:23:42.947Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1730000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 104,
-        "name": "ABOUT US should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;about-us-should-have-following-buttons;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 630000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1996000000,
-              "status": "passed"
-            },
-            "line": 97,
-            "name": "Click on ABOUT US button",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_about_us_button()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 98,
-            "name": "Verify \"Feedback\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 99,
-            "name": "Verify \"French\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@NotForTesting"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-29T20:23:47.305Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1761000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 113,
-        "name": "SERVICES should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;services-should-have-following-buttons;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 611000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1505000000,
-              "status": "passed"
-            },
-            "line": 108,
-            "name": "Click on SERVICES button",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_services_button()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 109,
-            "name": "Verify \"Get Support\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 110,
-            "name": "Verify \"English\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@NotForTesting"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-29T20:23:51.183Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1849000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 114,
-        "name": "SERVICES should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;services-should-have-following-buttons;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 622000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2093000000,
-              "status": "passed"
-            },
-            "line": 108,
-            "name": "Click on SERVICES button",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_services_button()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 109,
-            "name": "Verify \"Job Career\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 110,
-            "name": "Verify \"Spanish\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@NotForTesting"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-29T20:23:55.748Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1790000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 115,
-        "name": "SERVICES should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;services-should-have-following-buttons;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 619000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2023000000,
-              "status": "passed"
-            },
-            "line": 108,
-            "name": "Click on SERVICES button",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_services_button()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 109,
-            "name": "Verify \"Feedback\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 110,
-            "name": "Verify \"French\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@NotForTesting"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-29T20:24:00.181Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1729000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 124,
-        "name": "CLIENTS should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;clients-should-have-following-buttons;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 617000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2109000000,
-              "status": "passed"
-            },
-            "line": 119,
-            "name": "Click on CLIENTS button",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_clients_button()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 120,
-            "name": "Verify \"Get Support\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 121,
-            "name": "Verify \"English\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@NotForTesting"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-29T20:24:04.637Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1744000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 125,
-        "name": "CLIENTS should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;clients-should-have-following-buttons;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 645000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2072000000,
-              "status": "passed"
-            },
-            "line": 119,
-            "name": "Click on CLIENTS button",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_clients_button()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 120,
-            "name": "Verify \"Job Career\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "skipped"
-            },
-            "line": 121,
-            "name": "Verify \"Spanish\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@NotForTesting"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-29T20:24:09.099Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1811000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 126,
-        "name": "CLIENTS should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;clients-should-have-following-buttons;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 632000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2037000000,
-              "status": "passed"
-            },
-            "line": 119,
-            "name": "Click on CLIENTS button",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_clients_button()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 120,
-            "name": "Verify \"Feedback\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 121,
-            "name": "Verify \"French\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@NotForTesting"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-29T20:24:13.581Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1763000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 135,
-        "name": "SOLUTIONS should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;solutions-should-have-following-buttons;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 619000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2094000000,
-              "status": "passed"
-            },
-            "line": 130,
-            "name": "Click on SOLUTIONS button",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_solutions_button()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 131,
-            "name": "Verify \"Get Support\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 132,
-            "name": "Verify \"English\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@NotForTesting"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-29T20:24:18.059Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1716000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 136,
-        "name": "SOLUTIONS should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;solutions-should-have-following-buttons;;3",
+        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;2",
         "after": [
           {
             "result": {
@@ -990,32 +35,92 @@
         "steps": [
           {
             "result": {
-              "duration": 2107000000,
+              "duration": 1464000000,
               "status": "passed"
             },
-            "line": 130,
-            "name": "Click on SOLUTIONS button",
+            "line": 82,
+            "name": "Click on \"Home\" Link",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_solutions_button()"
+              "arguments": [
+                {
+                  "val": "\"Home\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1254000000,
+              "status": "passed"
             },
-            "line": 131,
-            "name": "Verify \"Job Career\" buttons is displayed",
-            "match": {},
+            "line": 83,
+            "name": "Verify Get Support buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1237000000,
+              "status": "passed"
             },
-            "line": 132,
-            "name": "Verify \"Spanish\" buttons is displayed",
-            "match": {},
+            "line": 84,
+            "name": "Verify Job Career buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1241000000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Verify Feedback buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2512000000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Verify Language English buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1251000000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Verify Language Spanish buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1257000000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Verify Language French buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1027,69 +132,129 @@
             "name": "@navigationScenarios"
           },
           {
-            "name": "@NotForTesting"
+            "name": "@XYZ"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-29T20:24:22.510Z",
+        "start_timestamp": "2022-07-31T11:00:13.452Z",
         "before": [
+          {
+            "result": {
+              "duration": 1814000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 92,
+        "name": "All of Navigation bar Link should have following buttons When click",
+        "description": "",
+        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 643000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
           {
             "result": {
               "duration": 1787000000,
               "status": "passed"
             },
+            "line": 82,
+            "name": "Click on \"About Us\" Link",
             "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 137,
-        "name": "SOLUTIONS should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;solutions-should-have-following-buttons;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 632000000,
-              "status": "passed"
+              "arguments": [
+                {
+                  "val": "\"About Us\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
             },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1549000000,
-              "status": "passed"
-            },
-            "line": 130,
-            "name": "Click on SOLUTIONS button",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_solutions_button()"
-            },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1271000000,
+              "status": "passed"
             },
-            "line": 131,
-            "name": "Verify \"Feedback\" buttons is displayed",
-            "match": {},
+            "line": 83,
+            "name": "Verify Get Support buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1251000000,
+              "status": "passed"
             },
-            "line": 132,
-            "name": "Verify \"French\" buttons is displayed",
-            "match": {},
+            "line": 84,
+            "name": "Verify Job Career buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1267000000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Verify Feedback buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2474000000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Verify Language English buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1234000000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Verify Language Spanish buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1261000000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Verify Language French buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1101,16 +266,16 @@
             "name": "@navigationScenarios"
           },
           {
-            "name": "@NotForTesting"
+            "name": "@XYZ"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-29T20:24:26.481Z",
+        "start_timestamp": "2022-07-31T11:00:26.464Z",
         "before": [
           {
             "result": {
-              "duration": 1748000000,
+              "duration": 1861000000,
               "status": "passed"
             },
             "match": {
@@ -1118,14 +283,14 @@
             }
           }
         ],
-        "line": 146,
-        "name": "JOIN US should have following buttons",
+        "line": 93,
+        "name": "All of Navigation bar Link should have following buttons When click",
         "description": "",
-        "id": "navigation-bar-related-scenarios;join-us-should-have-following-buttons;;2",
+        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;4",
         "after": [
           {
             "result": {
-              "duration": 621000000,
+              "duration": 644000000,
               "status": "passed"
             },
             "match": {
@@ -1138,32 +303,92 @@
         "steps": [
           {
             "result": {
-              "duration": 2058000000,
+              "duration": 1785000000,
               "status": "passed"
             },
-            "line": 141,
-            "name": "Click on JOIN US button",
+            "line": 82,
+            "name": "Click on \"Services\" Link",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_join_us_button()"
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1261000000,
+              "status": "passed"
             },
-            "line": 142,
-            "name": "Verify \"Get Support\" buttons is displayed",
-            "match": {},
+            "line": 83,
+            "name": "Verify Get Support buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1261000000,
+              "status": "passed"
             },
-            "line": 143,
-            "name": "Verify \"English\" buttons is displayed",
-            "match": {},
+            "line": 84,
+            "name": "Verify Job Career buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1242000000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Verify Feedback buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2464000000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Verify Language English buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1269000000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Verify Language Spanish buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1237000000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Verify Language French buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1175,16 +400,16 @@
             "name": "@navigationScenarios"
           },
           {
-            "name": "@NotForTesting"
+            "name": "@XYZ"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-29T20:24:30.910Z",
+        "start_timestamp": "2022-07-31T11:00:39.501Z",
         "before": [
           {
             "result": {
-              "duration": 1766000000,
+              "duration": 1755000000,
               "status": "passed"
             },
             "match": {
@@ -1192,14 +417,14 @@
             }
           }
         ],
-        "line": 147,
-        "name": "JOIN US should have following buttons",
+        "line": 94,
+        "name": "All of Navigation bar Link should have following buttons When click",
         "description": "",
-        "id": "navigation-bar-related-scenarios;join-us-should-have-following-buttons;;3",
+        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;5",
         "after": [
           {
             "result": {
-              "duration": 620000000,
+              "duration": 640000000,
               "status": "passed"
             },
             "match": {
@@ -1212,32 +437,92 @@
         "steps": [
           {
             "result": {
-              "duration": 2103000000,
+              "duration": 1879000000,
               "status": "passed"
             },
-            "line": 141,
-            "name": "Click on JOIN US button",
+            "line": 82,
+            "name": "Click on \"Clients\" Link",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_join_us_button()"
+              "arguments": [
+                {
+                  "val": "\"Clients\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1300000000,
+              "status": "passed"
             },
-            "line": 142,
-            "name": "Verify \"Job Career\" buttons is displayed",
-            "match": {},
+            "line": 83,
+            "name": "Verify Get Support buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1235000000,
+              "status": "passed"
             },
-            "line": 143,
-            "name": "Verify \"Spanish\" buttons is displayed",
-            "match": {},
+            "line": 84,
+            "name": "Verify Job Career buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1247000000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Verify Feedback buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2461000000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Verify Language English buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1242000000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Verify Language Spanish buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1250000000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Verify Language French buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1249,16 +534,16 @@
             "name": "@navigationScenarios"
           },
           {
-            "name": "@NotForTesting"
+            "name": "@XYZ"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-29T20:24:35.401Z",
+        "start_timestamp": "2022-07-31T11:00:52.514Z",
         "before": [
           {
             "result": {
-              "duration": 1768000000,
+              "duration": 1780000000,
               "status": "passed"
             },
             "match": {
@@ -1266,14 +551,14 @@
             }
           }
         ],
-        "line": 148,
-        "name": "JOIN US should have following buttons",
+        "line": 95,
+        "name": "All of Navigation bar Link should have following buttons When click",
         "description": "",
-        "id": "navigation-bar-related-scenarios;join-us-should-have-following-buttons;;4",
+        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;6",
         "after": [
           {
             "result": {
-              "duration": 621000000,
+              "duration": 640000000,
               "status": "passed"
             },
             "match": {
@@ -1286,32 +571,92 @@
         "steps": [
           {
             "result": {
-              "duration": 2026000000,
+              "duration": 1836000000,
               "status": "passed"
             },
-            "line": 141,
-            "name": "Click on JOIN US button",
+            "line": 82,
+            "name": "Click on \"Solutions\" Link",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_join_us_button()"
+              "arguments": [
+                {
+                  "val": "\"Solutions\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1261000000,
+              "status": "passed"
             },
-            "line": 142,
-            "name": "Verify \"Feedback\" buttons is displayed",
-            "match": {},
+            "line": 83,
+            "name": "Verify Get Support buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1238000000,
+              "status": "passed"
             },
-            "line": 143,
-            "name": "Verify \"French\" buttons is displayed",
-            "match": {},
+            "line": 84,
+            "name": "Verify Job Career buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1243000000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Verify Feedback buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2476000000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Verify Language English buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1269000000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Verify Language Spanish buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1238000000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Verify Language French buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1323,16 +668,16 @@
             "name": "@navigationScenarios"
           },
           {
-            "name": "@NotForTesting"
+            "name": "@XYZ"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-29T20:24:39.817Z",
+        "start_timestamp": "2022-07-31T11:01:05.503Z",
         "before": [
           {
             "result": {
-              "duration": 1686000000,
+              "duration": 1846000000,
               "status": "passed"
             },
             "match": {
@@ -1340,14 +685,14 @@
             }
           }
         ],
-        "line": 156,
-        "name": "CONTACT US should have following buttons",
+        "line": 96,
+        "name": "All of Navigation bar Link should have following buttons When click",
         "description": "",
-        "id": "navigation-bar-related-scenarios;contact-us-should-have-following-buttons;;2",
+        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;7",
         "after": [
           {
             "result": {
-              "duration": 614000000,
+              "duration": 630000000,
               "status": "passed"
             },
             "match": {
@@ -1360,32 +705,92 @@
         "steps": [
           {
             "result": {
-              "duration": 2074000000,
+              "duration": 1828000000,
               "status": "passed"
             },
-            "line": 151,
-            "name": "Click on CONTACT US button",
+            "line": 82,
+            "name": "Click on \"Join Us\" Link",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_contact_us_button()"
+              "arguments": [
+                {
+                  "val": "\"Join Us\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1269000000,
+              "status": "passed"
             },
-            "line": 152,
-            "name": "Verify \"Get Support\" buttons is displayed",
-            "match": {},
+            "line": 83,
+            "name": "Verify Get Support buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1255000000,
+              "status": "passed"
             },
-            "line": 153,
-            "name": "Verify \"English\" buttons is displayed",
-            "match": {},
+            "line": 84,
+            "name": "Verify Job Career buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1266000000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Verify Feedback buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2480000000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Verify Language English buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1245000000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Verify Language Spanish buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1244000000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Verify Language French buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1397,16 +802,16 @@
             "name": "@navigationScenarios"
           },
           {
-            "name": "@NotForTesting"
+            "name": "@XYZ"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-29T20:24:44.192Z",
+        "start_timestamp": "2022-07-31T11:01:18.576Z",
         "before": [
           {
             "result": {
-              "duration": 1688000000,
+              "duration": 1839000000,
               "status": "passed"
             },
             "match": {
@@ -1414,14 +819,14 @@
             }
           }
         ],
-        "line": 157,
-        "name": "CONTACT US should have following buttons",
+        "line": 97,
+        "name": "All of Navigation bar Link should have following buttons When click",
         "description": "",
-        "id": "navigation-bar-related-scenarios;contact-us-should-have-following-buttons;;3",
+        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;8",
         "after": [
           {
             "result": {
-              "duration": 618000000,
+              "duration": 648000000,
               "status": "passed"
             },
             "match": {
@@ -1434,106 +839,92 @@
         "steps": [
           {
             "result": {
-              "duration": 1535000000,
+              "duration": 1896000000,
               "status": "passed"
             },
-            "line": 151,
-            "name": "Click on CONTACT US button",
+            "line": 82,
+            "name": "Click on \"Contact Us\" Link",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_contact_us_button()"
+              "arguments": [
+                {
+                  "val": "\"Contact Us\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1256000000,
+              "status": "passed"
             },
-            "line": 152,
-            "name": "Verify \"Job Career\" buttons is displayed",
-            "match": {},
+            "line": 83,
+            "name": "Verify Get Support buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
-            },
-            "line": 153,
-            "name": "Verify \"Spanish\" buttons is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@NotForTesting"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-29T20:24:48.034Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1818000000,
+              "duration": 1246000000,
               "status": "passed"
             },
+            "line": 84,
+            "name": "Verify Job Career buttons is displayed",
             "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 158,
-        "name": "CONTACT US should have following buttons",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;contact-us-should-have-following-buttons;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 611000000,
-              "status": "passed"
+              "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
             },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2071000000,
-              "status": "passed"
-            },
-            "line": 151,
-            "name": "Click on CONTACT US button",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_contact_us_button()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 152,
-            "name": "Verify \"Feedback\" buttons is displayed",
-            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1246000000,
+              "status": "passed"
             },
-            "line": 153,
-            "name": "Verify \"French\" buttons is displayed",
-            "match": {},
+            "line": 85,
+            "name": "Verify Feedback buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2440000000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Verify Language English buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1243000000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Verify Language Spanish buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1252000000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Verify Language French buttons is displayed",
+            "match": {
+              "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
+            },
             "keyword": "Then "
           }
         ],
@@ -1545,7 +936,7 @@
             "name": "@navigationScenarios"
           },
           {
-            "name": "@NotForTesting"
+            "name": "@XYZ"
           }
         ]
       }
