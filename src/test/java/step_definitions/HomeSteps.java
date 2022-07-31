@@ -240,9 +240,8 @@ public class HomeSteps implements CommonPage {
 
     @When("User click on {string} link")
     public void userClickOnLink(String str) {
-        WebDriverManager.getDriver()
-                .findElement(By.xpath(String.format
-                        ("//div[@class='col-md-6 col-sm-12']" + XPATH_TEMPLATE_LINKTEXT, str))).click();
+        WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_QUICKLINK,str)));
+
     }
 
     @Then("Verify page title contains {string}")
