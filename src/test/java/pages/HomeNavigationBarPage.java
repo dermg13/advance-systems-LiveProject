@@ -45,5 +45,6 @@ public class HomeNavigationBarPage {
     @FindBy (xpath = "//*[@class='dropdown-menu style-one']//*[text()='French']")
     public WebElement frenchLanguage;
 
-
+    @FindBy(xpath = "//div[text()='Copyright © 2022 Advance Systems LLC. All Rights Reserved.']")
+    public WebElement BottomOfThePage;
 }

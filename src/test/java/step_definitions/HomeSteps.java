@@ -170,23 +170,6 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, descriptionText))));
     }
 
-    @Then("Verity {string} is displayed as a header")
-    public void verity_are_displayed_as_a_header(String section) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.expectSection));
-    }
-
-    @Then("Verify copyright text is {string}")
-    public void verifyCopyrightTextIsString(String copyRight) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
-    }
-
-    @Given("at bottom of the page")
-    public void at_bottom_of_the_page() {
-        WebDriver driver = new EdgeDriver();
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-    }
-
     @Then("Verify {string} sections is displayed as a header")
     public void verify_sections_is_displayed_as_a_header(String section) {
         Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT_SECTION, section))));
@@ -205,11 +188,13 @@ public class HomeSteps implements CommonPage {
         }
     }
 
-    //---------------------------------------------------------
+    @Then("Verify copyright text is {string}")
+    public void verifyCopyrightTextIsString(String copyRight) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, copyRight))));
+    }
     @Then("Verify {string} information is displayed")
     public void verify_information_is_displayed(String contact) {
-        Assert.assertTrue(WebDriverManager.isDisplayed(homePage.contact));
-
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT_CONTAINS, contact))));
     }
 
     @Given("scroll down to bottom of the page")
@@ -265,6 +250,13 @@ public class HomeSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.getDriver().getTitle().contains(str));
     }
 
+    @Then("Verify email input field has placeholder {string}")
+    public void verifyEmailInputFieldHasPlaceholder(String email) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_INPUT_FIELD, email))));
+        Assert.assertTrue(WebDriverManager.isEnabled(
+                WebDriverManager.getDriver().findElement(By.xpath(String.format(XPATH_TEMPLATE_INPUT_FIELD, email)))
+        ));
+    }
 }
 
 

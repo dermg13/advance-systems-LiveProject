@@ -11,7 +11,7 @@ Feature: Homepage related scenarios
     Then Verify title of page is "Advance Systems - Join"
 #--------------------------------------------------------------------
 
-  @ADVSYS-9 @smoke
+  @ADVSYS-9
   Scenario Outline: Buttons displayed for social media options
     Then User is able to see "<social media options>" icon
     When Click on "<social media buttons>"
@@ -45,12 +45,12 @@ Feature: Homepage related scenarios
     #Add ScreenShot in jenkins to prove the location on header, testimonials, name and state.
 #------------------------------------------------------------------------------
 
-  @ADVSYS-10
+  @ADVSYS-10a
   Scenario: Parallax section content information and update
     When Information is displayed in the parallax section
     Then Header and description update automatically
 
-  @ADVSYS-10
+  @ADVSYS-10b
   Scenario: Parallax section button
     When User clicks on "Read More" button in parallax section
     Then User should see the "Services" page displayed
@@ -97,16 +97,15 @@ Feature: Homepage related scenarios
     Given scroll down to bottom of the page
     Then Click on button go back button when scroll down to bottom of the page
     And Check if it back to top content
-#--------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------
 
   @ADVSYS-20
   Scenario: Verify Copyright text is updated
     Then Verify copyright text is "Copyright © 2022 Advance Systems LLC. All Rights Reserved."
-
-#-------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------
 
   @ADVSYS-15
-  Scenario Outline: information should be displayed in footer section
+  Scenario Outline: following information should be displayed in footer section
     Then Verify "<contact>" information is displayed
     Examples:
       | contact                             |
@@ -114,10 +113,9 @@ Feature: Homepage related scenarios
       | Phone: +1 703-831-321               |
       | Email: info@advancesystems.us       |
       | Mon to Sat: 9.00 am to 5:00 pm      |
+#---------------------------------------------------------------------------------
 
-#--------------------------------------------------------------------------------------
-
-  @ADVSYS-17 @smoke
+  @ADVSYS-17
   Scenario Outline: Footer social media buttons displayed
     Then Verify "<footer sm options>" icon is displayed
     When User click on "<footer sm buttons>"
@@ -130,8 +128,7 @@ Feature: Homepage related scenarios
       | skype             | skype             | skype         |
       | linkedin          | linkedin          | linkedin      |
 
-#----------------------------------------------------------------------------------------
-
+#---------------------------------------------------------------------------------
   @ADVSYS-16 @smoke
   Scenario Outline: Footer essential quick links displayed and working as expected
     Given scroll down to bottom of the page
@@ -147,3 +144,6 @@ Feature: Homepage related scenarios
       | Solutions  | Solutions  | solutions |
       | Contact Us | Contact Us | contact   |
 
+  @ADVSYS-18
+  Scenario: Verify section should have email input field
+    Then Verify email input field has placeholder "Email Address..."
