@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-31T11:00:00.155Z",
+        "start_timestamp": "2022-07-31T14:17:20.430Z",
         "before": [
           {
             "result": {
-              "duration": 2362000000,
+              "duration": 2797000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 91,
-        "name": "All of Navigation bar Link should have following buttons When click",
+        "line": 140,
+        "name": "Footer essential quick links displayed and working as expected",
         "description": "",
-        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;2",
+        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;2",
         "after": [
           {
             "result": {
-              "duration": 627000000,
+              "duration": 675000000,
               "status": "passed"
             },
             "match": {
@@ -35,113 +35,89 @@
         "steps": [
           {
             "result": {
-              "duration": 1464000000,
+              "duration": 1934000000,
               "status": "passed"
             },
-            "line": 82,
-            "name": "Click on \"Home\" Link",
+            "line": 134,
+            "name": "scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1659000000,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "User click on \"Home\" link",
             "match": {
               "arguments": [
                 {
                   "val": "\"Home\"",
-                  "offset": 9
+                  "offset": 14
                 }
               ],
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
+              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1254000000,
+              "duration": 7000000,
               "status": "passed"
             },
-            "line": 83,
-            "name": "Verify Get Support buttons is displayed",
+            "line": 136,
+            "name": "Verify page title contains \"Home\"",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
+              "arguments": [
+                {
+                  "val": "\"Home\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1237000000,
+              "duration": 4000000,
               "status": "passed"
             },
-            "line": 84,
-            "name": "Verify Job Career buttons is displayed",
+            "line": 137,
+            "name": "Verify URL contains \"index\"",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1241000000,
-              "status": "passed"
-            },
-            "line": 85,
-            "name": "Verify Feedback buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2512000000,
-              "status": "passed"
-            },
-            "line": 86,
-            "name": "Verify Language English buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1251000000,
-              "status": "passed"
-            },
-            "line": 87,
-            "name": "Verify Language Spanish buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1257000000,
-              "status": "passed"
-            },
-            "line": 88,
-            "name": "Verify Language French buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
+              "arguments": [
+                {
+                  "val": "\"index\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-16"
+          },
+          {
             "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@XYZ"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-31T11:00:13.452Z",
+        "start_timestamp": "2022-07-31T14:17:27.723Z",
         "before": [
           {
             "result": {
-              "duration": 1814000000,
+              "duration": 1889000000,
               "status": "passed"
             },
             "match": {
@@ -149,14 +125,14 @@
             }
           }
         ],
-        "line": 92,
-        "name": "All of Navigation bar Link should have following buttons When click",
+        "line": 141,
+        "name": "Footer essential quick links displayed and working as expected",
         "description": "",
-        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;3",
+        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;3",
         "after": [
           {
             "result": {
-              "duration": 643000000,
+              "duration": 642000000,
               "status": "passed"
             },
             "match": {
@@ -169,664 +145,104 @@
         "steps": [
           {
             "result": {
-              "duration": 1787000000,
+              "duration": 1924000000,
               "status": "passed"
             },
-            "line": 82,
-            "name": "Click on \"About Us\" Link",
+            "line": 134,
+            "name": "scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1613000000,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "User click on \"About Us\" link",
             "match": {
               "arguments": [
                 {
                   "val": "\"About Us\"",
-                  "offset": 9
+                  "offset": 14
                 }
               ],
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
+              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1271000000,
+              "duration": 6000000,
               "status": "passed"
             },
-            "line": 83,
-            "name": "Verify Get Support buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1251000000,
-              "status": "passed"
-            },
-            "line": 84,
-            "name": "Verify Job Career buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1267000000,
-              "status": "passed"
-            },
-            "line": 85,
-            "name": "Verify Feedback buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2474000000,
-              "status": "passed"
-            },
-            "line": 86,
-            "name": "Verify Language English buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1234000000,
-              "status": "passed"
-            },
-            "line": 87,
-            "name": "Verify Language Spanish buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1261000000,
-              "status": "passed"
-            },
-            "line": 88,
-            "name": "Verify Language French buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@XYZ"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-31T11:00:26.464Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1861000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 93,
-        "name": "All of Navigation bar Link should have following buttons When click",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 644000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1785000000,
-              "status": "passed"
-            },
-            "line": 82,
-            "name": "Click on \"Services\" Link",
+            "line": 136,
+            "name": "Verify page title contains \"About Us\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Services\"",
-                  "offset": 9
+                  "val": "\"About Us\"",
+                  "offset": 27
                 }
               ],
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1261000000,
-              "status": "passed"
-            },
-            "line": 83,
-            "name": "Verify Get Support buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
+              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1261000000,
+              "duration": 3000000,
               "status": "passed"
             },
-            "line": 84,
-            "name": "Verify Job Career buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1242000000,
-              "status": "passed"
-            },
-            "line": 85,
-            "name": "Verify Feedback buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2464000000,
-              "status": "passed"
-            },
-            "line": 86,
-            "name": "Verify Language English buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1269000000,
-              "status": "passed"
-            },
-            "line": 87,
-            "name": "Verify Language Spanish buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1237000000,
-              "status": "passed"
-            },
-            "line": 88,
-            "name": "Verify Language French buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@XYZ"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-31T11:00:39.501Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1755000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 94,
-        "name": "All of Navigation bar Link should have following buttons When click",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 640000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1879000000,
-              "status": "passed"
-            },
-            "line": 82,
-            "name": "Click on \"Clients\" Link",
+            "line": 137,
+            "name": "Verify URL contains \"about\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Clients\"",
-                  "offset": 9
+                  "val": "\"about\"",
+                  "offset": 20
                 }
               ],
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1300000000,
-              "status": "passed"
-            },
-            "line": 83,
-            "name": "Verify Get Support buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1235000000,
-              "status": "passed"
-            },
-            "line": 84,
-            "name": "Verify Job Career buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1247000000,
-              "status": "passed"
-            },
-            "line": 85,
-            "name": "Verify Feedback buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2461000000,
-              "status": "passed"
-            },
-            "line": 86,
-            "name": "Verify Language English buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1242000000,
-              "status": "passed"
-            },
-            "line": 87,
-            "name": "Verify Language Spanish buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1250000000,
-              "status": "passed"
-            },
-            "line": 88,
-            "name": "Verify Language French buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
+              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-16"
+          },
+          {
             "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@XYZ"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-31T11:00:52.514Z",
+        "start_timestamp": "2022-07-31T14:17:33.814Z",
         "before": [
-          {
-            "result": {
-              "duration": 1780000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 95,
-        "name": "All of Navigation bar Link should have following buttons When click",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;6",
-        "after": [
-          {
-            "result": {
-              "duration": 640000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1836000000,
-              "status": "passed"
-            },
-            "line": 82,
-            "name": "Click on \"Solutions\" Link",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Solutions\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1261000000,
-              "status": "passed"
-            },
-            "line": 83,
-            "name": "Verify Get Support buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1238000000,
-              "status": "passed"
-            },
-            "line": 84,
-            "name": "Verify Job Career buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1243000000,
-              "status": "passed"
-            },
-            "line": 85,
-            "name": "Verify Feedback buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2476000000,
-              "status": "passed"
-            },
-            "line": 86,
-            "name": "Verify Language English buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1269000000,
-              "status": "passed"
-            },
-            "line": 87,
-            "name": "Verify Language Spanish buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1238000000,
-              "status": "passed"
-            },
-            "line": 88,
-            "name": "Verify Language French buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@XYZ"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-31T11:01:05.503Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1846000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 96,
-        "name": "All of Navigation bar Link should have following buttons When click",
-        "description": "",
-        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;7",
-        "after": [
-          {
-            "result": {
-              "duration": 630000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
           {
             "result": {
               "duration": 1828000000,
               "status": "passed"
             },
-            "line": 82,
-            "name": "Click on \"Join Us\" Link",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Join Us\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1269000000,
-              "status": "passed"
-            },
-            "line": 83,
-            "name": "Verify Get Support buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1255000000,
-              "status": "passed"
-            },
-            "line": 84,
-            "name": "Verify Job Career buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1266000000,
-              "status": "passed"
-            },
-            "line": 85,
-            "name": "Verify Feedback buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2480000000,
-              "status": "passed"
-            },
-            "line": 86,
-            "name": "Verify Language English buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1245000000,
-              "status": "passed"
-            },
-            "line": 87,
-            "name": "Verify Language Spanish buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1244000000,
-              "status": "passed"
-            },
-            "line": 88,
-            "name": "Verify Language French buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@navigationScenarios"
-          },
-          {
-            "name": "@XYZ"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-31T11:01:18.576Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1839000000,
-              "status": "passed"
-            },
             "match": {
               "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
             }
           }
         ],
-        "line": 97,
-        "name": "All of Navigation bar Link should have following buttons When click",
+        "line": 142,
+        "name": "Footer essential quick links displayed and working as expected",
         "description": "",
-        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;8",
+        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;4",
         "after": [
           {
             "result": {
-              "duration": 648000000,
+              "duration": 621000000,
               "status": "passed"
             },
             "match": {
@@ -839,128 +255,426 @@
         "steps": [
           {
             "result": {
-              "duration": 1896000000,
+              "duration": 1906000000,
               "status": "passed"
             },
-            "line": 82,
-            "name": "Click on \"Contact Us\" Link",
+            "line": 134,
+            "name": "scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1625000000,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "User click on \"Services\" link",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Contact Us\"",
-                  "offset": 9
+                  "val": "\"Services\"",
+                  "offset": 14
                 }
               ],
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
+              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1256000000,
+              "duration": 4000000,
               "status": "passed"
             },
-            "line": 83,
-            "name": "Verify Get Support buttons is displayed",
+            "line": 136,
+            "name": "Verify page title contains \"Services\"",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1246000000,
+              "duration": 4000000,
               "status": "passed"
             },
-            "line": 84,
-            "name": "Verify Job Career buttons is displayed",
+            "line": 137,
+            "name": "Verify URL contains \"services\"",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1246000000,
-              "status": "passed"
-            },
-            "line": 85,
-            "name": "Verify Feedback buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2440000000,
-              "status": "passed"
-            },
-            "line": 86,
-            "name": "Verify Language English buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1243000000,
-              "status": "passed"
-            },
-            "line": 87,
-            "name": "Verify Language Spanish buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1252000000,
-              "status": "passed"
-            },
-            "line": 88,
-            "name": "Verify Language French buttons is displayed",
-            "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
+              "arguments": [
+                {
+                  "val": "\"services\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-16"
+          },
+          {
             "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-31T14:17:39.810Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1860000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 143,
+        "name": "Footer essential quick links displayed and working as expected",
+        "description": "",
+        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 639000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1873000000,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Given "
           },
           {
-            "name": "@navigationScenarios"
+            "result": {
+              "duration": 1636000000,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "User click on \"Clients\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Clients\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
+            },
+            "keyword": "When "
           },
           {
-            "name": "@XYZ"
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "Verify page title contains \"Clients\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Clients\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "Verify URL contains \"clients\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"clients\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-16"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-31T14:17:45.837Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1802000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 144,
+        "name": "Footer essential quick links displayed and working as expected",
+        "description": "",
+        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 647000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1899000000,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1609000000,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "User click on \"Solutions\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Solutions\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "Verify page title contains \"Solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Solutions\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "Verify URL contains \"solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"solutions\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-16"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-31T14:17:51.828Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1834000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 145,
+        "name": "Footer essential quick links displayed and working as expected",
+        "description": "",
+        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 623000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1954000000,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1639000000,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "User click on \"Contact Us\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contact Us\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "Verify page title contains \"Contact Us\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contact Us\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "Verify URL contains \"contact\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"contact\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-16"
+          },
+          {
+            "name": "@smoke"
           }
         ]
       }
     ],
-    "name": "Navigation Bar related scenarios",
+    "name": "Homepage related scenarios",
     "description": "",
-    "id": "navigation-bar-related-scenarios",
+    "id": "homepage-related-scenarios",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/homeNavigationBar.feature",
+    "uri": "file:src/test/resources/features/home.feature",
     "tags": [
       {
-        "name": "@smoke",
+        "name": "@homeScenarios",
         "type": "Tag",
         "location": {
           "line": 1,
           "column": 1
-        }
-      },
-      {
-        "name": "@navigationScenarios",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 8
         }
       }
     ]
