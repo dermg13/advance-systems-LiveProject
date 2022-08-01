@@ -4,6 +4,7 @@
     "elements": [
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "start_timestamp": "2022-07-27T21:55:48.004Z",
         "before": [
           {
@@ -12,45 +13,13 @@
 =======
 <<<<<<< HEAD
         "start_timestamp": "2022-07-28T15:41:29.641Z",
+=======
+        "start_timestamp": "2022-07-31T14:17:20.430Z",
+>>>>>>> 62f4829c51ba54fb57eba99d5de42a28e1a27bb5
         "before": [
           {
             "result": {
-              "duration": 2862000000,
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "start_timestamp": "2022-07-27T23:58:07.456Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3127000000,
-=======
-        "start_timestamp": "2022-07-27T18:25:04.239Z",
-        "before": [
-          {
-            "result": {
-              "duration": 5187000000,
->>>>>>> 23d9e97ed7cd69833255ff18f3d8fd52ee9447ad
-=======
-        "start_timestamp": "2022-07-27T18:58:13.659Z",
-        "before": [
-          {
-            "result": {
-              "duration": 8703000000,
-<<<<<<< HEAD
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
-=======
->>>>>>> master
->>>>>>> 23d9e97ed7cd69833255ff18f3d8fd52ee9447ad
-=======
-        "start_timestamp": "2022-07-28T15:25:24.635Z",
-        "before": [
-          {
-            "result": {
-              "duration": 8521000000,
->>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
->>>>>>> b323c2b9dd73ad8385a730c434fc351635f2e186
+              "duration": 2797000000,
               "status": "passed"
             },
             "match": {
@@ -58,35 +27,14 @@
             }
           }
         ],
-<<<<<<< HEAD
-        "line": 21,
-        "name": "Buttons displayed for social media options",
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "line": 96,
-        "name": "There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.",
+        "line": 140,
+        "name": "Footer essential quick links displayed and working as expected",
         "description": "",
-        "id": "homepage-related-scenarios;there-should-be-a-button-in-the-bottom-right-corner-of-the-page-that-would-scroll-the-window-to-top-content-once-clicked.",
+        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;2",
         "after": [
           {
             "result": {
-              "duration": 637000000,
-=======
-        "line": 112,
-        "name": "following information should be displayed in footer section",
-=======
-        "line": 148,
-        "name": "Verify section should have email input field",
->>>>>>> 9555b535a93c8051e0fe2a5e542efc85be375271
->>>>>>> b323c2b9dd73ad8385a730c434fc351635f2e186
-        "description": "",
-        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;2",
-        "after": [
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 698000000,
+              "duration": 675000000,
               "status": "passed"
             },
             "match": {
@@ -99,455 +47,63 @@
         "steps": [
           {
             "result": {
-              "duration": 1586000000,
+              "duration": 1934000000,
               "status": "passed"
             },
-            "line": 16,
-            "name": "User is able to see \"facebook\" icon",
+            "line": 134,
+            "name": "scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1659000000,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "User click on \"Home\" link",
             "match": {
               "arguments": [
                 {
-                  "val": "\"facebook\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 745000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Click on \"facebook\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"facebook\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 14000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "URL is \"https://www.facebook.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.facebook.com/\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-9"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-28T15:41:35.663Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2112000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 22,
-        "name": "Buttons displayed for social media options",
-        "description": "",
-        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 777000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1495000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User is able to see \"twitter\" icon",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"twitter\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 814000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Click on \"twitter\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"twitter\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 109000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "URL is \"https://twitter.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://twitter.com/\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-9"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-28T15:41:40.985Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2017000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 23,
-        "name": "Buttons displayed for social media options",
-        "description": "",
-        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 677000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1477000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User is able to see \"google-plus\" icon",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"google-plus\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1099000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Click on \"google-plus\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"google-plus\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "URL is \"https://www.google.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.google.com/\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-9"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-28T15:41:46.269Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2043000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 24,
-        "name": "Buttons displayed for social media options",
-        "description": "",
-        "id": "homepage-related-scenarios;buttons-displayed-for-social-media-options;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 735000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1467000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User is able to see \"linkedin\" icon",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"linkedin\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userIsAbleToSeeIcon(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 850000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "Click on \"linkedin\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"linkedin\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.HomeSteps.clickOn(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "URL is \"https://www.linkedin.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.linkedin.com/\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.urlIs(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-9"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-28T15:41:51.380Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2031000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 126,
-        "name": "Footer social media buttons displayed",
-        "description": "",
-        "id": "homepage-related-scenarios;footer-social-media-buttons-displayed;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 694000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1477000000,
-              "status": "passed"
-            },
-            "line": 120,
-            "name": "Verify \"facebook\" icon is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"facebook\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyIconIsDisplayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 251000000,
-              "status": "passed"
-            },
-            "line": 121,
-            "name": "User click on \"facebook\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"facebook\"",
+                  "val": "\"Home\"",
                   "offset": 14
                 }
               ],
-              "location": "step_definitions.HomeSteps.userClickOn(java.lang.String)"
+              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 25000000,
+              "duration": 7000000,
               "status": "passed"
             },
-            "line": 122,
-            "name": "User is navigated to new tab",
+            "line": 136,
+            "name": "Verify page title contains \"Home\"",
             "match": {
-              "location": "step_definitions.HomeSteps.userIsNavigatedToNewTab()"
+              "arguments": [
+                {
+                  "val": "\"Home\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 570000000,
+              "duration": 4000000,
               "status": "passed"
             },
-            "line": 123,
-            "name": "Verify URL contains \"facebook\"",
+            "line": 137,
+            "name": "Verify URL contains \"index\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"facebook\"",
+                  "val": "\"index\"",
                   "offset": 20
                 }
               ],
@@ -561,7 +117,7 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-17"
+            "name": "@ADVSYS-16"
           },
           {
             "name": "@smoke"
@@ -569,11 +125,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-28T15:41:56.436Z",
+        "start_timestamp": "2022-07-31T14:17:27.723Z",
         "before": [
           {
             "result": {
-              "duration": 2062000000,
+              "duration": 1889000000,
               "status": "passed"
             },
             "match": {
@@ -581,14 +137,14 @@
             }
           }
         ],
-        "line": 127,
-        "name": "Footer social media buttons displayed",
+        "line": 141,
+        "name": "Footer essential quick links displayed and working as expected",
         "description": "",
-        "id": "homepage-related-scenarios;footer-social-media-buttons-displayed;;3",
+        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;3",
         "after": [
           {
             "result": {
-              "duration": 763000000,
+              "duration": 642000000,
               "status": "passed"
             },
             "match": {
@@ -601,63 +157,63 @@
         "steps": [
           {
             "result": {
-              "duration": 1561000000,
+              "duration": 1924000000,
               "status": "passed"
             },
-            "line": 120,
-            "name": "Verify \"twitter\" icon is displayed",
+            "line": 134,
+            "name": "scroll down to bottom of the page",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"twitter\"",
-                  "offset": 7
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyIconIsDisplayed(java.lang.String)"
+              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 284000000,
+              "duration": 1613000000,
               "status": "passed"
             },
-            "line": 121,
-            "name": "User click on \"twitter\"",
+            "line": 135,
+            "name": "User click on \"About Us\" link",
             "match": {
               "arguments": [
                 {
-                  "val": "\"twitter\"",
+                  "val": "\"About Us\"",
                   "offset": 14
                 }
               ],
-              "location": "step_definitions.HomeSteps.userClickOn(java.lang.String)"
+              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 28000000,
+              "duration": 6000000,
               "status": "passed"
             },
-            "line": 122,
-            "name": "User is navigated to new tab",
+            "line": 136,
+            "name": "Verify page title contains \"About Us\"",
             "match": {
-              "location": "step_definitions.HomeSteps.userIsNavigatedToNewTab()"
+              "arguments": [
+                {
+                  "val": "\"About Us\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 689000000,
+              "duration": 3000000,
               "status": "passed"
             },
-            "line": 123,
-            "name": "Verify URL contains \"twitter\"",
+            "line": 137,
+            "name": "Verify URL contains \"about\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"twitter\"",
+                  "val": "\"about\"",
                   "offset": 20
                 }
               ],
@@ -671,7 +227,7 @@
             "name": "@homeScenarios"
           },
           {
-            "name": "@ADVSYS-17"
+            "name": "@ADVSYS-16"
           },
           {
             "name": "@smoke"
@@ -679,6 +235,454 @@
         ]
       },
       {
+        "start_timestamp": "2022-07-31T14:17:33.814Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1828000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 142,
+        "name": "Footer essential quick links displayed and working as expected",
+        "description": "",
+        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 621000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1906000000,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1625000000,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "User click on \"Services\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "Verify page title contains \"Services\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "Verify URL contains \"services\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"services\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-16"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-31T14:17:39.810Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1860000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 143,
+        "name": "Footer essential quick links displayed and working as expected",
+        "description": "",
+        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 639000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1873000000,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1636000000,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "User click on \"Clients\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Clients\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "Verify page title contains \"Clients\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Clients\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "Verify URL contains \"clients\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"clients\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-16"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-31T14:17:45.837Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1802000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 144,
+        "name": "Footer essential quick links displayed and working as expected",
+        "description": "",
+        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 647000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1899000000,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1609000000,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "User click on \"Solutions\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Solutions\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "Verify page title contains \"Solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Solutions\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "Verify URL contains \"solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"solutions\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-16"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-31T14:17:51.828Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1834000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 145,
+        "name": "Footer essential quick links displayed and working as expected",
+        "description": "",
+        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 623000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1954000000,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "scroll down to bottom of the page",
+            "match": {
+              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1639000000,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "User click on \"Contact Us\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contact Us\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "Verify page title contains \"Contact Us\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contact Us\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "Verify URL contains \"contact\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"contact\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homeScenarios"
+          },
+          {
+            "name": "@ADVSYS-16"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage related scenarios",
+    "description": "",
+    "id": "homepage-related-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/home.feature",
+    "tags": [
+      {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-28T15:42:01.831Z",
         "before": [
           {
@@ -2844,18 +2848,13 @@
     "tags": [
       {
         "name": "@smoke",
+=======
+        "name": "@homeScenarios",
+>>>>>>> 62f4829c51ba54fb57eba99d5de42a28e1a27bb5
         "type": "Tag",
         "location": {
           "line": 1,
           "column": 1
-        }
-      },
-      {
-        "name": "@navigationScenarios",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 8
         }
       }
     ]

@@ -11,7 +11,7 @@ Feature: Homepage related scenarios
     Then Verify title of page is "Advance Systems - Join"
 #--------------------------------------------------------------------
 
-  @ADVSYS-9 @smoke
+  @ADVSYS-9
   Scenario Outline: Buttons displayed for social media options
     Then User is able to see "<social media options>" icon
     When Click on "<social media buttons>"
@@ -95,8 +95,8 @@ Feature: Homepage related scenarios
   @ADVSYS-19
   Scenario: There should be a button in the bottom right corner of the page that would scroll the window to top content once clicked.
     Given scroll down to bottom of the page
-    Then click on button go back button when scroll down to bottom of the page
-    And check if it back to top content
+    Then Click on button go back button when scroll down to bottom of the page
+    And Check if it back to top content
 #---------------------------------------------------------------------------------
 
   @ADVSYS-20
@@ -113,14 +113,9 @@ Feature: Homepage related scenarios
       | Phone: +1 703-831-321               |
       | Email: info@advancesystems.us       |
       | Mon to Sat: 9.00 am to 5:00 pm      |
-<<<<<<< HEAD
-
-#--------------------------------------------------------------------------------------
-=======
 #---------------------------------------------------------------------------------
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
 
-  @ADVSYS-17 @smoke
+  @ADVSYS-17
   Scenario Outline: Footer social media buttons displayed
     Then Verify "<footer sm options>" icon is displayed
     When User click on "<footer sm buttons>"
@@ -132,11 +127,6 @@ Feature: Homepage related scenarios
       | twitter           | twitter           | twitter       |
       | skype             | skype             | skype         |
       | linkedin          | linkedin          | linkedin      |
-<<<<<<< HEAD
-
-#----------------------------------------------------------------------------------------
-=======
->>>>>>> 0b9d28bed6c65a96e9db0dbb3407aa3d4bc26971
 
 #---------------------------------------------------------------------------------
   @ADVSYS-16 @smoke
