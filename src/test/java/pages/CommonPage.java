@@ -19,4 +19,8 @@ public interface CommonPage {
     String XPATH_TEMPLATE_QUICKLINK = "//div[@class='col-md-6 col-sm-12']//ul//li//a[@href][normalize-space()='%s']";
 
     String XPATH_TEMPLATE_TEXT_SECTION = "//h3[normalize-space()='%s']";
+
+
+
 }
+

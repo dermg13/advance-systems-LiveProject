@@ -22,6 +22,7 @@ public class HomeSteps implements CommonPage {
 
     public HomeSteps() {
         homePage = new HomePage();
+
     }
 
     String str = "Words from our Clients";
