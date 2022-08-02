@@ -232,6 +232,78 @@
               "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
             },
             "keyword": "Given "
+<<<<<<< HEAD
+          },
+          {
+            "result": {
+              "duration": 1277000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "This section should have a header   Meet Our Experts.",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.this_section_should_have_a_header_meet_our_experts()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8947000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Total of four employees should be displayed Picture",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_picture()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8905000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Total of four employees should be displayed Title",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8979000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Total of four employees should be displayed Quote",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_quote()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8956000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Total of four employees should be displayed Social media link",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_social_media_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AboutUs"
+          },
+          {
+            "name": "@ADVSYS-39"
+          }
+        ]
+=======
           }
         ]
       },
