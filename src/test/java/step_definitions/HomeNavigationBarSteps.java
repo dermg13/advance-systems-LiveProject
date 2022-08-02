@@ -51,9 +51,4 @@ public class HomeNavigationBarSteps implements CommonPage {
     public void verify_language_french_buttons_is_displayed() {
         WebDriverManager.isDisplayed(homeNavigationBarPage.frenchLanguage);
     }
-
-    @Given("User opens {string} page")
-    public void userOpensPage(String pageLink) {
-        WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_NAVIGATION_BAR, pageLink)));
-    }
 }

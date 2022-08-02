@@ -5,4 +5,4 @@
 
     Scenario: Verify the following division pages are displayed
       When User click on "Finance" link
-      Then Verify title of page is "Finance"
+      Then Verify the page title is "Finance"

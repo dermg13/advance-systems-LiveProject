@@ -15,17 +15,13 @@ public class ServicesSteps implements CommonPage {
         servicesPage = new ServicesPage();
     }
 
-
-    @When("User click on \\{string} link")
-    public void userClickOnStringLink(String division) {
-        WebDriverManager.getDriver()
-                .findElement(By.xpath(String.format(XPATH_TEMPLATE_TEXT, division)))
-                .click();
-
+    @When("User click on {string} link")
+    public void userClickOnStringLink(String pageLink) {
+        WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_NAVIGATION_BAR, pageLink)));
     }
 
-    @Then("Verify title of page is \\{string}")
-    public void verifyTitleOfPageIsString(String title) {
-        Assert.assertEquals(title, WebDriverManager.getDriver().getTitle());
+    @Then("Verify the page title is {string}")
+    public void verifyThePageTitleIs(String title) {
+       Assert.assertEquals(title, WebDriverManager.getDriver().getTitle());
     }
 }
