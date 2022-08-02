@@ -3,41 +3,6 @@
     "line": 2,
     "elements": [
       {
-<<<<<<< HEAD
-        "start_timestamp": "2022-08-02T20:29:47.718Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2447000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 10,
-        "name": "About Us page: Employees",
-        "description": "",
-        "id": "about-us-related-scenarios;about-us-page:-employees",
-        "after": [
-          {
-            "result": {
-              "duration": 674000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2130000000,
-=======
         "line": 4,
         "name": "",
         "description": "",
@@ -46,8 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2113000000,
->>>>>>> 804c6b25a008d156f34638fc252b4e71c9a70e2d
+              "duration": 1793000000,
               "status": "passed"
             },
             "line": 5,
@@ -62,87 +26,15 @@
               "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
             },
             "keyword": "Given "
-<<<<<<< HEAD
-          },
-          {
-            "result": {
-              "duration": 1277000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "This section should have a header   Meet Our Experts.",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.this_section_should_have_a_header_meet_our_experts()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8947000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Total of four employees should be displayed Picture",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_picture()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8905000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Total of four employees should be displayed Title",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_title()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8979000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Total of four employees should be displayed Quote",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_quote()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8956000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Total of four employees should be displayed Social media link",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_social_media_link()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AboutUs"
-          },
-          {
-            "name": "@ADVSYS-39"
-          }
-        ]
-=======
           }
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:47:51.099Z",
+        "start_timestamp": "2022-08-02T21:17:06.041Z",
         "before": [
           {
             "result": {
-              "duration": 5899000000,
+              "duration": 3049000000,
               "status": "passed"
             },
             "match": {
@@ -150,14 +42,14 @@
             }
           }
         ],
-        "line": 54,
-        "name": "Verify address and phone number are displayed in division links",
+        "line": 42,
+        "name": "Verify division links are enabled on mini nav bar",
         "description": "",
-        "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;2",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;2",
         "after": [
           {
             "result": {
-              "duration": 85000000,
+              "duration": 714000000,
               "status": "passed"
             },
             "match": {
@@ -166,14 +58,14 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2283000000,
+              "duration": 1906000000,
               "status": "passed"
             },
-            "line": 50,
+            "line": 34,
             "name": "User clicks on division \"Finance\" link",
             "match": {
               "arguments": [
@@ -188,13 +80,61 @@
           },
           {
             "result": {
-              "duration": 2356000000,
+              "duration": 1493000000,
               "status": "passed"
             },
-            "line": 51,
-            "name": "Verify address and phone number are displayed",
+            "line": 35,
+            "name": "Verify Finance button is enabled",
             "match": {
-              "location": "step_definitions.ServicesSteps.verify_address_and_phone_number_are_displayed()"
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1288000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1298000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1313000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1266000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
             },
             "keyword": "Then "
           }
@@ -204,7 +144,7 @@
             "name": "@Services"
           },
           {
-            "name": "@ADVSYS-44"
+            "name": "@ADVSYS-43"
           }
         ]
       },
@@ -217,7 +157,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2401000000,
+              "duration": 1585000000,
               "status": "passed"
             },
             "line": 5,
@@ -236,11 +176,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:48:03.970Z",
+        "start_timestamp": "2022-08-02T21:17:20.298Z",
         "before": [
           {
             "result": {
-              "duration": 3424000000,
+              "duration": 2148000000,
               "status": "passed"
             },
             "match": {
@@ -248,14 +188,14 @@
             }
           }
         ],
-        "line": 55,
-        "name": "Verify address and phone number are displayed in division links",
+        "line": 43,
+        "name": "Verify division links are enabled on mini nav bar",
         "description": "",
-        "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;3",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;3",
         "after": [
           {
             "result": {
-              "duration": 88000000,
+              "duration": 731000000,
               "status": "passed"
             },
             "match": {
@@ -264,14 +204,14 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2231000000,
+              "duration": 1536000000,
               "status": "passed"
             },
-            "line": 50,
+            "line": 34,
             "name": "User clicks on division \"Information Technology\" link",
             "match": {
               "arguments": [
@@ -286,13 +226,61 @@
           },
           {
             "result": {
-              "duration": 2533000000,
+              "duration": 1277000000,
               "status": "passed"
             },
-            "line": 51,
-            "name": "Verify address and phone number are displayed",
+            "line": 35,
+            "name": "Verify Finance button is enabled",
             "match": {
-              "location": "step_definitions.ServicesSteps.verify_address_and_phone_number_are_displayed()"
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1236000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1281000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1243000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1258000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
             },
             "keyword": "Then "
           }
@@ -302,7 +290,7 @@
             "name": "@Services"
           },
           {
-            "name": "@ADVSYS-44"
+            "name": "@ADVSYS-43"
           }
         ]
       },
@@ -315,7 +303,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2065000000,
+              "duration": 1543000000,
               "status": "passed"
             },
             "line": 5,
@@ -334,11 +322,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:48:14.684Z",
+        "start_timestamp": "2022-08-02T21:17:32.614Z",
         "before": [
           {
             "result": {
-              "duration": 3401000000,
+              "duration": 2128000000,
               "status": "passed"
             },
             "match": {
@@ -346,14 +334,14 @@
             }
           }
         ],
-        "line": 56,
-        "name": "Verify address and phone number are displayed in division links",
+        "line": 44,
+        "name": "Verify division links are enabled on mini nav bar",
         "description": "",
-        "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;4",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;4",
         "after": [
           {
             "result": {
-              "duration": 83000000,
+              "duration": 701000000,
               "status": "passed"
             },
             "match": {
@@ -362,14 +350,14 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2232000000,
+              "duration": 1447000000,
               "status": "passed"
             },
-            "line": 50,
+            "line": 34,
             "name": "User clicks on division \"Healthcare\" link",
             "match": {
               "arguments": [
@@ -384,13 +372,61 @@
           },
           {
             "result": {
-              "duration": 2354000000,
+              "duration": 1294000000,
               "status": "passed"
             },
-            "line": 51,
-            "name": "Verify address and phone number are displayed",
+            "line": 35,
+            "name": "Verify Finance button is enabled",
             "match": {
-              "location": "step_definitions.ServicesSteps.verify_address_and_phone_number_are_displayed()"
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1237000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1233000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1269000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1284000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
             },
             "keyword": "Then "
           }
@@ -400,7 +436,7 @@
             "name": "@Services"
           },
           {
-            "name": "@ADVSYS-44"
+            "name": "@ADVSYS-43"
           }
         ]
       },
@@ -413,7 +449,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1992000000,
+              "duration": 1626000000,
               "status": "passed"
             },
             "line": 5,
@@ -432,11 +468,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:48:24.851Z",
+        "start_timestamp": "2022-08-02T21:17:44.771Z",
         "before": [
           {
             "result": {
-              "duration": 3448000000,
+              "duration": 2041000000,
               "status": "passed"
             },
             "match": {
@@ -444,14 +480,14 @@
             }
           }
         ],
-        "line": 57,
-        "name": "Verify address and phone number are displayed in division links",
+        "line": 45,
+        "name": "Verify division links are enabled on mini nav bar",
         "description": "",
-        "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;5",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;5",
         "after": [
           {
             "result": {
-              "duration": 83000000,
+              "duration": 680000000,
               "status": "passed"
             },
             "match": {
@@ -460,14 +496,14 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2338000000,
+              "duration": 1803000000,
               "status": "passed"
             },
-            "line": 50,
+            "line": 34,
             "name": "User clicks on division \"Government Projects\" link",
             "match": {
               "arguments": [
@@ -482,13 +518,61 @@
           },
           {
             "result": {
-              "duration": 2303000000,
+              "duration": 1258000000,
               "status": "passed"
             },
-            "line": 51,
-            "name": "Verify address and phone number are displayed",
+            "line": 35,
+            "name": "Verify Finance button is enabled",
             "match": {
-              "location": "step_definitions.ServicesSteps.verify_address_and_phone_number_are_displayed()"
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1266000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1234000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1229000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1250000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
             },
             "keyword": "Then "
           }
@@ -498,7 +582,7 @@
             "name": "@Services"
           },
           {
-            "name": "@ADVSYS-44"
+            "name": "@ADVSYS-43"
           }
         ]
       },
@@ -511,7 +595,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2029000000,
+              "duration": 1893000000,
               "status": "passed"
             },
             "line": 5,
@@ -530,11 +614,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:48:35.040Z",
+        "start_timestamp": "2022-08-02T21:17:57.173Z",
         "before": [
           {
             "result": {
-              "duration": 3200000000,
+              "duration": 2122000000,
               "status": "passed"
             },
             "match": {
@@ -542,14 +626,14 @@
             }
           }
         ],
-        "line": 58,
-        "name": "Verify address and phone number are displayed in division links",
+        "line": 46,
+        "name": "Verify division links are enabled on mini nav bar",
         "description": "",
-        "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;6",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;6",
         "after": [
           {
             "result": {
-              "duration": 86000000,
+              "duration": 811000000,
               "status": "passed"
             },
             "match": {
@@ -558,14 +642,14 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2226000000,
+              "duration": 1495000000,
               "status": "passed"
             },
-            "line": 50,
+            "line": 34,
             "name": "User clicks on division \"Others\" link",
             "match": {
               "arguments": [
@@ -580,13 +664,61 @@
           },
           {
             "result": {
-              "duration": 2556000000,
+              "duration": 1289000000,
               "status": "passed"
             },
-            "line": 51,
-            "name": "Verify address and phone number are displayed",
+            "line": 35,
+            "name": "Verify Finance button is enabled",
             "match": {
-              "location": "step_definitions.ServicesSteps.verify_address_and_phone_number_are_displayed()"
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1218000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1232000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1262000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1281000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
             },
             "keyword": "Then "
           }
@@ -596,10 +728,9 @@
             "name": "@Services"
           },
           {
-            "name": "@ADVSYS-44"
+            "name": "@ADVSYS-43"
           }
         ]
->>>>>>> 804c6b25a008d156f34638fc252b4e71c9a70e2d
       }
     ],
     "name": "Services related scenarios",
