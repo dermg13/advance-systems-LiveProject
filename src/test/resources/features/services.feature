@@ -44,4 +44,16 @@ Feature: Services related scenarios
       | Healthcare             |
       | Government Projects    |
       | Others                 |
-   
+
+  @ADVSYS-44
+  Scenario: Verify address and phone number are displayed in division links
+    When User clicks on division "<Division Names>" link
+    Then Verify address and phone number are displayed
+
+    Examples:
+      | Division Names         |
+      | Finance                |
+      | Information Technology |
+      | Healthcare             |
+      | Government Projects    |
+      | Others                 |
