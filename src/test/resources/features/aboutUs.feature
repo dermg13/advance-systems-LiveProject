@@ -15,11 +15,10 @@
       Then Total of four employees should be displayed Quote
       Then Total of four employees should be displayed Social media link
 
+
     @ADVSYS-39
     Scenario:  About Us page: Employees Social
       Given Click on About Us page
-      Then All employees FaceBook buttons should take to FaceBook pages
-      Then All Twitter buttons should take to Twitter pages
-      Then All Skype buttons should take to Skype pages
-      Then All LinkedIn buttons should take to LinkedIn pages
+      Then Employees Social media buttons should take to corresponding pages
+
 

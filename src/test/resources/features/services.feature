@@ -30,7 +30,7 @@ Feature: Services related scenarios
     Then Verify the page title is "Advance Systems - Others Division"
 
   @ADVSYS-43
-  Scenario: Verify division links are enabled on mini nav bar
+  Scenario Outline: Verify division links are enabled on mini nav bar
     When User clicks on division "<Division Names>" link
     Then Verify Finance button is enabled
     Then Verify Information Technology button is enabled
@@ -46,7 +46,7 @@ Feature: Services related scenarios
       | Others                 |
 
   @ADVSYS-44
-  Scenario: Verify address and phone number are displayed in division links
+  Scenario Outline: Verify address and phone number are displayed in division links
     When User clicks on division "<Division Names>" link
     Then Verify address and phone number are displayed
     Examples:
