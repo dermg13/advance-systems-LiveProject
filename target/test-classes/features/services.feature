@@ -1,7 +1,4 @@
 @Services
-<<<<<<< HEAD
-  Feature: Services related scenarios
-=======
 Feature: Services related scenarios
 
   Background:
@@ -47,5 +44,15 @@ Feature: Services related scenarios
       | Healthcare             |
       | Government Projects    |
       | Others                 |
-   
->>>>>>> 3059dec01bbc79404a1f77ca11118c8a40b99d6a
+
+  @ADVSYS-44
+  Scenario: Verify address and phone number are displayed in division links
+    When User clicks on division "<Division Names>" link
+    Then Verify address and phone number are displayed
+    Examples:
+      | Division Names         |
+      | Finance                |
+      | Information Technology |
+      | Healthcare             |
+      | Government Projects    |
+      | Others                 |
