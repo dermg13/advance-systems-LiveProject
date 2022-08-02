@@ -8,6 +8,8 @@ import pages.AboutUsPage;
 import pages.CommonPage;
 import utils.WebDriverManager;
 
+import java.util.List;
+
 public class AboutUsSteps implements CommonPage {
     AboutUsPage aboutUsPage;
     public  AboutUsSteps() {
@@ -30,4 +32,29 @@ public class AboutUsSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.MainContentTitle));
     }
 
+    @Given("This section should have a header   Meet Our Experts.")
+    public void this_section_should_have_a_header_meet_our_experts() {
+        Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.MeetExpertsHeader));
+    }
+
+    @Then("Total of four employees should be displayed Picture")
+    public void total_of_four_employees_should_be_displayed_picture() {
+        System.out.println("...............................");
+    }
+    @Then("Total of four employees should be displayed Title")
+    public void total_of_four_employees_should_be_displayed_title() {
+        System.out.println("..............................");
+    }
+    @Then("Total of four employees should be displayed Quote")
+    public void total_of_four_employees_should_be_displayed_quote() {
+        System.out.println("..............................");
+    }
+    @Then("Total of four employees should be displayed Social")
+    public void total_of_four_employees_should_be_displayed_social() {
+        System.out.println("..............................");
+    }
+    @Then("{string} buttons should take to corresponding pages")
+    public void buttons_should_take_to_corresponding_pages(String string, io.cucumber.datatable.DataTable dataTable) {
+        System.out.println("..............................");
+    }
 }

@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-08-02T02:19:59.779Z",
+        "start_timestamp": "2022-08-02T02:38:12.453Z",
         "before": [
           {
             "result": {
-              "duration": 2311000000,
+              "duration": 2776000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 667000000,
+              "duration": 672000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2114000000,
+              "duration": 2156000000,
               "status": "passed"
             },
             "line": 5,
@@ -47,11 +47,11 @@
           },
           {
             "result": {
-              "duration": 2501000000,
+              "duration": 2545000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "There should be a main header “Welcome to Advance Systems LLC.”",
+            "name": "There should be a main header Welcome to Advance Systems LLC.",
             "match": {
               "location": "step_definitions.AboutUsSteps.there_should_be_a_main_header_welcome_to_advance_systems_llc()"
             },
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 2581000000,
+              "duration": 2543000000,
               "status": "passed"
             },
             "line": 7,
