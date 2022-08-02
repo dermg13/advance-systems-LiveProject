@@ -19,7 +19,7 @@ public class AboutUsSteps implements CommonPage {
     }
 
     @Given("Click on About Us page")
-    public void when_click_on_about_us_page() {
+    public void click_on_about_us_page() {
         WebDriverManager.click(aboutUsPage.AboutUsMainNavigationBar);
     }
 
@@ -60,8 +60,8 @@ public class AboutUsSteps implements CommonPage {
             Assert.assertTrue(WebDriverManager.isDisplayed(quote.get(i)));
         }
     }
-    @Then("Total of four employees should be displayed Social")
-    public void total_of_four_employees_should_be_displayed_social() {
+    @Then("Total of four employees should be displayed Social media link")
+    public void total_of_four_employees_should_be_displayed_social_media_link() {
         List<WebElement> social = WebDriverManager.getDriver().findElements(By.xpath("//ul[@class='social-icon-one']"));
         for (int i = 0; i < social.size(); i++) {
             Assert.assertTrue(WebDriverManager.isDisplayed(social.get(i)));

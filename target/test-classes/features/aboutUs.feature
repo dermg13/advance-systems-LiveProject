@@ -13,7 +13,7 @@
       Then Total of four employees should be displayed Picture
       Then Total of four employees should be displayed Title
       Then Total of four employees should be displayed Quote
-      Then Total of four employees should be displayed Social
+      Then Total of four employees should be displayed Social media link
 
     @ADVSYS-39
     Scenario:  About Us page: Employees Social
