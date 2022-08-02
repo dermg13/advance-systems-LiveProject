@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-08-02T22:07:10.153Z",
+        "start_timestamp": "2022-08-02T23:31:56.155Z",
         "before": [
           {
             "result": {
-              "duration": 5969000000,
+              "duration": 9458000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 25,
-        "name": "Verify About Us page has 4 headers with description texts",
+        "line": 38,
+        "name": "Verify header We are Recruitment Experts displayed and OUR SERVICES BUTTON takes to service page",
         "description": "",
-        "id": "about-us-related-scenarios;verify-about-us-page-has-4-headers-with-description-texts",
+        "id": "about-us-related-scenarios;verify-header-we-are-recruitment-experts-displayed-and-our-services-button-takes-to-service-page",
         "after": [
           {
             "result": {
-              "duration": 103000000,
+              "duration": 106000000,
               "status": "passed"
             },
             "match": {
@@ -35,157 +35,67 @@
         "steps": [
           {
             "result": {
-              "duration": 2359000000,
+              "duration": 2525000000,
               "status": "passed"
             },
-            "line": 26,
-            "name": "user clicks on About Us page",
+            "line": 39,
+            "name": "Click on About Us page",
             "match": {
-              "location": "step_definitions.AboutUsSteps.userClicksOnAboutUsPage()"
+              "location": "step_definitions.AboutUsSteps.click_on_about_us_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1939000000,
+              "duration": 1220000000,
               "status": "passed"
             },
-            "line": 27,
-            "name": "Verify first header says \"Evaluate Resume\"",
+            "line": 40,
+            "name": "User see \"We are Recruitment Experts\" header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Evaluate Resume\"",
-                  "offset": 25
+                  "val": "\"We are Recruitment Experts\"",
+                  "offset": 9
                 }
               ],
-              "location": "step_definitions.AboutUsSteps.verifyFirstHeaderSays(java.lang.String)"
+              "location": "step_definitions.AboutUsSteps.userSeeHeader(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1172000000,
+              "duration": 1911000000,
               "status": "passed"
             },
-            "line": 28,
-            "name": "Verify first header\u0027s description text says \"Which toil and pain can sed procure him some great pleasure.\"",
+            "line": 41,
+            "name": "User see \"OUR SERVICES\" button",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Which toil and pain can sed procure him some great pleasure.\"",
-                  "offset": 44
+                  "val": "\"OUR SERVICES\"",
+                  "offset": 9
                 }
               ],
-              "location": "step_definitions.AboutUsSteps.verifyFirstHeaderSDescriptionTextSays(java.lang.String)"
+              "location": "step_definitions.AboutUsSteps.userSeeButton(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1162000000,
+              "duration": 1225000000,
               "status": "passed"
             },
-            "line": 29,
-            "name": "Verify second header says \"Interview\"",
+            "line": 42,
+            "name": "Verify \"OUR SERVICES\" button is enable",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Interview\"",
-                  "offset": 26
+                  "val": "\"OUR SERVICES\"",
+                  "offset": 7
                 }
               ],
-              "location": "step_definitions.AboutUsSteps.verifySecondHeaderSays(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1137000000,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "Verify second header\u0027s description text says \"Praising pain was born and will give complete account system.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Praising pain was born and will give complete account system.\"",
-                  "offset": 45
-                }
-              ],
-              "location": "step_definitions.AboutUsSteps.verifySecondHeaderSDescriptionTextSays(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1124000000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "Verify third header says \"Screening\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Screening\"",
-                  "offset": 25
-                }
-              ],
-              "location": "step_definitions.AboutUsSteps.verifyThirdHeaderSays(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1169000000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "Verify third header\u0027s description text says \"Actual teachings the great explorer of the every one truth.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Actual teachings the great explorer of the every one truth.\"",
-                  "offset": 44
-                }
-              ],
-              "location": "step_definitions.AboutUsSteps.verifyThirdHeaderSDescriptionTextSays(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1146000000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "Verify fourth header says \"Process Done\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Process Done\"",
-                  "offset": 26
-                }
-              ],
-              "location": "step_definitions.AboutUsSteps.verifyFourthHeaderSays(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1184000000,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "Verify fourth header\u0027s description text says \"Occur in which toil pain can procure him some great pleasure.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Occur in which toil pain can procure him some great pleasure.\"",
-                  "offset": 45
-                }
-              ],
-              "location": "step_definitions.AboutUsSteps.verifyFourthHeaderSDescriptionTextSays(java.lang.String)"
+              "location": "step_definitions.AboutUsSteps.verifyButtonIsEnable(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -195,7 +105,7 @@
             "name": "@AboutUs"
           },
           {
-            "name": "@ADVSYS-41"
+            "name": "@ADVSYS-40"
           }
         ]
       }
