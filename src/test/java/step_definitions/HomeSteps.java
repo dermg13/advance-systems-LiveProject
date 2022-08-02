@@ -257,6 +257,11 @@ public class HomeSteps implements CommonPage {
                 WebDriverManager.getDriver().findElement(By.xpath(String.format(XPATH_TEMPLATE_INPUT_FIELD, email)))
         ));
     }
+
+    @Given("User opens {string} page")
+    public void userOpensPage(String pageLink) {
+        WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_NAVIGATION_BAR, pageLink)));
+    }
 }
 
 

@@ -3,6 +3,7 @@ package step_definitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
 import pages.AboutUsPage;
 import pages.CommonPage;
@@ -57,4 +58,5 @@ public class AboutUsSteps implements CommonPage {
     public void buttons_should_take_to_corresponding_pages(String string, io.cucumber.datatable.DataTable dataTable) {
         System.out.println("..............................");
     }
+
 }
