@@ -37,7 +37,7 @@ public class AboutUsPage {
     public  List<WebElement> ExpertQuote;
     @FindBy(xpath = "//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//ul/li")
     public  List<WebElement> ExpertSocial;
-    @FindBy(xpath = "//ul[@class='social-icon-one']/li[1]")
+    @FindBy(xpath = "/body/div[1]/section[5]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]/ancestor::section//a[@href='https://facebook.com']")
     public  List<WebElement> FaceBook;
     @FindBy(xpath = "//ul[@class='social-icon-one']//span[@class='icon fa fa-twitter']")
     public  List<WebElement> Twitter;

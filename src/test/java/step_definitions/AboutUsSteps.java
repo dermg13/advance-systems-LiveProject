@@ -6,6 +6,7 @@ import io.cucumber.java.en.Then;
 import org.apache.poi.ss.formula.functions.T;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pages.AboutUsPage;
@@ -72,43 +73,78 @@ public class AboutUsSteps implements CommonPage {
 
     @Then("All employees FaceBook buttons should take to FaceBook pages")
     public void all_face_book_buttons_should_take_to_face_book_pages() throws InterruptedException {
-        List<WebElement> facebook = WebDriverManager.getDriver().findElements(By.xpath("//ul[@class='social-icon-one']/li[1]"));
-        for (int i = 0; i < facebook.size(); i++) {
-            WebDriverManager.click(aboutUsPage.FaceBook.get(i));
+
+        List<WebElement> facebook = WebDriverManager.getDriver().findElements(By.xpath("//ul[@class='social-icon-one']//span[@class='icon fa fa-facebook']/parent::a"));
+//        for (int i = 0; i < facebook.size(); i++) {
+//            Thread.sleep(2000);
+//            Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.FaceBook.get(i)));
+//            WebDriverManager.click(aboutUsPage.FaceBook.get(i));
+//            System.out.println(WebDriverManager.getDriver().getTitle());
+//            WebDriverManager.getDriver().navigate().back();
+
+
+            WebDriverManager.getDriver().findElement(By.xpath("//body[1]/div[1]/section[5]/div[1]/div[2]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
             System.out.println(WebDriverManager.getDriver().getTitle());
             WebDriverManager.getDriver().navigate().back();
-            Thread.sleep(2000);
+            WebDriverManager.getDriver().findElement(By.xpath("//body/div[1]/section[5]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+            System.out.println(WebDriverManager.getDriver().getTitle());
+            WebDriverManager.getDriver().navigate().back();
+            WebDriverManager.getDriver().findElement(By.xpath("//body/div[1]/section[5]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+            System.out.println(WebDriverManager.getDriver().getTitle());
+            WebDriverManager.getDriver().navigate().back();
+            WebDriverManager.getDriver().findElement(By.xpath("//body/div[1]/section[5]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+            System.out.println(WebDriverManager.getDriver().getTitle());
+            WebDriverManager.getDriver().navigate().back();
         }
+
+
+    @Then("All Twitter buttons should take to Twitter pages")
+    public void all_twitter_buttons_should_take_to_twitter_pages() {
+        WebDriverManager.getDriver().findElement(By.xpath("//body[1]/div[1]/section[5]/div[1]/div[2]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+        System.out.println(WebDriverManager.getDriver().getTitle());
+        WebDriverManager.getDriver().navigate().back();
+        WebDriverManager.getDriver().findElement(By.xpath("//body/div[1]/section[5]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+        System.out.println(WebDriverManager.getDriver().getTitle());
+        WebDriverManager.getDriver().navigate().back();
+        WebDriverManager.getDriver().findElement(By.xpath("//body/div[1]/section[5]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+        System.out.println(WebDriverManager.getDriver().getTitle());
+        WebDriverManager.getDriver().navigate().back();
+        WebDriverManager.getDriver().findElement(By.xpath("//body/div[1]/section[5]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+        System.out.println(WebDriverManager.getDriver().getTitle());
+        WebDriverManager.getDriver().navigate().back();
     }
 
-//    @Then("All Twitter buttons should take to Twitter pages")
-//    public void all_twitter_buttons_should_take_to_twitter_pages() {
-//        List<WebElement> twitter = WebDriverManager.getDriver().findElements(By.xpath("//ul[@class='social-icon-one']//a[@href='https://twitter.com']"));
-//        for (int i = 0; i < twitter.size(); i++) {
-//            twitter.get(i).click();
-//            WebDriverManager.getDriver().navigate().back();
-//            System.out.println(WebDriverManager.getDriver().getTitle());
-//        }
-//    }
-//
-//    @Then("All Skype buttons should take to Skype pages")
-//    public void all_skype_buttons_should_take_to_skype_pages() {
-//        List<WebElement> skype = WebDriverManager.getDriver().findElements(By.xpath("//ul[@class='social-icon-one']//a[@href='https://twitter.com']"));
-//        for (int i = 0; i < skype.size(); i++) {
-//            skype.get(i).click();
-//            WebDriverManager.getDriver().navigate().back();
-//            System.out.println(WebDriverManager.getDriver().getTitle());
-//        }
-//    }
-//
-//    @Then("All LinkedIn buttons should take to LinkedIn pages")
-//    public void all_linked_in_buttons_should_take_to_linked_in_pages() {
-//        List<WebElement> linkedIn = WebDriverManager.getDriver().findElements(By.xpath("//ul[@class='social-icon-one']//a[@href='https://twitter.com']"));
-//        for (int i = 0; i < linkedIn.size(); i++) {
-//            linkedIn.get(i).click();
-//            WebDriverManager.getDriver().navigate().back();
-//            System.out.println(WebDriverManager.getDriver().getTitle());
-//        }
-//
-//    }
+    @Then("All Skype buttons should take to Skype pages")
+    public void all_skype_buttons_should_take_to_skype_pages() {
+        WebDriverManager.getDriver().findElement(By.xpath("//body[1]/div[1]/section[5]/div[1]/div[2]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+        System.out.println(WebDriverManager.getDriver().getTitle());
+        WebDriverManager.getDriver().navigate().back();
+        WebDriverManager.getDriver().findElement(By.xpath("//body/div[1]/section[5]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+        System.out.println(WebDriverManager.getDriver().getTitle());
+        WebDriverManager.getDriver().navigate().back();
+        WebDriverManager.getDriver().findElement(By.xpath("//body/div[1]/section[5]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+        System.out.println(WebDriverManager.getDriver().getTitle());
+        WebDriverManager.getDriver().navigate().back();
+        WebDriverManager.getDriver().findElement(By.xpath("//body/div[1]/section[5]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+        System.out.println(WebDriverManager.getDriver().getTitle());
+        WebDriverManager.getDriver().navigate().back();
+    }
+
+    @Then("All LinkedIn buttons should take to LinkedIn pages")
+    public void all_linked_in_buttons_should_take_to_linked_in_pages() {
+        WebDriverManager.getDriver().findElement(By.xpath("//body[1]/div[1]/section[5]/div[1]/div[2]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+        System.out.println(WebDriverManager.getDriver().getTitle());
+        WebDriverManager.getDriver().navigate().back();
+        WebDriverManager.getDriver().findElement(By.xpath("//body/div[1]/section[5]/div[1]/div[2]/div[2]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+        System.out.println(WebDriverManager.getDriver().getTitle());
+        WebDriverManager.getDriver().navigate().back();
+        WebDriverManager.getDriver().findElement(By.xpath("//body/div[1]/section[5]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+        System.out.println(WebDriverManager.getDriver().getTitle());
+        WebDriverManager.getDriver().navigate().back();
+        WebDriverManager.getDriver().findElement(By.xpath("//body/div[1]/section[5]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
+        System.out.println(WebDriverManager.getDriver().getTitle());
+        WebDriverManager.getDriver().navigate().back();
+        }
+
+    }
 }
