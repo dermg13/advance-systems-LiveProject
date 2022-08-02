@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-31T14:45:39.847Z",
+        "start_timestamp": "2022-08-02T02:38:12.453Z",
         "before": [
           {
             "result": {
-              "duration": 7670000000,
+              "duration": 2776000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 140,
-        "name": "Footer essential quick links displayed and working as expected",
+        "line": 4,
+        "name": "About Us page: Main content",
         "description": "",
-        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;2",
+        "id": "about-us-related-scenarios;about-us-page:-main-content",
         "after": [
           {
             "result": {
-              "duration": 164000000,
+              "duration": 672000000,
               "status": "passed"
             },
             "match": {
@@ -31,646 +31,63 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2012000000,
+              "duration": 2156000000,
               "status": "passed"
             },
-            "line": 134,
-            "name": "scroll down to bottom of the page",
+            "line": 5,
+            "name": "When click on About Us page",
             "match": {
-              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
+              "location": "step_definitions.AboutUsSteps.when_click_on_about_us_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 6533000000,
+              "duration": 2545000000,
               "status": "passed"
             },
-            "line": 135,
-            "name": "User click on \"Home\" link",
+            "line": 6,
+            "name": "There should be a main header Welcome to Advance Systems LLC.",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Home\"",
-                  "offset": 14
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 51000000,
-              "status": "passed"
-            },
-            "line": 136,
-            "name": "Verify page title contains \"Home\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Home\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
+              "location": "step_definitions.AboutUsSteps.there_should_be_a_main_header_welcome_to_advance_systems_llc()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 20000000,
+              "duration": 2543000000,
               "status": "passed"
             },
-            "line": 137,
-            "name": "Verify URL contains \"index\"",
+            "line": 7,
+            "name": "This section should contain name and title of the person.",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"index\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
+              "location": "step_definitions.AboutUsSteps.this_section_should_contain_name_and_title_of_the_person()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@homeScenarios"
+            "name": "@AboutUs"
           },
           {
-            "name": "@ADVSYS-16"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-31T14:45:56.481Z",
-        "before": [
-          {
-            "result": {
-              "duration": 5245000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 141,
-        "name": "Footer essential quick links displayed and working as expected",
-        "description": "",
-        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 154000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2017000000,
-              "status": "passed"
-            },
-            "line": 134,
-            "name": "scroll down to bottom of the page",
-            "match": {
-              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5110000000,
-              "status": "passed"
-            },
-            "line": 135,
-            "name": "User click on \"About Us\" link",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"About Us\"",
-                  "offset": 14
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 299000000,
-              "status": "passed"
-            },
-            "line": 136,
-            "name": "Verify page title contains \"About Us\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"About Us\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 32000000,
-              "status": "passed"
-            },
-            "line": 137,
-            "name": "Verify URL contains \"about\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"about\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-16"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-31T14:46:09.391Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3983000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 142,
-        "name": "Footer essential quick links displayed and working as expected",
-        "description": "",
-        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 156000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1940000000,
-              "status": "passed"
-            },
-            "line": 134,
-            "name": "scroll down to bottom of the page",
-            "match": {
-              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4767000000,
-              "status": "passed"
-            },
-            "line": 135,
-            "name": "User click on \"Services\" link",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Services\"",
-                  "offset": 14
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 579000000,
-              "status": "passed"
-            },
-            "line": 136,
-            "name": "Verify page title contains \"Services\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Services\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 54000000,
-              "status": "passed"
-            },
-            "line": 137,
-            "name": "Verify URL contains \"services\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"services\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-16"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-31T14:46:20.911Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3733000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 143,
-        "name": "Footer essential quick links displayed and working as expected",
-        "description": "",
-        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 153000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1918000000,
-              "status": "passed"
-            },
-            "line": 134,
-            "name": "scroll down to bottom of the page",
-            "match": {
-              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6045000000,
-              "status": "passed"
-            },
-            "line": 135,
-            "name": "User click on \"Clients\" link",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Clients\"",
-                  "offset": 14
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 622000000,
-              "status": "passed"
-            },
-            "line": 136,
-            "name": "Verify page title contains \"Clients\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Clients\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 15000000,
-              "status": "passed"
-            },
-            "line": 137,
-            "name": "Verify URL contains \"clients\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"clients\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-16"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-31T14:46:33.435Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3831000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 144,
-        "name": "Footer essential quick links displayed and working as expected",
-        "description": "",
-        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;6",
-        "after": [
-          {
-            "result": {
-              "duration": 152000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1662000000,
-              "status": "passed"
-            },
-            "line": 134,
-            "name": "scroll down to bottom of the page",
-            "match": {
-              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6508000000,
-              "status": "passed"
-            },
-            "line": 135,
-            "name": "User click on \"Solutions\" link",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Solutions\"",
-                  "offset": 14
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 83000000,
-              "status": "passed"
-            },
-            "line": 136,
-            "name": "Verify page title contains \"Solutions\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Solutions\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 28000000,
-              "status": "passed"
-            },
-            "line": 137,
-            "name": "Verify URL contains \"solutions\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"solutions\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-16"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-31T14:46:45.734Z",
-        "before": [
-          {
-            "result": {
-              "duration": 4041000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 145,
-        "name": "Footer essential quick links displayed and working as expected",
-        "description": "",
-        "id": "homepage-related-scenarios;footer-essential-quick-links-displayed-and-working-as-expected;;7",
-        "after": [
-          {
-            "result": {
-              "duration": 152000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1716000000,
-              "status": "passed"
-            },
-            "line": 134,
-            "name": "scroll down to bottom of the page",
-            "match": {
-              "location": "step_definitions.HomeSteps.scroll_down_to_bottom_of_the_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6553000000,
-              "status": "passed"
-            },
-            "line": 135,
-            "name": "User click on \"Contact Us\" link",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Contact Us\"",
-                  "offset": 14
-                }
-              ],
-              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 101000000,
-              "status": "passed"
-            },
-            "line": 136,
-            "name": "Verify page title contains \"Contact Us\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Contact Us\"",
-                  "offset": 27
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyPageTitleContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 53000000,
-              "status": "passed"
-            },
-            "line": 137,
-            "name": "Verify URL contains \"contact\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"contact\"",
-                  "offset": 20
-                }
-              ],
-              "location": "step_definitions.HomeSteps.verifyURLContains(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@homeScenarios"
-          },
-          {
-            "name": "@ADVSYS-16"
-          },
-          {
-            "name": "@smoke"
+            "name": "@ADVSYS-37"
           }
         ]
       }
     ],
-    "name": "Homepage related scenarios",
+    "name": "About Us related scenarios",
     "description": "",
-    "id": "homepage-related-scenarios",
+    "id": "about-us-related-scenarios",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/home.feature",
+    "uri": "file:src/test/resources/features/aboutUs.feature",
     "tags": [
       {
-        "name": "@homeScenarios",
+        "name": "@AboutUs",
         "type": "Tag",
         "location": {
           "line": 1,
