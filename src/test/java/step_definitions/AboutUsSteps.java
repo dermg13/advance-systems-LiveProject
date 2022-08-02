@@ -19,7 +19,7 @@ public class AboutUsSteps implements CommonPage {
         WebDriverManager.click(aboutUsPage.AboutUsMainNavigationBar);
     }
 
-    @Given("There should be a main header “Welcome to Advance Systems LLC.”")
+    @Given("There should be a main header Welcome to Advance Systems LLC.")
     public void there_should_be_a_main_header_welcome_to_advance_systems_llc() {
         Assert.assertEquals(WebDriverManager.getText(aboutUsPage.MainContentPersonName), "Kuba Z");
         Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.AboutUsMainHeader));
