@@ -35,6 +35,14 @@ public class AboutUsPage {
     public  List<WebElement> ExpertTitle;
     @FindBy(xpath = "//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//div[@class='lower-content']//div[@class='text']")
     public  List<WebElement> ExpertQuote;
+    @FindBy(xpath = "//ul[@class='social-icon-one']//span[@class='icon fa fa-facebook']")
+    public  List<WebElement> FaceBook;
+    @FindBy(xpath = "//ul[@class='social-icon-one']//span[@class='icon fa fa-twitter']")
+    public  List<WebElement> Twitter;
+    @FindBy(xpath = "//ul[@class='social-icon-one']//span[@class='icon fa fa-skype']")
+    public  List<WebElement> Skype;
+    @FindBy(xpath = "//ul[@class='social-icon-one']//span[@class='icon fa fa-linkedin']")
+    public  List<WebElement> LinkedIn;
 
 }
 
