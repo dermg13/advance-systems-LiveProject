@@ -1,1 +1,542 @@
-[]
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1963000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Services\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T13:39:47.669Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3062000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify the title of Finance page",
+        "description": "",
+        "id": "services-related-scenarios;verify-the-title-of-finance-page",
+        "after": [
+          {
+            "result": {
+              "duration": 641000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1576000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on division \"Finance\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Finance\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the page title is \"Advance Systems - Finance Division\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - Finance Division\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.verifyThePageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Services"
+          },
+          {
+            "name": "@ADVSYS-42"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1732000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Services\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T13:39:55.047Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2055000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify the title of IT page",
+        "description": "",
+        "id": "services-related-scenarios;verify-the-title-of-it-page",
+        "after": [
+          {
+            "result": {
+              "duration": 698000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1529000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on division \"Information Technology\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Information Technology\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify the page title is \"Advance Systems - IT Division\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - IT Division\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.verifyThePageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Services"
+          },
+          {
+            "name": "@ADVSYS-42"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1996000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Services\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T13:40:01.090Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2079000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify the title of Healthcare page",
+        "description": "",
+        "id": "services-related-scenarios;verify-the-title-of-healthcare-page",
+        "after": [
+          {
+            "result": {
+              "duration": 636000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1598000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on division \"Healthcare\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Healthcare\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify the page title is \"Advance Systems - Healthcare Division\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - Healthcare Division\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.verifyThePageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Services"
+          },
+          {
+            "name": "@ADVSYS-42"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1874000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Services\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T13:40:07.421Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2025000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify the title of Government Projects page",
+        "description": "",
+        "id": "services-related-scenarios;verify-the-title-of-government-projects-page",
+        "after": [
+          {
+            "result": {
+              "duration": 633000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1475000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on division \"Government Projects\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Government Projects\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify the page title is \"Advance Systems - Government Projects Division\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - Government Projects Division\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.verifyThePageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Services"
+          },
+          {
+            "name": "@ADVSYS-42"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1693000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Services\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T13:40:13.458Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2018000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verify the title of Others page",
+        "description": "",
+        "id": "services-related-scenarios;verify-the-title-of-others-page",
+        "after": [
+          {
+            "result": {
+              "duration": 635000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1578000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User clicks on division \"Others\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Others\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Verify the page title is \"Advance Systems - Others Division\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advance Systems - Others Division\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.verifyThePageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Services"
+          },
+          {
+            "name": "@ADVSYS-42"
+          }
+        ]
+      }
+    ],
+    "name": "Services related scenarios",
+    "description": "",
+    "id": "services-related-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/services.feature",
+    "tags": [
+      {
+        "name": "@Services",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
