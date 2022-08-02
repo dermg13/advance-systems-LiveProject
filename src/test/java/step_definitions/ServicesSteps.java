@@ -11,19 +11,20 @@ import utils.WebDriverManager;
 
 public class ServicesSteps implements CommonPage {
     ServicesPage servicesPage;
-    public ServicesSteps(){
+
+    public ServicesSteps() {
         servicesPage = new ServicesPage();
     }
 
     @Then("Verify the page title is {string}")
     public void verifyThePageTitleIs(String title) {
-       Assert.assertEquals(title, WebDriverManager.getDriver().getTitle());
+        Assert.assertEquals(title, WebDriverManager.getDriver().getTitle());
     }
 
     @When("User clicks on division {string} link")
     public void userClicksOnDivisionLink(String pageLink) {
-            WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_TEXT, pageLink)));
-        }
+        WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_TEXT, pageLink)));
+    }
 
     @And("Verify the following buttons from {string} are enabled")
     public void verifyTheFollowingButtonsFromAreEnabled(String divisionBtn) {
@@ -55,6 +56,11 @@ public class ServicesSteps implements CommonPage {
     @Then("Verify Others button is enabled")
     public void verifyOthersButtonIsEnabled() {
         Assert.assertTrue(WebDriverManager.isEnabled(servicesPage.othersBtn));
+    }
+    @Then("Verify address and phone number are displayed")
+    public void verify_address_and_phone_number_are_displayed() {
+        Assert.assertTrue(WebDriverManager.isDisplayed(servicesPage.Address));
+        Assert.assertTrue(WebDriverManager.isDisplayed(servicesPage.CallUs));
     }
 }
 

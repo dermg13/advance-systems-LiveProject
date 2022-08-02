@@ -3,6 +3,7 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-08-02T20:29:47.718Z",
         "before": [
           {
@@ -36,14 +37,32 @@
           {
             "result": {
               "duration": 2130000000,
+=======
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2113000000,
+>>>>>>> 804c6b25a008d156f34638fc252b4e71c9a70e2d
               "status": "passed"
             },
-            "line": 11,
-            "name": "Click on About Us page",
+            "line": 5,
+            "name": "User opens \"Services\" page",
             "match": {
-              "location": "step_definitions.AboutUsSteps.click_on_about_us_page()"
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
             },
             "keyword": "Given "
+<<<<<<< HEAD
           },
           {
             "result": {
@@ -114,16 +133,483 @@
             "name": "@ADVSYS-39"
           }
         ]
+=======
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T19:47:51.099Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5899000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Verify address and phone number are displayed in division links",
+        "description": "",
+        "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 85000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2283000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User clicks on division \"Finance\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Finance\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2356000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Verify address and phone number are displayed",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verify_address_and_phone_number_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Services"
+          },
+          {
+            "name": "@ADVSYS-44"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2401000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Services\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T19:48:03.970Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3424000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Verify address and phone number are displayed in division links",
+        "description": "",
+        "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2231000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User clicks on division \"Information Technology\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Information Technology\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2533000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Verify address and phone number are displayed",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verify_address_and_phone_number_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Services"
+          },
+          {
+            "name": "@ADVSYS-44"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2065000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Services\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T19:48:14.684Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3401000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Verify address and phone number are displayed in division links",
+        "description": "",
+        "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2232000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User clicks on division \"Healthcare\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Healthcare\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2354000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Verify address and phone number are displayed",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verify_address_and_phone_number_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Services"
+          },
+          {
+            "name": "@ADVSYS-44"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1992000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Services\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T19:48:24.851Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3448000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Verify address and phone number are displayed in division links",
+        "description": "",
+        "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2338000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User clicks on division \"Government Projects\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Government Projects\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2303000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Verify address and phone number are displayed",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verify_address_and_phone_number_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Services"
+          },
+          {
+            "name": "@ADVSYS-44"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2029000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Services\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T19:48:35.040Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3200000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Verify address and phone number are displayed in division links",
+        "description": "",
+        "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2226000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User clicks on division \"Others\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Others\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2556000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Verify address and phone number are displayed",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verify_address_and_phone_number_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Services"
+          },
+          {
+            "name": "@ADVSYS-44"
+          }
+        ]
+>>>>>>> 804c6b25a008d156f34638fc252b4e71c9a70e2d
       }
     ],
-    "name": "About Us related scenarios",
+    "name": "Services related scenarios",
     "description": "",
-    "id": "about-us-related-scenarios",
+    "id": "services-related-scenarios",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/aboutUs.feature",
+    "uri": "file:src/test/resources/features/services.feature",
     "tags": [
       {
-        "name": "@AboutUs",
+        "name": "@Services",
         "type": "Tag",
         "location": {
           "line": 1,
