@@ -3,41 +3,6 @@
     "line": 2,
     "elements": [
       {
-<<<<<<< HEAD
-        "start_timestamp": "2022-08-02T20:29:47.718Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2447000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 10,
-        "name": "About Us page: Employees",
-        "description": "",
-        "id": "about-us-related-scenarios;about-us-page:-employees",
-        "after": [
-          {
-            "result": {
-              "duration": 674000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2130000000,
-=======
         "line": 4,
         "name": "",
         "description": "",
@@ -46,8 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2113000000,
->>>>>>> 804c6b25a008d156f34638fc252b4e71c9a70e2d
+              "duration": 1918000000,
               "status": "passed"
             },
             "line": 5,
@@ -62,87 +26,15 @@
               "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
             },
             "keyword": "Given "
-<<<<<<< HEAD
-          },
-          {
-            "result": {
-              "duration": 1277000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "This section should have a header   Meet Our Experts.",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.this_section_should_have_a_header_meet_our_experts()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8947000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Total of four employees should be displayed Picture",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_picture()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8905000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Total of four employees should be displayed Title",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_title()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8979000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Total of four employees should be displayed Quote",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_quote()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8956000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Total of four employees should be displayed Social media link",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_social_media_link()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AboutUs"
-          },
-          {
-            "name": "@ADVSYS-39"
-          }
-        ]
-=======
           }
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:47:51.099Z",
+        "start_timestamp": "2022-08-02T21:22:13.444Z",
         "before": [
           {
             "result": {
-              "duration": 5899000000,
+              "duration": 3065000000,
               "status": "passed"
             },
             "match": {
@@ -157,7 +49,7 @@
         "after": [
           {
             "result": {
-              "duration": 85000000,
+              "duration": 702000000,
               "status": "passed"
             },
             "match": {
@@ -166,11 +58,11 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2283000000,
+              "duration": 1405000000,
               "status": "passed"
             },
             "line": 50,
@@ -188,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 2356000000,
+              "duration": 2567000000,
               "status": "passed"
             },
             "line": 51,
@@ -217,7 +109,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2401000000,
+              "duration": 1530000000,
               "status": "passed"
             },
             "line": 5,
@@ -236,11 +128,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:48:03.970Z",
+        "start_timestamp": "2022-08-02T21:22:23.179Z",
         "before": [
           {
             "result": {
-              "duration": 3424000000,
+              "duration": 1830000000,
               "status": "passed"
             },
             "match": {
@@ -255,7 +147,7 @@
         "after": [
           {
             "result": {
-              "duration": 88000000,
+              "duration": 650000000,
               "status": "passed"
             },
             "match": {
@@ -264,11 +156,11 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2231000000,
+              "duration": 1348000000,
               "status": "passed"
             },
             "line": 50,
@@ -286,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 2533000000,
+              "duration": 2523000000,
               "status": "passed"
             },
             "line": 51,
@@ -315,7 +207,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2065000000,
+              "duration": 1956000000,
               "status": "passed"
             },
             "line": 5,
@@ -334,11 +226,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:48:14.684Z",
+        "start_timestamp": "2022-08-02T21:22:31.062Z",
         "before": [
           {
             "result": {
-              "duration": 3401000000,
+              "duration": 1798000000,
               "status": "passed"
             },
             "match": {
@@ -353,7 +245,7 @@
         "after": [
           {
             "result": {
-              "duration": 83000000,
+              "duration": 664000000,
               "status": "passed"
             },
             "match": {
@@ -362,11 +254,11 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2232000000,
+              "duration": 1348000000,
               "status": "passed"
             },
             "line": 50,
@@ -384,7 +276,7 @@
           },
           {
             "result": {
-              "duration": 2354000000,
+              "duration": 2506000000,
               "status": "passed"
             },
             "line": 51,
@@ -413,7 +305,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1992000000,
+              "duration": 1874000000,
               "status": "passed"
             },
             "line": 5,
@@ -432,11 +324,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:48:24.851Z",
+        "start_timestamp": "2022-08-02T21:22:39.335Z",
         "before": [
           {
             "result": {
-              "duration": 3448000000,
+              "duration": 1901000000,
               "status": "passed"
             },
             "match": {
@@ -451,7 +343,7 @@
         "after": [
           {
             "result": {
-              "duration": 83000000,
+              "duration": 659000000,
               "status": "passed"
             },
             "match": {
@@ -460,11 +352,11 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2338000000,
+              "duration": 1334000000,
               "status": "passed"
             },
             "line": 50,
@@ -482,7 +374,7 @@
           },
           {
             "result": {
-              "duration": 2303000000,
+              "duration": 2496000000,
               "status": "passed"
             },
             "line": 51,
@@ -511,7 +403,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2029000000,
+              "duration": 1884000000,
               "status": "passed"
             },
             "line": 5,
@@ -530,11 +422,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:48:35.040Z",
+        "start_timestamp": "2022-08-02T21:22:47.603Z",
         "before": [
           {
             "result": {
-              "duration": 3200000000,
+              "duration": 1809000000,
               "status": "passed"
             },
             "match": {
@@ -549,7 +441,7 @@
         "after": [
           {
             "result": {
-              "duration": 86000000,
+              "duration": 656000000,
               "status": "passed"
             },
             "match": {
@@ -558,11 +450,11 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2226000000,
+              "duration": 1362000000,
               "status": "passed"
             },
             "line": 50,
@@ -580,7 +472,7 @@
           },
           {
             "result": {
-              "duration": 2556000000,
+              "duration": 2538000000,
               "status": "passed"
             },
             "line": 51,
@@ -599,7 +491,6 @@
             "name": "@ADVSYS-44"
           }
         ]
->>>>>>> 804c6b25a008d156f34638fc252b4e71c9a70e2d
       }
     ],
     "name": "Services related scenarios",

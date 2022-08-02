@@ -16,9 +16,9 @@
       Then Total of four employees should be displayed Social media link
 
 
-#    @ADVSYS-39
-#    Scenario:  About Us page: Employees Social
-#      Given Click on About Us page
-#      Then Employees Social media buttons should take to corresponding pages
+    @ADVSYS-39
+    Scenario:  About Us page: Employees Social
+      Given Click on About Us page
+      Then Employees Social media buttons should take to corresponding pages
 
 
