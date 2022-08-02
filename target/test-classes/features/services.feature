@@ -28,4 +28,20 @@ Feature: Services related scenarios
   Scenario: Verify the title of Others page
     When User clicks on division "Others" link
     Then Verify the page title is "Advance Systems - Others Division"
+
+  @ADVSYS-43
+  Scenario: Verify division links are enabled on mini nav bar
+    When User clicks on division "<Division Names>" link
+    Then Verify Finance button is enabled
+    Then Verify Information Technology button is enabled
+    Then Verify Healthcare button is enabled
+    Then Verify Government Projects button is enabled
+    Then Verify Others button is enabled
+    Examples:
+      | Division Names         |
+      | Finance                |
+      | Information Technology |
+      | Healthcare             |
+      | Government Projects    |
+      | Others                 |
    

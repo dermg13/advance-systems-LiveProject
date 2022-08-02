@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1963000000,
+              "duration": 2001000000,
               "status": "passed"
             },
             "line": 5,
@@ -30,11 +30,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T13:39:47.669Z",
+        "start_timestamp": "2022-08-02T14:45:15.974Z",
         "before": [
           {
             "result": {
-              "duration": 3062000000,
+              "duration": 2916000000,
               "status": "passed"
             },
             "match": {
@@ -42,14 +42,14 @@
             }
           }
         ],
-        "line": 8,
-        "name": "Verify the title of Finance page",
+        "line": 42,
+        "name": "Verify division links are enabled on mini nav bar",
         "description": "",
-        "id": "services-related-scenarios;verify-the-title-of-finance-page",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;2",
         "after": [
           {
             "result": {
-              "duration": 641000000,
+              "duration": 690000000,
               "status": "passed"
             },
             "match": {
@@ -62,10 +62,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1576000000,
+              "duration": 1522000000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 34,
             "name": "User clicks on division \"Finance\" link",
             "match": {
               "arguments": [
@@ -80,19 +80,61 @@
           },
           {
             "result": {
-              "duration": 17000000,
+              "duration": 1398000000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "Verify the page title is \"Advance Systems - Finance Division\"",
+            "line": 35,
+            "name": "Verify Finance button is enabled",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Advance Systems - Finance Division\"",
-                  "offset": 25
-                }
-              ],
-              "location": "step_definitions.ServicesSteps.verifyThePageTitleIs(java.lang.String)"
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1344000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1307000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1387000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1373000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
             },
             "keyword": "Then "
           }
@@ -102,7 +144,7 @@
             "name": "@Services"
           },
           {
-            "name": "@ADVSYS-42"
+            "name": "@ADVSYS-43"
           }
         ]
       },
@@ -115,7 +157,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1732000000,
+              "duration": 1663000000,
               "status": "passed"
             },
             "line": 5,
@@ -134,11 +176,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T13:39:55.047Z",
+        "start_timestamp": "2022-08-02T14:45:30.018Z",
         "before": [
           {
             "result": {
-              "duration": 2055000000,
+              "duration": 2069000000,
               "status": "passed"
             },
             "match": {
@@ -146,14 +188,14 @@
             }
           }
         ],
-        "line": 13,
-        "name": "Verify the title of IT page",
+        "line": 43,
+        "name": "Verify division links are enabled on mini nav bar",
         "description": "",
-        "id": "services-related-scenarios;verify-the-title-of-it-page",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;3",
         "after": [
           {
             "result": {
-              "duration": 698000000,
+              "duration": 693000000,
               "status": "passed"
             },
             "match": {
@@ -166,10 +208,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1529000000,
+              "duration": 1569000000,
               "status": "passed"
             },
-            "line": 14,
+            "line": 34,
             "name": "User clicks on division \"Information Technology\" link",
             "match": {
               "arguments": [
@@ -184,19 +226,61 @@
           },
           {
             "result": {
-              "duration": 13000000,
+              "duration": 1402000000,
               "status": "passed"
             },
-            "line": 15,
-            "name": "Verify the page title is \"Advance Systems - IT Division\"",
+            "line": 35,
+            "name": "Verify Finance button is enabled",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Advance Systems - IT Division\"",
-                  "offset": 25
-                }
-              ],
-              "location": "step_definitions.ServicesSteps.verifyThePageTitleIs(java.lang.String)"
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1407000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1329000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1427000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1407000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
             },
             "keyword": "Then "
           }
@@ -206,7 +290,7 @@
             "name": "@Services"
           },
           {
-            "name": "@ADVSYS-42"
+            "name": "@ADVSYS-43"
           }
         ]
       },
@@ -219,7 +303,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1996000000,
+              "duration": 1663000000,
               "status": "passed"
             },
             "line": 5,
@@ -238,11 +322,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T13:40:01.090Z",
+        "start_timestamp": "2022-08-02T14:45:43.012Z",
         "before": [
           {
             "result": {
-              "duration": 2079000000,
+              "duration": 2123000000,
               "status": "passed"
             },
             "match": {
@@ -250,14 +334,14 @@
             }
           }
         ],
-        "line": 18,
-        "name": "Verify the title of Healthcare page",
+        "line": 44,
+        "name": "Verify division links are enabled on mini nav bar",
         "description": "",
-        "id": "services-related-scenarios;verify-the-title-of-healthcare-page",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;4",
         "after": [
           {
             "result": {
-              "duration": 636000000,
+              "duration": 713000000,
               "status": "passed"
             },
             "match": {
@@ -270,10 +354,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1598000000,
+              "duration": 1569000000,
               "status": "passed"
             },
-            "line": 19,
+            "line": 34,
             "name": "User clicks on division \"Healthcare\" link",
             "match": {
               "arguments": [
@@ -288,19 +372,61 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 1374000000,
               "status": "passed"
             },
-            "line": 20,
-            "name": "Verify the page title is \"Advance Systems - Healthcare Division\"",
+            "line": 35,
+            "name": "Verify Finance button is enabled",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Advance Systems - Healthcare Division\"",
-                  "offset": 25
-                }
-              ],
-              "location": "step_definitions.ServicesSteps.verifyThePageTitleIs(java.lang.String)"
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1294000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1301000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1327000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1348000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
             },
             "keyword": "Then "
           }
@@ -310,7 +436,7 @@
             "name": "@Services"
           },
           {
-            "name": "@ADVSYS-42"
+            "name": "@ADVSYS-43"
           }
         ]
       },
@@ -323,7 +449,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1874000000,
+              "duration": 1814000000,
               "status": "passed"
             },
             "line": 5,
@@ -342,11 +468,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T13:40:07.421Z",
+        "start_timestamp": "2022-08-02T14:45:55.750Z",
         "before": [
           {
             "result": {
-              "duration": 2025000000,
+              "duration": 2438000000,
               "status": "passed"
             },
             "match": {
@@ -354,14 +480,14 @@
             }
           }
         ],
-        "line": 23,
-        "name": "Verify the title of Government Projects page",
+        "line": 45,
+        "name": "Verify division links are enabled on mini nav bar",
         "description": "",
-        "id": "services-related-scenarios;verify-the-title-of-government-projects-page",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;5",
         "after": [
           {
             "result": {
-              "duration": 633000000,
+              "duration": 705000000,
               "status": "passed"
             },
             "match": {
@@ -374,10 +500,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1475000000,
+              "duration": 1662000000,
               "status": "passed"
             },
-            "line": 24,
+            "line": 34,
             "name": "User clicks on division \"Government Projects\" link",
             "match": {
               "arguments": [
@@ -392,19 +518,61 @@
           },
           {
             "result": {
-              "duration": 14000000,
+              "duration": 1338000000,
               "status": "passed"
             },
-            "line": 25,
-            "name": "Verify the page title is \"Advance Systems - Government Projects Division\"",
+            "line": 35,
+            "name": "Verify Finance button is enabled",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Advance Systems - Government Projects Division\"",
-                  "offset": 25
-                }
-              ],
-              "location": "step_definitions.ServicesSteps.verifyThePageTitleIs(java.lang.String)"
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1281000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1287000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1311000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1364000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
             },
             "keyword": "Then "
           }
@@ -414,7 +582,7 @@
             "name": "@Services"
           },
           {
-            "name": "@ADVSYS-42"
+            "name": "@ADVSYS-43"
           }
         ]
       },
@@ -427,7 +595,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1693000000,
+              "duration": 1796000000,
               "status": "passed"
             },
             "line": 5,
@@ -446,11 +614,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T13:40:13.458Z",
+        "start_timestamp": "2022-08-02T14:46:08.972Z",
         "before": [
           {
             "result": {
-              "duration": 2018000000,
+              "duration": 2100000000,
               "status": "passed"
             },
             "match": {
@@ -458,14 +626,14 @@
             }
           }
         ],
-        "line": 28,
-        "name": "Verify the title of Others page",
+        "line": 46,
+        "name": "Verify division links are enabled on mini nav bar",
         "description": "",
-        "id": "services-related-scenarios;verify-the-title-of-others-page",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;6",
         "after": [
           {
             "result": {
-              "duration": 635000000,
+              "duration": 707000000,
               "status": "passed"
             },
             "match": {
@@ -478,10 +646,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1578000000,
+              "duration": 1517000000,
               "status": "passed"
             },
-            "line": 29,
+            "line": 34,
             "name": "User clicks on division \"Others\" link",
             "match": {
               "arguments": [
@@ -496,19 +664,61 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 1338000000,
               "status": "passed"
             },
-            "line": 30,
-            "name": "Verify the page title is \"Advance Systems - Others Division\"",
+            "line": 35,
+            "name": "Verify Finance button is enabled",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Advance Systems - Others Division\"",
-                  "offset": 25
-                }
-              ],
-              "location": "step_definitions.ServicesSteps.verifyThePageTitleIs(java.lang.String)"
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1369000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1295000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1362000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1365000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
             },
             "keyword": "Then "
           }
@@ -518,7 +728,7 @@
             "name": "@Services"
           },
           {
-            "name": "@ADVSYS-42"
+            "name": "@ADVSYS-43"
           }
         ]
       }
