@@ -70,6 +70,7 @@ public class AboutUsSteps implements CommonPage {
 
     @Then("All employees FaceBook buttons should take to FaceBook pages")
     public void all_face_book_buttons_should_take_to_face_book_pages() throws InterruptedException {
+
             WebDriverManager.getDriver().findElement(By.xpath("//body[1]/div[1]/section[5]/div[1]/div[2]/div[1]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]")).click();
             System.out.println(WebDriverManager.getDriver().getTitle());
             WebDriverManager.getDriver().navigate().back();
