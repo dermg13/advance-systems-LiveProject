@@ -3,124 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-08-02T16:12:31.704Z",
+        "start_timestamp": "2022-08-02T16:59:33.492Z",
         "before": [
           {
             "result": {
-              "duration": 2758000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 10,
-        "name": "About Us page: Employees",
-        "description": "",
-        "id": "about-us-related-scenarios;about-us-page:-employees",
-        "after": [
-          {
-            "result": {
-              "duration": 685000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1571000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Click on About Us page",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.click_on_about_us_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1240000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "This section should have a header   Meet Our Experts.",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.this_section_should_have_a_header_meet_our_experts()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4633000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Total of four employees should be displayed Picture",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_picture()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4664000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Total of four employees should be displayed Title",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_title()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4579000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Total of four employees should be displayed Quote",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_quote()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4618000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Total of four employees should be displayed Social media link",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_social_media_link()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AboutUs"
-          },
-          {
-            "name": "@ADVSYS-39"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-08-02T16:12:56.553Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1858000000,
+              "duration": 2297000000,
               "status": "passed"
             },
             "match": {
@@ -148,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2629000000,
+              "duration": 2113000000,
               "status": "passed"
             },
             "line": 20,
@@ -160,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 2628000000,
+              "duration": 2497000000,
               "status": "passed"
             },
             "line": 21,
@@ -172,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 2525000000,
+              "duration": 2594000000,
               "status": "passed"
             },
             "line": 22,
@@ -184,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 3108000000,
+              "duration": 3856000000,
               "status": "passed"
             },
             "line": 23,
@@ -196,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 2177000000,
+              "duration": 2126000000,
               "status": "passed"
             },
             "line": 24,

@@ -6,7 +6,7 @@
       Then There should be a main header Welcome to Advance Systems LLC.
       Then This section should contain name and title of the person.
 
-    @ADVSYS-39
+#    @ADVSYS-39
     Scenario: About Us page: Employees
       Given Click on About Us page
       Then This section should have a header   Meet Our Experts.
