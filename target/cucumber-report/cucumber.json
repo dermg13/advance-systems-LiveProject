@@ -3,6 +3,41 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
+        "start_timestamp": "2022-08-02T20:29:47.718Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2447000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "About Us page: Employees",
+        "description": "",
+        "id": "about-us-related-scenarios;about-us-page:-employees",
+        "after": [
+          {
+            "result": {
+              "duration": 674000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2130000000,
+=======
         "line": 4,
         "name": "",
         "description": "",
@@ -12,6 +47,7 @@
           {
             "result": {
               "duration": 2113000000,
+>>>>>>> 804c6b25a008d156f34638fc252b4e71c9a70e2d
               "status": "passed"
             },
             "line": 5,
@@ -26,6 +62,78 @@
               "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
             },
             "keyword": "Given "
+<<<<<<< HEAD
+          },
+          {
+            "result": {
+              "duration": 1277000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "This section should have a header   Meet Our Experts.",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.this_section_should_have_a_header_meet_our_experts()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8947000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Total of four employees should be displayed Picture",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_picture()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8905000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Total of four employees should be displayed Title",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8979000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Total of four employees should be displayed Quote",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_quote()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8956000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Total of four employees should be displayed Social media link",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_social_media_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AboutUs"
+          },
+          {
+            "name": "@ADVSYS-39"
+          }
+        ]
+=======
           }
         ]
       },
@@ -491,6 +599,7 @@
             "name": "@ADVSYS-44"
           }
         ]
+>>>>>>> 804c6b25a008d156f34638fc252b4e71c9a70e2d
       }
     ],
     "name": "Services related scenarios",
