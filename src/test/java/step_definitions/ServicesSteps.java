@@ -59,8 +59,8 @@ public class ServicesSteps implements CommonPage {
     }
     @Then("Verify address and phone number are displayed")
     public void verify_address_and_phone_number_are_displayed() {
-        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, servicesPage.Address))));
-        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, servicesPage.CallUs))));
+        Assert.assertTrue(WebDriverManager.isDisplayed(servicesPage.Address));
+        Assert.assertTrue(WebDriverManager.isDisplayed(servicesPage.CallUs));
     }
 }
 

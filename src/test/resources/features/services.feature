@@ -49,7 +49,6 @@ Feature: Services related scenarios
   Scenario: Verify address and phone number are displayed in division links
     When User clicks on division "<Division Names>" link
     Then Verify address and phone number are displayed
-
     Examples:
       | Division Names         |
       | Finance                |

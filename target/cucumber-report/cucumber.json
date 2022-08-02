@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2113000000,
               "status": "passed"
             },
             "line": 5,
@@ -30,11 +30,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:10:34.353Z",
+        "start_timestamp": "2022-08-02T19:47:51.099Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 5899000000,
               "status": "passed"
             },
             "match": {
@@ -42,14 +42,14 @@
             }
           }
         ],
-        "line": 55,
+        "line": 54,
         "name": "Verify address and phone number are displayed in division links",
         "description": "",
         "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;2",
         "after": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 85000000,
               "status": "passed"
             },
             "match": {
@@ -62,6 +62,7 @@
         "steps": [
           {
             "result": {
+              "duration": 2283000000,
               "status": "passed"
             },
             "line": 50,
@@ -79,6 +80,7 @@
           },
           {
             "result": {
+              "duration": 2356000000,
               "status": "passed"
             },
             "line": 51,
@@ -107,7 +109,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2401000000,
               "status": "passed"
             },
             "line": 5,
@@ -126,10 +128,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:10:34.476Z",
+        "start_timestamp": "2022-08-02T19:48:03.970Z",
         "before": [
           {
             "result": {
+              "duration": 3424000000,
               "status": "passed"
             },
             "match": {
@@ -137,13 +140,14 @@
             }
           }
         ],
-        "line": 56,
+        "line": 55,
         "name": "Verify address and phone number are displayed in division links",
         "description": "",
         "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;3",
         "after": [
           {
             "result": {
+              "duration": 88000000,
               "status": "passed"
             },
             "match": {
@@ -156,6 +160,7 @@
         "steps": [
           {
             "result": {
+              "duration": 2231000000,
               "status": "passed"
             },
             "line": 50,
@@ -173,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2533000000,
               "status": "passed"
             },
             "line": 51,
@@ -202,6 +207,7 @@
         "steps": [
           {
             "result": {
+              "duration": 2065000000,
               "status": "passed"
             },
             "line": 5,
@@ -220,10 +226,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:10:34.492Z",
+        "start_timestamp": "2022-08-02T19:48:14.684Z",
         "before": [
           {
             "result": {
+              "duration": 3401000000,
               "status": "passed"
             },
             "match": {
@@ -231,13 +238,14 @@
             }
           }
         ],
-        "line": 57,
+        "line": 56,
         "name": "Verify address and phone number are displayed in division links",
         "description": "",
         "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;4",
         "after": [
           {
             "result": {
+              "duration": 83000000,
               "status": "passed"
             },
             "match": {
@@ -250,6 +258,7 @@
         "steps": [
           {
             "result": {
+              "duration": 2232000000,
               "status": "passed"
             },
             "line": 50,
@@ -267,6 +276,7 @@
           },
           {
             "result": {
+              "duration": 2354000000,
               "status": "passed"
             },
             "line": 51,
@@ -295,7 +305,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 1992000000,
               "status": "passed"
             },
             "line": 5,
@@ -314,11 +324,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:10:34.514Z",
+        "start_timestamp": "2022-08-02T19:48:24.851Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 3448000000,
               "status": "passed"
             },
             "match": {
@@ -326,13 +336,14 @@
             }
           }
         ],
-        "line": 58,
+        "line": 57,
         "name": "Verify address and phone number are displayed in division links",
         "description": "",
         "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;5",
         "after": [
           {
             "result": {
+              "duration": 83000000,
               "status": "passed"
             },
             "match": {
@@ -345,6 +356,7 @@
         "steps": [
           {
             "result": {
+              "duration": 2338000000,
               "status": "passed"
             },
             "line": 50,
@@ -362,6 +374,7 @@
           },
           {
             "result": {
+              "duration": 2303000000,
               "status": "passed"
             },
             "line": 51,
@@ -390,6 +403,7 @@
         "steps": [
           {
             "result": {
+              "duration": 2029000000,
               "status": "passed"
             },
             "line": 5,
@@ -408,11 +422,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-02T19:10:34.529Z",
+        "start_timestamp": "2022-08-02T19:48:35.040Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 3200000000,
               "status": "passed"
             },
             "match": {
@@ -420,13 +434,14 @@
             }
           }
         ],
-        "line": 59,
+        "line": 58,
         "name": "Verify address and phone number are displayed in division links",
         "description": "",
         "id": "services-related-scenarios;verify-address-and-phone-number-are-displayed-in-division-links;;6",
         "after": [
           {
             "result": {
+              "duration": 86000000,
               "status": "passed"
             },
             "match": {
@@ -439,6 +454,7 @@
         "steps": [
           {
             "result": {
+              "duration": 2226000000,
               "status": "passed"
             },
             "line": 50,
@@ -456,6 +472,7 @@
           },
           {
             "result": {
+              "duration": 2556000000,
               "status": "passed"
             },
             "line": 51,

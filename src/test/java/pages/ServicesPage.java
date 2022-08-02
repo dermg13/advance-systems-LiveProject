@@ -25,9 +25,9 @@ public class ServicesPage {
     @FindBy (xpath = "//*[text()='Others']")
     public WebElement othersBtn;
 
-    @FindBy (xpath = "//*[text()='Address']")
+    @FindBy (xpath = "//*[text()='Address:']")
     public WebElement Address;
 
-    @FindBy (xpath = "//*[text()='Call Us']")
+    @FindBy (xpath = "//*[text()='Call Us:']")
     public WebElement CallUs;
 }
