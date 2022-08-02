@@ -3,11 +3,38 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-08-02T02:38:12.453Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2001000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Services\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T14:45:15.974Z",
         "before": [
           {
             "result": {
-              "duration": 2776000000,
+              "duration": 2916000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +42,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "About Us page: Main content",
+        "line": 42,
+        "name": "Verify division links are enabled on mini nav bar",
         "description": "",
-        "id": "about-us-related-scenarios;about-us-page:-main-content",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;2",
         "after": [
           {
             "result": {
-              "duration": 672000000,
+              "duration": 690000000,
               "status": "passed"
             },
             "match": {
@@ -35,59 +62,685 @@
         "steps": [
           {
             "result": {
-              "duration": 2156000000,
+              "duration": 1522000000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "When click on About Us page",
+            "line": 34,
+            "name": "User clicks on division \"Finance\" link",
             "match": {
-              "location": "step_definitions.AboutUsSteps.when_click_on_about_us_page()"
+              "arguments": [
+                {
+                  "val": "\"Finance\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 2545000000,
+              "duration": 1398000000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "There should be a main header Welcome to Advance Systems LLC.",
+            "line": 35,
+            "name": "Verify Finance button is enabled",
             "match": {
-              "location": "step_definitions.AboutUsSteps.there_should_be_a_main_header_welcome_to_advance_systems_llc()"
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2543000000,
+              "duration": 1344000000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "This section should contain name and title of the person.",
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
             "match": {
-              "location": "step_definitions.AboutUsSteps.this_section_should_contain_name_and_title_of_the_person()"
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1307000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1387000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1373000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@AboutUs"
+            "name": "@Services"
           },
           {
-            "name": "@ADVSYS-37"
+            "name": "@ADVSYS-43"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1663000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Services\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T14:45:30.018Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2069000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Verify division links are enabled on mini nav bar",
+        "description": "",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 693000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1569000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User clicks on division \"Information Technology\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Information Technology\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1402000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Verify Finance button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1407000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1329000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1427000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1407000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Services"
+          },
+          {
+            "name": "@ADVSYS-43"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1663000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Services\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T14:45:43.012Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2123000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Verify division links are enabled on mini nav bar",
+        "description": "",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 713000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1569000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User clicks on division \"Healthcare\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Healthcare\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1374000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Verify Finance button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1294000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1301000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1327000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1348000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Services"
+          },
+          {
+            "name": "@ADVSYS-43"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1814000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Services\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T14:45:55.750Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2438000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Verify division links are enabled on mini nav bar",
+        "description": "",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 705000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1662000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User clicks on division \"Government Projects\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Government Projects\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1338000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Verify Finance button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1281000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1287000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1311000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1364000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Services"
+          },
+          {
+            "name": "@ADVSYS-43"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1796000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens \"Services\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 11
+                }
+              ],
+              "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T14:46:08.972Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2100000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Verify division links are enabled on mini nav bar",
+        "description": "",
+        "id": "services-related-scenarios;verify-division-links-are-enabled-on-mini-nav-bar;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 707000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1517000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User clicks on division \"Others\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Others\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.ServicesSteps.userClicksOnDivisionLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1338000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Verify Finance button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyFinanceButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1369000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information Technology button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyInformationTechnologyButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1295000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Verify Healthcare button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyHealthcareButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1362000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify Government Projects button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyGovernmentProjectsButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1365000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Verify Others button is enabled",
+            "match": {
+              "location": "step_definitions.ServicesSteps.verifyOthersButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Services"
+          },
+          {
+            "name": "@ADVSYS-43"
           }
         ]
       }
     ],
-    "name": "About Us related scenarios",
+    "name": "Services related scenarios",
     "description": "",
-    "id": "about-us-related-scenarios",
+    "id": "services-related-scenarios",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/aboutUs.feature",
+    "uri": "file:src/test/resources/features/services.feature",
     "tags": [
       {
-        "name": "@AboutUs",
+        "name": "@Services",
         "type": "Tag",
         "location": {
           "line": 1,
