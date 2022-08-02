@@ -3,11 +3,8 @@ package step_definitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import org.apache.poi.ss.formula.functions.T;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pages.AboutUsPage;
 import pages.CommonPage;
@@ -147,4 +144,5 @@ public class AboutUsSteps implements CommonPage {
 
 
     }
+
 }

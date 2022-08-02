@@ -8,6 +8,7 @@
 
     @ADVSYS-39
     Scenario: About Us page: Employees
+<<<<<<< HEAD
       Given When click on About Us page
 #      Given This section should have a header   Meet Our Experts.
 #      Then Total of four employees should be displayed Picture
@@ -27,3 +28,16 @@
 #        | twitter      |
 #        | Skype        |
 #        | Linkedin     |
+=======
+      Given This section should have a header   Meet Our Experts.
+      Then Total of four employees should be displayed Picture
+      Then Total of four employees should be displayed Title
+      Then Total of four employees should be displayed Quote
+      Then Total of four employees should be displayed Social
+      Then "<Social media>" buttons should take to corresponding pages
+        | Social media |
+        | Facebook     |
+        | twitter      |
+        | Skype        |
+        | Linkedin     |
+>>>>>>> 3059dec01bbc79404a1f77ca11118c8a40b99d6a
