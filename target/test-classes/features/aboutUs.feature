@@ -15,11 +15,20 @@
       Then Total of four employees should be displayed Quote
       Then Total of four employees should be displayed Social media link
 
+
     @ADVSYS-39
     Scenario:  About Us page: Employees Social
       Given Click on About Us page
-      Then All employees FaceBook buttons should take to FaceBook pages
-      Then All Twitter buttons should take to Twitter pages
-      Then All Skype buttons should take to Skype pages
-      Then All LinkedIn buttons should take to LinkedIn pages
+      Then Employees Social media buttons should take to corresponding pages
 
+    @ADVSYS-41
+    Scenario: Verify About Us page has 4 headers with description texts
+      Given user clicks on About Us page
+      Then Verify first header says "Evaluate Resume"
+      Then Verify first header's description text says "Which toil and pain can sed procure him some great pleasure."
+      Then Verify second header says "Interview"
+      Then Verify second header's description text says "Praising pain was born and will give complete account system."
+      Then Verify third header says "Screening"
+      Then Verify third header's description text says "Actual teachings the great explorer of the every one truth."
+      Then Verify fourth header says "Process Done"
+      Then Verify fourth header's description text says "Occur in which toil pain can procure him some great pleasure."

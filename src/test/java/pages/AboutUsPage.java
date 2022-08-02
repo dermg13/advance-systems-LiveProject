@@ -37,14 +37,25 @@ public class AboutUsPage {
     public  List<WebElement> ExpertQuote;
     @FindBy(xpath = "//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//ul/li")
     public  List<WebElement> ExpertSocial;
-    @FindBy(xpath = "/body/div[1]/section[5]/div[1]/div[2]/div[4]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[1]/ancestor::section//a[@href='https://facebook.com']")
+    @FindBy(xpath = "//span/ancestor::section//a[@href='https://facebook.com.com']")
     public  List<WebElement> FaceBook;
-    @FindBy(xpath = "//ul[@class='social-icon-one']//span[@class='icon fa fa-twitter']")
+    @FindBy(xpath = "//span/ancestor::section//a[@href='https://twitter.com']")
     public  List<WebElement> Twitter;
-    @FindBy(xpath = "//ul[@class='social-icon-one']//span[@class='icon fa fa-skype']")
+    @FindBy(xpath = "//span/ancestor::section//a[@href='https://skype.com']")
     public  List<WebElement> Skype;
-    @FindBy(xpath = "//ul[@class='social-icon-one']//span[@class='icon fa fa-linkedin']")
+    @FindBy(xpath = "//span/ancestor::section//a[@href='https://linkedin.com']")
     public  List<WebElement> LinkedIn;
 
+    @FindBy(xpath = "(//div[@class='text'])[11]")
+    public WebElement FirstHeaderText;
+
+    @FindBy(xpath = "(//div[@class='text'])[12]")
+    public WebElement SecondHeaderText;
+
+    @FindBy(xpath = "(//div[@class='text'])[13]")
+    public WebElement ThirdHeaderText;
+
+    @FindBy(xpath = "(//div[@class='text'])[11]")
+    public WebElement FourthHeaderText;
 }
 
