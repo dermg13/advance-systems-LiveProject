@@ -3,6 +3,7 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "line": 4,
         "name": "",
         "description": "",
@@ -12,17 +13,65 @@
           {
             "result": {
               "duration": 1918000000,
+=======
+        "start_timestamp": "2022-08-02T22:07:10.153Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5969000000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "User opens \"Services\" page",
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Verify About Us page has 4 headers with description texts",
+        "description": "",
+        "id": "about-us-related-scenarios;verify-about-us-page-has-4-headers-with-description-texts",
+        "after": [
+          {
+            "result": {
+              "duration": 103000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2359000000,
+>>>>>>> cef083072faf143826d3c74e19866a5ad71066df
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks on About Us page",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.userClicksOnAboutUsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1939000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Verify first header says \"Evaluate Resume\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Services\"",
-                  "offset": 11
+                  "val": "\"Evaluate Resume\"",
+                  "offset": 25
                 }
               ],
+<<<<<<< HEAD
               "location": "step_definitions.HomeSteps.userOpensPage(java.lang.String)"
             },
             "keyword": "Given "
@@ -87,12 +136,142 @@
             "name": "Verify address and phone number are displayed",
             "match": {
               "location": "step_definitions.ServicesSteps.verify_address_and_phone_number_are_displayed()"
+=======
+              "location": "step_definitions.AboutUsSteps.verifyFirstHeaderSays(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1172000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Verify first header\u0027s description text says \"Which toil and pain can sed procure him some great pleasure.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Which toil and pain can sed procure him some great pleasure.\"",
+                  "offset": 44
+                }
+              ],
+              "location": "step_definitions.AboutUsSteps.verifyFirstHeaderSDescriptionTextSays(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1162000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Verify second header says \"Interview\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Interview\"",
+                  "offset": 26
+                }
+              ],
+              "location": "step_definitions.AboutUsSteps.verifySecondHeaderSays(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1137000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Verify second header\u0027s description text says \"Praising pain was born and will give complete account system.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Praising pain was born and will give complete account system.\"",
+                  "offset": 45
+                }
+              ],
+              "location": "step_definitions.AboutUsSteps.verifySecondHeaderSDescriptionTextSays(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1124000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Verify third header says \"Screening\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Screening\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.AboutUsSteps.verifyThirdHeaderSays(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1169000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Verify third header\u0027s description text says \"Actual teachings the great explorer of the every one truth.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Actual teachings the great explorer of the every one truth.\"",
+                  "offset": 44
+                }
+              ],
+              "location": "step_definitions.AboutUsSteps.verifyThirdHeaderSDescriptionTextSays(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1146000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Verify fourth header says \"Process Done\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Process Done\"",
+                  "offset": 26
+                }
+              ],
+              "location": "step_definitions.AboutUsSteps.verifyFourthHeaderSays(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1184000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Verify fourth header\u0027s description text says \"Occur in which toil pain can procure him some great pleasure.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Occur in which toil pain can procure him some great pleasure.\"",
+                  "offset": 45
+                }
+              ],
+              "location": "step_definitions.AboutUsSteps.verifyFourthHeaderSDescriptionTextSays(java.lang.String)"
+>>>>>>> cef083072faf143826d3c74e19866a5ad71066df
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@Services"
           },
           {
@@ -489,18 +668,24 @@
           },
           {
             "name": "@ADVSYS-44"
+=======
+            "name": "@AboutUs"
+          },
+          {
+            "name": "@ADVSYS-41"
+>>>>>>> cef083072faf143826d3c74e19866a5ad71066df
           }
         ]
       }
     ],
-    "name": "Services related scenarios",
+    "name": "About Us related scenarios",
     "description": "",
-    "id": "services-related-scenarios",
+    "id": "about-us-related-scenarios",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/services.feature",
+    "uri": "file:src/test/resources/features/aboutUs.feature",
     "tags": [
       {
-        "name": "@Services",
+        "name": "@AboutUs",
         "type": "Tag",
         "location": {
           "line": 1,

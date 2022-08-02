@@ -38,35 +38,35 @@ public class AboutUsSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.MeetExpertsHeader));
     }
     @Then("Total of four employees should be displayed Picture")
-    public void total_of_four_employees_should_be_displayed_picture() throws InterruptedException {
+    public void total_of_four_employees_should_be_displayed_picture() {
         List<WebElement> image = WebDriverManager.getDriver().findElements(By.xpath("//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//img[@src]"));
         for (int i = 0; i < image.size(); i++) {
             Assert.assertTrue(WebDriverManager.isDisplayed(image.get(i)));
         }
     }
     @Then("Total of four employees should be displayed Title")
-    public void total_of_four_employees_should_be_displayed_title() throws InterruptedException {
+    public void total_of_four_employees_should_be_displayed_title(){
         List<WebElement> title = WebDriverManager.getDriver().findElements(By.xpath("//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//div[@class='lower-content']/div[@class='designation']"));
         for (int i = 0; i < title.size(); i++) {
             Assert.assertTrue(WebDriverManager.isDisplayed(title.get(i)));
         }
     }
     @Then("Total of four employees should be displayed Quote")
-    public void total_of_four_employees_should_be_displayed_quote() throws InterruptedException {
+    public void total_of_four_employees_should_be_displayed_quote(){
         List<WebElement> quote = WebDriverManager.getDriver().findElements(By.xpath("//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//div[@class='lower-content']//div[@class='text']"));
         for (int i = 0; i < quote.size(); i++) {
             Assert.assertTrue(WebDriverManager.isDisplayed(quote.get(i)));
         }
     }
     @Then("Total of four employees should be displayed Social media link")
-    public void total_of_four_employees_should_be_displayed_social_media_link() throws InterruptedException {
+    public void total_of_four_employees_should_be_displayed_social_media_link()  {
         List<WebElement> social = WebDriverManager.getDriver().findElements(By.xpath("//ul[@class='social-icon-one']"));
         for (int i = 0; i < social.size(); i++) {
             Assert.assertTrue(WebDriverManager.isDisplayed(social.get(i)));
         }
     }
     @Then("Employees Social media buttons should take to corresponding pages")
-    public void employeed_social_media_buttons_should_take_to_corresponding_pages() throws InterruptedException {
+    public void employeed_social_media_buttons_should_take_to_corresponding_pages() {
 
         List<WebElement> facebook = WebDriverManager.getDriver().findElements(By.xpath("//span/ancestor::section//a[@href='https://facebook.com']"));
         for (int i = 0; i < facebook.size(); i++) {
@@ -94,4 +94,50 @@ public class AboutUsSteps implements CommonPage {
         }
     }
 
+    @Given("user clicks on About Us page")
+    public void userClicksOnAboutUsPage() {
+        WebDriverManager.click(aboutUsPage.AboutUsMainNavigationBar);
+    }
+
+    @Then("Verify first header says {string}")
+    public void verifyFirstHeaderSays(String firstHeader) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, firstHeader))));
+
+    }
+
+    @Then("Verify first header's description text says {string}")
+    public void verifyFirstHeaderSDescriptionTextSays(String firstHeaderText) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.FirstHeaderText));
+
+    }
+
+    @Then("Verify second header says {string}")
+    public void verifySecondHeaderSays(String secondHeader) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, secondHeader))));
+    }
+
+    @Then("Verify second header's description text says {string}")
+    public void verifySecondHeaderSDescriptionTextSays(String secondHeaderText) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.SecondHeaderText));
+    }
+
+    @Then("Verify third header says {string}")
+    public void verifyThirdHeaderSays(String thirdHeader) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, thirdHeader))));
+    }
+
+    @Then("Verify third header's description text says {string}")
+    public void verifyThirdHeaderSDescriptionTextSays(String thirdHeaderText) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.ThirdHeaderText));
+    }
+
+    @Then("Verify fourth header says {string}")
+    public void verifyFourthHeaderSays(String fourthHeader) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, fourthHeader))));
+    }
+
+    @Then("Verify fourth header's description text says {string}")
+    public void verifyFourthHeaderSDescriptionTextSays(String fourthHeaderText) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.FourthHeaderText));
+    }
 }
