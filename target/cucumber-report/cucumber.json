@@ -3,88 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-08-02T18:20:27.607Z",
+        "start_timestamp": "2022-08-02T20:29:47.718Z",
         "before": [
           {
             "result": {
-              "duration": 2478000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 4,
-        "name": "About Us page: Main content",
-        "description": "",
-        "id": "about-us-related-scenarios;about-us-page:-main-content",
-        "after": [
-          {
-            "result": {
-              "duration": 647000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2063000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Click on About Us page",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.click_on_about_us_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2566000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "There should be a main header Welcome to Advance Systems LLC.",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.there_should_be_a_main_header_welcome_to_advance_systems_llc()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2523000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "This section should contain name and title of the person.",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.this_section_should_contain_name_and_title_of_the_person()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AboutUs"
-          },
-          {
-            "name": "@ADVSYS-37"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-08-02T18:20:37.971Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1890000000,
+              "duration": 2447000000,
               "status": "passed"
             },
             "match": {
@@ -99,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 657000000,
+              "duration": 674000000,
               "status": "passed"
             },
             "match": {
@@ -112,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1461000000,
+              "duration": 2130000000,
               "status": "passed"
             },
             "line": 11,
@@ -124,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1251000000,
+              "duration": 1277000000,
               "status": "passed"
             },
             "line": 12,
@@ -136,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 4630000000,
+              "duration": 8947000000,
               "status": "passed"
             },
             "line": 13,
@@ -148,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 4669000000,
+              "duration": 8905000000,
               "status": "passed"
             },
             "line": 14,
@@ -160,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 4645000000,
+              "duration": 8979000000,
               "status": "passed"
             },
             "line": 15,
@@ -172,114 +95,13 @@
           },
           {
             "result": {
-              "duration": 4538000000,
+              "duration": 8956000000,
               "status": "passed"
             },
             "line": 16,
             "name": "Total of four employees should be displayed Social media link",
             "match": {
               "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_social_media_link()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AboutUs"
-          },
-          {
-            "name": "@ADVSYS-39"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-08-02T18:21:01.717Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1782000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 19,
-        "name": "About Us page: Employees Social",
-        "description": "",
-        "id": "about-us-related-scenarios;about-us-page:-employees-social",
-        "after": [
-          {
-            "result": {
-              "duration": 709000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1532000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "Click on About Us page",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.click_on_about_us_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2517000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "All employees FaceBook buttons should take to FaceBook pages",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.all_face_book_buttons_should_take_to_face_book_pages()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2666000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "All Twitter buttons should take to Twitter pages",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.all_twitter_buttons_should_take_to_twitter_pages()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3188000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "All Skype buttons should take to Skype pages",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.all_skype_buttons_should_take_to_skype_pages()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1935000000,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "All LinkedIn buttons should take to LinkedIn pages",
-            "match": {
-              "location": "step_definitions.AboutUsSteps.all_linked_in_buttons_should_take_to_linked_in_pages()"
             },
             "keyword": "Then "
           }
