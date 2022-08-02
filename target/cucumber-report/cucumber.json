@@ -3,11 +3,19 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-28T16:17:26.968Z",
         "before": [
           {
             "result": {
               "duration": 2831000000,
+=======
+        "start_timestamp": "2022-07-31T11:00:00.155Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2362000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
             "match": {
@@ -15,14 +23,18 @@
             }
           }
         ],
-        "line": 126,
-        "name": "Footer social media buttons displayed",
+        "line": 91,
+        "name": "All of Navigation bar Link should have following buttons When click",
         "description": "",
-        "id": "homepage-related-scenarios;footer-social-media-buttons-displayed;;2",
+        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;2",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 689000000,
+=======
+              "duration": 627000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
             "match": {
@@ -35,14 +47,19 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1685000000,
+=======
+              "duration": 1464000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 120,
-            "name": "Verify \"facebook\" icon is displayed",
+            "line": 82,
+            "name": "Click on \"Home\" Link",
             "match": {
               "arguments": [
                 {
+<<<<<<< HEAD
                   "val": "\"facebook\"",
                   "offset": 7
                 }
@@ -1047,14 +1064,19 @@
                 {
                   "val": "\"Contact Us\"",
                   "offset": 14
+=======
+                  "val": "\"Home\"",
+                  "offset": 9
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
                 }
               ],
-              "location": "step_definitions.HomeSteps.userClickOnLink(java.lang.String)"
+              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 11000000,
               "status": "passed"
             },
@@ -1168,9 +1190,12 @@
           {
             "result": {
               "duration": 1308000000,
+=======
+              "duration": 1254000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 7,
+            "line": 83,
             "name": "Verify Get Support buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
@@ -1179,10 +1204,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1339000000,
+=======
+              "duration": 1237000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 8,
+            "line": 84,
             "name": "Verify Job Career buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
@@ -1191,10 +1220,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1276000000,
+=======
+              "duration": 1241000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 9,
+            "line": 85,
             "name": "Verify Feedback buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
@@ -1203,6 +1236,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1276000000,
               "status": "passed"
             },
@@ -1216,9 +1250,12 @@
           {
             "result": {
               "duration": 1290000000,
+=======
+              "duration": 2512000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 11,
+            "line": 86,
             "name": "Verify Language English buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
@@ -1227,10 +1264,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1270000000,
+=======
+              "duration": 1251000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 12,
+            "line": 87,
             "name": "Verify Language Spanish buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
@@ -1239,10 +1280,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1276000000,
+=======
+              "duration": 1257000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 13,
+            "line": 88,
             "name": "Verify Language French buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
@@ -1258,22 +1303,24 @@
             "name": "@navigationScenarios"
           },
           {
-            "name": "@smoke"
-          },
-          {
-            "name": "@ADVSYS-5"
-          },
-          {
-            "name": "@navigation"
+            "name": "@XYZ"
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-28T16:18:34.282Z",
         "before": [
           {
             "result": {
               "duration": 2027000000,
+=======
+        "start_timestamp": "2022-07-31T11:00:13.452Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1814000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
             "match": {
@@ -1281,14 +1328,18 @@
             }
           }
         ],
-        "line": 16,
-        "name": "ABOUT US should have following buttons",
+        "line": 92,
+        "name": "All of Navigation bar Link should have following buttons When click",
         "description": "",
-        "id": "navigation-bar-related-scenarios;about-us-should-have-following-buttons",
+        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;3",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 704000000,
+=======
+              "duration": 643000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
             "match": {
@@ -1297,26 +1348,40 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2153000000,
+=======
+              "duration": 1787000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 17,
-            "name": "Click on ABOUT US button",
+            "line": 82,
+            "name": "Click on \"About Us\" Link",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_about_us_button()"
+              "arguments": [
+                {
+                  "val": "\"About Us\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1375000000,
+=======
+              "duration": 1271000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 18,
+            "line": 83,
             "name": "Verify Get Support buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
@@ -1325,10 +1390,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1357000000,
+=======
+              "duration": 1251000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 19,
+            "line": 84,
             "name": "Verify Job Career buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
@@ -1337,10 +1406,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1307000000,
+=======
+              "duration": 1267000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 20,
+            "line": 85,
             "name": "Verify Feedback buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
@@ -1349,6 +1422,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1269000000,
               "status": "passed"
             },
@@ -1362,9 +1436,12 @@
           {
             "result": {
               "duration": 1287000000,
+=======
+              "duration": 2474000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 22,
+            "line": 86,
             "name": "Verify Language English buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
@@ -1373,10 +1450,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1333000000,
+=======
+              "duration": 1234000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 23,
+            "line": 87,
             "name": "Verify Language Spanish buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
@@ -1385,10 +1466,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1354000000,
+=======
+              "duration": 1261000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 24,
+            "line": 88,
             "name": "Verify Language French buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
@@ -1404,22 +1489,24 @@
             "name": "@navigationScenarios"
           },
           {
-            "name": "@smoke"
-          },
-          {
-            "name": "@ADVSYS-5"
-          },
-          {
-            "name": "@navigation"
+            "name": "@XYZ"
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-28T16:18:48.462Z",
         "before": [
           {
             "result": {
               "duration": 2122000000,
+=======
+        "start_timestamp": "2022-07-31T11:00:26.464Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1861000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
             "match": {
@@ -1427,14 +1514,18 @@
             }
           }
         ],
-        "line": 27,
-        "name": "SERVICES should have following buttons",
+        "line": 93,
+        "name": "All of Navigation bar Link should have following buttons When click",
         "description": "",
-        "id": "navigation-bar-related-scenarios;services-should-have-following-buttons",
+        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;4",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 698000000,
+=======
+              "duration": 644000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
             "match": {
@@ -1443,26 +1534,40 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2058000000,
+=======
+              "duration": 1785000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 28,
-            "name": "Click on SERVICES button",
+            "line": 82,
+            "name": "Click on \"Services\" Link",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_services_button()"
+              "arguments": [
+                {
+                  "val": "\"Services\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1353000000,
+=======
+              "duration": 1261000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 29,
+            "line": 83,
             "name": "Verify Get Support buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
@@ -1471,10 +1576,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1305000000,
+=======
+              "duration": 1261000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 30,
+            "line": 84,
             "name": "Verify Job Career buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
@@ -1483,10 +1592,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1279000000,
+=======
+              "duration": 1242000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 31,
+            "line": 85,
             "name": "Verify Feedback buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
@@ -1495,6 +1608,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1264000000,
               "status": "passed"
             },
@@ -1508,9 +1622,12 @@
           {
             "result": {
               "duration": 1270000000,
+=======
+              "duration": 2464000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 33,
+            "line": 86,
             "name": "Verify Language English buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
@@ -1519,10 +1636,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1299000000,
+=======
+              "duration": 1269000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 34,
+            "line": 87,
             "name": "Verify Language Spanish buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
@@ -1531,10 +1652,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1293000000,
+=======
+              "duration": 1237000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 35,
+            "line": 88,
             "name": "Verify Language French buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
@@ -1550,22 +1675,24 @@
             "name": "@navigationScenarios"
           },
           {
-            "name": "@smoke"
-          },
-          {
-            "name": "@ADVSYS-5"
-          },
-          {
-            "name": "@navigation"
+            "name": "@XYZ"
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-28T16:19:02.415Z",
         "before": [
           {
             "result": {
               "duration": 2113000000,
+=======
+        "start_timestamp": "2022-07-31T11:00:39.501Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1755000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
             "match": {
@@ -1573,14 +1700,18 @@
             }
           }
         ],
-        "line": 38,
-        "name": "CLIENTS should have following buttons",
+        "line": 94,
+        "name": "All of Navigation bar Link should have following buttons When click",
         "description": "",
-        "id": "navigation-bar-related-scenarios;clients-should-have-following-buttons",
+        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;5",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 681000000,
+=======
+              "duration": 640000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
             "match": {
@@ -1589,26 +1720,40 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1982000000,
+=======
+              "duration": 1879000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 39,
-            "name": "Click on CLIENTS button",
+            "line": 82,
+            "name": "Click on \"Clients\" Link",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_clients_button()"
+              "arguments": [
+                {
+                  "val": "\"Clients\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1375000000,
+=======
+              "duration": 1300000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 40,
+            "line": 83,
             "name": "Verify Get Support buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
@@ -1617,10 +1762,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1405000000,
+=======
+              "duration": 1235000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 41,
+            "line": 84,
             "name": "Verify Job Career buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
@@ -1629,10 +1778,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1285000000,
+=======
+              "duration": 1247000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 42,
+            "line": 85,
             "name": "Verify Feedback buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
@@ -1641,6 +1794,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1268000000,
               "status": "passed"
             },
@@ -1654,9 +1808,12 @@
           {
             "result": {
               "duration": 1232000000,
+=======
+              "duration": 2461000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 44,
+            "line": 86,
             "name": "Verify Language English buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
@@ -1665,10 +1822,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1296000000,
+=======
+              "duration": 1242000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 45,
+            "line": 87,
             "name": "Verify Language Spanish buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
@@ -1677,10 +1838,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1319000000,
+=======
+              "duration": 1250000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 46,
+            "line": 88,
             "name": "Verify Language French buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
@@ -1696,22 +1861,24 @@
             "name": "@navigationScenarios"
           },
           {
-            "name": "@smoke"
-          },
-          {
-            "name": "@ADVSYS-5"
-          },
-          {
-            "name": "@navigation"
+            "name": "@XYZ"
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-28T16:19:16.385Z",
         "before": [
           {
             "result": {
               "duration": 2030000000,
+=======
+        "start_timestamp": "2022-07-31T11:00:52.514Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1780000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
             "match": {
@@ -1719,14 +1886,18 @@
             }
           }
         ],
-        "line": 49,
-        "name": "SOLUTIONS should have following buttons",
+        "line": 95,
+        "name": "All of Navigation bar Link should have following buttons When click",
         "description": "",
-        "id": "navigation-bar-related-scenarios;solutions-should-have-following-buttons",
+        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;6",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 753000000,
+=======
+              "duration": 640000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
             "match": {
@@ -1735,26 +1906,40 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2165000000,
+=======
+              "duration": 1836000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 50,
-            "name": "Click on SOLUTIONS button",
+            "line": 82,
+            "name": "Click on \"Solutions\" Link",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_solutions_button()"
+              "arguments": [
+                {
+                  "val": "\"Solutions\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1354000000,
+=======
+              "duration": 1261000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 51,
+            "line": 83,
             "name": "Verify Get Support buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
@@ -1763,10 +1948,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1351000000,
+=======
+              "duration": 1238000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 52,
+            "line": 84,
             "name": "Verify Job Career buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
@@ -1775,10 +1964,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1308000000,
+=======
+              "duration": 1243000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 53,
+            "line": 85,
             "name": "Verify Feedback buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
@@ -1787,6 +1980,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1270000000,
               "status": "passed"
             },
@@ -1800,9 +1994,12 @@
           {
             "result": {
               "duration": 1264000000,
+=======
+              "duration": 2476000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 55,
+            "line": 86,
             "name": "Verify Language English buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
@@ -1811,10 +2008,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1271000000,
+=======
+              "duration": 1269000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 56,
+            "line": 87,
             "name": "Verify Language Spanish buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
@@ -1823,10 +2024,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1351000000,
+=======
+              "duration": 1238000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 57,
+            "line": 88,
             "name": "Verify Language French buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
@@ -1842,22 +2047,24 @@
             "name": "@navigationScenarios"
           },
           {
-            "name": "@smoke"
-          },
-          {
-            "name": "@ADVSYS-5"
-          },
-          {
-            "name": "@navigation"
+            "name": "@XYZ"
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-28T16:19:30.510Z",
         "before": [
           {
             "result": {
               "duration": 2058000000,
+=======
+        "start_timestamp": "2022-07-31T11:01:05.503Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1846000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
             "match": {
@@ -1865,14 +2072,18 @@
             }
           }
         ],
-        "line": 60,
-        "name": "JOIN US should have following buttons",
+        "line": 96,
+        "name": "All of Navigation bar Link should have following buttons When click",
         "description": "",
-        "id": "navigation-bar-related-scenarios;join-us-should-have-following-buttons",
+        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;7",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 720000000,
+=======
+              "duration": 630000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
             "match": {
@@ -1881,26 +2092,40 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1891000000,
+=======
+              "duration": 1828000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 61,
-            "name": "Click on JOIN US button",
+            "line": 82,
+            "name": "Click on \"Join Us\" Link",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_join_us_button()"
+              "arguments": [
+                {
+                  "val": "\"Join Us\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1319000000,
+=======
+              "duration": 1269000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 62,
+            "line": 83,
             "name": "Verify Get Support buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
@@ -1909,10 +2134,10 @@
           },
           {
             "result": {
-              "duration": 1304000000,
+              "duration": 1255000000,
               "status": "passed"
             },
-            "line": 63,
+            "line": 84,
             "name": "Verify Job Career buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
@@ -1921,10 +2146,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1253000000,
+=======
+              "duration": 1266000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 64,
+            "line": 85,
             "name": "Verify Feedback buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
@@ -1933,6 +2162,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1315000000,
               "status": "passed"
             },
@@ -1946,9 +2176,12 @@
           {
             "result": {
               "duration": 1307000000,
+=======
+              "duration": 2480000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 66,
+            "line": 86,
             "name": "Verify Language English buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
@@ -1957,10 +2190,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1369000000,
+=======
+              "duration": 1245000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 67,
+            "line": 87,
             "name": "Verify Language Spanish buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
@@ -1969,10 +2206,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1332000000,
+=======
+              "duration": 1244000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 68,
+            "line": 88,
             "name": "Verify Language French buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
@@ -1988,22 +2229,24 @@
             "name": "@navigationScenarios"
           },
           {
-            "name": "@smoke"
-          },
-          {
-            "name": "@ADVSYS-5"
-          },
-          {
-            "name": "@navigation"
+            "name": "@XYZ"
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-07-28T16:19:44.397Z",
         "before": [
           {
             "result": {
               "duration": 1999000000,
+=======
+        "start_timestamp": "2022-07-31T11:01:18.576Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1839000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
             "match": {
@@ -2011,14 +2254,18 @@
             }
           }
         ],
-        "line": 71,
-        "name": "CONTACT US should have following buttons",
+        "line": 97,
+        "name": "All of Navigation bar Link should have following buttons When click",
         "description": "",
-        "id": "navigation-bar-related-scenarios;contact-us-should-have-following-buttons",
+        "id": "navigation-bar-related-scenarios;all-of-navigation-bar-link-should-have-following-buttons-when-click;;8",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 685000000,
+=======
+              "duration": 648000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
             "match": {
@@ -2027,26 +2274,40 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1890000000,
+=======
+              "duration": 1896000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 72,
-            "name": "Click on CONTACT US button",
+            "line": 82,
+            "name": "Click on \"Contact Us\" Link",
             "match": {
-              "location": "step_definitions.HomeNavigationBarSteps.click_on_contact_us_button()"
+              "arguments": [
+                {
+                  "val": "\"Contact Us\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.HomeNavigationBarSteps.click_on_link(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1344000000,
+=======
+              "duration": 1256000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 73,
+            "line": 83,
             "name": "Verify Get Support buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_get_support_buttons_is_displayed()"
@@ -2055,10 +2316,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1312000000,
+=======
+              "duration": 1246000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 74,
+            "line": 84,
             "name": "Verify Job Career buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_job_career_buttons_is_displayed()"
@@ -2067,10 +2332,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1256000000,
+=======
+              "duration": 1246000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 75,
+            "line": 85,
             "name": "Verify Feedback buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_feedback_buttons_is_displayed()"
@@ -2079,6 +2348,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1272000000,
               "status": "passed"
             },
@@ -2092,9 +2362,12 @@
           {
             "result": {
               "duration": 1305000000,
+=======
+              "duration": 2440000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 77,
+            "line": 86,
             "name": "Verify Language English buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_english_buttons_is_displayed()"
@@ -2103,10 +2376,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1404000000,
+=======
+              "duration": 1243000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 78,
+            "line": 87,
             "name": "Verify Language Spanish buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_spanish_buttons_is_displayed()"
@@ -2115,10 +2392,14 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1390000000,
+=======
+              "duration": 1252000000,
+>>>>>>> 6cc99030c84b9ce7848e832e461c805cbbe34aac
               "status": "passed"
             },
-            "line": 79,
+            "line": 88,
             "name": "Verify Language French buttons is displayed",
             "match": {
               "location": "step_definitions.HomeNavigationBarSteps.verify_language_french_buttons_is_displayed()"
@@ -2134,13 +2415,7 @@
             "name": "@navigationScenarios"
           },
           {
-            "name": "@smoke"
-          },
-          {
-            "name": "@ADVSYS-5"
-          },
-          {
-            "name": "@navigation"
+            "name": "@XYZ"
           }
         ]
       }
