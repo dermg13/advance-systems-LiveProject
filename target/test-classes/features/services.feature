@@ -1,7 +1,4 @@
 @Services
-<<<<<<< HEAD
-  Feature: Services related scenarios
-=======
 Feature: Services related scenarios
 
   Background:
@@ -48,4 +45,3 @@ Feature: Services related scenarios
       | Government Projects    |
       | Others                 |
    
->>>>>>> 3059dec01bbc79404a1f77ca11118c8a40b99d6a
