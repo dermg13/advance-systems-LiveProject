@@ -25,7 +25,7 @@ public class AboutUsPage {
     @FindBy(xpath = "//div[@class='nav-outer clearfix']//nav[@class='main-menu']//div//ul[@class='navigation clearfix']//li//a[@href][normalize-space()='About Us']")
     public WebElement AboutUsMainNavigationBar;
 
-    @FindBy(xpath = "//div[@class='sec-title']/h2")
+    @FindBy(xpath = "//div[@class='sec-title']/h2[text()='Meet Our Experts']")
     public WebElement MeetExpertsHeader;
     @FindBy(xpath = "//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//div[@class='lower-content']/a/h3")
     public List<WebElement> ExpertName;
@@ -35,7 +35,9 @@ public class AboutUsPage {
     public  List<WebElement> ExpertTitle;
     @FindBy(xpath = "//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//div[@class='lower-content']//div[@class='text']")
     public  List<WebElement> ExpertQuote;
-    @FindBy(xpath = "//ul[@class='social-icon-one']//span[@class='icon fa fa-facebook']")
+    @FindBy(xpath = "//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//ul/li")
+    public  List<WebElement> ExpertSocial;
+    @FindBy(xpath = "//ul[@class='social-icon-one']/li[1]")
     public  List<WebElement> FaceBook;
     @FindBy(xpath = "//ul[@class='social-icon-one']//span[@class='icon fa fa-twitter']")
     public  List<WebElement> Twitter;
