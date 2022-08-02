@@ -94,4 +94,50 @@ public class AboutUsSteps implements CommonPage {
         }
     }
 
+    @Given("user clicks on About Us page")
+    public void userClicksOnAboutUsPage() {
+        WebDriverManager.click(aboutUsPage.AboutUsMainNavigationBar);
+    }
+
+    @Then("Verify first header says {string}")
+    public void verifyFirstHeaderSays(String firstHeader) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, firstHeader))));
+
+    }
+
+    @Then("Verify first header's description text says {string}")
+    public void verifyFirstHeaderSDescriptionTextSays(String firstHeaderText) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.FirstHeaderText));
+
+    }
+
+    @Then("Verify second header says {string}")
+    public void verifySecondHeaderSays(String secondHeader) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, secondHeader))));
+    }
+
+    @Then("Verify second header's description text says {string}")
+    public void verifySecondHeaderSDescriptionTextSays(String secondHeaderText) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.SecondHeaderText));
+    }
+
+    @Then("Verify third header says {string}")
+    public void verifyThirdHeaderSays(String thirdHeader) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, thirdHeader))));
+    }
+
+    @Then("Verify third header's description text says {string}")
+    public void verifyThirdHeaderSDescriptionTextSays(String thirdHeaderText) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.ThirdHeaderText));
+    }
+
+    @Then("Verify fourth header says {string}")
+    public void verifyFourthHeaderSays(String fourthHeader) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_TEXT, fourthHeader))));
+    }
+
+    @Then("Verify fourth header's description text says {string}")
+    public void verifyFourthHeaderSDescriptionTextSays(String fourthHeaderText) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.FourthHeaderText));
+    }
 }
