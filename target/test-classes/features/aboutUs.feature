@@ -57,6 +57,6 @@
           | Good Track Records |
 
       @ADVSYS-38
-      Scenario: Verify section header is display
+      Scenario: Verify sub-section description is display
         Given Click on About Us page
         Then Verify sub-section description text is display
