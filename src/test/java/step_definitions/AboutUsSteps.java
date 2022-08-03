@@ -166,8 +166,8 @@ public class AboutUsSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isEnabled(aboutUsPage.OurServicesBtn));
     }
 
-    @Then("Verify section with header “Why Choose Us” is display")
-    public void verifySectionWithHeaderWhyChooseUsIsDisplay() {
+    @Then("Verify section with header {string} is display")
+    public void verifySectionWithHeaderIsDisplay(String header) {
         Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.sectionHeader));
     }
 

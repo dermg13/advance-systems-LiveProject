@@ -44,7 +44,7 @@
       @ADVSYS-38
       Scenario: Verify section header is display
         Given Click on About Us page
-        Then Verify section with header “Why Choose Us” is display
+        Then Verify section with header "Why Choose Us" is display
 
       @ADVSYS-38
       Scenario Outline: Verify sub-section headers is display
