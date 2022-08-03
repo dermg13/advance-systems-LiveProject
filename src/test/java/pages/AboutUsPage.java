@@ -46,5 +46,16 @@ public class AboutUsPage {
     @FindBy(xpath = "//span/ancestor::section//a[@href='https://linkedin.com']")
     public  List<WebElement> LinkedIn;
 
+    @FindBy(xpath = "(//div[@class='text'])[11]")
+    public WebElement FirstHeaderText;
+
+    @FindBy(xpath = "(//div[@class='text'])[12]")
+    public WebElement SecondHeaderText;
+
+    @FindBy(xpath = "(//div[@class='text'])[13]")
+    public WebElement ThirdHeaderText;
+
+    @FindBy(xpath = "(//div[@class='text'])[11]")
+    public WebElement FourthHeaderText;
 }
 
