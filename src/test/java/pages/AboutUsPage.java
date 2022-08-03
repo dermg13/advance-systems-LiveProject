@@ -57,5 +57,20 @@ public class AboutUsPage {
 
     @FindBy(xpath = "(//div[@class='text'])[11]")
     public WebElement FourthHeaderText;
+
+    @FindBy(xpath = "//div[@class='text-center']")
+    public WebElement WeAreSection;
+
+    @FindBy(xpath = "//div[@class='text-center']//h1")
+    public WebElement WeAreRecruitmentExpert;
+
+    @FindBy(xpath = "//div[@class='text-center']//div[@class='link']")
+    public WebElement OurServicesBtn;
+
+    @FindBy(xpath = "//section[@class='feature-section sp-two']//h2")
+    public WebElement sectionHeader;
+
+    @FindBy(xpath = "//section[@class='feature-section sp-two']//div[@class='row']//div//div//div[contains(text(),'Lorem')]")
+    public List<WebElement> subHeaderText;
 }
 

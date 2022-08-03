@@ -21,6 +21,7 @@ public interface CommonPage {
     String XPATH_TEMPLATE_TEXT_SECTION = "//h3[normalize-space()='%s']";
 
     String XPATH_TEMPLATE_EMPLOYEES_SOCIAL ="//span/ancestor::section//a[@href='https://%s.com']";
+    String XPATH_TEMPLATE_SUB_SECTION = "//h3[text()=‘%’s]";
 
 
 }
