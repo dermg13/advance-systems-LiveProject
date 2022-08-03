@@ -165,4 +165,21 @@ public class AboutUsSteps implements CommonPage {
     public void verifyButtonIsEnable(String str) {
         Assert.assertTrue(WebDriverManager.isEnabled(aboutUsPage.OurServicesBtn));
     }
+
+    @Then("Verify section with header {string} is display")
+    public void verify_section_with_header_is_display(String section) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.sectionHeader));
+    }
+
+    @Then("Verify {string} with following headers is display")
+    public void verify_with_following_headers_is_display(String subSections) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_SUB_SECTION, subSections))));
+    }
+
+    @Then("Verify sub-section description text is display")
+    public void verify_sub_section_description_text_is_display() {
+        for (WebElement text : aboutUsPage.subHeaderText) {
+            Assert.assertTrue(WebDriverManager.isDisplayed(text));
+        }
+    }
 }

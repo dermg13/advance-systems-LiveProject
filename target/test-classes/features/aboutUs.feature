@@ -55,4 +55,8 @@
           | On Time Services |
           | Experienced Team |
           | Good Track Records |
+
+      @ADVSYS-38
+      Scenario: Verify section header is display
+        Given Click on About Us page
         Then Verify sub-section description text is display
