@@ -142,4 +142,19 @@ public class AboutUsSteps implements CommonPage {
     public void verifyFourthHeaderSDescriptionTextSays(String fourthHeaderText) {
         Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.FourthHeaderText));
     }
+
+    @Then("User see {string} header")
+    public void userSeeHeader(String str) {
+        WebDriverManager.getText(aboutUsPage.WeAreRecruitmentExpert).equals(str);
+    }
+
+    @Then("User see {string} button")
+    public void userSeeButton(String str) {
+        Assert.assertEquals(str, WebDriverManager.getText(aboutUsPage.OurServicesBtn));
+    }
+
+    @Then("Verify {string} button is enable")
+    public void verifyButtonIsEnable(String str) {
+        Assert.assertTrue(WebDriverManager.isEnabled(aboutUsPage.OurServicesBtn));
+    }
 }

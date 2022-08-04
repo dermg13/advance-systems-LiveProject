@@ -3,11 +3,19 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-08-02T22:53:40.105Z",
         "before": [
           {
             "result": {
               "duration": 3054000000,
+=======
+        "start_timestamp": "2022-08-02T23:31:56.155Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9458000000,
+>>>>>>> 494630548a09f7538007f639d502c03f57fd04b4
               "status": "passed"
             },
             "match": {
@@ -15,14 +23,18 @@
             }
           }
         ],
-        "line": 25,
-        "name": "Verify About Us page has 4 headers with description texts",
+        "line": 38,
+        "name": "Verify header We are Recruitment Experts displayed and OUR SERVICES BUTTON takes to service page",
         "description": "",
-        "id": "about-us-related-scenarios;verify-about-us-page-has-4-headers-with-description-texts",
+        "id": "about-us-related-scenarios;verify-header-we-are-recruitment-experts-displayed-and-our-services-button-takes-to-service-page",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 643000000,
+=======
+              "duration": 106000000,
+>>>>>>> 494630548a09f7538007f639d502c03f57fd04b4
               "status": "passed"
             },
             "match": {
@@ -35,66 +47,83 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2100000000,
+=======
+              "duration": 2525000000,
+>>>>>>> 494630548a09f7538007f639d502c03f57fd04b4
               "status": "passed"
             },
-            "line": 26,
-            "name": "user clicks on About Us page",
+            "line": 39,
+            "name": "Click on About Us page",
             "match": {
-              "location": "step_definitions.AboutUsSteps.userClicksOnAboutUsPage()"
+              "location": "step_definitions.AboutUsSteps.click_on_about_us_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1199000000,
+=======
+              "duration": 1220000000,
+>>>>>>> 494630548a09f7538007f639d502c03f57fd04b4
               "status": "passed"
             },
-            "line": 27,
-            "name": "Verify first header says \"Evaluate Resume\"",
+            "line": 40,
+            "name": "User see \"We are Recruitment Experts\" header",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Evaluate Resume\"",
-                  "offset": 25
+                  "val": "\"We are Recruitment Experts\"",
+                  "offset": 9
                 }
               ],
-              "location": "step_definitions.AboutUsSteps.verifyFirstHeaderSays(java.lang.String)"
+              "location": "step_definitions.AboutUsSteps.userSeeHeader(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1259000000,
+=======
+              "duration": 1911000000,
+>>>>>>> 494630548a09f7538007f639d502c03f57fd04b4
               "status": "passed"
             },
-            "line": 28,
-            "name": "Verify first header\u0027s description text says \"Which toil and pain can sed procure him some great pleasure.\"",
+            "line": 41,
+            "name": "User see \"OUR SERVICES\" button",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Which toil and pain can sed procure him some great pleasure.\"",
-                  "offset": 44
+                  "val": "\"OUR SERVICES\"",
+                  "offset": 9
                 }
               ],
-              "location": "step_definitions.AboutUsSteps.verifyFirstHeaderSDescriptionTextSays(java.lang.String)"
+              "location": "step_definitions.AboutUsSteps.userSeeButton(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1211000000,
+=======
+              "duration": 1225000000,
+>>>>>>> 494630548a09f7538007f639d502c03f57fd04b4
               "status": "passed"
             },
-            "line": 29,
-            "name": "Verify second header says \"Interview\"",
+            "line": 42,
+            "name": "Verify \"OUR SERVICES\" button is enable",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Interview\"",
-                  "offset": 26
+                  "val": "\"OUR SERVICES\"",
+                  "offset": 7
                 }
               ],
+<<<<<<< HEAD
               "location": "step_definitions.AboutUsSteps.verifySecondHeaderSays(java.lang.String)"
             },
             "keyword": "Then "
@@ -186,6 +215,9 @@
                 }
               ],
               "location": "step_definitions.AboutUsSteps.verifyFourthHeaderSDescriptionTextSays(java.lang.String)"
+=======
+              "location": "step_definitions.AboutUsSteps.verifyButtonIsEnable(java.lang.String)"
+>>>>>>> 494630548a09f7538007f639d502c03f57fd04b4
             },
             "keyword": "Then "
           }
@@ -195,7 +227,7 @@
             "name": "@AboutUs"
           },
           {
-            "name": "@ADVSYS-41"
+            "name": "@ADVSYS-40"
           }
         ]
       }

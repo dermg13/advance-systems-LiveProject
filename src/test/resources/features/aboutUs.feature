@@ -32,3 +32,11 @@
       Then Verify third header's description text says "Actual teachings the great explorer of the every one truth."
       Then Verify fourth header says "Process Done"
       Then Verify fourth header's description text says "Occur in which toil pain can procure him some great pleasure."
+
+
+      @ADVSYS-40
+      Scenario: Verify header We are Recruitment Experts displayed and OUR SERVICES BUTTON takes to service page
+        Given Click on About Us page
+        Then User see "We are Recruitment Experts" header
+        Then User see "OUR SERVICES" button
+        Then Verify "OUR SERVICES" button is enable
