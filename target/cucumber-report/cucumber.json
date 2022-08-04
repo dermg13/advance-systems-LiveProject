@@ -3,19 +3,11 @@
     "line": 2,
     "elements": [
       {
-<<<<<<< HEAD
-        "start_timestamp": "2022-08-02T22:53:40.105Z",
+        "start_timestamp": "2022-08-04T18:53:45.936Z",
         "before": [
           {
             "result": {
-              "duration": 3054000000,
-=======
-        "start_timestamp": "2022-08-02T23:31:56.155Z",
-        "before": [
-          {
-            "result": {
-              "duration": 9458000000,
->>>>>>> 494630548a09f7538007f639d502c03f57fd04b4
+              "duration": 2570000000,
               "status": "passed"
             },
             "match": {
@@ -23,18 +15,14 @@
             }
           }
         ],
-        "line": 38,
-        "name": "Verify header We are Recruitment Experts displayed and OUR SERVICES BUTTON takes to service page",
+        "line": 10,
+        "name": "About Us page: Employees",
         "description": "",
-        "id": "about-us-related-scenarios;verify-header-we-are-recruitment-experts-displayed-and-our-services-button-takes-to-service-page",
+        "id": "about-us-related-scenarios;about-us-page:-employees",
         "after": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 643000000,
-=======
-              "duration": 106000000,
->>>>>>> 494630548a09f7538007f639d502c03f57fd04b4
+              "duration": 666000000,
               "status": "passed"
             },
             "match": {
@@ -47,14 +35,10 @@
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 2100000000,
-=======
-              "duration": 2525000000,
->>>>>>> 494630548a09f7538007f639d502c03f57fd04b4
+              "duration": 2185000000,
               "status": "passed"
             },
-            "line": 39,
+            "line": 11,
             "name": "Click on About Us page",
             "match": {
               "location": "step_definitions.AboutUsSteps.click_on_about_us_page()"
@@ -63,161 +47,61 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 1199000000,
-=======
-              "duration": 1220000000,
->>>>>>> 494630548a09f7538007f639d502c03f57fd04b4
+              "duration": 1255000000,
               "status": "passed"
             },
-            "line": 40,
-            "name": "User see \"We are Recruitment Experts\" header",
+            "line": 12,
+            "name": "This section should have a header   Meet Our Experts.",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"We are Recruitment Experts\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.AboutUsSteps.userSeeHeader(java.lang.String)"
+              "location": "step_definitions.AboutUsSteps.this_section_should_have_a_header_meet_our_experts()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 1259000000,
-=======
-              "duration": 1911000000,
->>>>>>> 494630548a09f7538007f639d502c03f57fd04b4
+              "duration": 4647000000,
               "status": "passed"
             },
-            "line": 41,
-            "name": "User see \"OUR SERVICES\" button",
+            "line": 13,
+            "name": "Total of four employees should be displayed Picture",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"OUR SERVICES\"",
-                  "offset": 9
-                }
-              ],
-              "location": "step_definitions.AboutUsSteps.userSeeButton(java.lang.String)"
+              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_picture()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 1211000000,
-=======
-              "duration": 1225000000,
->>>>>>> 494630548a09f7538007f639d502c03f57fd04b4
+              "duration": 4746000000,
               "status": "passed"
             },
-            "line": 42,
-            "name": "Verify \"OUR SERVICES\" button is enable",
+            "line": 14,
+            "name": "Total of four employees should be displayed Title",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"OUR SERVICES\"",
-                  "offset": 7
-                }
-              ],
-<<<<<<< HEAD
-              "location": "step_definitions.AboutUsSteps.verifySecondHeaderSays(java.lang.String)"
+              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_title()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1295000000,
+              "duration": 4675000000,
               "status": "passed"
             },
-            "line": 30,
-            "name": "Verify second header\u0027s description text says \"Praising pain was born and will give complete account system.\"",
+            "line": 15,
+            "name": "Total of four employees should be displayed Quote",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Praising pain was born and will give complete account system.\"",
-                  "offset": 45
-                }
-              ],
-              "location": "step_definitions.AboutUsSteps.verifySecondHeaderSDescriptionTextSays(java.lang.String)"
+              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_quote()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1204000000,
+              "duration": 4632000000,
               "status": "passed"
             },
-            "line": 31,
-            "name": "Verify third header says \"Screening\"",
+            "line": 16,
+            "name": "Total of four employees should be displayed Social media link",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Screening\"",
-                  "offset": 25
-                }
-              ],
-              "location": "step_definitions.AboutUsSteps.verifyThirdHeaderSays(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1774000000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "Verify third header\u0027s description text says \"Actual teachings the great explorer of the every one truth.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Actual teachings the great explorer of the every one truth.\"",
-                  "offset": 44
-                }
-              ],
-              "location": "step_definitions.AboutUsSteps.verifyThirdHeaderSDescriptionTextSays(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1216000000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "Verify fourth header says \"Process Done\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Process Done\"",
-                  "offset": 26
-                }
-              ],
-              "location": "step_definitions.AboutUsSteps.verifyFourthHeaderSays(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1318000000,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "Verify fourth header\u0027s description text says \"Occur in which toil pain can procure him some great pleasure.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Occur in which toil pain can procure him some great pleasure.\"",
-                  "offset": 45
-                }
-              ],
-              "location": "step_definitions.AboutUsSteps.verifyFourthHeaderSDescriptionTextSays(java.lang.String)"
-=======
-              "location": "step_definitions.AboutUsSteps.verifyButtonIsEnable(java.lang.String)"
->>>>>>> 494630548a09f7538007f639d502c03f57fd04b4
+              "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_social_media_link()"
             },
             "keyword": "Then "
           }
@@ -227,7 +111,72 @@
             "name": "@AboutUs"
           },
           {
-            "name": "@ADVSYS-40"
+            "name": "@ADVSYS-39"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-04T18:54:11.386Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1895000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "About Us page: Employees Social",
+        "description": "",
+        "id": "about-us-related-scenarios;about-us-page:-employees-social",
+        "after": [
+          {
+            "result": {
+              "duration": 731000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2068000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click on About Us page",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.click_on_about_us_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11604000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Employees Social media buttons should take to corresponding pages",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.employeed_social_media_buttons_should_take_to_corresponding_pages()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AboutUs"
+          },
+          {
+            "name": "@ADVSYS-39"
           }
         ]
       }

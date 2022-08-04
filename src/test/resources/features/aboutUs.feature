@@ -5,6 +5,7 @@
       Given Click on About Us page
       Then There should be a main header Welcome to Advance Systems LLC.
       Then This section should contain name and title of the person.
+#-------------------------------------------------------------------------------------------------
 
     @ADVSYS-39
     Scenario: About Us page: Employees
@@ -14,12 +15,11 @@
       Then Total of four employees should be displayed Title
       Then Total of four employees should be displayed Quote
       Then Total of four employees should be displayed Social media link
-
-
     @ADVSYS-39
     Scenario:  About Us page: Employees Social
       Given Click on About Us page
       Then Employees Social media buttons should take to corresponding pages
+#-------------------------------------------------------------------------------------------------
 
     @ADVSYS-41
     Scenario: Verify About Us page has 4 headers with description texts
@@ -32,11 +32,12 @@
       Then Verify third header's description text says "Actual teachings the great explorer of the every one truth."
       Then Verify fourth header says "Process Done"
       Then Verify fourth header's description text says "Occur in which toil pain can procure him some great pleasure."
+#------------------------------------------------------------------------------------------------
 
-
-      @ADVSYS-40
+    @ADVSYS-40
       Scenario: Verify header We are Recruitment Experts displayed and OUR SERVICES BUTTON takes to service page
         Given Click on About Us page
         Then User see "We are Recruitment Experts" header
         Then User see "OUR SERVICES" button
         Then Verify "OUR SERVICES" button is enable
+

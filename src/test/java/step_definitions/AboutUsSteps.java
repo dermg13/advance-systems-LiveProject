@@ -96,6 +96,7 @@ public class AboutUsSteps implements CommonPage {
         }
     }
 
+
     @Given("user clicks on About Us page")
     public void userClicksOnAboutUsPage() {
         WebDriverManager.click(aboutUsPage.AboutUsMainNavigationBar);
@@ -157,4 +158,5 @@ public class AboutUsSteps implements CommonPage {
     public void verifyButtonIsEnable(String str) {
         Assert.assertTrue(WebDriverManager.isEnabled(aboutUsPage.OurServicesBtn));
     }
+
 }
