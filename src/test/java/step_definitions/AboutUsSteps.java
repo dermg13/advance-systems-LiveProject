@@ -4,6 +4,7 @@ package step_definitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -37,6 +38,7 @@ public class AboutUsSteps implements CommonPage {
     public void this_section_should_have_a_header_meet_our_experts() {
         Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.MeetExpertsHeader));
     }
+
     @Then("Total of four employees should be displayed Picture")
     public void total_of_four_employees_should_be_displayed_picture() {
         List<WebElement> image = WebDriverManager.getDriver().findElements(By.xpath("//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//img[@src]"));

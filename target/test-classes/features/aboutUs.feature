@@ -20,10 +20,6 @@
     Scenario:  About Us page: Employees Social
       Given Click on About Us page
       Then Employees Social media buttons should take to corresponding pages
-<<<<<<< HEAD
-
-=======
->>>>>>> cef083072faf143826d3c74e19866a5ad71066df
 
     @ADVSYS-41
     Scenario: Verify About Us page has 4 headers with description texts
