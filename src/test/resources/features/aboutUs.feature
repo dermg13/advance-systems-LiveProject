@@ -40,3 +40,23 @@
         Then User see "We are Recruitment Experts" header
         Then User see "OUR SERVICES" button
         Then Verify "OUR SERVICES" button is enable
+
+      @ADVSYS-38
+      Scenario: Verify section header is display
+        Given Click on About Us page
+        Then Verify section with header "Why Choose Us" is display
+
+      @ADVSYS-38
+      Scenario Outline: Verify sub-section headers is display
+        Given Click on About Us page
+        Then Verify "<sub-sections>" with following headers is display
+        Examples:
+          | sub-sections |
+          | On Time Services |
+          | Experienced Team |
+          | Good Track Records |
+
+      @ADVSYS-38
+      Scenario: Verify sub-section description is display
+        Given Click on About Us page
+        Then Verify sub-section description text is display

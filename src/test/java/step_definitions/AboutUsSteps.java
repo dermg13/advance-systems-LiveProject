@@ -1,6 +1,7 @@
 package step_definitions;
 
 
+import io.cucumber.java.bs.A;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
@@ -15,7 +16,8 @@ import java.util.List;
 
 public class AboutUsSteps implements CommonPage {
     AboutUsPage aboutUsPage;
-    public  AboutUsSteps() {
+
+    public AboutUsSteps() {
         aboutUsPage = new AboutUsPage();
     }
 
@@ -23,20 +25,24 @@ public class AboutUsSteps implements CommonPage {
     public void click_on_about_us_page() {
         WebDriverManager.click(aboutUsPage.AboutUsMainNavigationBar);
     }
+
     @Given("There should be a main header Welcome to Advance Systems LLC.")
     public void there_should_be_a_main_header_welcome_to_advance_systems_llc() {
         Assert.assertEquals(WebDriverManager.getText(aboutUsPage.MainContentPersonName), "Kuba Z");
         Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.AboutUsMainHeader));
     }
+
     @Then("This section should contain name and title of the person.")
     public void this_section_should_contain_name_and_title_of_the_person() {
         Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.MainContentPersonName));
         Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.MainContentTitle));
     }
+
     @Then("This section should have a header   Meet Our Experts.")
     public void this_section_should_have_a_header_meet_our_experts() {
         Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.MeetExpertsHeader));
     }
+
     @Then("Total of four employees should be displayed Picture")
     public void total_of_four_employees_should_be_displayed_picture() throws InterruptedException {
         List<WebElement> image = WebDriverManager.getDriver().findElements(By.xpath("//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//img[@src]"));
@@ -44,6 +50,7 @@ public class AboutUsSteps implements CommonPage {
             Assert.assertTrue(WebDriverManager.isDisplayed(image.get(i)));
         }
     }
+
     @Then("Total of four employees should be displayed Title")
     public void total_of_four_employees_should_be_displayed_title() throws InterruptedException {
         List<WebElement> title = WebDriverManager.getDriver().findElements(By.xpath("//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//div[@class='lower-content']/div[@class='designation']"));
@@ -51,6 +58,7 @@ public class AboutUsSteps implements CommonPage {
             Assert.assertTrue(WebDriverManager.isDisplayed(title.get(i)));
         }
     }
+
     @Then("Total of four employees should be displayed Quote")
     public void total_of_four_employees_should_be_displayed_quote() throws InterruptedException {
         List<WebElement> quote = WebDriverManager.getDriver().findElements(By.xpath("//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//div[@class='lower-content']//div[@class='text']"));
@@ -58,6 +66,7 @@ public class AboutUsSteps implements CommonPage {
             Assert.assertTrue(WebDriverManager.isDisplayed(quote.get(i)));
         }
     }
+
     @Then("Total of four employees should be displayed Social media link")
     public void total_of_four_employees_should_be_displayed_social_media_link() throws InterruptedException {
         List<WebElement> social = WebDriverManager.getDriver().findElements(By.xpath("//ul[@class='social-icon-one']"));
@@ -65,6 +74,7 @@ public class AboutUsSteps implements CommonPage {
             Assert.assertTrue(WebDriverManager.isDisplayed(social.get(i)));
         }
     }
+
     @Then("Employees Social media buttons should take to corresponding pages")
     public void employeed_social_media_buttons_should_take_to_corresponding_pages() throws InterruptedException {
 
@@ -154,5 +164,22 @@ public class AboutUsSteps implements CommonPage {
     @Then("Verify {string} button is enable")
     public void verifyButtonIsEnable(String str) {
         Assert.assertTrue(WebDriverManager.isEnabled(aboutUsPage.OurServicesBtn));
+    }
+
+    @Then("Verify section with header {string} is display")
+    public void verify_section_with_header_is_display(String section) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.sectionHeader));
+    }
+
+    @Then("Verify {string} with following headers is display")
+    public void verify_with_following_headers_is_display(String subSections) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_SUB_SECTION, subSections))));
+    }
+
+    @Then("Verify sub-section description text is display")
+    public void verify_sub_section_description_text_is_display() {
+        for (WebElement text : aboutUsPage.subHeaderText) {
+            Assert.assertTrue(WebDriverManager.isDisplayed(text));
+        }
     }
 }
