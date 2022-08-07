@@ -3,11 +3,19 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-08-04T18:53:45.936Z",
         "before": [
           {
             "result": {
               "duration": 2570000000,
+=======
+        "start_timestamp": "2022-08-03T01:34:43.996Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12972000000,
+>>>>>>> 41f6608b4fa07466eaf32cff9d851686f57205ae
               "status": "passed"
             },
             "match": {
@@ -15,6 +23,7 @@
             }
           }
         ],
+<<<<<<< HEAD
         "line": 10,
         "name": "About Us page: Employees",
         "description": "",
@@ -23,6 +32,16 @@
           {
             "result": {
               "duration": 666000000,
+=======
+        "line": 45,
+        "name": "Verify section header is display",
+        "description": "",
+        "id": "about-us-related-scenarios;verify-section-header-is-display",
+        "after": [
+          {
+            "result": {
+              "duration": 229000000,
+>>>>>>> 41f6608b4fa07466eaf32cff9d851686f57205ae
               "status": "passed"
             },
             "match": {
@@ -35,10 +54,17 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2185000000,
               "status": "passed"
             },
             "line": 11,
+=======
+              "duration": 2811000000,
+              "status": "passed"
+            },
+            "line": 46,
+>>>>>>> 41f6608b4fa07466eaf32cff9d851686f57205ae
             "name": "Click on About Us page",
             "match": {
               "location": "step_definitions.AboutUsSteps.click_on_about_us_page()"
@@ -47,6 +73,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1255000000,
               "status": "passed"
             },
@@ -102,6 +129,21 @@
             "name": "Total of four employees should be displayed Social media link",
             "match": {
               "location": "step_definitions.AboutUsSteps.total_of_four_employees_should_be_displayed_social_media_link()"
+=======
+              "duration": 1416000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Verify section with header \"Why Choose Us\" is display",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Why Choose Us\"",
+                  "offset": 27
+                }
+              ],
+              "location": "step_definitions.AboutUsSteps.verify_section_with_header_is_display(java.lang.String)"
+>>>>>>> 41f6608b4fa07466eaf32cff9d851686f57205ae
             },
             "keyword": "Then "
           }
@@ -111,16 +153,28 @@
             "name": "@AboutUs"
           },
           {
+<<<<<<< HEAD
             "name": "@ADVSYS-39"
+=======
+            "name": "@ADVSYS-38"
+>>>>>>> 41f6608b4fa07466eaf32cff9d851686f57205ae
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-08-04T18:54:11.386Z",
         "before": [
           {
             "result": {
               "duration": 1895000000,
+=======
+        "start_timestamp": "2022-08-03T01:35:01.766Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6428000000,
+>>>>>>> 41f6608b4fa07466eaf32cff9d851686f57205ae
               "status": "passed"
             },
             "match": {
@@ -128,6 +182,7 @@
             }
           }
         ],
+<<<<<<< HEAD
         "line": 20,
         "name": "About Us page: Employees Social",
         "description": "",
@@ -136,6 +191,229 @@
           {
             "result": {
               "duration": 731000000,
+=======
+        "line": 55,
+        "name": "Verify sub-section headers is display",
+        "description": "",
+        "id": "about-us-related-scenarios;verify-sub-section-headers-is-display;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 220000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3478000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Click on About Us page",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.click_on_about_us_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1338000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Verify \"On Time Services\" with following headers is display",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"On Time Services\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.AboutUsSteps.verify_with_following_headers_is_display(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AboutUs"
+          },
+          {
+            "name": "@ADVSYS-38"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-03T01:35:13.261Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6242000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Verify sub-section headers is display",
+        "description": "",
+        "id": "about-us-related-scenarios;verify-sub-section-headers-is-display;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 215000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2345000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Click on About Us page",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.click_on_about_us_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1306000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Verify \"Experienced Team\" with following headers is display",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Experienced Team\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.AboutUsSteps.verify_with_following_headers_is_display(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AboutUs"
+          },
+          {
+            "name": "@ADVSYS-38"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-03T01:35:23.406Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7968000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Verify sub-section headers is display",
+        "description": "",
+        "id": "about-us-related-scenarios;verify-sub-section-headers-is-display;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 281000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4065000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Click on About Us page",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.click_on_about_us_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1767000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Verify \"Good Track Records\" with following headers is display",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Good Track Records\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definitions.AboutUsSteps.verify_with_following_headers_is_display(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AboutUs"
+          },
+          {
+            "name": "@ADVSYS-38"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-03T01:35:37.611Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6561000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Verify sub-section description is display",
+        "description": "",
+        "id": "about-us-related-scenarios;verify-sub-section-description-is-display",
+        "after": [
+          {
+            "result": {
+              "duration": 256000000,
+>>>>>>> 41f6608b4fa07466eaf32cff9d851686f57205ae
               "status": "passed"
             },
             "match": {
@@ -148,10 +426,17 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2068000000,
               "status": "passed"
             },
             "line": 21,
+=======
+              "duration": 3210000000,
+              "status": "passed"
+            },
+            "line": 61,
+>>>>>>> 41f6608b4fa07466eaf32cff9d851686f57205ae
             "name": "Click on About Us page",
             "match": {
               "location": "step_definitions.AboutUsSteps.click_on_about_us_page()"
@@ -160,6 +445,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 11604000000,
               "status": "passed"
             },
@@ -167,6 +453,15 @@
             "name": "Employees Social media buttons should take to corresponding pages",
             "match": {
               "location": "step_definitions.AboutUsSteps.employeed_social_media_buttons_should_take_to_corresponding_pages()"
+=======
+              "duration": 3523000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Verify sub-section description text is display",
+            "match": {
+              "location": "step_definitions.AboutUsSteps.verify_sub_section_description_text_is_display()"
+>>>>>>> 41f6608b4fa07466eaf32cff9d851686f57205ae
             },
             "keyword": "Then "
           }
@@ -176,7 +471,11 @@
             "name": "@AboutUs"
           },
           {
+<<<<<<< HEAD
             "name": "@ADVSYS-39"
+=======
+            "name": "@ADVSYS-38"
+>>>>>>> 41f6608b4fa07466eaf32cff9d851686f57205ae
           }
         ]
       }
