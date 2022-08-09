@@ -41,8 +41,6 @@
         Then User see "OUR SERVICES" button
         Then Verify "OUR SERVICES" button is enable
 
-<<<<<<< HEAD
-=======
       @ADVSYS-38
       Scenario: Verify section header is display
         Given Click on About Us page
@@ -62,4 +60,4 @@
       Scenario: Verify sub-section description is display
         Given Click on About Us page
         Then Verify sub-section description text is display
->>>>>>> 41f6608b4fa07466eaf32cff9d851686f57205ae
+

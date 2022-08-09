@@ -5,11 +5,14 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import pages.CommonPage;
 import pages.HomeNavigationBarPage;
 import pages.HomePage;
 import utils.WebDriverManager;
+
+import java.util.List;
 
 
 public class HomeNavigationBarSteps implements CommonPage {
@@ -50,5 +53,19 @@ public class HomeNavigationBarSteps implements CommonPage {
     @Then("Verify Language French buttons is displayed")
     public void verify_language_french_buttons_is_displayed() {
         WebDriverManager.isDisplayed(homeNavigationBarPage.frenchLanguage);
+    }
+    @Given("When user scrolls down the page.")
+    public void when_user_scrolls_down_the_page() {
+        WebDriverManager.isDisplayed(homeNavigationBarPage.BottomOfThePage);
+    }
+    @Then("It should have {string} buttons")
+    public void it_should_have_buttons(String scrollDownNav) {
+        Assert.assertTrue(WebDriverManager.isDisplayed(By.xpath(String.format(XPATH_TEMPLATE_SCROLL_DOWN_NAVIGATION, scrollDownNav))));
+    }
+    @Then("Click on {string} buttons should go to following pages")
+    public void click_on_buttons_should_go_to_following_pages(String clickScrollDownNav) {
+        WebDriverManager.click(By.xpath(String.format(XPATH_TEMPLATE_SCROLL_DOWN_NAVIGATION, clickScrollDownNav)));
+        System.out.println(WebDriverManager.getDriver().getTitle());
+       // WebDriverManager.getDriver().navigate().back();
     }
 }

@@ -168,9 +168,6 @@ public class AboutUsSteps implements CommonPage {
         Assert.assertTrue(WebDriverManager.isEnabled(aboutUsPage.OurServicesBtn));
     }
 
-<<<<<<< HEAD
-}
-=======
     @Then("Verify section with header {string} is display")
     public void verify_section_with_header_is_display(String section) {
         Assert.assertTrue(WebDriverManager.isDisplayed(aboutUsPage.sectionHeader));
@@ -188,4 +185,4 @@ public class AboutUsSteps implements CommonPage {
         }
     }
 }
->>>>>>> 41f6608b4fa07466eaf32cff9d851686f57205ae
+
