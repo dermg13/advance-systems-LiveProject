@@ -5,6 +5,7 @@ import io.cucumber.java.bs.A;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -44,7 +45,7 @@ public class AboutUsSteps implements CommonPage {
     }
 
     @Then("Total of four employees should be displayed Picture")
-    public void total_of_four_employees_should_be_displayed_picture() throws InterruptedException {
+    public void total_of_four_employees_should_be_displayed_picture() {
         List<WebElement> image = WebDriverManager.getDriver().findElements(By.xpath("//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//img[@src]"));
         for (int i = 0; i < image.size(); i++) {
             Assert.assertTrue(WebDriverManager.isDisplayed(image.get(i)));
@@ -52,7 +53,7 @@ public class AboutUsSteps implements CommonPage {
     }
 
     @Then("Total of four employees should be displayed Title")
-    public void total_of_four_employees_should_be_displayed_title() throws InterruptedException {
+    public void total_of_four_employees_should_be_displayed_title(){
         List<WebElement> title = WebDriverManager.getDriver().findElements(By.xpath("//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//div[@class='lower-content']/div[@class='designation']"));
         for (int i = 0; i < title.size(); i++) {
             Assert.assertTrue(WebDriverManager.isDisplayed(title.get(i)));
@@ -60,7 +61,7 @@ public class AboutUsSteps implements CommonPage {
     }
 
     @Then("Total of four employees should be displayed Quote")
-    public void total_of_four_employees_should_be_displayed_quote() throws InterruptedException {
+    public void total_of_four_employees_should_be_displayed_quote(){
         List<WebElement> quote = WebDriverManager.getDriver().findElements(By.xpath("//div[@class='team-member-one col-lg-3 col-md-6 col-xs-12']//div[@class='lower-content']//div[@class='text']"));
         for (int i = 0; i < quote.size(); i++) {
             Assert.assertTrue(WebDriverManager.isDisplayed(quote.get(i)));
@@ -68,7 +69,7 @@ public class AboutUsSteps implements CommonPage {
     }
 
     @Then("Total of four employees should be displayed Social media link")
-    public void total_of_four_employees_should_be_displayed_social_media_link() throws InterruptedException {
+    public void total_of_four_employees_should_be_displayed_social_media_link()  {
         List<WebElement> social = WebDriverManager.getDriver().findElements(By.xpath("//ul[@class='social-icon-one']"));
         for (int i = 0; i < social.size(); i++) {
             Assert.assertTrue(WebDriverManager.isDisplayed(social.get(i)));
@@ -76,7 +77,7 @@ public class AboutUsSteps implements CommonPage {
     }
 
     @Then("Employees Social media buttons should take to corresponding pages")
-    public void employeed_social_media_buttons_should_take_to_corresponding_pages() throws InterruptedException {
+    public void employeed_social_media_buttons_should_take_to_corresponding_pages() {
 
         List<WebElement> facebook = WebDriverManager.getDriver().findElements(By.xpath("//span/ancestor::section//a[@href='https://facebook.com']"));
         for (int i = 0; i < facebook.size(); i++) {
@@ -103,6 +104,7 @@ public class AboutUsSteps implements CommonPage {
             WebDriverManager.getDriver().navigate().back();
         }
     }
+
 
     @Given("user clicks on About Us page")
     public void userClicksOnAboutUsPage() {
@@ -183,3 +185,4 @@ public class AboutUsSteps implements CommonPage {
         }
     }
 }
+

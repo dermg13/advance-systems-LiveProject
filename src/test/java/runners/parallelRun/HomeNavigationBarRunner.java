@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         glue = {"step_definitions"},
         stepNotifications = true,
         dryRun = false,
-        tags = "@navigationScenarios"
+        tags = "@ADVSYS-8"
 )
 public class HomeNavigationBarRunner {
 }
